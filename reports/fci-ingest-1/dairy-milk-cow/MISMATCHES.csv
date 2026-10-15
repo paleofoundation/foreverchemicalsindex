@@ -1,0 +1,8 @@
+filename,type,manifest_or_abstract,pdf_value,locator,action,confidence
+glynn-2026-occurrence-of-pfas-in-cow-s.pdf,ABSTRACT_PRECISION,Abstract maxima PFOA 18 and PFOS 17 pg/g milk ww,Body reports PFOA 17.5 and PFOS 16.5 pg/g,"PDF pp.1,5; precision difference retained",Logged without correction,HOLD
+glynn-2026-occurrence-of-pfas-in-cow-s.pdf,METHOD_TEXT_CONFLICT,Four sub-MDL analytes intended,QA/QC list repeats PFOS: PFOS PFHxS PFNA PFOS,PDF p.4 left column,Logged without correction,HOLD
+mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow.pdf,MANIFEST_TARGET_MISMATCH,MANIFEST includes total fluorine,Methods and tables report targeted PFAS; no total fluorine measurement,PDF pp.2 to 5,Logged without correction,HOLD
+draghi-2023-first-investigation-of-the-physiological-distribution.pdf,MANIFEST_METHOD_MISMATCH,MANIFEST includes targeted LC-MS/MS,UPLC-HRMS full scan plus DIA confirmation,PDF p.4 section 2.4,Logged without correction,HOLD
+draghi-2023-first-investigation-of-the-physiological-distribution.pdf,CENSORING_CONTEXT,Table 2 PFNA whole milk 0% > LOD,Table 2 numerical mean 0.55 ± 0.70 pg g−1; LOD 2.90 pg g−1,PDF p.6 Table 2; preserve sub-limit summaries,Logged without correction,HOLD
+xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane.pdf,MANIFEST_TARGET_MISMATCH,MANIFEST includes PFBS and PFHxS,Measured analytes in method and occurrence tables are PFOA and PFOS,"PDF pp.4,6 Tables 1 and 2",Logged without correction,HOLD
+johnston-2023-blood-based-ante-mortem-method-for.pdf,MATRIX_SCOPE,Staged in dairy-milk-cow as supportive,"Study analyzes blood plasma and skeletal muscle, not milk",PDF pp.1 to 3,Logged without correction,HOLD
