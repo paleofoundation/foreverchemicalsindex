@@ -1,0 +1,7 @@
+filename,type,manifest_or_abstract,pdf_value,locator,action,confidence
+nuti-2024-study-of-endocrine-disrupting-chemicals-in.pdf,ANALYTE_LABEL_UNRESOLVED,MANIFEST omits PFPHpA label,Table 1 prints PFPHpA; no identity correction or route inferred,PDF p.9 Table 1,Logged without correction,HOLD
+nuti-2024-study-of-endocrine-disrupting-chemicals-in.pdf,BASIS_CONTEXT,Formula prepared before analysis with water,Occurrence Table 1 explicitly reports ng/g dry weight,"PDF pp.9,14; basis retained without conversion",Logged without correction,HOLD
+abafe-2021-confirmatory-analysis-of-per-and-polyfluoroalkyl.pdf,LIMIT_RANGE_CONFLICT,Narrative CCα range 30 to 50 ng kg−1,Table 1 PFPeA CCα = 60 ng kg−1,"PDF pp.4,11",Logged without correction,HOLD
+abafe-2021-confirmatory-analysis-of-per-and-polyfluoroalkyl.pdf,MANIFEST_METHOD_MISMATCH,MANIFEST mentions LC-HRMS and GC-MS as well as LC-MS/MS,Study instrumental method is UHPLC-MS/MS triple quadrupole,PDF p.13 section 4.3,Logged without correction,HOLD
+bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in.pdf,MANIFEST_TARGET_MISMATCH,MANIFEST includes PFBA PFPeA PFDoA,These compounds explicitly excluded from final analysis,PDF p.4; final target list p.5 Table 1,Logged without correction,HOLD
+bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in.pdf,EVIDENCE_TIER_CONTEXT,MANIFEST SUPPORTIVE,Paper includes original formula measurements plus modeling,PDF pp.3 to 5; no tier upgraded for public use,Logged without correction,HOLD
