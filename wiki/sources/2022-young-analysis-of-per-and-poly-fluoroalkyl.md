@@ -39,7 +39,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "fish-seafood-mixed",
-  "unpublished_candidate_matches": 4
+  "unpublished_candidate_matches": 4,
+  "held_findings": [
+    {
+      "row": "No extractable result table in PDF text",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Analysis of Per- and Poly(fluoroalkyl) Substances (PFASs) in Highly Consumed Seafood Products from U.S. Markets
@@ -50,11 +57,9 @@ Highly consumed seafood products from US markets (incl. canned items)
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-4 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

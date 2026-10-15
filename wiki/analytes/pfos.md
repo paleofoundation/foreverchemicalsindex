@@ -7,10 +7,13 @@ verified_name: Perfluorooctanesulfonic acid
 identity_authority: https://19january2021snapshot.epa.gov/cwa-methods/cwa-analytical-methods-and-polyfluorinated-alkyl-substances-pfas_.html
 cas_number: null
 sources:
+- 2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish
 - 2019-junttila-pfass-in-finnish-rivers-and-fish
+- 2019-luo-reduction-of-perfluorinated-compound-content-in
 - 2022-tranthi-assessment-of-contamination-levels-and-exposure
 - 2024-sands-pfas-assessment-in-fish-samples-from
 - 2024-soudani-determination-of-per-and-polyfluoroalkyl-substances
+- 2025-mndez-spatial-trends-and-health-risks-of
 - aarts-2026-citizen-science-data-reveal-drivers-of
 - alharbi-2026-perfluoroalkyl-compound-levels-in-breast-milk
 - awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas
@@ -18,9 +21,12 @@ sources:
 - bilandi-2026-home-produced-eggs-as-indicators-of
 - bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in
 - bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in
+- brossmann-2026-an-assessment-of-pfas-contamination-in
+- chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods
 - cimpean-2025-bottled-water
 - criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances
 - criswell-2024-associations-of-per-and-polyfluoroalkyl-substances
+- depau-2026-distribution-of-poly-and-perfluoroalkyl-substances
 - draghi-2023-first-investigation-of-the-physiological-distribution
 - fci-2016-hu-tap-water
 - fci-2017-gebbink-tap-water
@@ -60,7 +66,7 @@ sources:
 
 # PFOS
 
-216 source-reported values from 42 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+264 source-reported values from 48 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -72,9 +78,26 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 | product | value | unit | basis | source location | source |
 | --- | --- | --- | --- | --- | --- |
+| [[products/seafood]] | 13.2 (10.1) | ng/g wet weight | Whole fish, Charleston SC estuary, Charleston Harbor (n = 15); mean (SD) | PDF p.26, Table 2A, Charleston Harbor row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 10.9 (2.99, 43.8) | ng/g wet weight | Whole fish, Charleston SC estuary, Charleston Harbor (n = 15); median (range) | PDF p.26, Table 2A, Charleston Harbor row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 15.3 (11.3) | ng/g wet weight | Whole fish, Charleston SC estuary, Cooper River (n = 11); mean (SD) | PDF p.26, Table 2A, Cooper River row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 14.3 (2.53, 41.5) | ng/g wet weight | Whole fish, Charleston SC estuary, Cooper River (n = 11); median (range) | PDF p.26, Table 2A, Cooper River row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 18.6 (15.2) | ng/g wet weight | Whole fish, Charleston SC estuary, Ashley River (n = 13); mean (SD) | PDF p.26, Table 2A, Ashley River row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 14.7 (7.83, 66.3) | ng/g wet weight | Whole fish, Charleston SC estuary, Ashley River (n = 13); median (range) | PDF p.26, Table 2A, Ashley River row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 6.23 (3.88) | ng/g wet weight | Whole fish, Charleston SC estuary, Mullet (n = 9); mean (SD) | PDF p.26, Table 2A, Mullet row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 4.77 (2.53, 13.7) | ng/g wet weight | Whole fish, Charleston SC estuary, Mullet (n = 9); median (range) | PDF p.26, Table 2A, Mullet row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 19.8 (11.5) | ng/g wet weight | Whole fish, Charleston SC estuary, Spot (n = 7); mean (SD) | PDF p.26, Table 2A, Spot row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 16.7 (9.46, 43.8) | ng/g wet weight | Whole fish, Charleston SC estuary, Spot (n = 7); median (range) | PDF p.26, Table 2A, Spot row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 13.7 (2.68) | ng/g wet weight | Whole fish, Charleston SC estuary, Croaker (n = 5); mean (SD) | PDF p.26, Table 2A, Croaker row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 14.8 (9.37, 16.3) | ng/g wet weight | Whole fish, Charleston SC estuary, Croaker (n = 5); median (range) | PDF p.26, Table 2A, Croaker row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 17.6 (10.8) | ng/g wet weight | Whole fish, Charleston SC estuary, Red Drum (n = 9); mean (SD) | PDF p.26, Table 2A, Red Drum row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 16.5 (6.41, 41.5) | ng/g wet weight | Whole fish, Charleston SC estuary, Red Drum (n = 9); median (range) | PDF p.26, Table 2A, Red Drum row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 20.7 (18.0) | ng/g wet weight | Whole fish, Charleston SC estuary, Seatrout (n = 9); mean (SD) | PDF p.26, Table 2A, Seatrout row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
+| [[products/seafood]] | 13.2 (9.25, 66.3) | ng/g wet weight | Whole fish, Charleston SC estuary, Seatrout (n = 9); median (range) | PDF p.26, Table 2A, Seatrout row, PFOS row, PFOS column | [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]] |
 | [[products/fish-freshwater]] | 100% | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; detection frequency | PDF p.9, Table 5, PFOS row, Perch Detection Frequency column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
 | [[products/fish-freshwater]] | 3.4 | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; mean | PDF p.9, Table 5, PFOS row, Perch Mean column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
 | [[products/fish-freshwater]] | 18 | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; maximum | PDF p.9, Table 5, PFOS row, Perch Max column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
+| [[products/seafood]] | 1.29 ± 0.15 | ng/g | Fish cake, untreated control, Korea; mean ± SD | PDF p.5, Table 2, PFOS row, Control column | [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]] |
 | [[products/fish-freshwater]] | 0.092 | ng/g w/w | Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6); mean | PDF p.4, Table 1, Bighead carp row (this study), PFOS row, PFOS column | [[sources/2022-tranthi-assessment-of-contamination-levels-and-exposure]] |
 | [[products/fish-freshwater]] | 0.27 | ng/g w/w | Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6); mean | PDF p.4, Table 1, Common carp row (this study), PFOS row, PFOS column | [[sources/2022-tranthi-assessment-of-contamination-levels-and-exposure]] |
 | [[products/fish-freshwater]] | 0.079 | ng/g w/w | Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6); mean | PDF p.4, Table 1, Rohu row (this study), PFOS row, PFOS column | [[sources/2022-tranthi-assessment-of-contamination-levels-and-exposure]] |
@@ -90,6 +113,14 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/fish-freshwater]] | 71% | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); frequency of positives above LOQ | PDF p.5, Table 1, PFOS row, Perca fluviatilis F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 6.40 (1.16-21.30) | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); average (min-max) | PDF p.5, Table 1, PFOS row, Squalius cephalus Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 100% | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); frequency of positives above LOQ | PDF p.5, Table 1, PFOS row, Squalius cephalus F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/seafood]] | 19 | ng/g ww | Sport fish, San Francisco Bay, 2009 (n = 21); detection frequency (%) | PDF p.4, Table 1, PFOS row, 2009 detection frequency column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
+| [[products/seafood]] | 5.6-18 | ng/g ww | Sport fish, San Francisco Bay, 2009 (n = 21); range of detected concentrations | PDF p.4, Table 1, PFOS row, 2009 range of detected PFOS column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
+| [[products/seafood]] | 100 | ng/g ww | Sport fish, San Francisco Bay, 2009/2022 reanalysis (n = 7); detection frequency (%) | PDF p.4, Table 1, PFOS row, 2009/2022 reanalysis detection frequency column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
+| [[products/seafood]] | 2.8-8.5 | ng/g ww | Sport fish, San Francisco Bay, 2009/2022 reanalysis (n = 7); range of detected concentrations | PDF p.4, Table 1, PFOS row, 2009/2022 reanalysis range of detected PFOS column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
+| [[products/seafood]] | 94 | ng/g ww | Sport fish, San Francisco Bay, 2014 (n = 36); detection frequency (%) | PDF p.4, Table 1, PFOS row, 2014 detection frequency column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
+| [[products/seafood]] | 0.9-17 | ng/g ww | Sport fish, San Francisco Bay, 2014 (n = 36); range of detected concentrations | PDF p.4, Table 1, PFOS row, 2014 range of detected PFOS column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
+| [[products/seafood]] | 91 | ng/g ww | Sport fish, San Francisco Bay, 2019 (n = 33); detection frequency (%) | PDF p.4, Table 1, PFOS row, 2019 detection frequency column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
+| [[products/seafood]] | 0.59-10 | ng/g ww | Sport fish, San Francisco Bay, 2019 (n = 33); range of detected concentrations | PDF p.4, Table 1, PFOS row, 2019 range of detected PFOS column | [[sources/2025-mndez-spatial-trends-and-health-risks-of]] |
 | [[products/eggs-product]] | 2.872 | μg/kg wet weight | Backyard chicken eggs; Mean | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
 | [[products/eggs-product]] | 0.1819 | μg/kg wet weight | Backyard chicken eggs; SE | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
 | [[products/eggs-product]] | 1.600 | μg/kg wet weight | Backyard chicken eggs; Median | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
@@ -122,10 +153,33 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/infant-formula]] | 12 (0.6) | ng/L | Laboratory 20% w/v infant formula solution; mean (SD) | PDF p.7 Table 3; preparation pp.3 to 4 | [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]] |
 | [[products/infant-formula]] | 0.054 (0.003) | ng/g | Infant formula powder; source-calculated dry-weight mean (SD) | PDF p.7 Table 3; calculation p.4 | [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]] |
 | [[products/infant-formula]] | 8.9 | ng/L | Formula reconstituted according to label; source-calculated concentration | PDF p.7 Table 3; calculation p.4 | [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]] |
+| [[products/meat-and-poultry]] | 1.55 | µg/kg fresh weight | Wild boar meat, Germany (n = 152); mean | PDF p.4, Table 2, Wild boar meat block, PFOS row, Mean column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 0.73 | µg/kg fresh weight | Wild boar meat, Germany (n = 152); median | PDF p.4, Table 2, Wild boar meat block, PFOS row, Median column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 17.9 | µg/kg fresh weight | Wild boar meat, Germany (n = 152); maximum | PDF p.4, Table 2, Wild boar meat block, PFOS row, Max column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 366.95 | µg/kg fresh weight | Wild boar liver, Germany (n = 114); mean | PDF p.4, Table 2, Wild boar liver block, PFOS row, Mean column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 299.75 | µg/kg fresh weight | Wild boar liver, Germany (n = 114); median | PDF p.4, Table 2, Wild boar liver block, PFOS row, Median column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 1437.70 | µg/kg fresh weight | Wild boar liver, Germany (n = 114); maximum | PDF p.4, Table 2, Wild boar liver block, PFOS row, Max column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/cereal-grains]] | 0.23 | ng/g w.w. | Rice, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Rice row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/cereal-grains]] | 0.34 | ng/g w.w. | Flour, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Flour row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 0.28 | ng/g w.w. | Pork, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Pork row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 0.11 | ng/g w.w. | Beef, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Beef row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 0.16 | ng/g w.w. | Chicken, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Chicken row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 5.65 | ng/g w.w. | Liver, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Liver row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 0.29 | ng/g w.w. | Salmon, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Salmon row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 0.38 | ng/g w.w. | Oyster, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Oyster row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 0.12 | ng/g w.w. | Shrimp, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Shrimp row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 0.06 | ng/g w.w. | Clam, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Clam row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 1.06 | ng/g w.w. | Squid, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Squid row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/fish-freshwater]] | 0.52 | ng/g w.w. | Grass Carp, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Grass Carp row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/eggs-product]] | 0.29 | ng/g w.w. | Egg, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Egg row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/dairy-milk-cow]] | <14.9 | ng/mL | Milk, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Milk row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
 | [[products/bottled-drinking-water]] | 0.09 | ng/L | bottled-water mean as printed; non-detect mean retained literally | PDF p. 8, Table 1, Bottled Water Mean | [[sources/cimpean-2025-bottled-water]] |
 | [[products/breast-milk]] | 0.024 [0.016, 0.036] | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426); median [IQR] | PDF p.4, Table 2, PFOS row, milk median (IQR) column | [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/breast-milk]] | 392 (92.0) | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426); samples at or above LOD, N (%) | PDF p.4, Table 2, PFOS row, milk N (% >= LOD) column | [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/breast-milk]] | 0.03 (0.02) | ng/mL | Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort; mean (SD) | PDF p.4, Table 1, PFOS in human milk row, overall (N = 425) column | [[sources/criswell-2024-associations-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/meat-and-poultry]] | 0.044-0.150 | µg/kg | Pig liver, Italy; concentration range | PDF p.3, Table 1, Liver block, PFOS row, Concentration range column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
+| [[products/meat-and-poultry]] | 0.104 | µg/kg | Pig liver, Italy; mean | PDF p.3, Table 1, Liver block, PFOS row, Mean column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
+| [[products/meat-and-poultry]] | 0.115 | µg/kg | Pig liver, Italy; median | PDF p.3, Table 1, Liver block, PFOS row, Median column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
 | [[products/dairy-milk-cow]] | 8.53 ± 22.50 | pg g−1 | Raw cow milk fraction Skimmed; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[products/dairy-milk-cow]] | 148.30 ± 152.30 | pg g−1 | Raw cow milk fraction Cream; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[products/dairy-milk-cow]] | 21.64 ± 56.50 | pg g−1 | Raw cow milk fraction Whole Milk; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
@@ -295,10 +349,13 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 ## Sources
 
+- [[sources/2019-fair-perfluoroalkyl-substances-pfass-in-edible-fish]]
 - [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]]
+- [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]]
 - [[sources/2022-tranthi-assessment-of-contamination-levels-and-exposure]]
 - [[sources/2024-sands-pfas-assessment-in-fish-samples-from]]
 - [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]]
+- [[sources/2025-mndez-spatial-trends-and-health-risks-of]]
 - [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]]
 - [[sources/alharbi-2026-perfluoroalkyl-compound-levels-in-breast-milk]]
 - [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]]
@@ -306,9 +363,12 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]]
 - [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]]
 - [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]]
+- [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]]
+- [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]]
 - [[sources/cimpean-2025-bottled-water]]
 - [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]]
 - [[sources/criswell-2024-associations-of-per-and-polyfluoroalkyl-substances]]
+- [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]]
 - [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]]
 - [[sources/fci-2016-hu-tap-water]]
 - [[sources/fci-2017-gebbink-tap-water]]

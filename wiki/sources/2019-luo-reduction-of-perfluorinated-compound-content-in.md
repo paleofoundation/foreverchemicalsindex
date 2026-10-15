@@ -20,7 +20,7 @@
   "source_type": "primary_measurement",
   "evidence_tier": "reviewed",
   "evidence_fitness": "PRIMARY measurement data in product class with targeted method",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -30,7 +30,15 @@
   "access_url": "https://applbiolchem.springeropen.com/track/pdf/10.1186/s13765-019-0449-x",
   "license": "OA, publisher/repository",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "pfbs",
+    "pfda",
+    "pfhxa",
+    "pfhxs",
+    "pfna",
+    "pfoa",
+    "pfos"
+  ],
   "ingredients": [],
   "products": [
     "seafood"
@@ -38,9 +46,94 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "seafood",
+      "analyte": "pfoa",
+      "value": "0.20 ± 0.07",
+      "unit": "ng/g",
+      "basis": "Fish cake, untreated control, Korea; mean ± SD",
+      "source_location": "PDF p.5, Table 2, PFOA row, Control column",
+      "analyte_label": "PFOA",
+      "statistic": "mean ± SD",
+      "matrix": "Fish cake, untreated control, Korea"
+    },
+    {
+      "product": "seafood",
+      "analyte": "pfos",
+      "value": "1.29 ± 0.15",
+      "unit": "ng/g",
+      "basis": "Fish cake, untreated control, Korea; mean ± SD",
+      "source_location": "PDF p.5, Table 2, PFOS row, Control column",
+      "analyte_label": "PFOS",
+      "statistic": "mean ± SD",
+      "matrix": "Fish cake, untreated control, Korea"
+    },
+    {
+      "product": "seafood",
+      "analyte": "pfna",
+      "value": "0.07 ± 0.01",
+      "unit": "ng/g",
+      "basis": "Fish cake, untreated control, Korea; mean ± SD",
+      "source_location": "PDF p.5, Table 2, PFNA row, Control column",
+      "analyte_label": "PFNA",
+      "statistic": "mean ± SD",
+      "matrix": "Fish cake, untreated control, Korea"
+    },
+    {
+      "product": "seafood",
+      "analyte": "pfda",
+      "value": "0.07 ± 0.02",
+      "unit": "ng/g",
+      "basis": "Fish cake, untreated control, Korea; mean ± SD",
+      "source_location": "PDF p.5, Table 2, PFDA row, Control column",
+      "analyte_label": "PFDA",
+      "statistic": "mean ± SD",
+      "matrix": "Fish cake, untreated control, Korea"
+    },
+    {
+      "product": "seafood",
+      "analyte": "pfhxa",
+      "value": "ND",
+      "unit": "ng/g",
+      "basis": "Fish cake, untreated control, Korea; mean ± SD",
+      "source_location": "PDF p.5, Table 2, PFHxA row, Control column",
+      "analyte_label": "PFHxA",
+      "statistic": "mean ± SD",
+      "matrix": "Fish cake, untreated control, Korea"
+    },
+    {
+      "product": "seafood",
+      "analyte": "pfbs",
+      "value": "ND",
+      "unit": "ng/g",
+      "basis": "Fish cake, untreated control, Korea; mean ± SD",
+      "source_location": "PDF p.5, Table 2, PFBS row, Control column",
+      "analyte_label": "PFBS",
+      "statistic": "mean ± SD",
+      "matrix": "Fish cake, untreated control, Korea"
+    },
+    {
+      "product": "seafood",
+      "analyte": "pfhxs",
+      "value": "0.06 ± 0.03",
+      "unit": "ng/g",
+      "basis": "Fish cake, untreated control, Korea; mean ± SD",
+      "source_location": "PDF p.5, Table 2, PFHxS row, Control column",
+      "analyte_label": "PFHxS",
+      "statistic": "mean ± SD",
+      "matrix": "Fish cake, untreated control, Korea"
+    }
+  ],
   "library_folder": "fish-seafood-mixed",
-  "unpublished_candidate_matches": 2
+  "unpublished_candidate_matches": 2,
+  "held_findings": [
+    {
+      "row": "Cooking-treatment columns are experimental treatments, not routed",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Reduction of perfluorinated compound content in fish cake and swimming crab by different cooking methods
@@ -51,11 +144,17 @@ Fish cake and swimming crab, effect of cooking
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-2 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfoa]] (PFOA) | mean ± SD | 0.20 ± 0.07 | ng/g | Fish cake, untreated control, Korea | PDF p.5, Table 2, PFOA row, Control column |
+| [[analytes/pfos]] (PFOS) | mean ± SD | 1.29 ± 0.15 | ng/g | Fish cake, untreated control, Korea | PDF p.5, Table 2, PFOS row, Control column |
+| [[analytes/pfna]] (PFNA) | mean ± SD | 0.07 ± 0.01 | ng/g | Fish cake, untreated control, Korea | PDF p.5, Table 2, PFNA row, Control column |
+| [[analytes/pfda]] (PFDA) | mean ± SD | 0.07 ± 0.02 | ng/g | Fish cake, untreated control, Korea | PDF p.5, Table 2, PFDA row, Control column |
+| [[analytes/pfhxa]] (PFHxA) | mean ± SD | ND | ng/g | Fish cake, untreated control, Korea | PDF p.5, Table 2, PFHxA row, Control column |
+| [[analytes/pfbs]] (PFBS) | mean ± SD | ND | ng/g | Fish cake, untreated control, Korea | PDF p.5, Table 2, PFBS row, Control column |
+| [[analytes/pfhxs]] (PFHxS) | mean ± SD | 0.06 ± 0.03 | ng/g | Fish cake, untreated control, Korea | PDF p.5, Table 2, PFHxS row, Control column |
 
 ## Evidence Fitness
 
@@ -76,3 +175,17 @@ DOI 10.1186/s13765-019-0449-x resolved at Crossref; DOI matched in the filed PDF
 ## Wiki pages updated on ingest
 
 [[products/seafood]]
+
+[[analytes/pfbs]]
+
+[[analytes/pfda]]
+
+[[analytes/pfhxa]]
+
+[[analytes/pfhxs]]
+
+[[analytes/pfna]]
+
+[[analytes/pfoa]]
+
+[[analytes/pfos]]

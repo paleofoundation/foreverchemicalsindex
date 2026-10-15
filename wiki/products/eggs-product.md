@@ -17,6 +17,7 @@ sources:
 - biesterbos-2025-risk-assessment-of-pfas-in-homeproduced
 - bilandi-2026-home-produced-eggs-as-indicators-of
 - bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in
+- chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods
 - ghelli-2019-preliminary-monitoring-of-the-presence-of
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
 - nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial
@@ -25,7 +26,7 @@ sources:
 
 # Eggs
 
-299 source-reported values from 7 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+304 source-reported values from 8 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Occurrence evidence
 
@@ -91,6 +92,11 @@ sources:
 | [[analytes/pfna]] | 0.003 ± 0.009; 0.025 ± 0.002 | µg/kg | Organic eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
 | [[analytes/pfhxs]] | <LOQ | µg/kg | Organic eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
 | [[analytes/pfna]] | 0.027 ± 0.045; 0.041 ± 0.037 | µg/kg | Home-produced eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
+| [[analytes/pfhxa]] | 0.82 | ng/g w.w. | Egg, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Egg row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfoa]] | 5.35 | ng/g w.w. | Egg, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Egg row, PFOA row, PFOA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfda]] | 23.1 | ng/g w.w. | Egg, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Egg row, PFDA row, PFDA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfhxs]] | 0.06 | ng/g w.w. | Egg, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Egg row, PFHxS row, PFHxS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfos]] | 0.29 | ng/g w.w. | Egg, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Egg row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
 | [[analytes/pfos]] | 0.4 | ng/g | Homogenized egg yolk; group A pool 1 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
 | [[analytes/pfhxs]] | 0.4 | ng/g | Homogenized egg yolk; group A pool 3 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
 | [[analytes/pfoa]] | traces | ng/g | Homogenized egg yolk; group A pool 1 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
@@ -344,6 +350,7 @@ sources:
 - [[sources/biesterbos-2025-risk-assessment-of-pfas-in-homeproduced]]
 - [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]]
 - [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]]
+- [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]]
 - [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
 - [[sources/nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial]]

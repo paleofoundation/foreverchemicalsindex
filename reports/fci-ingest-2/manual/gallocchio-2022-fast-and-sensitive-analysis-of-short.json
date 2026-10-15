@@ -1,0 +1,10 @@
+{
+ "product": "meat-and-poultry",
+ "rows": [],
+ "held": [
+  {
+   "row": "Table 6 sparse cells lose column alignment in text extraction",
+   "why": "held on reading"
+  }
+ ]
+}

@@ -8,6 +8,7 @@ identity_authority: https://19january2021snapshot.epa.gov/cwa-methods/cwa-analyt
 cas_number: null
 sources:
 - 2019-junttila-pfass-in-finnish-rivers-and-fish
+- 2019-luo-reduction-of-perfluorinated-compound-content-in
 - 2024-soudani-determination-of-per-and-polyfluoroalkyl-substances
 - aarts-2026-citizen-science-data-reveal-drivers-of
 - awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas
@@ -15,8 +16,10 @@ sources:
 - bilandi-2026-home-produced-eggs-as-indicators-of
 - bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in
 - bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in
+- brossmann-2026-an-assessment-of-pfas-contamination-in
 - cimpean-2025-bottled-water
 - criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances
+- depau-2026-distribution-of-poly-and-perfluoroalkyl-substances
 - draghi-2023-first-investigation-of-the-physiological-distribution
 - fci-2016-hu-tap-water
 - fci-2017-gebbink-tap-water
@@ -42,7 +45,7 @@ sources:
 
 # PFNA
 
-152 source-reported values from 28 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+162 source-reported values from 31 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -57,6 +60,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/fish-freshwater]] | 100% | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; detection frequency | PDF p.9, Table 5, PFNA row, Perch Detection Frequency column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
 | [[products/fish-freshwater]] | 0.23 | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; mean | PDF p.9, Table 5, PFNA row, Perch Mean column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
 | [[products/fish-freshwater]] | 1.1 | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; maximum | PDF p.9, Table 5, PFNA row, Perch Max column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
+| [[products/seafood]] | 0.07 ± 0.01 | ng/g | Fish cake, untreated control, Korea; mean ± SD | PDF p.5, Table 2, PFNA row, Control column | [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]] |
 | [[products/fish-freshwater]] | 0.16 (0.06-0.29) | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); average (min-max) | PDF p.5, Table 1, PFNA row, Coregonus wartmanni Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 50% | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); frequency of positives above LOQ | PDF p.5, Table 1, PFNA row, Coregonus wartmanni F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 0.03 (0.02-0.03) | µg/kg | Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11); average (min-max) | PDF p.5, Table 1, PFNA row, Cyprinus carpio Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
@@ -97,9 +101,18 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/eggs-product]] | 0.004 ± 0.020; 0.028 ± 0.015 | µg/kg | Barn eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
 | [[products/eggs-product]] | 0.003 ± 0.009; 0.025 ± 0.002 | µg/kg | Organic eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
 | [[products/eggs-product]] | 0.027 ± 0.045; 0.041 ± 0.037 | µg/kg | Home-produced eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
+| [[products/meat-and-poultry]] | 0.22 | µg/kg fresh weight | Wild boar meat, Germany (n = 152); mean | PDF p.4, Table 2, Wild boar meat block, PFNA row, Mean column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 0.03 | µg/kg fresh weight | Wild boar meat, Germany (n = 152); median | PDF p.4, Table 2, Wild boar meat block, PFNA row, Median column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 4.60 | µg/kg fresh weight | Wild boar meat, Germany (n = 152); maximum | PDF p.4, Table 2, Wild boar meat block, PFNA row, Max column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 17.07 | µg/kg fresh weight | Wild boar liver, Germany (n = 114); mean | PDF p.4, Table 2, Wild boar liver block, PFNA row, Mean column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 9.25 | µg/kg fresh weight | Wild boar liver, Germany (n = 114); median | PDF p.4, Table 2, Wild boar liver block, PFNA row, Median column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
+| [[products/meat-and-poultry]] | 273.00 | µg/kg fresh weight | Wild boar liver, Germany (n = 114); maximum | PDF p.4, Table 2, Wild boar liver block, PFNA row, Max column | [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]] |
 | [[products/bottled-drinking-water]] | 0.08 | ng/L | bottled-water mean as printed; non-detect mean retained literally | PDF p. 8, Table 1, Bottled Water Mean | [[sources/cimpean-2025-bottled-water]] |
 | [[products/breast-milk]] | <LOD | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426); median [IQR] | PDF p.4, Table 2, PFNA row, milk median (IQR) column | [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/breast-milk]] | 29 (6.8) | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426); samples at or above LOD, N (%) | PDF p.4, Table 2, PFNA row, milk N (% >= LOD) column | [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/meat-and-poultry]] | 0.040-0.138 | µg/kg | Pig liver, Italy; concentration range | PDF p.3, Table 1, Liver block, PFNA row, Concentration range column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
+| [[products/meat-and-poultry]] | 0.026 | µg/kg | Pig liver, Italy; mean | PDF p.3, Table 1, Liver block, PFNA row, Mean column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
+| [[products/meat-and-poultry]] | 0.000 | µg/kg | Pig liver, Italy; median | PDF p.3, Table 1, Liver block, PFNA row, Median column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
 | [[products/dairy-milk-cow]] | 0.43 ± 0.66 | pg g−1 | Raw cow milk fraction Skimmed; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[products/dairy-milk-cow]] | 1.00 ± 1.40 | pg g−1 | Raw cow milk fraction Cream; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[products/drinking-water-tap]] | 56 | ng/L | maximum in reused public-supply monitoring data | PDF p3, Results and Discussion, paragraph beginning Six million | [[sources/fci-2016-hu-tap-water]] |
@@ -214,6 +227,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 ## Sources
 
 - [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]]
+- [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]]
 - [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]]
 - [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]]
 - [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]]
@@ -221,8 +235,10 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]]
 - [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]]
 - [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]]
+- [[sources/brossmann-2026-an-assessment-of-pfas-contamination-in]]
 - [[sources/cimpean-2025-bottled-water]]
 - [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]]
+- [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]]
 - [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]]
 - [[sources/fci-2016-hu-tap-water]]
 - [[sources/fci-2017-gebbink-tap-water]]

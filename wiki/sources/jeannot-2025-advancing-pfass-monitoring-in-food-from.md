@@ -38,7 +38,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "animal-origin-foods-mixed",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "No PFAS result table in extractable text",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Advancing PFASs monitoring in food: from targeted SPE-LC-MS/MS to non-targeted QuEChERS-LC-HRMS approaches
@@ -49,9 +56,9 @@ Supporting method/exposure study: Advancing PFASs monitoring in food: from targe
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+No values published.
 
 ## Evidence Fitness
 

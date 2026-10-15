@@ -1,0 +1,246 @@
+{
+ "product": "meat-and-poultry",
+ "rows": [
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "1.55",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFOS row, Mean column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median",
+   "0.73",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFOS row, Median column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "maximum",
+   "17.9",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFOS row, Max column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "3.30",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFOA row, Mean column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median",
+   "0.12",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFOA row, Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "maximum",
+   "252.00",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFOA row, Max column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean",
+   "0.22",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFNA row, Mean column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "median",
+   "0.03",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFNA row, Median column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "maximum",
+   "4.60",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFNA row, Max column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean",
+   "0.12",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFHxS row, Mean column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median",
+   "0.02",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFHxS row, Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "maximum",
+   "2.30",
+   "\u00b5g/kg fresh weight",
+   "Wild boar meat, Germany (n = 152)",
+   4,
+   "Table 2, Wild boar meat block, PFHxS row, Max column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "366.95",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFOS row, Mean column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median",
+   "299.75",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFOS row, Median column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "maximum",
+   "1437.70",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFOS row, Max column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "61.75",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFOA row, Mean column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median",
+   "5.85",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFOA row, Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "maximum",
+   "3145.00",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFOA row, Max column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean",
+   "17.07",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFNA row, Mean column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "median",
+   "9.25",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFNA row, Median column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "maximum",
+   "273.00",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFNA row, Max column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean",
+   "2.41",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFHxS row, Mean column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median",
+   "1.19",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFHxS row, Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "maximum",
+   "25.80",
+   "\u00b5g/kg fresh weight",
+   "Wild boar liver, Germany (n = 114)",
+   4,
+   "Table 2, Wild boar liver block, PFHxS row, Max column"
+  ]
+ ],
+ "held": []
+}

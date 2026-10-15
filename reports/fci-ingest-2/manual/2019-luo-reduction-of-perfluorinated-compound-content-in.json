@@ -1,0 +1,81 @@
+{
+ "product": "seafood",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "mean \u00b1 SD",
+   "0.20 \u00b1 0.07",
+   "ng/g",
+   "Fish cake, untreated control, Korea",
+   5,
+   "Table 2, PFOA row, Control column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean \u00b1 SD",
+   "1.29 \u00b1 0.15",
+   "ng/g",
+   "Fish cake, untreated control, Korea",
+   5,
+   "Table 2, PFOS row, Control column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean \u00b1 SD",
+   "0.07 \u00b1 0.01",
+   "ng/g",
+   "Fish cake, untreated control, Korea",
+   5,
+   "Table 2, PFNA row, Control column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "mean \u00b1 SD",
+   "0.07 \u00b1 0.02",
+   "ng/g",
+   "Fish cake, untreated control, Korea",
+   5,
+   "Table 2, PFDA row, Control column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "mean \u00b1 SD",
+   "ND",
+   "ng/g",
+   "Fish cake, untreated control, Korea",
+   5,
+   "Table 2, PFHxA row, Control column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "mean \u00b1 SD",
+   "ND",
+   "ng/g",
+   "Fish cake, untreated control, Korea",
+   5,
+   "Table 2, PFBS row, Control column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean \u00b1 SD",
+   "0.06 \u00b1 0.03",
+   "ng/g",
+   "Fish cake, untreated control, Korea",
+   5,
+   "Table 2, PFHxS row, Control column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Cooking-treatment columns are experimental treatments, not routed",
+   "why": "held on reading"
+  }
+ ]
+}

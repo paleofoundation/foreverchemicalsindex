@@ -1,0 +1,10 @@
+{
+ "product": "seafood",
+ "rows": [],
+ "held": [
+  {
+   "row": "Table 2 column headers (analyte names) and fishery row labels do not extract as text; columns cannot be confirmed",
+   "why": "held on reading"
+  }
+ ]
+}

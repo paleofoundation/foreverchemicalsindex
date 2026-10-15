@@ -1,0 +1,116 @@
+{
+ "product": "meat-and-poultry",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "concentration range",
+   "0.045-0.167",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFOA row, Concentration range column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "0.071",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFOA row, Mean column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median",
+   "0.061",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFOA row, Median column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "concentration range",
+   "0.044-0.150",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFOS row, Concentration range column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "0.104",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFOS row, Mean column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median",
+   "0.115",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFOS row, Median column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "concentration range",
+   "0.040-0.138",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFNA row, Concentration range column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean",
+   "0.026",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFNA row, Mean column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "median",
+   "0.000",
+   "\u00b5g/kg",
+   "Pig liver, Italy",
+   3,
+   "Table 1, Liver block, PFNA row, Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "concentration range",
+   "0.040-0.050",
+   "\u00b5g/kg",
+   "Pig longissimus dorsi muscle, Italy",
+   3,
+   "Table 1, Longissimus dorsi muscle block, PFOA row, Concentration range column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "0.020",
+   "\u00b5g/kg",
+   "Pig longissimus dorsi muscle, Italy",
+   3,
+   "Table 1, Longissimus dorsi muscle block, PFOA row, Mean column"
+  ]
+ ],
+ "held": []
+}

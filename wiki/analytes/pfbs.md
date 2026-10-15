@@ -7,6 +7,7 @@ verified_name: Perfluorobutanesulfonic acid
 identity_authority: https://19january2021snapshot.epa.gov/cwa-methods/cwa-analytical-methods-and-polyfluorinated-alkyl-substances-pfas_.html
 cas_number: null
 sources:
+- 2019-luo-reduction-of-perfluorinated-compound-content-in
 - 2024-soudani-determination-of-per-and-polyfluoroalkyl-substances
 - abafe-2021-confirmatory-analysis-of-per-and-polyfluoroalkyl
 - awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas
@@ -39,7 +40,7 @@ sources:
 
 # PFBS
 
-57 source-reported values from 21 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+58 source-reported values from 22 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -51,6 +52,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 | product | value | unit | basis | source location | source |
 | --- | --- | --- | --- | --- | --- |
+| [[products/seafood]] | ND | ng/g | Fish cake, untreated control, Korea; mean ± SD | PDF p.5, Table 2, PFBS row, Control column | [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]] |
 | [[products/fish-freshwater]] | 0.08 (0.04-0.13) | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); average (min-max) | PDF p.5, Table 1, PFBS row, Coregonus wartmanni Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 45% | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); frequency of positives above LOQ | PDF p.5, Table 1, PFBS row, Coregonus wartmanni F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 0.05 (0.01-0.07) | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); average (min-max) | PDF p.5, Table 1, PFBS row, Perca fluviatilis Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
@@ -115,6 +117,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 ## Sources
 
+- [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]]
 - [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]]
 - [[sources/abafe-2021-confirmatory-analysis-of-per-and-polyfluoroalkyl]]
 - [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]]

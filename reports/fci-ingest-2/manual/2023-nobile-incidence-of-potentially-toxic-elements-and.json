@@ -1,0 +1,10 @@
+{
+ "product": "seafood",
+ "rows": [],
+ "held": [
+  {
+   "row": "No PFAS concentration table in extractable text; tables are method limits and guidance values",
+   "why": "held on reading"
+  }
+ ]
+}

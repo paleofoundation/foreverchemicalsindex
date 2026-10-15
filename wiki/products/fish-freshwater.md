@@ -26,11 +26,12 @@ sources:
 - 2025-dolling-pharmaceuticals-pesticides-and-pfas-quantifying-endocrine
 - 2025-dudov-retrospective-identification-of-novel-and-legacy
 - 2026-zhang-occurrence-bioaccumulation-and-dietary-exposure-assessment
+- chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods
 ---
 
 # Fish, freshwater (tilapia, catfish, trout)
 
-78 source-reported values from 4 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+83 source-reported values from 5 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Occurrence evidence
 
@@ -114,6 +115,11 @@ sources:
 | [[analytes/pfhxs]] | 71% | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); frequency of positives above LOQ | PDF p.5, Table 1, PFHxS row, Squalius cephalus F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[analytes/pfos]] | 6.40 (1.16-21.30) | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); average (min-max) | PDF p.5, Table 1, PFOS row, Squalius cephalus Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[analytes/pfos]] | 100% | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); frequency of positives above LOQ | PDF p.5, Table 1, PFOS row, Squalius cephalus F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[analytes/pfhxa]] | 1.04 | ng/g w.w. | Grass Carp, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Grass Carp row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfoa]] | 5.95 | ng/g w.w. | Grass Carp, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Grass Carp row, PFOA row, PFOA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfda]] | 7.59 | ng/g w.w. | Grass Carp, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Grass Carp row, PFDA row, PFDA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfhxs]] | 0.07 | ng/g w.w. | Grass Carp, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Grass Carp row, PFHxS row, PFHxS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfos]] | 0.52 | ng/g w.w. | Grass Carp, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Grass Carp row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
 
 ## Analytical methods
 
@@ -137,6 +143,7 @@ sources:
 - [[sources/2025-dolling-pharmaceuticals-pesticides-and-pfas-quantifying-endocrine]]
 - [[sources/2025-dudov-retrospective-identification-of-novel-and-legacy]]
 - [[sources/2026-zhang-occurrence-bioaccumulation-and-dietary-exposure-assessment]]
+- [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]]
 
 ## Navigation
 

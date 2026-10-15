@@ -1,0 +1,10 @@
+{
+ "product": "seafood",
+ "rows": [],
+ "held": [
+  {
+   "row": "Table 3: no indexed analyte quantified above LOQ; cells ND, NA or <LOQ only, not transcribed",
+   "why": "held on reading"
+  }
+ ]
+}

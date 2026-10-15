@@ -38,7 +38,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "shellfish",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "Non-targeted screening; peak areas, not concentrations",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Non-Targeted Analysis of Per- and Polyfluoroalkyl Substances in Blue Crab
@@ -49,9 +56,9 @@ Blue crab non-targeted HRMS PFAS analysis
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+No values published.
 
 ## Evidence Fitness
 

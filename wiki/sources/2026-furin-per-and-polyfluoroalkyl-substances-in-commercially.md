@@ -38,7 +38,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "fish-seafood-mixed",
-  "unpublished_candidate_matches": 2
+  "unpublished_candidate_matches": 2,
+  "held_findings": [
+    {
+      "row": "Table 3: no indexed analyte quantified above LOQ; cells ND, NA or <LOQ only, not transcribed",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Per- and polyfluoroalkyl substances in commercially important marine species of fish and shellfish from Alaska and implications for human exposure
@@ -49,11 +56,9 @@ Commercial marine fish and shellfish, Alaska; EPA 1633
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-2 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

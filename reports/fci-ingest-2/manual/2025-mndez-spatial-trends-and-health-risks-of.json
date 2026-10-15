@@ -1,0 +1,86 @@
+{
+ "product": "seafood",
+ "rows": [
+  [
+   "PFOS",
+   "pfos",
+   "detection frequency (%)",
+   "19",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2009 (n = 21)",
+   4,
+   "Table 1, PFOS row, 2009 detection frequency column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "range of detected concentrations",
+   "5.6-18",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2009 (n = 21)",
+   4,
+   "Table 1, PFOS row, 2009 range of detected PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection frequency (%)",
+   "100",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2009/2022 reanalysis (n = 7)",
+   4,
+   "Table 1, PFOS row, 2009/2022 reanalysis detection frequency column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "range of detected concentrations",
+   "2.8-8.5",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2009/2022 reanalysis (n = 7)",
+   4,
+   "Table 1, PFOS row, 2009/2022 reanalysis range of detected PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection frequency (%)",
+   "94",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2014 (n = 36)",
+   4,
+   "Table 1, PFOS row, 2014 detection frequency column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "range of detected concentrations",
+   "0.9-17",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2014 (n = 36)",
+   4,
+   "Table 1, PFOS row, 2014 range of detected PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection frequency (%)",
+   "91",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2019 (n = 33)",
+   4,
+   "Table 1, PFOS row, 2019 detection frequency column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "range of detected concentrations",
+   "0.59-10",
+   "ng/g ww",
+   "Sport fish, San Francisco Bay, 2019 (n = 33)",
+   4,
+   "Table 1, PFOS row, 2019 range of detected PFOS column"
+  ]
+ ],
+ "held": []
+}

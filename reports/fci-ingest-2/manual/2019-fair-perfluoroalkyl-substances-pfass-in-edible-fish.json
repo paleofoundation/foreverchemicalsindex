@@ -1,0 +1,171 @@
+{
+ "product": "seafood",
+ "rows": [
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "13.2 (10.1)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Charleston Harbor (n = 15)",
+   26,
+   "Table 2A, Charleston Harbor row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "10.9 (2.99, 43.8)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Charleston Harbor (n = 15)",
+   26,
+   "Table 2A, Charleston Harbor row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "15.3 (11.3)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Cooper River (n = 11)",
+   26,
+   "Table 2A, Cooper River row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "14.3 (2.53, 41.5)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Cooper River (n = 11)",
+   26,
+   "Table 2A, Cooper River row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "18.6 (15.2)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Ashley River (n = 13)",
+   26,
+   "Table 2A, Ashley River row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "14.7 (7.83, 66.3)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Ashley River (n = 13)",
+   26,
+   "Table 2A, Ashley River row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "6.23 (3.88)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Mullet (n = 9)",
+   26,
+   "Table 2A, Mullet row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "4.77 (2.53, 13.7)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Mullet (n = 9)",
+   26,
+   "Table 2A, Mullet row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "19.8 (11.5)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Spot (n = 7)",
+   26,
+   "Table 2A, Spot row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "16.7 (9.46, 43.8)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Spot (n = 7)",
+   26,
+   "Table 2A, Spot row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "13.7 (2.68)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Croaker (n = 5)",
+   26,
+   "Table 2A, Croaker row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "14.8 (9.37, 16.3)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Croaker (n = 5)",
+   26,
+   "Table 2A, Croaker row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "17.6 (10.8)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Red Drum (n = 9)",
+   26,
+   "Table 2A, Red Drum row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "16.5 (6.41, 41.5)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Red Drum (n = 9)",
+   26,
+   "Table 2A, Red Drum row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "20.7 (18.0)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Seatrout (n = 9)",
+   26,
+   "Table 2A, Seatrout row, PFOS row, PFOS column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median (range)",
+   "13.2 (9.25, 66.3)",
+   "ng/g wet weight",
+   "Whole fish, Charleston SC estuary, Seatrout (n = 9)",
+   26,
+   "Table 2A, Seatrout row, PFOS row, PFOS column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Total PFAS, PFSA and PFCA sums have no analyte page; Tables 2B-4 not reviewed",
+   "why": "held on reading"
+  }
+ ]
+}

@@ -45,7 +45,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "beef-product",
-  "unpublished_candidate_matches": 23
+  "unpublished_candidate_matches": 23,
+  "held_findings": [
+    {
+      "row": "Opinion summarising other studies; partition coefficients",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Correlation between the PFAS levels in bovine blood and the levels in the meat and offal of these animals
@@ -56,11 +63,9 @@ Measured PFAS in eggs, dairy, meat, butter-and-ghee samples: Correlation between
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-23 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

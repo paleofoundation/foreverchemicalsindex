@@ -13,6 +13,7 @@ analytes:
 - pfos
 sources:
 - belkacemi-2026-preliminary-assessment-of-co-occurrence-of
+- chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods
 - draghi-2023-first-investigation-of-the-physiological-distribution
 - glynn-2026-occurrence-of-pfas-in-cow-s
 - mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow
@@ -21,7 +22,7 @@ sources:
 
 # Liquid milk, cow
 
-80 source-reported values from 5 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+85 source-reported values from 6 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Occurrence evidence
 
@@ -55,6 +56,11 @@ sources:
 | [[analytes/pfna]] | ND | µg/kg | Cow bulk milk; farm F36 | PDF p.11 Table 4; limits p.10 | [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]] |
 | [[analytes/pfos]] | ND | µg/kg | Cow bulk milk; farm F36 | PDF p.11 Table 4; limits p.10 | [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]] |
 | [[analytes/pfda]] | ND | µg/kg | Cow bulk milk; farm F36 | PDF p.11 Table 4; limits p.10 | [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]] |
+| [[analytes/pfhxa]] | 0.03 | ng/mL | Milk, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Milk row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfoa]] | 1.70 | ng/mL | Milk, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Milk row, PFOA row, PFOA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfda]] | 1.53 | ng/mL | Milk, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Milk row, PFDA row, PFDA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfhxs]] | 0.01 | ng/mL | Milk, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Milk row, PFHxS row, PFHxS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfos]] | <14.9 | ng/mL | Milk, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Milk row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
 | [[analytes/pfhxa]] | 6.86 ± 11.80 | pg g−1 | Raw cow milk fraction Skimmed; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[analytes/pfhxa]] | 12.42 ± 21.10 | pg g−1 | Raw cow milk fraction Cream; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[analytes/pfhxa]] | 3.94 ± 8.60 | pg g−1 | Raw cow milk fraction Whole Milk; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
@@ -117,6 +123,7 @@ sources:
 ## Sources
 
 - [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]]
+- [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]]
 - [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]]
 - [[sources/glynn-2026-occurrence-of-pfas-in-cow-s]]
 - [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]]

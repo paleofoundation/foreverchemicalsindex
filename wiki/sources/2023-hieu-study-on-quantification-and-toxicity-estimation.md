@@ -41,7 +41,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "fish-seafood-mixed",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "No extractable result table in PDF text",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Study on Quantification and Toxicity Estimation of Perfluoroalkyl Substances in Vietnamese Fish and Food Packaging Materials
@@ -52,9 +59,9 @@ Vietnamese fish and food packaging materials
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+No values published.
 
 ## Evidence Fitness
 

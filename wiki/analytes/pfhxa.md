@@ -7,8 +7,10 @@ verified_name: Perfluorohexanoic acid
 identity_authority: https://19january2021snapshot.epa.gov/cwa-methods/cwa-analytical-methods-and-polyfluorinated-alkyl-substances-pfas_.html
 cas_number: null
 sources:
+- 2019-luo-reduction-of-perfluorinated-compound-content-in
 - 2024-soudani-determination-of-per-and-polyfluoroalkyl-substances
 - bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in
+- chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods
 - cimpean-2025-bottled-water
 - draghi-2023-first-investigation-of-the-physiological-distribution
 - fci-2017-gebbink-tap-water
@@ -37,7 +39,7 @@ sources:
 
 # PFHxA
 
-34 source-reported values from 17 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+49 source-reported values from 19 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -49,10 +51,25 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 | product | value | unit | basis | source location | source |
 | --- | --- | --- | --- | --- | --- |
+| [[products/seafood]] | ND | ng/g | Fish cake, untreated control, Korea; mean ± SD | PDF p.5, Table 2, PFHxA row, Control column | [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]] |
 | [[products/fish-freshwater]] | 0.05 (0.02-0.07) | µg/kg | Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11); average (min-max) | PDF p.5, Table 1, PFHxA row, Cyprinus carpio Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 18% | µg/kg | Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11); frequency of positives above LOQ | PDF p.5, Table 1, PFHxA row, Cyprinus carpio F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 0.22 (0.01-1.10) | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); average (min-max) | PDF p.5, Table 1, PFHxA row, Perca fluviatilis Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/fish-freshwater]] | 26% | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); frequency of positives above LOQ | PDF p.5, Table 1, PFHxA row, Perca fluviatilis F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/cereal-grains]] | 1.07 | ng/g w.w. | Rice, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Rice row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/cereal-grains]] | 1.39 | ng/g w.w. | Flour, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Flour row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 1.02 | ng/g w.w. | Pork, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Pork row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 1.21 | ng/g w.w. | Beef, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Beef row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 1.02 | ng/g w.w. | Chicken, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Chicken row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/meat-and-poultry]] | 1.69 | ng/g w.w. | Liver, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Liver row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 1.08 | ng/g w.w. | Salmon, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Salmon row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 1.20 | ng/g w.w. | Oyster, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Oyster row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 0.87 | ng/g w.w. | Shrimp, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Shrimp row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 0.98 | ng/g w.w. | Clam, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Clam row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/seafood]] | 1.07 | ng/g w.w. | Squid, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Squid row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/fish-freshwater]] | 1.04 | ng/g w.w. | Grass Carp, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Grass Carp row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/eggs-product]] | 0.82 | ng/g w.w. | Egg, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Egg row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[products/dairy-milk-cow]] | 0.03 | ng/mL | Milk, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Milk row, PFHxA row, PFHxA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
 | [[products/bottled-drinking-water]] | 0.24 | ng/L | bottled-water mean as printed; non-detect mean retained literally | PDF p. 8, Table 1, Bottled Water Mean | [[sources/cimpean-2025-bottled-water]] |
 | [[products/dairy-milk-cow]] | 6.86 ± 11.80 | pg g−1 | Raw cow milk fraction Skimmed; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[products/dairy-milk-cow]] | 12.42 ± 21.10 | pg g−1 | Raw cow milk fraction Cream; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
@@ -90,8 +107,10 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 ## Sources
 
+- [[sources/2019-luo-reduction-of-perfluorinated-compound-content-in]]
 - [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]]
 - [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]]
+- [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]]
 - [[sources/cimpean-2025-bottled-water]]
 - [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]]
 - [[sources/fci-2017-gebbink-tap-water]]

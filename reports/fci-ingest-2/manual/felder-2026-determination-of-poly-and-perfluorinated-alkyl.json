@@ -1,0 +1,10 @@
+{
+ "product": "meat-and-poultry",
+ "rows": [],
+ "held": [
+  {
+   "row": "Table 4 muscle values are estimates from conversion factors in unstaged Table S7, not direct measurements",
+   "why": "held on reading"
+  }
+ ]
+}
