@@ -13,6 +13,7 @@ analytes:
 - pfos
 sources:
 - drage-2023-rapid-determination-of-selected-pfas
+- kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in
 - schellenberger-2022-an-outdoor-aging-study-to
 - sommerfeld-2025-development-of-a-certified-reference
 - szabo-2024-prioritization-identification-and-quantification-of
@@ -22,12 +23,19 @@ sources:
 
 # Textiles, apparel and outdoor gear
 
-35 source-reported values from 1 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+42 source-reported values from 2 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Occurrence evidence
 
 | analyte | value | unit | basis | source location | source |
 | --- | --- | --- | --- | --- | --- |
+| [[analytes/pfoa]] | 100 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFOA row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[analytes/pfna]] | 67 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFNA row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[analytes/pfhxa]] | 56 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFHxA row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[analytes/pfda]] | 100 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFDA row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[analytes/pfbs]] | 0 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFBS row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[analytes/pfhxs]] | 0 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFHxS row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[analytes/pfos]] | 100 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFOS row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
 | [[analytes/pfhxa]] | 84.0 | ng/g | Children's products, China, School uniform (n = 25); detection frequency (%) | PDF p.5, Table 1, PFHxA row, School uniform DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
 | [[analytes/pfhxa]] | 1.60 | ng/g | Children's products, China, School uniform (n = 25); median (non-detects set to 1/2 MDL) | PDF p.5, Table 1, PFHxA row, School uniform Median column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
 | [[analytes/pfhxa]] | ND-6.47 | ng/g | Children's products, China, School uniform (n = 25); range | PDF p.5, Table 1, PFHxA row, School uniform Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
@@ -73,6 +81,7 @@ sources:
 ## Sources
 
 - [[sources/drage-2023-rapid-determination-of-selected-pfas]]
+- [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]]
 - [[sources/schellenberger-2022-an-outdoor-aging-study-to]]
 - [[sources/sommerfeld-2025-development-of-a-certified-reference]]
 - [[sources/szabo-2024-prioritization-identification-and-quantification-of]]

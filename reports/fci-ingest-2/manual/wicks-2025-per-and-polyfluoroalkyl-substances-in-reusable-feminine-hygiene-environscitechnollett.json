@@ -1,9 +1,94 @@
 {
  "product": "period-underwear-reusable-garments",
- "rows": [],
+ "rows": [
+  [
+   "PFHxA",
+   "pfhxa",
+   "detection frequency",
+   "26.3%",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, PFHxA row, DF column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "range",
+   "ND\u22125.87",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, PFHxA row, Range (ng/g) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection frequency",
+   "15.8%",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, PFOA row, DF column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "range",
+   "ND\u221211.4",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, PFOA row, Range (ng/g) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection frequency",
+   "10.5%",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, PFHxS row, DF column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "range",
+   "ND\u22121.40",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, PFHxS row, Range (ng/g) column"
+  ],
+  [
+   "6:2 FTOH",
+   "6-2-ftoh",
+   "detection frequency",
+   "68.4%",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, 6:2 FTOH row, DF column"
+  ],
+  [
+   "6:2 FTOH",
+   "6-2-ftoh",
+   "range",
+   "ND\u22121320",
+   "ng/g",
+   "Reusable feminine hygiene products, US (N = 19)",
+   3,
+   "Table 1, 6:2 FTOH row, Range (ng/g) column"
+  ]
+ ],
  "held": [
   {
-   "row": "NO TABLES DETECTED; product data in SI",
+   "row": "Median column held: medians for low detection frequency analytes depend on non-detect substitution; footnote not verified",
+   "why": "held on reading"
+  },
+  {
+   "row": "Analytes without site pages",
    "why": "held on reading"
   }
  ]

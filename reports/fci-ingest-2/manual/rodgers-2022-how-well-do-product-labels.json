@@ -1,0 +1,195 @@
+{
+ "product": "childrens-products",
+ "rows": [
+  [
+   "PFBS",
+   "pfbs",
+   "detection frequency (detected/analyzed)",
+   "8.2% (5/61)",
+   "%",
+   "Children's and bedding textile products, US (n = 61, targeted analysis)",
+   5,
+   "Table 3, PFBS row, targeted, number of detections column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "detection frequency (detected/analyzed)",
+   "23% (14/61)",
+   "%",
+   "Children's and bedding textile products, US (n = 61, targeted analysis)",
+   5,
+   "Table 3, PFHxA row, targeted, number of detections column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection frequency (detected/analyzed)",
+   "11% (7/61)",
+   "%",
+   "Children's and bedding textile products, US (n = 61, targeted analysis)",
+   5,
+   "Table 3, PFOA row, targeted, number of detections column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection frequency (detected/analyzed)",
+   "1.6% (1/61)",
+   "%",
+   "Children's and bedding textile products, US (n = 61, targeted analysis)",
+   5,
+   "Table 3, PFOS row, targeted, number of detections column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection frequency (detected/analyzed)",
+   "1.6% (1/61)",
+   "%",
+   "Children's and bedding textile products, US (n = 61, targeted analysis)",
+   5,
+   "Table 3, PFNA row, targeted, number of detections column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "detection frequency (detected/analyzed)",
+   "4.9% (3/61)",
+   "%",
+   "Children's and bedding textile products, US (n = 61, targeted analysis)",
+   5,
+   "Table 3, PFDA row, targeted, number of detections column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "maximum",
+   "34.4",
+   "ng/g",
+   "same",
+   5,
+   "Table 3, PFBS row, targeted, maximum concentration (ng/g) column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "maximum",
+   "35.7",
+   "ng/g",
+   "same",
+   5,
+   "Table 3, PFHxA row, targeted, maximum concentration (ng/g) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "maximum",
+   "22.5",
+   "ng/g",
+   "same",
+   5,
+   "Table 3, PFOA row, targeted, maximum concentration (ng/g) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "maximum",
+   "2.15",
+   "ng/g",
+   "same",
+   5,
+   "Table 3, PFOS row, targeted, maximum concentration (ng/g) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "maximum",
+   "1.62",
+   "ng/g",
+   "same",
+   5,
+   "Table 3, PFNA row, targeted, maximum concentration (ng/g) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "maximum",
+   "11.8",
+   "ng/g",
+   "same",
+   5,
+   "Table 3, PFDA row, targeted, maximum concentration (ng/g) column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "maximum",
+   "0.872",
+   "ng/cm2",
+   "same",
+   5,
+   "Table 3, PFBS row, targeted, maximum concentration (ng/cm2) column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "maximum",
+   "0.736",
+   "ng/cm2",
+   "same",
+   5,
+   "Table 3, PFHxA row, targeted, maximum concentration (ng/cm2) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "maximum",
+   "0.207",
+   "ng/cm2",
+   "same",
+   5,
+   "Table 3, PFOA row, targeted, maximum concentration (ng/cm2) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "maximum",
+   "0.051",
+   "ng/cm2",
+   "same",
+   5,
+   "Table 3, PFOS row, targeted, maximum concentration (ng/cm2) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "maximum",
+   "0.015",
+   "ng/cm2",
+   "same",
+   5,
+   "Table 3, PFNA row, targeted, maximum concentration (ng/cm2) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "maximum",
+   "0.108",
+   "ng/cm2",
+   "same",
+   5,
+   "Table 3, PFDA row, targeted, maximum concentration (ng/cm2) column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "TOP assay columns are net precursor-derived PFAA, not measured content",
+   "why": "held on reading"
+  },
+  {
+   "row": "Analytes without site pages",
+   "why": "held on reading"
+  }
+ ]
+}

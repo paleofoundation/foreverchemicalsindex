@@ -40,7 +40,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "textiles-apparel-outdoor-gear",
-  "unpublished_candidate_matches": 1
+  "unpublished_candidate_matches": 1,
+  "held_findings": [
+    {
+      "row": "Table 1 is treatment design; concentrations in figures and SI",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Fate of Per- and Polyfluoroalkyl Substances from Durable Water-Repellent Clothing during Use
@@ -51,11 +58,9 @@ Targeted PFAS (ionic by LC-MS/MS, neutral FTOHs) in DWR clothing during use, was
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-1 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

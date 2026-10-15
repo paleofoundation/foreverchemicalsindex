@@ -49,7 +49,7 @@
   "unpublished_candidate_matches": 7,
   "held_findings": [
     {
-      "row": "NO TABLES DETECTED; grain data in figures or SI",
+      "row": "Accepted manuscript (35 pp) checked page by page: all tables are SI (Tables S1-S22); grain values only in figures",
       "why": "held on reading"
     }
   ],

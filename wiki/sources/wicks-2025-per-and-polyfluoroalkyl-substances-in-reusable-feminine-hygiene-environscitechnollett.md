@@ -20,7 +20,7 @@
   "source_type": "primary_measurement",
   "evidence_tier": "reviewed",
   "evidence_fitness": "on-topic; filed from lead",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -30,7 +30,12 @@
   "access_url": "https://doi.org/10.1021/acs.estlett.5c00553",
   "license": "OA; CC BY-NC-ND 4.0; obtained via browser from publisher",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "6-2-ftoh",
+    "pfhxa",
+    "pfhxs",
+    "pfoa"
+  ],
   "ingredients": [],
   "products": [
     "period-underwear-reusable-garments"
@@ -38,12 +43,105 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "pfhxa",
+      "value": "26.3%",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); detection frequency",
+      "source_location": "PDF p.3, Table 1, PFHxA row, DF column",
+      "analyte_label": "PFHxA",
+      "statistic": "detection frequency",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    },
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "pfhxa",
+      "value": "ND−5.87",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); range",
+      "source_location": "PDF p.3, Table 1, PFHxA row, Range (ng/g) column",
+      "analyte_label": "PFHxA",
+      "statistic": "range",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    },
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "pfoa",
+      "value": "15.8%",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); detection frequency",
+      "source_location": "PDF p.3, Table 1, PFOA row, DF column",
+      "analyte_label": "PFOA",
+      "statistic": "detection frequency",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    },
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "pfoa",
+      "value": "ND−11.4",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); range",
+      "source_location": "PDF p.3, Table 1, PFOA row, Range (ng/g) column",
+      "analyte_label": "PFOA",
+      "statistic": "range",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    },
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "pfhxs",
+      "value": "10.5%",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); detection frequency",
+      "source_location": "PDF p.3, Table 1, PFHxS row, DF column",
+      "analyte_label": "PFHxS",
+      "statistic": "detection frequency",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    },
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "pfhxs",
+      "value": "ND−1.40",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); range",
+      "source_location": "PDF p.3, Table 1, PFHxS row, Range (ng/g) column",
+      "analyte_label": "PFHxS",
+      "statistic": "range",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    },
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "6-2-ftoh",
+      "value": "68.4%",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); detection frequency",
+      "source_location": "PDF p.3, Table 1, 6:2 FTOH row, DF column",
+      "analyte_label": "6:2 FTOH",
+      "statistic": "detection frequency",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    },
+    {
+      "product": "period-underwear-reusable-garments",
+      "analyte": "6-2-ftoh",
+      "value": "ND−1320",
+      "unit": "ng/g",
+      "basis": "Reusable feminine hygiene products, US (N = 19); range",
+      "source_location": "PDF p.3, Table 1, 6:2 FTOH row, Range (ng/g) column",
+      "analyte_label": "6:2 FTOH",
+      "statistic": "range",
+      "matrix": "Reusable feminine hygiene products, US (N = 19)"
+    }
+  ],
   "library_folder": "period-underwear",
   "unpublished_candidate_matches": 0,
   "held_findings": [
     {
-      "row": "NO TABLES DETECTED; product data in SI",
+      "row": "Median column held: medians for low detection frequency analytes depend on non-detect substitution; footnote not verified",
+      "why": "held on reading"
+    },
+    {
+      "row": "Analytes without site pages",
       "why": "held on reading"
     }
   ],
@@ -58,9 +156,18 @@ Per title: Per- and Polyfluoroalkyl Substances in Reusable Feminine Hygiene Prod
 
 ## Key numbers
 
-Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 2 values were held for review.
 
-No values published.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfhxa]] (PFHxA) | detection frequency | 26.3% | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, PFHxA row, DF column |
+| [[analytes/pfhxa]] (PFHxA) | range | ND−5.87 | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, PFHxA row, Range (ng/g) column |
+| [[analytes/pfoa]] (PFOA) | detection frequency | 15.8% | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, PFOA row, DF column |
+| [[analytes/pfoa]] (PFOA) | range | ND−11.4 | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, PFOA row, Range (ng/g) column |
+| [[analytes/pfhxs]] (PFHxS) | detection frequency | 10.5% | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, PFHxS row, DF column |
+| [[analytes/pfhxs]] (PFHxS) | range | ND−1.40 | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, PFHxS row, Range (ng/g) column |
+| [[analytes/6-2-ftoh]] (6:2 FTOH) | detection frequency | 68.4% | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, 6:2 FTOH row, DF column |
+| [[analytes/6-2-ftoh]] (6:2 FTOH) | range | ND−1320 | ng/g | Reusable feminine hygiene products, US (N = 19) | PDF p.3, Table 1, 6:2 FTOH row, Range (ng/g) column |
 
 ## Evidence Fitness
 
@@ -81,3 +188,11 @@ DOI 10.1021/acs.estlett.5c00553 resolved at Crossref; DOI matched in the filed P
 ## Wiki pages updated on ingest
 
 [[products/period-underwear-reusable-garments]]
+
+[[analytes/6-2-ftoh]]
+
+[[analytes/pfhxa]]
+
+[[analytes/pfhxs]]
+
+[[analytes/pfoa]]

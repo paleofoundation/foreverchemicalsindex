@@ -1,0 +1,242 @@
+{
+ "product": "carpet-cleaners",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "percentage of samples detected",
+   "5",
+   "%",
+   "German consumer products, Cleaner samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFOA row, Cleaner column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Cleaner samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFNA row, Cleaner column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Cleaner samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFHxA row, Cleaner column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Cleaner samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFDA row, Cleaner column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Cleaner samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFBS row, Cleaner column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Cleaner samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFHxS row, Cleaner column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "percentage of samples detected",
+   "10",
+   "%",
+   "German consumer products, Cleaner samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFOS row, Cleaner column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "percentage of samples detected",
+   "100",
+   "%",
+   "German consumer products, Outdoor samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFOA row, Outdoor column",
+   "textiles"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "percentage of samples detected",
+   "67",
+   "%",
+   "German consumer products, Outdoor samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFNA row, Outdoor column",
+   "textiles"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "percentage of samples detected",
+   "56",
+   "%",
+   "German consumer products, Outdoor samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFHxA row, Outdoor column",
+   "textiles"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "percentage of samples detected",
+   "100",
+   "%",
+   "German consumer products, Outdoor samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFDA row, Outdoor column",
+   "textiles"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Outdoor samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFBS row, Outdoor column",
+   "textiles"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Outdoor samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFHxS row, Outdoor column",
+   "textiles"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "percentage of samples detected",
+   "100",
+   "%",
+   "German consumer products, Outdoor samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFOS row, Outdoor column",
+   "textiles"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "percentage of samples detected",
+   "30",
+   "%",
+   "German consumer products, Carpet samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFOA row, Carpet column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "percentage of samples detected",
+   "20",
+   "%",
+   "German consumer products, Carpet samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFNA row, Carpet column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "percentage of samples detected",
+   "40",
+   "%",
+   "German consumer products, Carpet samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFHxA row, Carpet column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "percentage of samples detected",
+   "20",
+   "%",
+   "German consumer products, Carpet samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFDA row, Carpet column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "percentage of samples detected",
+   "45",
+   "%",
+   "German consumer products, Carpet samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFBS row, Carpet column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "percentage of samples detected",
+   "0",
+   "%",
+   "German consumer products, Carpet samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFHxS row, Carpet column",
+   "carpet-cleaners"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "percentage of samples detected",
+   "90",
+   "%",
+   "German consumer products, Carpet samples (percentage with detected PFAS)",
+   7,
+   "Table 3, PFOS row, Carpet column",
+   "carpet-cleaners"
+  ]
+ ],
+ "held": [
+  {
+   "row": "UNREADABLE: Table 2 (p6) max/median values: units differ by product group (ug/kg vs ug/m2) and the column headers do not extract cleanly; needs publisher HTML table",
+   "why": "held on reading"
+  }
+ ]
+}

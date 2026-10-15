@@ -16,7 +16,7 @@
   "source_type": "primary_measurement",
   "evidence_tier": "reviewed",
   "evidence_fitness": "Primary childrens apparel measurement, targeted LC-MS/MS",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -26,7 +26,9 @@
   "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12745961/",
   "license": "OA gold (CC BY-NC-ND)",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "6-2-ftoh"
+  ],
   "ingredients": [],
   "products": [
     "childrens-products"
@@ -34,9 +36,32 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "childrens-products",
+      "analyte": "6-2-ftoh",
+      "value": "0.29",
+      "unit": "ppm",
+      "basis": "Children's winter gloves, glove components (8 gloves); maximum across components",
+      "source_location": "PDF p.3, Table 3, 6:2 FTOH row, Exterior Palmar Fabric B (Textured) column",
+      "analyte_label": "6:2 FTOH",
+      "statistic": "maximum across components",
+      "matrix": "Children's winter gloves, glove components (8 gloves)"
+    }
+  ],
   "library_folder": "childrens-products",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "Table 3 and Table 4 are two-column interleaved in text layer; per-glove rows other than the stated maximum not verified (UNREADABLE: needs publisher HTML table)",
+      "why": "held on reading"
+    },
+    {
+      "row": "Table 4 is third-party (Claigan) testing",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # An evaluation and risk assessment of children’s exposures to water-soluble per- and polyfluoroalkyl substances through winter gloves
@@ -47,9 +72,11 @@ Water-soluble PFAS in childrens winter gloves by LC-MS/MS (and FTOH by GC-MS/MS)
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 2 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/6-2-ftoh]] (6:2 FTOH) | maximum across components | 0.29 | ppm | Children's winter gloves, glove components (8 gloves) | PDF p.3, Table 3, 6:2 FTOH row, Exterior Palmar Fabric B (Textured) column |
 
 ## Evidence Fitness
 
@@ -70,3 +97,5 @@ DOI 10.1016/j.toxrep.2025.102095 resolved at Crossref; DOI matched in the filed 
 ## Wiki pages updated on ingest
 
 [[products/childrens-products]]
+
+[[analytes/6-2-ftoh]]

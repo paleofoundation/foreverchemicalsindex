@@ -43,7 +43,7 @@
   "unpublished_candidate_matches": 8,
   "held_findings": [
     {
-      "row": "NO TABLES DETECTED; crop data in SI",
+      "row": "Checked all 14 pages: Table 1 is biosolids and soil, Table 2 is risk HQs; crop concentrations in SI Tables S4-S7",
       "why": "held on reading"
     }
   ],

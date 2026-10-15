@@ -29,12 +29,14 @@ sources:
 - fci-paperboard-schaider-2017-fluorinated-compounds-in-u-s-fast
 - fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food
 - hartmann-2024-persistent-organic-pollutants-in-austrian-human
+- kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in
 - li-2024-association-between-prenatal-exposure-to-per
 - martinez-2024-bottled-water
 - mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
 - nowak-2026-stuffed-toys-as-a-source
 - nuti-2024-study-of-endocrine-disrupting-chemicals-in
+- rodgers-2022-how-well-do-product-labels
 - tan-2025-bottled-water
 - xia-2022-per-and-polyfluoroalkyl-substances-in
 - yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in
@@ -42,7 +44,7 @@ sources:
 
 # PFBS
 
-67 source-reported values from 24 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+73 source-reported values from 26 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -96,6 +98,9 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/breast-milk]] | n.d.-8.1 | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); range | PDF p.11, Table 3, follow-up study block, PFBS row, follow-up range column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
 | [[products/breast-milk]] | n.d. | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); median | PDF p.11, Table 3, follow-up study block, PFBS row, follow-up median column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
 | [[products/breast-milk]] | n.d. | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); 95th percentile | PDF p.11, Table 3, follow-up study block, PFBS row, follow-up P95 column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/carpet-cleaners]] | 0 | % | German consumer products, Cleaner samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFBS row, Cleaner column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | 0 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFBS row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[products/carpet-cleaners]] | 45 | % | German consumer products, Carpet samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFBS row, Carpet column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150); maximum | PDF p.6, Table 2, PFBS row, Max column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
 | [[products/bottled-drinking-water]] | < LOQ | ng/L | detected below quantification in bottled-water group; paper lists six labels while saying seven | PDF p. 10 (56545), Occurrence in bottled water samples | [[sources/martinez-2024-bottled-water]] |
 | [[products/dairy-milk-cow]] | 0.0012 | µg/kg | Cow milk; source table mean | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
@@ -109,6 +114,9 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/infant-formula]] | 0.096 ± 0.03 | ng/g dry weight | Infant formula; Mean ± SD | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.09 | ng/g dry weight | Infant formula; Median | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.04–0.13 | ng/g dry weight | Infant formula; Min-Max | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
+| [[products/childrens-products]] | 8.2% (5/61) | % | Children's and bedding textile products, US (n = 61, targeted analysis); detection frequency (detected/analyzed) | PDF p.5, Table 3, PFBS row, targeted, number of detections column | [[sources/rodgers-2022-how-well-do-product-labels]] |
+| [[products/childrens-products]] | 34.4 | ng/g | same; maximum | PDF p.5, Table 3, PFBS row, targeted, maximum concentration (ng/g) column | [[sources/rodgers-2022-how-well-do-product-labels]] |
+| [[products/childrens-products]] | 0.872 | ng/cm2 | same; maximum | PDF p.5, Table 3, PFBS row, targeted, maximum concentration (ng/cm2) column | [[sources/rodgers-2022-how-well-do-product-labels]] |
 | [[products/bottled-drinking-water]] | 0.37 | ng/L | bottled-water mean based on detections above MDL; ND literal | PDF p. 4 (4398), Table 1 bottled-water mean and footnotes a/f | [[sources/tan-2025-bottled-water]] |
 | [[products/textiles]] | 24.0 | ng/g | Children's products, China, School uniform (n = 25); detection frequency (%) | PDF p.5, Table 1, PFBS row, School uniform DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
 | [[products/textiles]] | ND-6.47 | ng/g | Children's products, China, School uniform (n = 25); range | PDF p.5, Table 1, PFBS row, School uniform Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
@@ -150,12 +158,14 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/fci-paperboard-schaider-2017-fluorinated-compounds-in-u-s-fast]]
 - [[sources/fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food]]
 - [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]]
+- [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]]
 - [[sources/li-2024-association-between-prenatal-exposure-to-per]]
 - [[sources/martinez-2024-bottled-water]]
 - [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
 - [[sources/nowak-2026-stuffed-toys-as-a-source]]
 - [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]]
+- [[sources/rodgers-2022-how-well-do-product-labels]]
 - [[sources/tan-2025-bottled-water]]
 - [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]]
 - [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]]

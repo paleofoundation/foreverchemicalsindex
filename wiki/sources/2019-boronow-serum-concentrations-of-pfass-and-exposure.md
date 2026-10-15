@@ -39,7 +39,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "dental-floss",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "Human serum and questionnaire regression study; no product concentrations",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Serum concentrations of PFASs and exposure-related behaviors in African American and non-Hispanic white women
@@ -50,9 +57,9 @@ Dental floss total fluorine by PIGE (18 products) plus serum PFAS
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+No values published.
 
 ## Evidence Fitness
 

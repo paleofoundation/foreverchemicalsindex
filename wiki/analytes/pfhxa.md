@@ -29,19 +29,22 @@ sources:
 - fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food
 - fci-paperboard-simonetti-2024-studies-of-potential-migration-of-hazardous
 - hartmann-2024-persistent-organic-pollutants-in-austrian-human
+- kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in
 - li-2024-association-between-prenatal-exposure-to-per
 - martinez-2024-bottled-water
 - mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
 - nowak-2026-stuffed-toys-as-a-source
+- rodgers-2022-how-well-do-product-labels
 - tan-2025-bottled-water
+- wicks-2025-per-and-polyfluoroalkyl-substances-in-reusable-feminine-hygiene-environscitechnollett
 - xia-2022-per-and-polyfluoroalkyl-substances-in
 - yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in
 ---
 
 # PFHxA
 
-61 source-reported values from 21 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+69 source-reported values from 24 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -92,6 +95,9 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/breast-milk]] | n.d.-28 | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); range | PDF p.11, Table 3, follow-up study block, PFHxA row, follow-up range column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
 | [[products/breast-milk]] | n.d. | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); median | PDF p.11, Table 3, follow-up study block, PFHxA row, follow-up median column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
 | [[products/breast-milk]] | 16 | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); 95th percentile | PDF p.11, Table 3, follow-up study block, PFHxA row, follow-up P95 column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/carpet-cleaners]] | 0 | % | German consumer products, Cleaner samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFHxA row, Cleaner column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | 56 | % | German consumer products, Outdoor samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFHxA row, Outdoor column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
+| [[products/carpet-cleaners]] | 40 | % | German consumer products, Carpet samples (percentage with detected PFAS); percentage of samples detected | PDF p.7, Table 3, PFHxA row, Carpet column | [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150); maximum | PDF p.6, Table 2, PFHxA row, Max column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
 | [[products/bottled-drinking-water]] | < LOQ | ng/L | detected below quantification in bottled-water group; paper lists six labels while saying seven | PDF p. 10 (56545), Occurrence in bottled water samples | [[sources/martinez-2024-bottled-water]] |
 | [[products/dairy-milk-cow]] | <LOQ | µg/kg | Cow milk; source table mean | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
@@ -99,7 +105,12 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/childrens-products]] | 100 | µg/m² | Stuffed toys, PFAS migration (not total content); detection frequency (%) | PDF p.5, Table 1, PFHxA row, DF (%) column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
 | [[products/childrens-products]] | 21.97 | µg/m² | Stuffed toys, PFAS migration (not total content); mean migration (as reported) | PDF p.5, Table 1, PFHxA row, Mean [μg/m²] column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
 | [[products/childrens-products]] | 0.22 – 120.73 | µg/m² | Stuffed toys, PFAS migration (not total content); range of migration | PDF p.5, Table 1, PFHxA row, Range [μg/m²] column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
+| [[products/childrens-products]] | 23% (14/61) | % | Children's and bedding textile products, US (n = 61, targeted analysis); detection frequency (detected/analyzed) | PDF p.5, Table 3, PFHxA row, targeted, number of detections column | [[sources/rodgers-2022-how-well-do-product-labels]] |
+| [[products/childrens-products]] | 35.7 | ng/g | same; maximum | PDF p.5, Table 3, PFHxA row, targeted, maximum concentration (ng/g) column | [[sources/rodgers-2022-how-well-do-product-labels]] |
+| [[products/childrens-products]] | 0.736 | ng/cm2 | same; maximum | PDF p.5, Table 3, PFHxA row, targeted, maximum concentration (ng/cm2) column | [[sources/rodgers-2022-how-well-do-product-labels]] |
 | [[products/bottled-drinking-water]] | 0.32 | ng/L | bottled-water mean based on detections above MDL; ND literal | PDF p. 4 (4398), Table 1 bottled-water mean and footnotes a/f | [[sources/tan-2025-bottled-water]] |
+| [[products/period-underwear-reusable-garments]] | 26.3% | ng/g | Reusable feminine hygiene products, US (N = 19); detection frequency | PDF p.3, Table 1, PFHxA row, DF column | [[sources/wicks-2025-per-and-polyfluoroalkyl-substances-in-reusable-feminine-hygiene-environscitechnollett]] |
+| [[products/period-underwear-reusable-garments]] | ND−5.87 | ng/g | Reusable feminine hygiene products, US (N = 19); range | PDF p.3, Table 1, PFHxA row, Range (ng/g) column | [[sources/wicks-2025-per-and-polyfluoroalkyl-substances-in-reusable-feminine-hygiene-environscitechnollett]] |
 | [[products/textiles]] | 84.0 | ng/g | Children's products, China, School uniform (n = 25); detection frequency (%) | PDF p.5, Table 1, PFHxA row, School uniform DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
 | [[products/textiles]] | 1.60 | ng/g | Children's products, China, School uniform (n = 25); median (non-detects set to 1/2 MDL) | PDF p.5, Table 1, PFHxA row, School uniform Median column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
 | [[products/textiles]] | ND-6.47 | ng/g | Children's products, China, School uniform (n = 25); range | PDF p.5, Table 1, PFHxA row, School uniform Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
@@ -143,12 +154,15 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food]]
 - [[sources/fci-paperboard-simonetti-2024-studies-of-potential-migration-of-hazardous]]
 - [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]]
+- [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]]
 - [[sources/li-2024-association-between-prenatal-exposure-to-per]]
 - [[sources/martinez-2024-bottled-water]]
 - [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
 - [[sources/nowak-2026-stuffed-toys-as-a-source]]
+- [[sources/rodgers-2022-how-well-do-product-labels]]
 - [[sources/tan-2025-bottled-water]]
+- [[sources/wicks-2025-per-and-polyfluoroalkyl-substances-in-reusable-feminine-hygiene-environscitechnollett]]
 - [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]]
 - [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]]
 
