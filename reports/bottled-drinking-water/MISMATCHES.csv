@@ -1,0 +1,14 @@
+source,type,reported_a,reported_b,action,confidence
+Martinez,abstract_vs_body,PDF p. 1: total up to 12 ng/L,PDF p. 10: total 8 ng/L,Unresolved; both retained,HOLD
+Martinez,count_conflict,PDF p. 10: 7 compounds,Six compound names in below-LOQ parenthesis,Unresolved; preserve listed identities,HOLD
+Martinez,manifest_analytes,MANIFEST includes PFTeDA and omits several target labels,PDF Table 3 target list differs,PDF labels retained without silently changing manifest,HOLD
+Cimpean,proportion_denominator,Abstract: 87% regulated and 13% unregulated,Tables 1/2 mean sums 5.34 and 3.00 ng/L,Denominator unclear; proportions not routed,HOLD
+Cimpean,missing_supplement,PDF cites Tables S1-S11,No supplement staged,Selected main-table evidence only,HOLD
+Tan,manifest_analytes,MANIFEST includes PFBA,PDF section 2.1 explicitly excludes PFBA,PDF target set retained,HOLD
+Tan,detection_limit_conflict,PDF p. 3 MDL range 0.06-0.11 ng/L,Table 1 minimum PFNA and total 0.05 ng/L,No threshold repair,HOLD
+Tan,missing_supplement,PDF Table S8 contains individual MDLs,No supplement staged,No individual MDL assigned,HOLD
+Alharbi,manifest_analytes,MANIFEST includes PFHxS and PFOS,PDF Tables 3-5 list neither; p. 13 explicitly excludes PFHxS,PDF targets retained,HOLD
+Alharbi,missing_appendix,PDF pp. 11-12 refers to Appendix A,No Appendix A in deposited PDF,Only body-confirmed occurrence selected,HOLD
+Alharbi,date_conflict,PDF p. 1 acceptance September 28 2026,PDF p. 1 publication September 6 2026,Dates not repaired,HOLD
+Alharbi,unconfirmed_measurement,Abstract highlights PFOA 59.390 ng/L,PDF pp. 11-12 unconfirmed single analysis,No regulatory-exceedance claim,HOLD
+Alharbi,uncertainty_table,PDF p. 10 says expanded uncertainties in Table 4,Table 4 contains only LOD/LOQ columns,No uncertainty invented,HOLD
