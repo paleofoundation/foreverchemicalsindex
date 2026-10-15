@@ -1,4 +1,5 @@
 product,analyte,value,unit,basis,source_location,source
+"fish-freshwater","pfos","3.93","ng/g","Stated in source text: ""... was found in samples obtained from Krape Park located in Freeport, followed by PFOS with a maximum concentration per fish of 3.93 ng/g found in samples from the Fordham Dam l...""","PDF p.8, sentence beginning ""The maximum average concentration per fish of""","sources/2024-sands-pfas-assessment-in-fish-samples-from"
 "eggs-product","pfos","2.872","μg/kg wet weight","Backyard chicken eggs; Mean","PDF p.9 Table 2; censoring p.5","sources/aarts-2026-citizen-science-data-reveal-drivers-of"
 "eggs-product","pfos","0.1819","μg/kg wet weight","Backyard chicken eggs; SE","PDF p.9 Table 2; censoring p.5","sources/aarts-2026-citizen-science-data-reveal-drivers-of"
 "eggs-product","pfos","1.600","μg/kg wet weight","Backyard chicken eggs; Median","PDF p.9 Table 2; censoring p.5","sources/aarts-2026-citizen-science-data-reveal-drivers-of"
@@ -513,6 +514,7 @@ product,analyte,value,unit,basis,source_location,source
 "infant-formula","pfbs","0.096 ± 0.03","ng/g dry weight","Infant formula; Mean ± SD","PDF p.9 Table 1","sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in"
 "infant-formula","pfbs","0.09","ng/g dry weight","Infant formula; Median","PDF p.9 Table 1","sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in"
 "infant-formula","pfbs","0.04–0.13","ng/g dry weight","Infant formula; Min-Max","PDF p.9 Table 1","sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in"
+"childrens-products","pfoa","22.5","ng/g","Stated in source text: ""...th seven products containing PFOA and one containing PFOS. The maximum detected PFOA concentration (22.5 ng/g) was found in a WS-G pillow protector (...""","PDF p.5, sentence beginning ""PFOA and PFOS were detected despite the""","sources/rodgers-2022-how-well-do-product-labels"
 "eggs-product","pfos","0.64","ng g−1 ww","Home-produced chicken egg yolk; source 1","PDF p.7 Table 3 and footnote","sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc"
 "eggs-product","pfoa","<0.10 a","ng g−1 ww","Home-produced chicken egg yolk; source 1","PDF p.7 Table 3 and footnote","sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc"
 "eggs-product","pfos","<0.50","ng g−1 ww","Home-produced chicken egg yolk; source 2","PDF p.7 Table 3 and footnote","sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc"

@@ -31,12 +31,13 @@ test("firewall blocks promotion even inside a generated block",t=>{
   const dir=fixture(t);fs.appendFileSync(path.join(dir,"wiki/index.md"),"\n<!-- BEGIN: generated -->\nApply for certification\n<!-- END: generated -->\n")
   const r=run("audit-synthesis-firewall",dir);assert.equal(r.status,1);assert.match(r.stderr,/promotional claim/)
 })
-test("empty generation is stable and emits no evidence rows",t=>{
+test("generation is stable and dataset rows match published findings",t=>{
   const dir=fixture(t);assert.equal(run("build-contamination-dataset",dir).status,0)
   const data=fs.readFileSync(path.join(dir,"wiki/data.md"),"utf8")
-  assert.match(data,/<tbody><\/tbody>/)
-  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir,"wiki/static/contamination.json"))).records,[])
-  assert.equal(fs.readFileSync(path.join(dir,"wiki/static/contamination.csv"),"utf8").trim().split("\n").length,1)
+  const records=JSON.parse(fs.readFileSync(path.join(dir,"wiki/static/contamination.json"))).records
+  assert.ok(Array.isArray(records))
+  for (const row of records) for (const field of ["product","analyte","value","unit","basis","source_location","source"]) assert.equal(typeof row[field],"string")
+  assert.equal(fs.readFileSync(path.join(dir,"wiki/static/contamination.csv"),"utf8").trim().split("\n").length,records.length+1)
   assert.equal(run("build-contamination-dataset",dir).status,0)
   assert.equal(fs.readFileSync(path.join(dir,"wiki/data.md"),"utf8"),data)
 })

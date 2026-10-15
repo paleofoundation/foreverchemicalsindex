@@ -7,6 +7,7 @@ verified_name: Perfluorooctanesulfonic acid
 identity_authority: https://19january2021snapshot.epa.gov/cwa-methods/cwa-analytical-methods-and-polyfluorinated-alkyl-substances-pfas_.html
 cas_number: null
 sources:
+- 2024-sands-pfas-assessment-in-fish-samples-from
 - aarts-2026-citizen-science-data-reveal-drivers-of
 - belkacemi-2026-preliminary-assessment-of-co-occurrence-of
 - bilandi-2026-home-produced-eggs-as-indicators-of
@@ -46,7 +47,7 @@ sources:
 
 # PFOS
 
-143 source-reported values from 28 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+144 source-reported values from 29 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -58,6 +59,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 | product | value | unit | basis | source location | source |
 | --- | --- | --- | --- | --- | --- |
+| [[products/fish-freshwater]] | 3.93 | ng/g | Stated in source text: "... was found in samples obtained from Krape Park located in Freeport, followed by PFOS with a maximum concentration per fish of 3.93 ng/g found in samples from the Fordham Dam l..." | PDF p.8, sentence beginning "The maximum average concentration per fish of" | [[sources/2024-sands-pfas-assessment-in-fish-samples-from]] |
 | [[products/eggs-product]] | 2.872 | μg/kg wet weight | Backyard chicken eggs; Mean | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
 | [[products/eggs-product]] | 0.1819 | μg/kg wet weight | Backyard chicken eggs; SE | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
 | [[products/eggs-product]] | 1.600 | μg/kg wet weight | Backyard chicken eggs; Median | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
@@ -208,6 +210,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 ## Sources
 
+- [[sources/2024-sands-pfas-assessment-in-fish-samples-from]]
 - [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]]
 - [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]]
 - [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]]

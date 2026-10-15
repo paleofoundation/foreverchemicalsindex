@@ -48,6 +48,7 @@ sources:
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
 - nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial
 - nuti-2024-study-of-endocrine-disrupting-chemicals-in
+- rodgers-2022-how-well-do-product-labels
 - tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc
 - tan-2025-bottled-water
 - xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane
@@ -55,7 +56,7 @@ sources:
 
 # PFOA
 
-163 source-reported values from 33 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+164 source-reported values from 34 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -209,6 +210,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/infant-formula]] | 0.02 ± 0.01 | ng/g dry weight | Infant formula; Mean ± SD | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.03 | ng/g dry weight | Infant formula; Median | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.01–0.03 | ng/g dry weight | Infant formula; Min-Max | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
+| [[products/childrens-products]] | 22.5 | ng/g | Stated in source text: "...th seven products containing PFOA and one containing PFOS. The maximum detected PFOA concentration (22.5 ng/g) was found in a WS-G pillow protector (..." | PDF p.5, sentence beginning "PFOA and PFOS were detected despite the" | [[sources/rodgers-2022-how-well-do-product-labels]] |
 | [[products/eggs-product]] | <0.10 a | ng g−1 ww | Home-produced chicken egg yolk; source 1 | PDF p.7 Table 3 and footnote | [[sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc]] |
 | [[products/eggs-product]] | <0.10 | ng g−1 ww | Home-produced chicken egg yolk; source 2 | PDF p.7 Table 3 and footnote | [[sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc]] |
 | [[products/eggs-product]] | <0.10 a | ng g−1 ww | Home-produced chicken egg yolk; source 3 | PDF p.7 Table 3 and footnote | [[sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc]] |
@@ -278,6 +280,7 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
 - [[sources/nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial]]
 - [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]]
+- [[sources/rodgers-2022-how-well-do-product-labels]]
 - [[sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc]]
 - [[sources/tan-2025-bottled-water]]
 - [[sources/xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane]]

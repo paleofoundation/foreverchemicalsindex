@@ -1,17 +1,21 @@
 ---
-title: "Carpet cleaners"
+title: Carpet cleaners
 type: product-category
-status: scaffold
+status: evidence
 evidence_tier: pending
 analytes: []
-sources: []
+sources:
+- kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in
+- yanagisawa-2025-comprehensive-screening-of-per-and
 ---
 
 # Carpet cleaners
 
-Evidence review pending. This category page contains no measurements or findings.
+Filed sources are listed below. No values are published for this page yet.
 
 ## Occurrence evidence
+
+No published values yet.
 
 ## Analytical methods
 
@@ -20,6 +24,9 @@ Evidence review pending. This category page contains no measurements or findings
 ## Evidence gaps
 
 ## Sources
+
+- [[sources/kotthoff-2015-perfluoroalkyl-and-polyfluoroalkyl-substances-in]]
+- [[sources/yanagisawa-2025-comprehensive-screening-of-per-and]]
 
 ## Navigation
 

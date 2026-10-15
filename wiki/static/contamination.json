@@ -2,6 +2,15 @@
   "status": "reviewed-records",
   "records": [
     {
+      "product": "fish-freshwater",
+      "analyte": "pfos",
+      "value": "3.93",
+      "unit": "ng/g",
+      "basis": "Stated in source text: \"... was found in samples obtained from Krape Park located in Freeport, followed by PFOS with a maximum concentration per fish of 3.93 ng/g found in samples from the Fordham Dam l...\"",
+      "source_location": "PDF p.8, sentence beginning \"The maximum average concentration per fish of\"",
+      "source": "sources/2024-sands-pfas-assessment-in-fish-samples-from"
+    },
+    {
       "product": "eggs-product",
       "analyte": "pfos",
       "value": "2.872",
@@ -5127,6 +5136,15 @@
       "source_location": "PDF p.9 Table 1",
       "limits": "Analyte-specific LOD/LOQ in absent supplementary Table S9. Dry-weight unit preserved despite reconstitution before analysis (p.14).",
       "source": "sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in"
+    },
+    {
+      "product": "childrens-products",
+      "analyte": "pfoa",
+      "value": "22.5",
+      "unit": "ng/g",
+      "basis": "Stated in source text: \"...th seven products containing PFOA and one containing PFOS. The maximum detected PFOA concentration (22.5 ng/g) was found in a WS-G pillow protector (...\"",
+      "source_location": "PDF p.5, sentence beginning \"PFOA and PFOS were detected despite the\"",
+      "source": "sources/rodgers-2022-how-well-do-product-labels"
     },
     {
       "product": "eggs-product",
