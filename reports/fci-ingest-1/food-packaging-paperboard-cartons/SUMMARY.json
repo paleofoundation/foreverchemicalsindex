@@ -1,0 +1,27 @@
+{
+  "order": "FCI-INGEST-1",
+  "cell": "food-packaging-paperboard-cartons",
+  "pdf_count": 25,
+  "manifest_rows": 26,
+  "papers_filed": 22,
+  "papers_not_filed": 4,
+  "pdf_not_filed": 3,
+  "non_pdf_not_filed": 1,
+  "measurement_sources": 16,
+  "context_sources": 6,
+  "source_pages": 22,
+  "held_rows": 70,
+  "mismatch_count": 21,
+  "confidence": "HOLD",
+  "checks": {
+    "tests": "38 passed, 0 failed",
+    "typescript": "PASS",
+    "audit-source-dois": "PASS",
+    "audit-link-integrity": "PASS",
+    "audit-product-source-routing": "PASS",
+    "audit-synthesis-firewall": "PASS",
+    "build": "PASS",
+    "audit-built-site": "PASS",
+    "public_evidence_rows": 0
+  }
+}
