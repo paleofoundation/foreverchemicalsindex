@@ -1,0 +1,9 @@
+/: HTTP 200
+/products/: HTTP 200
+/products/baby-food: HTTP 200
+/analytes/pfoa: HTTP 200
+/data: HTTP 200
+/static/contamination.json: HTTP 200
+/sitemap.xml: HTTP 200
+/robots.txt: HTTP 200
+/llms.txt: HTTP 200
