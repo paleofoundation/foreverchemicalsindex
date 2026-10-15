@@ -1,0 +1,387 @@
+// Microbiome Medicine's three-panel article hero, in HMI's burgundy palette.
+// This component owns its responsive grid; its columns align to .proof-layout.
+.hmi-topnav-shell:has(+ .hero-band) {
+  margin: 0;
+}
+
+.hero-band {
+  background: #7b153b;
+  color: #fff;
+  width: 100%;
+
+  a:focus-visible {
+    outline: 2px solid var(--marigold);
+    outline-offset: 5px;
+  }
+}
+
+.hero-grid {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 264px minmax(0, 1fr) 340px;
+  min-height: 550px;
+}
+
+.hero-subject {
+  padding: 70px 28px 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-subject-art {
+  width: 180px;
+  height: 180px;
+  align-self: center;
+  display: grid;
+  place-items: center;
+  color: var(--burg-tint);
+  border: 1px solid rgba(246, 236, 240, 0.55);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 14px rgba(246, 236, 240, 0.06),
+    0 0 0 30px rgba(246, 236, 240, 0.035);
+
+  svg {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.hero-element {
+  font:
+    400 94px/1 Lora,
+    serif;
+  letter-spacing: -0.06em;
+}
+
+.hero-subject-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+
+  span:first-child {
+    font:
+      10px/1.6 "IBM Plex Mono",
+      monospace;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--burg-tint);
+  }
+}
+
+.hero-main {
+  min-width: 0;
+  padding: 42px 28px 40px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.hero-crumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #f2dce4;
+  margin-bottom: 26px;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .cur {
+    color: #fff;
+  }
+}
+
+.hero-kind {
+  font:
+    10px/1.5 "IBM Plex Mono",
+    monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5b0d2a;
+  background: var(--burg-tint);
+  border-radius: 20px;
+  padding: 3px 9px;
+}
+
+.hero-title {
+  font-family: Lora, serif;
+  font-weight: 400;
+  font-size: clamp(38px, 3.4vw, 60px);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  overflow-wrap: anywhere;
+  color: #fff;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.hero-dek {
+  margin: 24px 0 0;
+  max-width: 64ch;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #fff;
+  text-wrap: pretty;
+}
+
+.hero-meta {
+  margin-top: auto;
+  padding-top: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.hero-acts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hero-act {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #fff;
+  background: #5b0d2a;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 13px;
+  text-decoration: none;
+
+  &:hover {
+    background: #58182c;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.hero-act--solid {
+  background: var(--marigold);
+  color: #5b0d2a;
+  &:hover {
+    background: var(--marigold-hover);
+    color: #5b0d2a;
+  }
+}
+
+.hero-doi {
+  font:
+    11px/1.7 "IBM Plex Mono",
+    monospace;
+  overflow-wrap: anywhere;
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.hero-sidebar {
+  min-width: 0;
+  padding: 70px 0 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.hero-author-portrait {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #f6ecf0;
+  margin-bottom: 22px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+}
+
+.hero-author-label {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero-author-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.hero-author {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.hero-orcid {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  .orcid-id-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.hero-stamp {
+  margin: 14px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #f2dce4;
+}
+
+.hero-snapshot {
+  margin-top: auto;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.hero-snapshot-head {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--burg-tint);
+  margin-bottom: 8px;
+}
+.hero-snapshot-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+.hero-snapshot-k {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #fff;
+}
+.hero-snapshot-v {
+  font:
+    14px/1.5 "IBM Plex Mono",
+    monospace;
+  color: #fff;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 1440px) {
+  .hero-grid {
+    min-height: 580px;
+  }
+  .hero-main {
+    padding-top: 46px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 1149px) {
+  .hero-grid {
+    padding: 0 24px;
+    grid-template-columns: minmax(0, 1fr) 280px;
+    min-height: 480px;
+  }
+  .hero-subject {
+    display: none;
+  }
+  .hero-main {
+    padding: 32px 24px 36px;
+  }
+  .hero-sidebar {
+    padding: 40px 0 32px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-grid {
+    padding: 0;
+    grid-template-columns: minmax(0, 1fr);
+    min-height: auto;
+  }
+  .hero-main {
+    padding: 28px 24px 32px;
+  }
+  .hero-title {
+    font-size: clamp(34px, 8vw, 44px);
+  }
+  .hero-crumb {
+    font-size: 11px;
+    margin-bottom: 22px;
+  }
+  .hero-dek {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 18px;
+  }
+  .hero-meta {
+    padding-top: 30px;
+  }
+  .hero-sidebar {
+    padding: 26px 24px 30px;
+    gap: 24px;
+  }
+  .hero-author-panel {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr);
+    column-gap: 18px;
+    align-content: start;
+  }
+  .hero-author-portrait {
+    grid-row: 1 / span 4;
+    width: 64px;
+    height: 64px;
+    margin: 0;
+  }
+  .hero-author-label,
+  .hero-author-name,
+  .hero-stamp {
+    grid-column: 2;
+  }
+  .hero-author-label {
+    margin-bottom: 4px;
+  }
+  .hero-stamp {
+    margin-top: 8px;
+  }
+}

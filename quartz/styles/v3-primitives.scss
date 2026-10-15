@@ -1,0 +1,204 @@
+// v3 content primitives , quartz/styles/v3-primitives.scss
+//
+// CHROME-SPEC §2: "radii 2-3px everywhere. No box-shadow outside the mega-menu
+// panel, modals, and the source drawer." A dozen small elements shipped 4-8px
+// (or 999px pills) from base.scss, _legacy-all.scss and a few component sheets.
+//
+// Stated once here, unlayered (imported below the v3 layer in custom.scss), so
+// these win over whatever base/legacy/component rule set the stray radius ,
+// the same "declare it once and let unlayered win" pattern the chrome uses,
+// rather than hunting a 4px default across three stylesheets.
+
+// ── radius offenders → 3px ────────────────────────────────────────────────
+.skip-to-content,
+pre.rail-ld-panel,
+.site-footer-ask,
+.hmi-product-facts,
+.hmi-source-citation-panel {
+  border-radius: 3px;
+}
+
+// inline and block code , base.scss ships 4px
+code,
+pre > code {
+  border-radius: 3px;
+}
+
+// ── chips / pills → the §2 chip radius (2px) ──────────────────────────────
+// These shipped as 999px (full pills) or 4px. §2 chips are radius 2px.
+.cite-card-review,
+.cat-dir-count,
+.cat-sym {
+  border-radius: 2px;
+}
+
+// ── box-shadow ────────────────────────────────────────────────────────────
+// The skip link is a focus-only accessibility utility, not a floating surface;
+// it has no business carrying a drop shadow. (The citation hover card DOES keep
+// its shadow , it is a floating popover like the mega-menu panel, and is added
+// to the §2 shadow-exemption set instead, in v3-acceptance.json / check-v3.)
+.skip-to-content {
+  box-shadow: none;
+}
+
+// ── COMPONENTS §8 , grid-of-records ────────────────────────────────────────
+// A registry scanned without table chrome. The rules are drawn by the 1px gap
+// over a #e8e1db ground, NOT by per-cell borders , the cells sit on #fffdfb and
+// the ground shows through the gaps. N is 4 for the eight-cell "what a page
+// covers" grid, 2 for two-up registries.
+.hmi-grid-records {
+  display: grid;
+  gap: 1px;
+  background: #e8e1db;
+  border: 1px solid #e8e1db;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.hmi-grid-records.hmi-grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.hmi-grid-records.hmi-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hmi-grid-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #fffdfb;
+  padding: 17px 18px;
+}
+
+.hmi-grid-k {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7b153b;
+  line-height: 1.3;
+}
+
+.hmi-grid-v {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #3f3a3f;
+}
+
+@media (max-width: 900px) {
+  .hmi-grid-records.hmi-grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .hmi-grid-records {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+// ── COMPONENTS §9 , caveat callout (PRESENT state) ──────────────────────────
+// A written `## Limitations` (source pages) or `## Open questions` (metals,
+// synthesis, health, microbiome) section is the page stating where it is thin.
+// Style it as a REVIEWED-caveat callout: burgundy left bar over a #fbf5f7 ground.
+// The bar means "a reviewed limitation EXISTS" and must keep meaning ONLY that ,
+// the absent state (a future CaveatAbsent: dotted, no bar) carries the opposite
+// claim and stays visually distinct.
+//
+// Heading-anchored because Quartz renders these sections as a FLAT run of siblings
+// (`<h2 id="limitations">` then `<p>`/`<ul>`…) with NO wrapper , same blessed idiom
+// as references-v3.scss `h2[id="references"] ~ ol`. Adjacent (`+`) not general (`~`)
+// sibling: Limitations is NOT the last section (Implications / Update history
+// follow), so `~` would bleed the tint past the next heading. `+` styles the
+// heading + its first body block into one panel.
+.wiki-content h2[id="limitations"],
+.wiki-content h2[id="open-questions"] {
+  border-bottom: none;
+  border-left: 3px solid #7b153b;
+  background: #fbf5f7;
+  padding: 18px 22px 8px;
+  margin-bottom: 0;
+}
+.wiki-content h2[id="limitations"] + p,
+.wiki-content h2[id="limitations"] + ul,
+.wiki-content h2[id="limitations"] + ol,
+.wiki-content h2[id="open-questions"] + p,
+.wiki-content h2[id="open-questions"] + ul,
+.wiki-content h2[id="open-questions"] + ol {
+  border-left: 3px solid #7b153b;
+  background: #fbf5f7;
+  margin-top: 0;
+  padding: 2px 22px 18px;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: #5a4148;
+}
+
+// ── COMPONENTS §10 , caption / table-note ───────────────────────────────────
+// The class rule, shipped inert. It matches 0 elements today: the ~549 generated
+// source-legend notes and the frozen contamination-profile / FDA-TDS notes still
+// render as a bare <p> above the table. A later generator pass (Group B "B1")
+// mints `class="hmi-table-note"` on those notes; this rule is what styles them
+// the moment it does. Kept here so the styling half is done and reviewed now.
+.wiki-content .hmi-table-note {
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: #a9a1a2;
+  margin: 0 0 12px;
+}
+
+// ── COMPONENTS §10 , the dotted key→value atom ──────────────────────────────
+// One shared row treatment for every label→value pair (hero snapshot facts,
+// product-facts, source-citation facts). A dotted #f2ece7 rule under each row,
+// mono value. Unlayered here → authoritative over the legacy-layer component
+// sheets, so productEvidenceSummary.scss / sourceCitationPanel.scss delete their
+// own row/dt/dd rules and inherit this (one source of truth).
+//
+// Row markup is `<dl class="…"> <div> <dt/> <dd/> </div> … </dl>` (verified in
+// built HTML), so the grid lives on `> div`, NOT the <dl> container.
+.hmi-kv,
+.hmi-product-facts > div,
+.hmi-source-citation-facts > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 1px dotted #f2ece7;
+}
+.hmi-product-facts > div:last-child,
+.hmi-source-citation-facts > div:last-child { border-bottom: 0; }
+
+.hmi-kv-k,
+.hmi-product-facts dt,
+.hmi-source-citation-facts dt {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #3f3a3f;
+}
+.hmi-kv-v,
+.hmi-product-facts dd,
+.hmi-source-citation-facts dd {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #7b153b;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+// Correction (ii): nowrap ONLY on the generic short-atom value. The two real-
+// content families carry sentence-length values ("Data gap with documented
+// rationale", DOIs, author lists) that MUST wrap , leaving them wrapping.
+.hmi-kv-v { white-space: nowrap; }
+
+// Long-value variant: source-citation values (authors, DOIs, URLs) are the
+// longest. Give the ROW a single column (correction i: target `> div`, not the
+// container , the container is no longer display:grid once its legacy rule is
+// deleted) so the value goes full-width, left-aligned.
+.hmi-source-citation-facts > div { grid-template-columns: minmax(0, 1fr); }
+.hmi-source-citation-facts dd { text-align: left; }
+.hmi-source-citation-facts dd a { color: #7b153b; }

@@ -1,0 +1,46 @@
+// ══ v3's global type system ═══════════════════════════════════════════════
+//
+// THE FACT THIS FILE IS BUILT ON. v3 declares `font-weight` exactly SEVEN times
+// in 2,400 lines, and every one of them is `400` , artifact 25 (`body`), 29
+// (`h1, h2, h3, h4, h5`) and 1366 (a table `th`). It contains zero `<strong>`
+// and zero `<b>` elements. v3 is a uniform 400-weight design: it distinguishes
+// things with family, size and colour, never with weight.
+//
+// So any weight other than 400 anywhere on this site is drift, not intent. That
+// had been getting fixed one selector at a time , the footer, then the top bar,
+// then the FAQ question, then the section headings , which is why it kept
+// coming back somewhere else. It is one fact and it belongs in one rule.
+//
+// It also agrees with the wiki's own house style: docs/writing-style forbids
+// inline bold for emphasis.
+//
+// WHY `*` IS THE RIGHT SELECTOR HERE AND NOT A HAMMER. Component and legacy CSS
+// live in `@layer legacy`. An UNLAYERED rule outranks every layered rule no
+// matter how specific, so `*` at specificity (0,0,0) beats
+// `.hmi-related-group-label { font-weight: 700 }` inside the layer. But within
+// the unlayered v3 sheets, ordinary specificity still applies, so every
+// deliberate v3 rule in v3-chrome.scss and home-v3.scss continues to win over
+// it. It is a floor for everything v3 never spoke about, not an override of
+// things it did.
+
+* {
+  font-weight: 400;
+}
+
+// v3 body, artifact 25.
+body {
+  font-family: Inter, system-ui, sans-serif;
+  color: #3f3a3f;
+}
+
+// Form controls do not inherit font-family from their ancestors. That is why
+// the top bar's burger button and the nav toggle rendered in Arial while every
+// element around them was Inter , measured, not assumed. Size is deliberately
+// NOT forced to inherit: v3 sizes its controls explicitly (the hero search
+// button is 14px, artifact 112).
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
