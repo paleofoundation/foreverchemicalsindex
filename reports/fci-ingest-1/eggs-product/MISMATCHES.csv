@@ -1,0 +1,13 @@
+filename,type,manifest_or_abstract,pdf_value,locator,action,confidence
+fernandes-2023-the-transfer-of-environmental-contaminants-brominated.pdf,DOI_NOT_PRINTED,10.1016/j.scitotenv.2023.164441,Article DOI absent from deposited accepted manuscript,Full PDF text; title page p.1,Logged without correction,HOLD
+aarts-2026-citizen-science-data-reveal-drivers-of.pdf,VALUE_CONFLICT,Narrative maximum PFOS 102.4 μg/kg,Table 2 PFOS Max 102.00; sum Max 102.40,PDF p.9,Logged without correction,HOLD
+mikoajczyk-2024-chickens-eggs-and-the-livers-of.pdf,MALFORMED_VALUE,No abstract egg PFOS range,Table 2 prints egg PFOS range <LOQ to 0095,PDF p.4 Table 2,Logged without correction,HOLD
+nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial.pdf,LIMIT_CONFLICT,Narrative LOQ range 0.05 to 0.1 ng g−1,C6O4 LOQ 0.5 ng g−1,PDF p.5 Table 2 and following paragraph,Logged without correction,HOLD
+nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial.pdf,TARGET_COUNT_CONFLICT,17 investigated PFASs in text and table caption,Table 2 includes an additional C6O4 row,PDF pp.4 to 5,Logged without correction,HOLD
+bilandi-2026-home-produced-eggs-as-indicators-of.pdf,DENOMINATOR_CONFLICT,B1 n = 24,B1 PFOS n > LOQ = 10 with DF = 100%,PDF p.8 Table 1,Logged without correction,HOLD
+bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in.pdf,VALUE_CONFLICT,Narrative mean LB PFOS range 0.070 to 0.23 µg/kg,Table 3 group LB means 0.011; 0.065; 0.007; 0.23 µg/kg,PDF pp.11 to 12,Logged without correction,HOLD
+berendsen-2020-the-analysis-of-perfluoroalkyl-substances-at.pdf,LIMIT_CONFLICT,Narrative egg PFOA confirmation possible at 0.025 ng g−1,Table 3 egg PFOA LOC 0.05 ng g−1,PDF pp.10 to 11,Logged without correction,HOLD
+biesterbos-2025-risk-assessment-of-pfas-in-homeproduced.pdf,CITATION_CONTEXT,MANIFEST named authors and 2025 article title,PDF agency advice dated 20 February 2024 with 2025 journal DOI watermark,PDF pp.1 to 2,Logged without correction,HOLD
+tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc.pdf,MANIFEST_TARGET_MISMATCH,MANIFEST includes PFHxS,Target method and occurrence table concern PFOA and PFOS only,PDF p.7 Table 3,Logged without correction,HOLD
+mikoajczyk-2024-chickens-eggs-and-the-livers-of.pdf,MANIFEST_TARGET_MISMATCH,MANIFEST includes PFBA,Analyte list Table 1 does not list PFBA,PDF p.3 Table 1,Logged without correction,HOLD
+nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial.pdf,MANIFEST_METHOD_MISMATCH,MANIFEST mentions targeted LC-MS/MS and LC-HRMS,Analysis described as LC-HRMS,PDF p.4 section 2.6,Logged without correction,HOLD
