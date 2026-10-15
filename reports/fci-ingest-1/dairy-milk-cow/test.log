@@ -1,0 +1,291 @@
+
+> foreverchemicalsindex@0.1.0 test
+> tsx --test tests/*.test.mjs quartz/util/path.test.ts
+
+TAP version 13
+# Subtest: typeguards
+    # Subtest: isSimpleSlug
+    ok 1 - isSimpleSlug
+      ---
+      duration_ms: 0.484666
+      type: 'test'
+      ...
+    # Subtest: isRelativeURL
+    ok 2 - isRelativeURL
+      ---
+      duration_ms: 0.094542
+      type: 'test'
+      ...
+    # Subtest: isAbsoluteURL
+    ok 3 - isAbsoluteURL
+      ---
+      duration_ms: 0.059708
+      type: 'test'
+      ...
+    # Subtest: isFullSlug
+    ok 4 - isFullSlug
+      ---
+      duration_ms: 0.046625
+      type: 'test'
+      ...
+    # Subtest: isFilePath
+    ok 5 - isFilePath
+      ---
+      duration_ms: 0.035917
+      type: 'test'
+      ...
+    1..5
+ok 1 - typeguards
+  ---
+  duration_ms: 1.120667
+  type: 'suite'
+  ...
+# Subtest: transforms
+    # Subtest: simplifySlug
+    ok 1 - simplifySlug
+      ---
+      duration_ms: 0.109417
+      type: 'test'
+      ...
+    # Subtest: slugifyFilePath
+    ok 2 - slugifyFilePath
+      ---
+      duration_ms: 0.314
+      type: 'test'
+      ...
+    # Subtest: transformInternalLink
+    ok 3 - transformInternalLink
+      ---
+      duration_ms: 0.871
+      type: 'test'
+      ...
+    # Subtest: pathToRoot
+    ok 4 - pathToRoot
+      ---
+      duration_ms: 0.111292
+      type: 'test'
+      ...
+    # Subtest: joinSegments
+    ok 5 - joinSegments
+      ---
+      duration_ms: 0.140125
+      type: 'test'
+      ...
+    1..5
+ok 2 - transforms
+  ---
+  duration_ms: 1.684375
+  type: 'suite'
+  ...
+# Subtest: link strategies
+    # Subtest: absolute
+        # Subtest: from a/b/c
+        ok 1 - from a/b/c
+          ---
+          duration_ms: 0.205125
+          type: 'test'
+          ...
+        # Subtest: from a/b/index
+        ok 2 - from a/b/index
+          ---
+          duration_ms: 0.041416
+          type: 'test'
+          ...
+        # Subtest: from index
+        ok 3 - from index
+          ---
+          duration_ms: 0.037083
+          type: 'test'
+          ...
+        1..3
+    ok 1 - absolute
+      ---
+      duration_ms: 0.323542
+      type: 'suite'
+      ...
+    # Subtest: shortest
+        # Subtest: from a/b/c
+        ok 1 - from a/b/c
+          ---
+          duration_ms: 0.098708
+          type: 'test'
+          ...
+        # Subtest: from a/b/index
+        ok 2 - from a/b/index
+          ---
+          duration_ms: 0.046167
+          type: 'test'
+          ...
+        # Subtest: from index
+        ok 3 - from index
+          ---
+          duration_ms: 0.044208
+          type: 'test'
+          ...
+        1..3
+    ok 2 - shortest
+      ---
+      duration_ms: 0.219625
+      type: 'suite'
+      ...
+    # Subtest: relative
+        # Subtest: from a/b/c
+        ok 1 - from a/b/c
+          ---
+          duration_ms: 0.0775
+          type: 'test'
+          ...
+        # Subtest: from a/b/index
+        ok 2 - from a/b/index
+          ---
+          duration_ms: 0.035
+          type: 'test'
+          ...
+        # Subtest: from index
+        ok 3 - from index
+          ---
+          duration_ms: 0.029666
+          type: 'test'
+          ...
+        1..3
+    ok 3 - relative
+      ---
+      duration_ms: 0.176584
+      type: 'suite'
+      ...
+    1..3
+ok 3 - link strategies
+  ---
+  duration_ms: 0.778583
+  type: 'suite'
+  ...
+# Subtest: resolveRelative
+    # Subtest: from index
+    ok 1 - from index
+      ---
+      duration_ms: 0.04475
+      type: 'test'
+      ...
+    # Subtest: from nested page
+    ok 2 - from nested page
+      ---
+      duration_ms: 0.026791
+      type: 'test'
+      ...
+    # Subtest: with index paths
+    ok 3 - with index paths
+      ---
+      duration_ms: 0.02725
+      type: 'test'
+      ...
+    # Subtest: with simple slugs
+    ok 4 - with simple slugs
+      ---
+      duration_ms: 0.026125
+      type: 'test'
+      ...
+    1..4
+ok 4 - resolveRelative
+  ---
+  duration_ms: 0.159333
+  type: 'suite'
+  ...
+# Subtest: internal tool links retain query parameters and fragments under every link strategy
+ok 5 - internal tool links retain query parameters and fragments under every link strategy
+  ---
+  duration_ms: 0.133875
+  type: 'test'
+  ...
+# Subtest: audit-source-dois accepts the empty scaffold
+ok 6 - audit-source-dois accepts the empty scaffold
+  ---
+  duration_ms: 70.878792
+  type: 'test'
+  ...
+# Subtest: audit-link-integrity accepts the empty scaffold
+ok 7 - audit-link-integrity accepts the empty scaffold
+  ---
+  duration_ms: 60.967208
+  type: 'test'
+  ...
+# Subtest: audit-product-source-routing accepts the empty scaffold
+ok 8 - audit-product-source-routing accepts the empty scaffold
+  ---
+  duration_ms: 63.451083
+  type: 'test'
+  ...
+# Subtest: audit-synthesis-firewall accepts the empty scaffold
+ok 9 - audit-synthesis-firewall accepts the empty scaffold
+  ---
+  duration_ms: 64.206833
+  type: 'test'
+  ...
+# Subtest: DOI audit blocks a source with missing provenance
+ok 10 - DOI audit blocks a source with missing provenance
+  ---
+  duration_ms: 60.0075
+  type: 'test'
+  ...
+# Subtest: link audit blocks a dangling destination
+ok 11 - link audit blocks a dangling destination
+  ---
+  duration_ms: 60.195583
+  type: 'test'
+  ...
+# Subtest: routing audit blocks an undeclared destination
+ok 12 - routing audit blocks an undeclared destination
+  ---
+  duration_ms: 62.7085
+  type: 'test'
+  ...
+# Subtest: firewall blocks promotion even inside a generated block
+ok 13 - firewall blocks promotion even inside a generated block
+  ---
+  duration_ms: 64.103667
+  type: 'test'
+  ...
+# Subtest: empty generation is stable and emits no evidence rows
+ok 14 - empty generation is stable and emits no evidence rows
+  ---
+  duration_ms: 114.105083
+  type: 'test'
+  ...
+# Subtest: only explicitly requested, verified product slugs are present
+ok 15 - only explicitly requested, verified product slugs are present
+  ---
+  duration_ms: 0.55875
+  type: 'test'
+  ...
+# Subtest: source metadata omits missing DOI and is idempotent
+ok 16 - source metadata omits missing DOI and is idempotent
+  ---
+  duration_ms: 64.972292
+  type: 'test'
+  ...
+# Subtest: recovery sources cannot publish through either pending flag
+ok 17 - recovery sources cannot publish through either pending flag
+  ---
+  duration_ms: 0.395833
+  type: 'test'
+  ...
+# Subtest: reviewed sources and ingredient destination stubs retain their proper visibility
+ok 18 - reviewed sources and ingredient destination stubs retain their proper visibility
+  ---
+  duration_ms: 0.059834
+  type: 'test'
+  ...
+# Subtest: bibliographic checks flag explicit placeholders without rejecting summary-only evidence
+ok 19 - bibliographic checks flag explicit placeholders without rejecting summary-only evidence
+  ---
+  duration_ms: 0.199542
+  type: 'test'
+  ...
+1..19
+# tests 38
+# suites 7
+# pass 38
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 781.961292
