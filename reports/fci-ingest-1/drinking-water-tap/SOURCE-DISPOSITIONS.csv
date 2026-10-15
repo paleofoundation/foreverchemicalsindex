@@ -1,0 +1,38 @@
+filename,status,source,rows,reason,confidence
+2026_Crini_identification-and-quantification-of-pfas-in.pdf,FILED,sources/fci-2026-crini-tap-water,5,primary_measurement,HOLD
+2026_Niu_per-and-polyfluoroalkyl-substances-in-tap.pdf,FILED,sources/fci-2026-niu-tap-water,3,primary_measurement,HOLD
+2026_Richardson_occurrence-of-pfas-in-municipal-drinking.xml,NOT_FILED,,0,No staged PDF; XML excluded by this order.,HOLD
+2026_Yamazaki_evaluation-of-isotope-dilution-mass-spectrometry.pdf,FILED,sources/fci-2026-yamazaki-tap-water,0,method_validation,HOLD
+2024_DeLuca_per-and-polyfluoroalkyl-substances-pfas-in.pdf,FILED,sources/fci-2024-deluca-tap-water,2,primary_measurement,HOLD
+2025_Bauer_elevated-per-and-polyfluoroalkyl-substances-pfass.pdf,FILED,sources/fci-2025-bauer-tap-water,3,primary_measurement,HOLD
+2025_Ceballos_characterization-of-per-and-polyfluoroalkyl-substances.pdf,FILED,sources/fci-2025-ceballos-tap-water,0,source_water_measurement,HOLD
+2025_Gunnarsdttir_pfas-in-drinking-water-wastewater-and.xml,NOT_FILED,,0,No staged PDF; XML excluded by this order.,HOLD
+2025_Boettger_emerging-per-and-polyfluoroalkyl-substances-in.pdf,FILED,sources/fci-2025-boettger-tap-water,0,suspect_screening,HOLD
+2023_Cserbik_concentrations-of-per-and-polyfluoroalkyl-substances.pdf,FILED,sources/fci-2023-cserbik-tap-water,10,primary_measurement,HOLD
+2026_LIANG_determination-of-perfluorinated-compounds-antibiotics-and.pdf,FILED,sources/fci-2026-liang-tap-water,0,source_water_method_validation,HOLD
+2025_CHEN_determination-of-51-per-and-polyfluoroalkyl.pdf,FILED,sources/fci-2025-chen-tap-water,8,primary_measurement,HOLD
+2024_Weed_non-targeted-pfas-suspect-screening-and.pdf,FILED,sources/fci-2024-weed-tap-water,5,primary_measurement,HOLD
+2023_Sadia_occurrence-fate-and-related-health-risks.pdf,FILED,sources/fci-2023-sadia-tap-water,22,primary_measurement,HOLD
+2021_Sim_organophosphate-flame-retardants-and-perfluoroalkyl-substances.pdf,FILED,sources/fci-2021-sim-tap-water,3,primary_measurement,HOLD
+2022_HoponickRedmon_a-participatory-science-approach-to-evaluating.pdf,FILED,sources/fci-2022-hoponickredmon-tap-water,1,primary_measurement,HOLD
+2017_Gebbink_presence-of-emerging-per-and-polyfluoroalkyl.pdf,FILED,sources/fci-2017-gebbink-tap-water,48,primary_measurement,HOLD
+2016_Hu_detection-of-poly-and-perfluoroalkyl-substances.pdf,FILED,sources/fci-2016-hu-tap-water,3,secondary_monitoring_analysis,HOLD
+2025_Qian_occurrence-sources-and-prioritization-of-per.pdf,FILED,sources/fci-2025-qian-tap-water,2,primary_measurement,HOLD
+2022_McMahon_perfluoroalkyl-and-polyfluoroalkyl-substances-in-groundwater.pdf,FILED,sources/fci-2022-mcmahon-tap-water,0,source_water_measurement,HOLD
+2023_Silver_prevalence-and-source-tracing-of-pfas.pdf,FILED,sources/fci-2023-silver-tap-water,1,primary_measurement,HOLD
+2026_Kim_nationwide-monitoring-and-hepatic-mixture-risk.pdf,FILED,sources/fci-2026-kim-tap-water,4,primary_measurement,HOLD
+2024_VonBehren_per-and-polyfluoroalkyl-substances-pfas-in.pdf,FILED,sources/fci-2024-vonbehren-tap-water,2,primary_measurement,HOLD
+2021_Liu_per-and-polyfluoroalkyl-substances-pfass-in.pdf,FILED,sources/fci-2021-liu-tap-water,0,review,HOLD
+2024_Hohweiler_incidence-of-per-and-polyfluoroalkyl-substances.pdf,NOT_FILED,,0,Article DOI assigned in MANIFEST not verifiable in supplied preprint PDF; cannot assert no_doi_assigned.,HOLD
+2022_Kobayashi_development-and-validation-of-an-analytical.pdf,FILED,sources/fci-2022-kobayashi-tap-water,0,method_validation,HOLD
+2025_TRAN_perfluoroalkyl-and-polyfluoroalkyl-pfas-in-tap.pdf,FILED,sources/fci-2025-tran-tap-water,2,primary_measurement,HOLD
+2017_Dasu_an-ultra-sensitive-method-for-the.xml,NOT_FILED,,0,No staged PDF; XML excluded by this order.,HOLD
+2023_Calore_legacy-and-novel-pfass-in-wastewater.pdf,FILED,sources/fci-2023-calore-tap-water,0,review,HOLD
+2024_Mueller_quantifying-disparities-in-per-and-polyfluoroalkyl.pdf,FILED,sources/fci-2024-mueller-tap-water,0,secondary_monitoring_analysis,HOLD
+2024_MoranSosa_examining-potential-pfas-contamination-of-private.pdf,FILED,sources/fci-2024-moransosa-tap-water,2,primary_measurement,HOLD
+2025_Wood_pfas-in-rural-u-s-well.pdf,FILED,sources/fci-2025-wood-tap-water,3,primary_measurement,HOLD
+2019_Hu_tap-water-contributions-to-plasma-concentrations.pdf,FILED,sources/fci-2019-hu-tap-water,10,primary_measurement,HOLD
+2026_SouzaAraujo_assessment-of-per-and-poly-fluoroalkyl.pdf,FILED,sources/fci-2026-souzaaraujo-tap-water,0,source_water_measurement,HOLD
+2025_Fillman_associations-between-pfas-in-public-water.pdf,FILED,sources/fci-2025-fillman-tap-water,0,secondary_monitoring_analysis,HOLD
+2025_Bachhu_evaluation-of-per-and-polyfluoroalkyl-substance.pdf,FILED,sources/fci-2025-bachhu-tap-water,0,secondary_monitoring_analysis,HOLD
+2022_Jiao_a-pilot-study-on-extractable-organofluorine.pdf,FILED,sources/fci-2022-jiao-tap-water,4,primary_measurement,HOLD

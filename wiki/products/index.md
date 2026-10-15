@@ -38,6 +38,7 @@ Evidence review pending. Entries describe the reference structure only.
 - [[products/dairy-milk-goat-sheep|Liquid milk, goat / sheep / other ruminant]]
 - [[products/dairy-milk-powders|Milk powders (whole, skim, specialty)]]
 - [[products/diapers-and-components|Diapers and diaper components]]
+- [[products/drinking-water-tap|Tap drinking water]]
 - [[products/eggs-product|Eggs]]
 - [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]]
 - [[products/fish-freshwater|Fish, freshwater (tilapia, catfish, trout)]]
