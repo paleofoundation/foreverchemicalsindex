@@ -37,7 +37,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "mascara",
-  "unpublished_candidate_matches": 4
+  "unpublished_candidate_matches": 4,
+  "held_findings": [
+    {
+      "row": "Main tables are method figures of merit; mascara results in SI Tables S8 and S9",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Evaluation of extraction methodologies for PFAS analysis in mascara: a comparative study of SPME and automated µSPE
@@ -48,11 +55,9 @@ Method comparison (SPME vs automated micro-SPE) for eight anionic PFAS in mascar
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-4 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

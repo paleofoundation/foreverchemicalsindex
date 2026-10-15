@@ -33,14 +33,16 @@ sources:
 - martinez-2024-bottled-water
 - mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
+- nowak-2026-stuffed-toys-as-a-source
 - nuti-2024-study-of-endocrine-disrupting-chemicals-in
 - tan-2025-bottled-water
+- xia-2022-per-and-polyfluoroalkyl-substances-in
 - yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in
 ---
 
 # PFBS
 
-58 source-reported values from 22 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+67 source-reported values from 24 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -100,11 +102,20 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/dairy-milk-cow]] | 0.0012 | µg/kg | Cow milk; source table median | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
 | [[products/dairy-milk-cow]] | <LOQ–0.0012 | µg/kg | Cow milk; source table range | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
 | [[products/eggs-product]] | <LOQ | µg/kg | Chickens eggs; source table mean | PDF p.4 Tables 2 to 3; LOQs p.3 Table 1 | [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]] |
+| [[products/childrens-products]] | 33 | µg/m² | Stuffed toys, PFAS migration (not total content); detection frequency (%) | PDF p.5, Table 1, PFBS row, DF (%) column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
+| [[products/childrens-products]] | 0.11 | µg/m² | Stuffed toys, PFAS migration (not total content); mean migration (as reported) | PDF p.5, Table 1, PFBS row, Mean [μg/m²] column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
+| [[products/childrens-products]] | <LOQ – 0.41 | µg/m² | Stuffed toys, PFAS migration (not total content); range of migration | PDF p.5, Table 1, PFBS row, Range [μg/m²] column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
 | [[products/infant-formula]] | 18/20 (90) | count (%) | Infant formula; Frequency | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.096 ± 0.03 | ng/g dry weight | Infant formula; Mean ± SD | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.09 | ng/g dry weight | Infant formula; Median | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.04–0.13 | ng/g dry weight | Infant formula; Min-Max | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/bottled-drinking-water]] | 0.37 | ng/L | bottled-water mean based on detections above MDL; ND literal | PDF p. 4 (4398), Table 1 bottled-water mean and footnotes a/f | [[sources/tan-2025-bottled-water]] |
+| [[products/textiles]] | 24.0 | ng/g | Children's products, China, School uniform (n = 25); detection frequency (%) | PDF p.5, Table 1, PFBS row, School uniform DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | ND-6.47 | ng/g | Children's products, China, School uniform (n = 25); range | PDF p.5, Table 1, PFBS row, School uniform Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | 37.5 | ng/g | Children's products, China, Outdoor wear (n = 16); detection frequency (%) | PDF p.5, Table 1, PFBS row, Outdoor wear DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | ND-2.44 | ng/g | Children's products, China, Outdoor wear (n = 16); range | PDF p.5, Table 1, PFBS row, Outdoor wear Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/childrens-products]] | 6.25 | ng/g | Children's products, China, Miscellaneous (n = 16); detection frequency (%) | PDF p.5, Table 1, PFBS row, Miscellaneous DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/childrens-products]] | ND-0.021 | ng/g | Children's products, China, Miscellaneous (n = 16); range | PDF p.5, Table 1, PFBS row, Miscellaneous Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | 25.3 | ng/L | Human milk, China (n = 1,151); detection rate (%) | PDF p.6, Table 2, PFBS row, DR (%) column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | <LOQ | ng/L | Human milk, China (n = 1,151); minimum | PDF p.6, Table 2, PFBS row, Min column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | <LOQ | ng/L | Human milk, China (n = 1,151); median | PDF p.6, Table 2, PFBS row, 50th column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
@@ -143,8 +154,10 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/martinez-2024-bottled-water]]
 - [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
+- [[sources/nowak-2026-stuffed-toys-as-a-source]]
 - [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]]
 - [[sources/tan-2025-bottled-water]]
+- [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]]
 - [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]]
 
 [[analytes/index|Analytes]] · [[methodology|Methodology]]

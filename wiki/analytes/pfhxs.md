@@ -36,16 +36,19 @@ sources:
 - glynn-2026-occurrence-of-pfas-in-cow-s
 - hartmann-2024-persistent-organic-pollutants-in-austrian-human
 - li-2024-association-between-prenatal-exposure-to-per
+- lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods
 - mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
+- nowak-2026-stuffed-toys-as-a-source
 - rawn-2022-perfluorinated-alkyl-substances-in-canadian-human
 - tan-2025-bottled-water
+- xia-2022-per-and-polyfluoroalkyl-substances-in
 - yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in
 ---
 
 # PFHxS
 
-116 source-reported values from 27 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+134 source-reported values from 30 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -162,12 +165,30 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/breast-milk]] | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150); median | PDF p.6, Table 2, PFHxS row, Median column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
 | [[products/breast-milk]] | 0.027 | ng/mL | Human milk, e-waste dismantling area, China (n = 150); mean | PDF p.6, Table 2, PFHxS row, Mean column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
 | [[products/breast-milk]] | 2.0 | ng/mL | Human milk, e-waste dismantling area, China (n = 150); detection frequency (%) | PDF p.6, Table 2, PFHxS row, Detection frequencies column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
+| [[products/seafood]] | 10% | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); detection rate | PDF p.8, Table 4, Fish and seafood block, PFHxS row, Fish and seafood Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[products/seafood]] | 0.01 ± 0.07 | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Fish and seafood block, PFHxS row, Fish and seafood Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[products/condiments-general]] | 0% | µg/kg | Singapore total diet study, Sauces and condiments (n = 18 pooled samples); detection rate | PDF p.8, Table 4, Sauces and condiments block, PFHxS row, Sauces and condiments Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[products/condiments-general]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Sauces and condiments (n = 18 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Sauces and condiments block, PFHxS row, Sauces and condiments Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[products/eggs-product]] | 0% | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); detection rate | PDF p.8, Table 4, Eggs and egg products block, PFHxS row, Eggs and egg products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[products/eggs-product]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Eggs and egg products block, PFHxS row, Eggs and egg products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[products/meat-and-poultry]] | 0% | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); detection rate | PDF p.8, Table 4, Meat and meat products block, PFHxS row, Meat and meat products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[products/meat-and-poultry]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Meat and meat products block, PFHxS row, Meat and meat products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
 | [[products/dairy-milk-cow]] | <LOQ | µg/kg | Cow milk; source table mean | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
 | [[products/eggs-product]] | <LOQ | µg/kg | Chickens eggs; source table mean | PDF p.4 Tables 2 to 3; LOQs p.3 Table 1 | [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]] |
+| [[products/childrens-products]] | 6 | µg/m² | Stuffed toys, PFAS migration (not total content); detection frequency (%) | PDF p.5, Table 1, PFHxS row, DF (%) column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
+| [[products/childrens-products]] | 0.28 | µg/m² | Stuffed toys, PFAS migration (not total content); mean migration (as reported) | PDF p.5, Table 1, PFHxS row, Mean [μg/m²] column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
+| [[products/childrens-products]] | <LOQ – 0.28 | µg/m² | Stuffed toys, PFAS migration (not total content); range of migration | PDF p.5, Table 1, PFHxS row, Range [μg/m²] column | [[sources/nowak-2026-stuffed-toys-as-a-source]] |
 | [[products/breast-milk]] | <LOD - 167 | ng/L | Canadian human milk (MIREC, n = 664); range | PDF p.5, Table 3, PFHxS row, Range column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
 | [[products/breast-milk]] | 13.0 | ng/L | Canadian human milk (MIREC, n = 664); mean of results above LOD | PDF p.5, Table 3, PFHxS row, Mean, >LOD only column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
 | [[products/breast-milk]] | 9.30 | ng/L | Canadian human milk (MIREC, n = 664); median of results above LOD | PDF p.5, Table 3, PFHxS row, Median, >LOD only column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
 | [[products/breast-milk]] | 62.5 | % | Canadian human milk (MIREC, n = 664); detection frequency | PDF p.5, Table 3, PFHxS row, Detection frequency column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
+| [[products/textiles]] | 20.0 | ng/g | Children's products, China, School uniform (n = 25); detection frequency (%) | PDF p.5, Table 1, PFHxS row, School uniform DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | ND-0.258 | ng/g | Children's products, China, School uniform (n = 25); range | PDF p.5, Table 1, PFHxS row, School uniform Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | 50.0 | ng/g | Children's products, China, Outdoor wear (n = 16); detection frequency (%) | PDF p.5, Table 1, PFHxS row, Outdoor wear DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | 0.0915 | ng/g | Children's products, China, Outdoor wear (n = 16); median (non-detects set to 1/2 MDL) | PDF p.5, Table 1, PFHxS row, Outdoor wear Median column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/textiles]] | ND-1.33 | ng/g | Children's products, China, Outdoor wear (n = 16); range | PDF p.5, Table 1, PFHxS row, Outdoor wear Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/childrens-products]] | 43.8 | ng/g | Children's products, China, Miscellaneous (n = 16); detection frequency (%) | PDF p.5, Table 1, PFHxS row, Miscellaneous DF column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
+| [[products/childrens-products]] | ND-0.260 | ng/g | Children's products, China, Miscellaneous (n = 16); range | PDF p.5, Table 1, PFHxS row, Miscellaneous Range column | [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | 94.9 | ng/L | Human milk, China (n = 1,151); detection rate (%) | PDF p.6, Table 2, PFHxS row, DR (%) column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | <LOQ | ng/L | Human milk, China (n = 1,151); minimum | PDF p.6, Table 2, PFHxS row, Min column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
 | [[products/breast-milk]] | 7.286 | ng/L | Human milk, China (n = 1,151); median | PDF p.6, Table 2, PFHxS row, 50th column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
@@ -209,10 +230,13 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/glynn-2026-occurrence-of-pfas-in-cow-s]]
 - [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]]
 - [[sources/li-2024-association-between-prenatal-exposure-to-per]]
+- [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]]
 - [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
+- [[sources/nowak-2026-stuffed-toys-as-a-source]]
 - [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]]
 - [[sources/tan-2025-bottled-water]]
+- [[sources/xia-2022-per-and-polyfluoroalkyl-substances-in]]
 - [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]]
 
 [[analytes/index|Analytes]] · [[methodology|Methodology]]

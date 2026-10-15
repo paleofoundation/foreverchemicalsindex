@@ -1,0 +1,10 @@
+{
+ "product": "produce-mixed",
+ "rows": [],
+ "held": [
+  {
+   "row": "NO TABLES DETECTED in text layer; needs supplementary data",
+   "why": "held on reading"
+  }
+ ]
+}

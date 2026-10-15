@@ -35,7 +35,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "period-underwear",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "Table 1 body not extractable; needs SI or table image",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Extractable Per- and Polyfluoroalkyl Substances in Menstrual Underwear
@@ -46,9 +53,9 @@ Three menstrual underwear garments plus one non-menstrual organic cotton underwe
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+No values published.
 
 ## Evidence Fitness
 

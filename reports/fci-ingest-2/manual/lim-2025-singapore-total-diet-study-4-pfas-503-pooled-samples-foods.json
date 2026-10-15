@@ -1,0 +1,371 @@
+{
+ "product": "produce-mixed",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "detection rate",
+   "39%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFOA row, Fish and seafood Detection column",
+   "seafood"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (lower bound) \u00b1 SD",
+   "0.08 \u00b1 0.39",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFOA row, Fish and seafood Mean (LB) column",
+   "seafood"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection rate",
+   "51%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFOS row, Fish and seafood Detection column",
+   "seafood"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (lower bound) \u00b1 SD",
+   "0.11 \u00b1 0.28",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFOS row, Fish and seafood Mean (LB) column",
+   "seafood"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection rate",
+   "49%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFNA row, Fish and seafood Detection column",
+   "seafood"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean (lower bound) \u00b1 SD",
+   "0.03 \u00b1 0.08",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFNA row, Fish and seafood Mean (LB) column",
+   "seafood"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection rate",
+   "10%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFHxS row, Fish and seafood Detection column",
+   "seafood"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (lower bound) \u00b1 SD",
+   "0.01 \u00b1 0.07",
+   "\u00b5g/kg",
+   "Singapore total diet study, Fish and seafood (n = 93 pooled samples)",
+   8,
+   "Table 4, Fish and seafood block, PFHxS row, Fish and seafood Mean (LB) column",
+   "seafood"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection rate",
+   "0%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFOA row, Sauces and condiments Detection column",
+   "condiments-general"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFOA row, Sauces and condiments Mean (LB) column",
+   "condiments-general"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection rate",
+   "5%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFOS row, Sauces and condiments Detection column",
+   "condiments-general"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (lower bound) \u00b1 SD",
+   "0.01 \u00b1 0.05",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFOS row, Sauces and condiments Mean (LB) column",
+   "condiments-general"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection rate",
+   "0%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFNA row, Sauces and condiments Detection column",
+   "condiments-general"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFNA row, Sauces and condiments Mean (LB) column",
+   "condiments-general"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection rate",
+   "0%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFHxS row, Sauces and condiments Detection column",
+   "condiments-general"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Sauces and condiments (n = 18 pooled samples)",
+   8,
+   "Table 4, Sauces and condiments block, PFHxS row, Sauces and condiments Mean (LB) column",
+   "condiments-general"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection rate",
+   "27%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFOA row, Eggs and egg products Detection column",
+   "eggs-product"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFOA row, Eggs and egg products Mean (LB) column",
+   "eggs-product"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection rate",
+   "20%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFOS row, Eggs and egg products Detection column",
+   "eggs-product"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.02",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFOS row, Eggs and egg products Mean (LB) column",
+   "eggs-product"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection rate",
+   "13%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFNA row, Eggs and egg products Detection column",
+   "eggs-product"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFNA row, Eggs and egg products Mean (LB) column",
+   "eggs-product"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection rate",
+   "0%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFHxS row, Eggs and egg products Detection column",
+   "eggs-product"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Eggs and egg products (n = 14 pooled samples)",
+   8,
+   "Table 4, Eggs and egg products block, PFHxS row, Eggs and egg products Mean (LB) column",
+   "eggs-product"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection rate",
+   "0%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFOA row, Meat and meat products Detection column",
+   "meat-and-poultry"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFOA row, Meat and meat products Mean (LB) column",
+   "meat-and-poultry"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection rate",
+   "4%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFOS row, Meat and meat products Detection column",
+   "meat-and-poultry"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.02",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFOS row, Meat and meat products Mean (LB) column",
+   "meat-and-poultry"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection rate",
+   "2%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFNA row, Meat and meat products Detection column",
+   "meat-and-poultry"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFNA row, Meat and meat products Mean (LB) column",
+   "meat-and-poultry"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection rate",
+   "0%",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFHxS row, Meat and meat products Detection column",
+   "meat-and-poultry"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (lower bound) \u00b1 SD",
+   "0.00 \u00b1 0.00",
+   "\u00b5g/kg",
+   "Singapore total diet study, Meat and meat products (n = 53 pooled samples)",
+   8,
+   "Table 4, Meat and meat products block, PFHxS row, Meat and meat products Mean (LB) column",
+   "meat-and-poultry"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Middle and upper bound means are substitution scenarios, not routed",
+   "why": "held on reading"
+  },
+  {
+   "row": "EFSA comparison rows are not this study",
+   "why": "held on reading"
+  },
+  {
+   "row": "Vegetable and fruit categories not in Table 4 page reviewed",
+   "why": "held on reading"
+  }
+ ]
+}

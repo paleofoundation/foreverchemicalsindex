@@ -1,0 +1,10 @@
+{
+ "product": "cosmetics",
+ "rows": [],
+ "held": [
+  {
+   "row": "UNREADABLE: Table 2 (p5) body does not extract from PDF text layer; needs table as image or supplementary CSV",
+   "why": "held on reading"
+  }
+ ]
+}

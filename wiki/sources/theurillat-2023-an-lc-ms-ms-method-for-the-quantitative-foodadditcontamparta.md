@@ -40,7 +40,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "produce-mixed",
-  "unpublished_candidate_matches": 12
+  "unpublished_candidate_matches": 12,
+  "held_findings": [
+    {
+      "row": "Method paper; tables are MS identification criteria",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # An LC-MS/MS method for the quantitative determination of 57 per- and polyfluoroalkyl substances at ng/kg levels in different food matrices
@@ -51,11 +58,9 @@ Per abstract: To enable the monitoring of a wide scope of per- and polyfluoroalk
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-12 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

@@ -1,0 +1,229 @@
+{
+ "product": "childrens-products",
+ "rows": [
+  [
+   "PFHxA",
+   "pfhxa",
+   "detection frequency (%)",
+   "100",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFHxA row, DF (%) column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "mean migration (as reported)",
+   "21.97",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFHxA row, Mean [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "range of migration",
+   "0.22 \u2013 120.73",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFHxA row, Range [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection frequency (%)",
+   "94",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFOA row, DF (%) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean migration (as reported)",
+   "0.20",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFOA row, Mean [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "range of migration",
+   "<LOQ \u2013 0.43",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFOA row, Range [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection frequency (%)",
+   "83",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFNA row, DF (%) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean migration (as reported)",
+   "0.03",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFNA row, Mean [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "range of migration",
+   "<LOQ \u2013 0.11",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFNA row, Range [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection frequency (%)",
+   "6",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFHxS row, DF (%) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean migration (as reported)",
+   "0.28",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFHxS row, Mean [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "range of migration",
+   "<LOQ \u2013 0.28",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFHxS row, Range [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "detection frequency (%)",
+   "33",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFBS row, DF (%) column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "mean migration (as reported)",
+   "0.11",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFBS row, Mean [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "range of migration",
+   "<LOQ \u2013 0.41",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFBS row, Range [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "detection frequency (%)",
+   "100",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFOS row, DF (%) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean migration (as reported)",
+   "0.25",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFOS row, Mean [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "range of migration",
+   "0.07 \u2013 0.79",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFOS row, Range [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "detection frequency (%)",
+   "89",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFDA row, DF (%) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "mean migration (as reported)",
+   "0.07",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFDA row, Mean [\u03bcg/m\u00b2] column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "range of migration",
+   "<LOQ \u2013 0.10",
+   "\u00b5g/m\u00b2",
+   "Stuffed toys, PFAS migration (not total content)",
+   5,
+   "Table 1, PFDA row, Range [\u03bcg/m\u00b2] column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Other analytes lack analyte pages",
+   "why": "held on reading"
+  },
+  {
+   "row": "Percent composition columns not routed",
+   "why": "held on reading"
+  },
+  {
+   "row": "pfba",
+   "why": "no analyte page in site"
+  }
+ ]
+}

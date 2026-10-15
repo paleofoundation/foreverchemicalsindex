@@ -40,7 +40,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "cereal-grains",
-  "unpublished_candidate_matches": 8
+  "unpublished_candidate_matches": 8,
+  "held_findings": [
+    {
+      "row": "NO TABLES DETECTED; crop data in SI",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Per‐ and polyfluoroalkyl substances in land‐applied biosolids: Accumulation in soils, crop uptake, and potential dietary risk
@@ -51,11 +58,9 @@ Three Minnesota farms with fields with no, past, or current-year biosolids appli
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-8 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

@@ -19,6 +19,7 @@ sources:
 - bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in
 - chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods
 - ghelli-2019-preliminary-monitoring-of-the-presence-of
+- lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
 - nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial
 - tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc
@@ -26,7 +27,7 @@ sources:
 
 # Eggs
 
-304 source-reported values from 8 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+312 source-reported values from 9 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Occurrence evidence
 
@@ -102,6 +103,14 @@ sources:
 | [[analytes/pfoa]] | traces | ng/g | Homogenized egg yolk; group A pool 1 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
 | [[analytes/pfhxs]] | traces | ng/g | Homogenized egg yolk; group A pool 2 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
 | [[analytes/pfna]] | traces | ng/g | Homogenized egg yolk; group C pool 2 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
+| [[analytes/pfoa]] | 27% | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); detection rate | PDF p.8, Table 4, Eggs and egg products block, PFOA row, Eggs and egg products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfoa]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Eggs and egg products block, PFOA row, Eggs and egg products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfos]] | 20% | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); detection rate | PDF p.8, Table 4, Eggs and egg products block, PFOS row, Eggs and egg products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfos]] | 0.00 ± 0.02 | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Eggs and egg products block, PFOS row, Eggs and egg products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfna]] | 13% | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); detection rate | PDF p.8, Table 4, Eggs and egg products block, PFNA row, Eggs and egg products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfna]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Eggs and egg products block, PFNA row, Eggs and egg products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfhxs]] | 0% | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); detection rate | PDF p.8, Table 4, Eggs and egg products block, PFHxS row, Eggs and egg products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfhxs]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Eggs and egg products (n = 14 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Eggs and egg products block, PFHxS row, Eggs and egg products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
 | [[analytes/pfos]] | 0.081 | µg/kg | Chickens eggs; source table mean | PDF p.4 Tables 2 to 3; LOQs p.3 Table 1 | [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]] |
 | [[analytes/pfoa]] | <LOQ | µg/kg | Chickens eggs; source table mean | PDF p.4 Tables 2 to 3; LOQs p.3 Table 1 | [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]] |
 | [[analytes/pfna]] | 0.031 | µg/kg | Chickens eggs; source table mean | PDF p.4 Tables 2 to 3; LOQs p.3 Table 1 | [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]] |
@@ -352,6 +361,7 @@ sources:
 - [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]]
 - [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]]
 - [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]]
+- [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
 - [[sources/nobile-2023-incidence-of-perfluoroalkyl-substances-in-commercial]]
 - [[sources/tahziz-2020-liquid-chromatographic-tandem-mass-spectrometric-lc]]

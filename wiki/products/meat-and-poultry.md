@@ -22,6 +22,7 @@ sources:
 - houben-2025-correlation-between-the-pfas-levels-in
 - huang-2026-occurrence-and-dietary-exposure-of-legacy
 - jeannot-2025-advancing-pfass-monitoring-in-food-from
+- lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods
 - nobile-2024-prevalence-of-perfluoroalkyl-substances-in-paired
 - wang-2017-occurrence-distribution-and-risk-assessment-of
 - xu-2024-targeted-quantification-of-per-and-polyfluoroalkyl
@@ -29,7 +30,7 @@ sources:
 
 # Meat and poultry
 
-55 source-reported values from 3 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+63 source-reported values from 4 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Occurrence evidence
 
@@ -90,6 +91,14 @@ sources:
 | [[analytes/pfna]] | 0.000 | µg/kg | Pig liver, Italy; median | PDF p.3, Table 1, Liver block, PFNA row, Median column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
 | [[analytes/pfoa]] | 0.040-0.050 | µg/kg | Pig longissimus dorsi muscle, Italy; concentration range | PDF p.3, Table 1, Longissimus dorsi muscle block, PFOA row, Concentration range column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
 | [[analytes/pfoa]] | 0.020 | µg/kg | Pig longissimus dorsi muscle, Italy; mean | PDF p.3, Table 1, Longissimus dorsi muscle block, PFOA row, Mean column | [[sources/depau-2026-distribution-of-poly-and-perfluoroalkyl-substances]] |
+| [[analytes/pfoa]] | 0% | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); detection rate | PDF p.8, Table 4, Meat and meat products block, PFOA row, Meat and meat products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfoa]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Meat and meat products block, PFOA row, Meat and meat products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfos]] | 4% | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); detection rate | PDF p.8, Table 4, Meat and meat products block, PFOS row, Meat and meat products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfos]] | 0.00 ± 0.02 | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Meat and meat products block, PFOS row, Meat and meat products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfna]] | 2% | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); detection rate | PDF p.8, Table 4, Meat and meat products block, PFNA row, Meat and meat products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfna]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Meat and meat products block, PFNA row, Meat and meat products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfhxs]] | 0% | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); detection rate | PDF p.8, Table 4, Meat and meat products block, PFHxS row, Meat and meat products Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfhxs]] | 0.00 ± 0.00 | µg/kg | Singapore total diet study, Meat and meat products (n = 53 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Meat and meat products block, PFHxS row, Meat and meat products Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
 
 ## Analytical methods
 
@@ -110,6 +119,7 @@ sources:
 - [[sources/houben-2025-correlation-between-the-pfas-levels-in]]
 - [[sources/huang-2026-occurrence-and-dietary-exposure-of-legacy]]
 - [[sources/jeannot-2025-advancing-pfass-monitoring-in-food-from]]
+- [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]]
 - [[sources/nobile-2024-prevalence-of-perfluoroalkyl-substances-in-paired]]
 - [[sources/wang-2017-occurrence-distribution-and-risk-assessment-of]]
 - [[sources/xu-2024-targeted-quantification-of-per-and-polyfluoroalkyl]]

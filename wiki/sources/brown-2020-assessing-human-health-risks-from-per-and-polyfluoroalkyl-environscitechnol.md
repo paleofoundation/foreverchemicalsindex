@@ -37,7 +37,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "produce-mixed",
-  "unpublished_candidate_matches": 6
+  "unpublished_candidate_matches": 6,
+  "held_findings": [
+    {
+      "row": "Main Table 1 is study inputs; produce concentrations in Tables S1, S5, S9 (SI)",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Assessing Human Health Risks from Per- and Polyfluoroalkyl Substance (PFAS)-Impacted Vegetable Consumption: A Tiered Modeling Approach
@@ -48,11 +55,9 @@ Per abstract: Irrigation water or soil contaminated with per- and polyfluoroalky
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-6 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

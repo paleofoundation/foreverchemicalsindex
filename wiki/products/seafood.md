@@ -26,11 +26,12 @@ sources:
 - 2026-furin-per-and-polyfluoroalkyl-substances-in-commercially
 - 2026-nobile-non-targeted-analysis-of-per-and
 - chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods
+- lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods
 ---
 
 # Seafood
 
-56 source-reported values from 4 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+64 source-reported values from 5 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Occurrence evidence
 
@@ -92,6 +93,14 @@ sources:
 | [[analytes/pfda]] | 7.84 | ng/g w.w. | Squid, Taiwan market samples (n = 10); median | PDF p.5, Table 2, Squid row, PFDA row, PFDA median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
 | [[analytes/pfhxs]] | 0.26 | ng/g w.w. | Squid, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Squid row, PFHxS row, PFHxS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
 | [[analytes/pfos]] | 1.06 | ng/g w.w. | Squid, Taiwan market samples (n = 10); median | PDF p.5, Table 3, Squid row, PFOS row, PFOS median column | [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]] |
+| [[analytes/pfoa]] | 39% | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); detection rate | PDF p.8, Table 4, Fish and seafood block, PFOA row, Fish and seafood Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfoa]] | 0.08 ± 0.39 | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Fish and seafood block, PFOA row, Fish and seafood Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfos]] | 51% | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); detection rate | PDF p.8, Table 4, Fish and seafood block, PFOS row, Fish and seafood Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfos]] | 0.11 ± 0.28 | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Fish and seafood block, PFOS row, Fish and seafood Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfna]] | 49% | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); detection rate | PDF p.8, Table 4, Fish and seafood block, PFNA row, Fish and seafood Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfna]] | 0.03 ± 0.08 | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Fish and seafood block, PFNA row, Fish and seafood Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfhxs]] | 10% | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); detection rate | PDF p.8, Table 4, Fish and seafood block, PFHxS row, Fish and seafood Detection column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
+| [[analytes/pfhxs]] | 0.01 ± 0.07 | µg/kg | Singapore total diet study, Fish and seafood (n = 93 pooled samples); mean (lower bound) ± SD | PDF p.8, Table 4, Fish and seafood block, PFHxS row, Fish and seafood Mean (LB) column | [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]] |
 
 ## Analytical methods
 
@@ -115,6 +124,7 @@ sources:
 - [[sources/2026-furin-per-and-polyfluoroalkyl-substances-in-commercially]]
 - [[sources/2026-nobile-non-targeted-analysis-of-per-and]]
 - [[sources/chen-2018-concentrations-of-perfluoroalkyl-substances-in-foods]]
+- [[sources/lim-2025-singapore-total-diet-study-4-pfas-503-pooled-samples-foods]]
 
 ## Navigation
 
