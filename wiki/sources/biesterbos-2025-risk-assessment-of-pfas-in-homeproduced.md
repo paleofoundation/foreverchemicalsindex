@@ -1,6 +1,6 @@
 ---
 {
-  "draft": true,
+  "draft": false,
   "type": "source",
   "cite_key": "biesterbos-2025-risk-assessment-of-pfas-in-homeproduced",
   "title": "Risk assessment PFAS in home-produced chicken eggs",
@@ -12,11 +12,11 @@
   "doi": "10.2903/fr.efsa.2025.FR-0064",
   "no_doi_assigned": false,
   "source_type": "secondary_risk_assessment",
-  "evidence_tier": "pending",
+  "evidence_tier": "reviewed",
   "evidence_fitness": "Secondary context only; no independent primary measurement credit",
-  "public_evidence_label": "Data gap",
-  "review_state": "machine_extracted",
-  "confidence": "HOLD",
+  "public_evidence_label": "Context source",
+  "review_state": "approved_for_public",
+  "confidence": "reviewed",
   "claim_classes": [],
   "raw_path": "raw/fci-ingest-1/eggs-product/biesterbos-2025-risk-assessment-of-pfas-in-homeproduced.pdf",
   "sha256": "a78c16dfc204dfbf1cc147d0714df76109c5866fe2eb5b30b33ee5542c3f2f28",
@@ -42,20 +42,22 @@
 
 # Risk assessment PFAS in home-produced chicken eggs
 
+
 ## Summary
 
 Filed as a secondary assessment, without new occurrence rows. The deposited document is the agency advice republished with a journal DOI.
 
+
 ## Key numbers
 
-Selected source-reported evidence only. Confidence HOLD. Values are not approved for publication.
+Source-reported values checked against the cited page of the filed PDF. Values are reported as printed, without conversion. These are selected records, not an exhaustive transcription.
 
-| Analyte | Value | Unit | Matrix and basis | Source location | Limits and qualifiers | Confidence |
-| --- | --- | --- | --- | --- | --- | --- |
+No values from this source are published. It is filed as method or context evidence.
 
 ## Evidence Fitness
 
 Secondary context only; no independent primary measurement credit
+
 
 ## Methods (brief)
 
@@ -63,9 +65,11 @@ Secondary risk assessment reuses measurement datasets; no new analytical experim
 
 Targets as printed or genericized: PFOS; PFOA; PFNA; PFHxS and additional dataset-specific PFAS (PDF pp.14,29).
 
+
 ## Limitations
 
 Yolk-to-whole-egg correction and relative-potency calculations are secondary models. They are not primary measurements and are not transferred into product rows. No conversions, risk thresholds, representativeness claims, or safety conclusions are added.
+
 
 ## Provenance notes
 
@@ -73,6 +77,7 @@ Local staged PDF copied unchanged. DOI checked in deposited PDF against MANIFEST
 
 See the cell MISMATCHES.csv for unresolved discrepancies. The legacy MANIFEST analyte field is discovery metadata, not an audited target list.
 
+
 ## Wiki pages updated on ingest
 
-[[drafts/eggs-product/products/eggs-product|Held product evidence]]
+[[products/eggs-product]]

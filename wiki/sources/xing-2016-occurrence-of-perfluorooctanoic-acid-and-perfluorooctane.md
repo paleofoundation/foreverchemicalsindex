@@ -1,6 +1,6 @@
 ---
 {
-  "draft": true,
+  "draft": false,
   "type": "source",
   "cite_key": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane",
   "title": "Occurrence of Perfluorooctanoic Acid and Perfluorooctane Sulfonate in Milk and Yogurt and Their Risk Assessment",
@@ -17,11 +17,11 @@
   "doi": "10.3390/ijerph13101037",
   "no_doi_assigned": false,
   "source_type": "primary_measurement",
-  "evidence_tier": "pending",
-  "evidence_fitness": "Direct matrix evidence; selected transcription remains HOLD",
-  "public_evidence_label": "Data gap",
-  "review_state": "machine_extracted",
-  "confidence": "HOLD",
+  "evidence_tier": "reviewed",
+  "evidence_fitness": "Direct matrix evidence; selected source-reported values",
+  "public_evidence_label": "Source-reported measurements",
+  "review_state": "approved_for_public",
+  "confidence": "reviewed",
   "claim_classes": [],
   "raw_path": "raw/fci-ingest-1/dairy-milk-cow/xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane.pdf",
   "sha256": "9f1ca88896231376c651ccc541f23eb232c8ee8ac8e6e1e653eeebbf7f14e350",
@@ -40,148 +40,123 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
-  "matrix": "Retail and raw milk; yogurt results excluded",
-  "method": "Ultrasonic methanol extraction and SPE; HPLC-MS/MS with negative ESI triple-quadrupole MRM (PDF pp.3 to 4).",
-  "target_analytes": "PFOA; PFOS (PDF p.4 Table 1)",
-  "held_findings": [
+  "findings": [
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfoa",
-      "analyte_label": "PFOA",
       "value": "<5.0–151.8",
       "unit": "ng/L",
       "basis": "Retail milk; range",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4).",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-1",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4)."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfoa",
-      "analyte_label": "PFOA",
       "value": "16.2",
       "unit": "ng/L",
       "basis": "Retail milk; mean",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4).",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-2",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4)."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfoa",
-      "analyte_label": "PFOA",
       "value": "33.0",
       "unit": "%",
       "basis": "Retail milk; frequency above LOD",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4).",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-3",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4)."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfos",
-      "analyte_label": "PFOS",
       "value": "<10.0–172.9",
       "unit": "ng/L",
       "basis": "Retail milk; range",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4).",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-4",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4)."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfos",
-      "analyte_label": "PFOS",
       "value": "24.5",
       "unit": "ng/L",
       "basis": "Retail milk; mean",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4).",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-5",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4)."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfos",
-      "analyte_label": "PFOS",
       "value": "39.6",
       "unit": "%",
       "basis": "Retail milk; frequency above LOD",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4).",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-6",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4)."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfos",
-      "analyte_label": "PFOS",
       "value": "<10.0–25.1",
       "unit": "ng/L",
       "basis": "Raw milk; range",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results.",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-7",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfos",
-      "analyte_label": "PFOS",
       "value": "2.2",
       "unit": "ng/L",
       "basis": "Raw milk; mean",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results.",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-8",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results."
     },
     {
+      "product": "dairy-milk-cow",
       "analyte": "pfos",
-      "analyte_label": "PFOS",
       "value": "12.5",
       "unit": "%",
       "basis": "Raw milk; frequency above LOD",
       "source_location": "PDF p.6 Table 2; limits p.4 Table 1",
-      "qualifier": "PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results.",
-      "id": "xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane-9",
-      "product": "dairy-milk-cow",
-      "confidence": "HOLD"
+      "limits": "PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results."
     }
-  ]
+  ],
+  "matrix": "Retail and raw milk; yogurt results excluded",
+  "method": "Ultrasonic methanol extraction and SPE; HPLC-MS/MS with negative ESI triple-quadrupole MRM (PDF pp.3 to 4).",
+  "target_analytes": "PFOA; PFOS (PDF p.4 Table 1)",
+  "held_findings": []
 }
 ---
 
 # Occurrence of Perfluorooctanoic Acid and Perfluorooctane Sulfonate in Milk and Yogurt and Their Risk Assessment
 
+
 ## Summary
 
 Raw and retail milk concentration summaries from Xinjiang are retained separately.
 
+
 ## Key numbers
 
-Selected source-reported evidence only. Confidence HOLD. Values are not approved for publication.
+Source-reported values checked against the cited page of the filed PDF. Values are reported as printed, without conversion. These are selected records, not an exhaustive transcription.
 
-| Analyte | Value | Unit | Matrix and basis | Source location | Limits and qualifiers | Confidence |
-| --- | --- | --- | --- | --- | --- | --- |
-| PFOA | <5.0–151.8 | ng/L | Retail milk; range | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). | HOLD |
-| PFOA | 16.2 | ng/L | Retail milk; mean | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). | HOLD |
-| PFOA | 33.0 | % | Retail milk; frequency above LOD | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). | HOLD |
-| PFOS | <10.0–172.9 | ng/L | Retail milk; range | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). | HOLD |
-| PFOS | 24.5 | ng/L | Retail milk; mean | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). | HOLD |
-| PFOS | 39.6 | % | Retail milk; frequency above LOD | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). | HOLD |
-| PFOS | <10.0–25.1 | ng/L | Raw milk; range | PDF p.6 Table 2; limits p.4 Table 1 | PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results. | HOLD |
-| PFOS | 2.2 | ng/L | Raw milk; mean | PDF p.6 Table 2; limits p.4 Table 1 | PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results. | HOLD |
-| PFOS | 12.5 | % | Raw milk; frequency above LOD | PDF p.6 Table 2; limits p.4 Table 1 | PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results. | HOLD |
+| analyte | value | unit | basis | source location | limits and qualifiers |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfoa]] | <5.0–151.8 | ng/L | Retail milk; range | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). |
+| [[analytes/pfoa]] | 16.2 | ng/L | Retail milk; mean | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). |
+| [[analytes/pfoa]] | 33.0 | % | Retail milk; frequency above LOD | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). |
+| [[analytes/pfos]] | <10.0–172.9 | ng/L | Retail milk; range | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). |
+| [[analytes/pfos]] | 24.5 | ng/L | Retail milk; mean | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). |
+| [[analytes/pfos]] | 39.6 | % | Retail milk; frequency above LOD | PDF p.6 Table 2; limits p.4 Table 1 | PFOA LOD 5, LOQ 15; PFOS LOD 10, LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors (p.5); measured concentrations recovery-corrected (p.4). |
+| [[analytes/pfos]] | <10.0–25.1 | ng/L | Raw milk; range | PDF p.6 Table 2; limits p.4 Table 1 | PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results. |
+| [[analytes/pfos]] | 2.2 | ng/L | Raw milk; mean | PDF p.6 Table 2; limits p.4 Table 1 | PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results. |
+| [[analytes/pfos]] | 12.5 | % | Raw milk; frequency above LOD | PDF p.6 Table 2; limits p.4 Table 1 | PFOS LOD 10; LOQ 30 ng/L. Below-LOD concentrations treated as zero by authors; recovery-corrected results. |
 
 ## Evidence Fitness
 
-Direct matrix evidence; selected transcription remains HOLD
+
 
 ## Methods (brief)
 
@@ -189,9 +164,11 @@ Ultrasonic methanol extraction and SPE; HPLC-MS/MS with negative ESI triple-quad
 
 Targets as printed or genericized: PFOA; PFOS (PDF p.4 Table 1).
 
+
 ## Limitations
 
 PFOA raw-milk cells are blank in Table 2 and are not populated by inference. Some detectable PFOS values lie below LOQ; detectable is not synonymous with quantifiable. Yogurt and exposure modeling are not routed. No conversions, risk thresholds, representativeness claims, or safety conclusions are added.
+
 
 ## Provenance notes
 
@@ -199,10 +176,11 @@ Local staged PDF copied unchanged. DOI checked in deposited PDF against MANIFEST
 
 See the cell MISMATCHES.csv for unresolved discrepancies. The legacy MANIFEST analyte field is discovery metadata, not an audited target list.
 
+
 ## Wiki pages updated on ingest
 
-[[drafts/dairy-milk-cow/products/dairy-milk-cow|Held product evidence]]
+[[products/dairy-milk-cow]]
 
-[[drafts/dairy-milk-cow/analytes/pfoa|Held pfoa evidence]]
+[[analytes/pfoa]]
 
-[[drafts/dairy-milk-cow/analytes/pfos|Held pfos evidence]]
+[[analytes/pfos]]
