@@ -1,0 +1,11 @@
+filename,status,reason,source,confidence
+glynn-2026-occurrence-of-pfas-in-cow-s.pdf,FILED,primary_measurement; selected evidence HOLD,glynn-2026-occurrence-of-pfas-in-cow-s,HOLD
+mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow.pdf,FILED,primary_measurement; selected evidence HOLD,mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow,HOLD
+draghi-2023-first-investigation-of-the-physiological-distribution.pdf,FILED,primary_measurement; selected evidence HOLD,draghi-2023-first-investigation-of-the-physiological-distribution,HOLD
+xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane.pdf,FILED,primary_measurement; selected evidence HOLD,xing-2016-occurrence-of-perfluorooctanoic-acid-and-perfluorooctane,HOLD
+belkacemi-2026-preliminary-assessment-of-co-occurrence-of.pdf,FILED,primary_measurement; selected evidence HOLD,belkacemi-2026-preliminary-assessment-of-co-occurrence-of,HOLD
+johnston-2023-blood-based-ante-mortem-method-for.pdf,NOT_FILED,Out of scope for milk occurrence: blood/plasma and beef muscle screening. No milk matrix findings; not filed to avoid unsupported product routing.,,HOLD
+sha256.txt,NOT_FILED,Control or lead file; not a source PDF,,HOLD
+LEADS-NOT-FILED.csv,NOT_FILED,Control or lead file; not a source PDF,,HOLD
+MANIFEST.csv,NOT_FILED,Control or lead file; not a source PDF,,HOLD
+SHA256SUMS,NOT_FILED,Control or lead file; not a source PDF,,HOLD
