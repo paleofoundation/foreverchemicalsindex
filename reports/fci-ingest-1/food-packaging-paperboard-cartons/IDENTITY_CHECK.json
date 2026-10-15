@@ -1,0 +1,184 @@
+[
+  {
+    "filename": "hsu-2025-high-resolution-mass-spectrometry-for-identification.pdf",
+    "manifest_doi": "10.3390/molecules30091989",
+    "doi_string_in_pdf": true,
+    "sha256": "784774ad54a7ffba5a33b03e87a2722adb1e0d12a77c9ad16ab167d66fc30b90",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "chen-2025-migration-safety-of-perfluoroalkyl-substances-from.pdf",
+    "manifest_doi": "10.3390/molecules30153166",
+    "doi_string_in_pdf": true,
+    "sha256": "1f02c54f6afaf9b7859742d3b5d11d05174a11b5c7c1e2ed3eb126159feae6a9",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "thijs-2024-total-and-class-specific-determination-of.pdf",
+    "manifest_doi": "10.1021/acs.analchem.3c04404",
+    "doi_string_in_pdf": true,
+    "sha256": "e229e2c169cfe1d74ccc7f01a2b8179c75632b740de91c5a65f40f0f29ac73a8",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "mofokeng-2024-determination-of-per-and-polyfluoroalkyl-compounds.pdf",
+    "manifest_doi": "10.1007/s11356-024-33250-9",
+    "doi_string_in_pdf": true,
+    "sha256": "03504b91c5f0114a700624f4d99329121c55fdc80825387868062b6aa2683bd0",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "ye-2024-release-of-volatile-per-and-polyfluoroalkyl.pdf",
+    "manifest_doi": "10.1021/acs.est.4c08544",
+    "doi_string_in_pdf": true,
+    "sha256": "51ddd66fc5189f996a992ea55ee531150320a0f8198fb240e75d1531354c48b2",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "simonetti-2024-studies-of-potential-migration-of-hazardous.pdf",
+    "manifest_doi": "10.3390/foods13050645",
+    "doi_string_in_pdf": true,
+    "sha256": "ca1f6bfbfba9cc41bcbcbb4d7e3b79996bac1f4efc07ea8aa5d51cde7caa02d3",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "schwartznarbonne-2023-per-and-polyfluoroalkyl-substances-in-canadian.pdf",
+    "manifest_doi": "10.1021/acs.estlett.2c00926",
+    "doi_string_in_pdf": true,
+    "sha256": "94d9a521c6aa2c30022dc29c6aa56b50176187e7e5af11cdd8fad30193f1c218",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "you-2023-health-risk-exposure-assessment-of-migration.pdf",
+    "manifest_doi": "10.3390/foods12091764",
+    "doi_string_in_pdf": true,
+    "sha256": "6f807adba1c423c5d8b4cbbe6b9d74878e92deaf4e8f97610d3983f99fe74b94",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "thi-2022-determination-of-perfluorooctanoic-acid-pfoa-and.pdf",
+    "manifest_doi": "10.47866/2615-9252/vjfc.4006",
+    "doi_string_in_pdf": false,
+    "sha256": "0efdf25a9429f5741e3a23104027043fbb8133bff0146928ca92e24149bee56e",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "minet-2022-use-and-release-of-per-and.pdf",
+    "manifest_doi": "10.1039/d2em00166g",
+    "doi_string_in_pdf": true,
+    "sha256": "bf98f04ce1394172492076141e4068b348b5baa316a537896f228ec5a47038e9",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "siao-2022-determination-of-perfluoroalkyl-substances-in-food.pdf",
+    "manifest_doi": "10.38212/2224-6614.3397",
+    "doi_string_in_pdf": true,
+    "sha256": "07a030405e459e3e61466e665a08dde333c50d525c5fff92f7c0c2c622087980",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "carnero-2021-presence-of-perfluoroalkyl-and-polyfluoroalkyl-substances.pdf",
+    "manifest_doi": "10.3390/foods10071443",
+    "doi_string_in_pdf": true,
+    "sha256": "649c147977f80678f75d1046b45bbebf52bb6de1dd2421e4af182ce9c1980fec",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "alattar-2025-exploring-the-impact-of-food-contact.pdf",
+    "manifest_doi": "10.28936/jmracpc17.3.2025.(14)",
+    "doi_string_in_pdf": true,
+    "sha256": "dca856d2bcf22a8a47e59e911f6cbdb5425f58b33302defa6ad7ba4313920b0b",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "guzmnpuyol-2024-fluorinated-compounds-in-paper-and-paperboard.pdf",
+    "manifest_doi": "10.1038/s41538-024-00326-2",
+    "doi_string_in_pdf": true,
+    "sha256": "4ea3fc55c2a38f2389262282d2dfe60d8d583dfd0960f174e9992c4b8bdb62af",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "tumu-2024-understanding-intentionally-and-non-intentionally-added.pdf",
+    "manifest_doi": "10.1016/j.heliyon.2023.e23620",
+    "doi_string_in_pdf": true,
+    "sha256": "90fbd164991754adae450e9573302ecba915bf606e290be516e7bc25d8f374aa",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "white-2024-post-icp-chemical-ionization-ms-for.pdf",
+    "manifest_doi": "10.1021/acsomega.4c09483",
+    "doi_string_in_pdf": true,
+    "sha256": "79c5a140e99b95e7afe434ee18a4746e3b646ff0e11111ceed08bcae2467b712",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "susmann-2019-dietary-habits-related-to-food-packaging.pdf",
+    "manifest_doi": "10.1289/ehp4092",
+    "doi_string_in_pdf": true,
+    "sha256": "d01b6091fd56ab5a2ec196020ce6abc56c19d57b1ef1da6d2371348b7bc2545f",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "ackerman-2026-validating-direct-mass-spectrometry-screening-for.xml",
+    "manifest_doi": "10.1021/acs.jafc.5c13216",
+    "doi_string_in_pdf": null,
+    "sha256": "50881ec69dd50a44c5392add46c864d38b7c78687e6ff25159f4dcd5d07b5029",
+    "kind": ".xml"
+  },
+  {
+    "filename": "encarnacion-2024-preliminary-screening-of-per-and-polyfluoroalkyl.pdf",
+    "manifest_doi": "10.12944/crnfsj.12.1.34",
+    "doi_string_in_pdf": true,
+    "sha256": "3f04a23b50763e7974bf461b4a5cb1ad9251726e9306ef9ec4f273f76349e250",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "schaider-2017-fluorinated-compounds-in-u-s-fast.pdf",
+    "manifest_doi": "10.1021/acs.estlett.6b00435",
+    "doi_string_in_pdf": true,
+    "sha256": "4154ac5367c92058928fe862b13ae4f7b7d91cd19507e4be4bbaa23e08c0d489",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "jovanovic-2024-analysis-of-per-and-polyfluoroalkyl-substances.pdf",
+    "manifest_doi": "10.1080/19440049.2024.2332334",
+    "doi_string_in_pdf": true,
+    "sha256": "f63d04ca3ba9779748cad762d2998a80736da2a847741d6c1453e041058aa9b6",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "hauschildt-2026-comparative-evaluation-of-pre-column-derivatization.pdf",
+    "manifest_doi": "10.1007/s00216-026-06683-z",
+    "doi_string_in_pdf": true,
+    "sha256": "5ed1aebbdb3142fc899d6400135ae319b4bc8a52b519c0a52749dab5d55365a6",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "nxumalo-2024-determination-of-total-extractable-organofluorine-eof.pdf",
+    "manifest_doi": "10.1080/19440049.2024.2347491",
+    "doi_string_in_pdf": true,
+    "sha256": "9fcbf05c7ec638248d6244f4adab6d5ea2882b980f24ed2d5c650f9d313bf216",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "minh-2023-presence-of-perfluoroalkyl-carboxylic-acids-and.pdf",
+    "manifest_doi": "10.25073/2588-1094/vnuees.4966",
+    "doi_string_in_pdf": true,
+    "sha256": "7aa3e547768e55a3549f9e366da4df2f9d8b2c88f6cccfddef54e4ebaf6c4f1f",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "schultes-2019-total-fluorine-measurements-in-food-packaging.pdf",
+    "manifest_doi": "10.1021/acs.estlett.8b00700",
+    "doi_string_in_pdf": true,
+    "sha256": "a76054655044f8078412e0c836378054ab813ea11de9398da2c3b460f588c62f",
+    "kind": ".pdf"
+  },
+  {
+    "filename": "diallo-2026-assessing-reliable-measurements-of-total-organic.pdf",
+    "manifest_doi": "10.1080/19440049.2026.2623139",
+    "doi_string_in_pdf": true,
+    "sha256": "6958ca5a06b009026e2019915761482d737fd9bd5fc1e79a154beba1cf3ebeb0",
+    "kind": ".pdf"
+  }
+]

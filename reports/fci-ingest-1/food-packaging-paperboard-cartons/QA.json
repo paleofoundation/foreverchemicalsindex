@@ -1,0 +1,10 @@
+{
+  "source_pages": 22,
+  "held_rows": 70,
+  "source_hashes": "PASS",
+  "stage_report_mirror": "PASS",
+  "stage_checksums": "PASS",
+  "draft_isolation": "PASS",
+  "authored_text_scan": "PASS",
+  "review": "Visual checks and retained PDF locators; no fabricated measurements or units"
+}

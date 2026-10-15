@@ -1,0 +1,7 @@
+{
+  "exact_hash_duplicates": {},
+  "manifest_doi_duplicates": [],
+  "scope": "Seven authorized batch cells only",
+  "pdf_identity": "Deposited DOI strings match manifest for all paperboard PDFs except Lieu, which has no printed DOI. No identity collision observed.",
+  "secondary_reuse": "Reviews and flow models retained as context with zero measurement rows. No source reference-list value refiled."
+}
