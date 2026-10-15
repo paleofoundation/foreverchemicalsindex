@@ -1,0 +1,5 @@
+
+> foreverchemicalsindex@0.1.0 generate
+> node tools/build-contamination-dataset.mjs
+
+Generated dataset: 0 evidence rows; directories read from wiki/analytes and peer sections.

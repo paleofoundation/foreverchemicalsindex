@@ -1,0 +1,8 @@
+
+> foreverchemicalsindex@0.1.0 audit
+> node tools/audit-source-dois.mjs && node tools/audit-link-integrity.mjs && node tools/audit-product-source-routing.mjs && node tools/audit-synthesis-firewall.mjs
+
+audit-source-dois: PASS
+audit-link-integrity: PASS
+audit-product-source-routing: PASS
+audit-synthesis-firewall: PASS

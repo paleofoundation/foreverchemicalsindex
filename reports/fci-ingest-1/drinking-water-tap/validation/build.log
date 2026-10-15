@@ -1,0 +1,140 @@
+
+> foreverchemicalsindex@0.1.0 prebuild
+> npm run generate && npm run audit
+
+
+> foreverchemicalsindex@0.1.0 generate
+> node tools/build-contamination-dataset.mjs
+
+Generated dataset: 0 evidence rows; directories read from wiki/analytes and peer sections.
+
+> foreverchemicalsindex@0.1.0 audit
+> node tools/audit-source-dois.mjs && node tools/audit-link-integrity.mjs && node tools/audit-product-source-routing.mjs && node tools/audit-synthesis-firewall.mjs
+
+audit-source-dois: PASS
+audit-link-integrity: PASS
+audit-product-source-routing: PASS
+audit-synthesis-firewall: PASS
+
+> foreverchemicalsindex@0.1.0 build
+> ./quartz/bootstrap-cli.mjs build -d wiki -o public
+
+
+ Quartz v0.1.0  
+
+▲ [WARNING] sass warning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings. [plugin sass-plugin]
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:20:10:
+      20 │ "legacy-all"
+         ╵           ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:30:8:
+      30 │ "v3-type"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:31:8:
+      31 │ "v3-chrome"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:32:8:
+      32 │ "../components/styles/heroBand"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:33:8:
+      33 │ "home-v3"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cleaned output directory `public` in 390μs
+Found 142 input files from `wiki` in 10ms
+Parsing input files using 1 threads
+
+Warning: wiki/drafts/drinking-water-tap/analytes/hfpo-da.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/pfbs.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/pfda.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/pfhxa.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/pfhxs.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/pfna.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/pfoa.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/pfos.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/analytes/total-organic-fluorine.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/drafts/drinking-water-tap/products/drinking-water-tap.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/drinking-water-tap.md isn't yet tracked by git, dates will be inaccurate
+Parsed 142 Markdown files in 393ms
+Filtered out 44 files in 114μs
+Emitting files
+Emitted 109 files to `public` in 74ms
+Done processing 142 files in 489ms
+
+> foreverchemicalsindex@0.1.0 postbuild
+> node tools/postbuild-inject-jsonld.mjs && node tools/postbuild-inject-breadcrumbs.mjs && node tools/postbuild-scholarly-sitemap.mjs && node tools/postbuild-llms-txt.mjs && node tools/audit-built-site.mjs
+
+JSON-LD and source citation metadata: PASS
+BreadcrumbList metadata: PASS
+Scholarly sitemap: PASS
+robots.txt and llms.txt: PASS
+audit-built-site: PASS
