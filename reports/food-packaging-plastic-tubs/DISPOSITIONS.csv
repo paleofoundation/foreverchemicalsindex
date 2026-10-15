@@ -1,0 +1,9 @@
+filename,status,source,reason,confidence
+umar-2026-assessment-of-per-and-polyfluoroalkyl-substances.pdf,NOT_FILED,,"PET beverage bottles, paper cups, cartons and cans; no plastic tub samples. PDF pp. 3-6. DOI in manifest not found printed in deposited PDF; cannot assign no_doi_assigned.",HOLD
+baek-2026-migration-of-phthalates-and-per-and.pdf,NOT_FILED,,"Paper/plastic straws in human saliva, not tubs. PDF pp. 1-3. DOI matches title page.",HOLD
+hwang-2025-perfluoroalkyl-and-polyfluoroalkyl-substance-detection-in.pdf,NOT_FILED,,"Brewed capsule coffee, not a plastic-tub measurement. PDF pp. 3-4 and 14. DOI matches title page.",HOLD
+liguoribills-2023-analysis-of-pfas-in-locally-acquired.pdf,NOT_FILED,,Mixed container study includes soup/takeout items but does not establish plastic-tub material identity. PDF pp. 22 and 26-30. MANIFEST DOI not found printed in deposited magazine PDF; cannot assign no_doi_assigned.,HOLD
+curtzwiler-2025-influence-of-talc-in-polypropylene-on.pdf,FILED_METHOD_CONTEXT,curtzwiler-2025-talc-polypropylene-fluorine,Laboratory talc/polypropylene method context supported by template with empty findings; no tub occurrence.,HOLD
+sha256.txt,NOT_FILED,,Non-PDF control; no abstract filed,HOLD
+MANIFEST.csv,NOT_FILED,,Non-PDF control; no abstract filed,HOLD
+SHA256SUMS,NOT_FILED,,Non-PDF control; no abstract filed,HOLD
