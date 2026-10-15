@@ -1,0 +1,11 @@
+source,type,reported_a,reported_b,action,confidence
+Umar,scope,MANIFEST product-class relevance,PDF pp. 3-6 samples bottles rather than tubs,NOT_FILED; no material extrapolation,HOLD
+Umar,doi_not_printed,MANIFEST 10.61919/b4tzfd39,DOI not found in deposited PDF text or title page,NOT_FILED; no DOI invention,HOLD
+Baek,scope,MANIFEST packaging relevance,PDF pp. 1-3 straws and saliva,NOT_FILED for tub cell,HOLD
+Baek,abstract_identity_conflict,PDF p. 1 uses overlapping sulfonic-acid names in both below-LOD and above-LOD statements,PDF p. 3 Table 1 separates PFOS and PFNA columns,No identity repair; no rows filed,HOLD
+Hwang,scope,MANIFEST packaging relevance,PDF pp. 3-4 and 14 brewed coffee in capsules,NOT_FILED for tub cell,HOLD
+Liguori-Bills,doi_not_printed,MANIFEST 10.56530/lcgc.na.sd7179a7,No matching DOI printed in deposited magazine text; article starts PDF p. 22,NOT_FILED; cannot assert no_doi_assigned,HOLD
+Liguori-Bills,matrix_unresolved,MANIFEST plastic-tub staging,PDF pp. 26-30 mixed containers do not establish tub material,No plastic-tub routing,HOLD
+Liguori-Bills,table_vs_prose,PDF p. 30 Table IV outer paper PFTA 47.5 ng/g,Same-page prose 47.7 ng/g,Logged without correction; out-of-scope,HOLD
+Curtzwiler,analyte_scope,MANIFEST method label CIC (TOF/EOF),PDF pp. 1-6 total fluorine includes inorganic talc fluoride,Method context only; no organic fluorine or targeted PFAS claim,HOLD
+Curtzwiler,missing_supplement,PDF refers to supplementary spectra and appendices,No supplement staged,No reconstruction or retrieval,HOLD
