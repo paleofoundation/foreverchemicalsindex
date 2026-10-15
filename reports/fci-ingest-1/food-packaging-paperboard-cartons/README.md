@@ -11,3 +11,5 @@ MISMATCHES.csv records unresolved identity, document-type, unit, limit and abstr
 Visual QA inspected rendered table pages for Hsu, Chen, Ye, Simonetti, Schwartz-Narbonne, Lieu, Siao, White, Encarnacion, Schaider, Jovanović, Hauschildt, Nxumalo, Minh and Schultes. Method and contextual portions were read from complete relevant pages. No graph values were digitized. Local report logs capture all tests, TypeScript check, four build-blocking audits and build. Scientific HOLD is separate from successful software checks.
 
 Validation complete: 38 tests passed, TypeScript passed, all four build-blocking audits passed, build and built-site audit passed. Public evidence export contains zero records and no draft source page is emitted. Build warnings concern untracked-file dates before commit only.
+
+Follow-up QA repaired 125 malformed source aliases in the held draft tables. All draft wiki links now resolve to existing source files. The four audits, build and built-site audit passed again; numerical records and HOLD state are unchanged. Logs: audit-link-fix.log and build-link-fix.log.
