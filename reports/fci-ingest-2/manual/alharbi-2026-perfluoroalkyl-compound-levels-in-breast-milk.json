@@ -1,0 +1,66 @@
+{
+ "product": "breast-milk",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "< LLOQ",
+   "ng/L",
+   "Breast milk, Riyadh (n = 25)",
+   6,
+   "Table 4, PFOA row, Mean column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median",
+   "< LLOQ",
+   "ng/L",
+   "Breast milk, Riyadh (n = 25)",
+   6,
+   "Table 4, PFOA row, Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "maximum",
+   "73.35",
+   "ng/L",
+   "Breast milk, Riyadh (n = 25)",
+   6,
+   "Table 4, PFOA row, Max column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "< LLOQ",
+   "ng/L",
+   "Breast milk, Riyadh (n = 25)",
+   6,
+   "Table 4, PFOS row, Mean column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median",
+   "< LLOQ",
+   "ng/L",
+   "Breast milk, Riyadh (n = 25)",
+   6,
+   "Table 4, PFOS row, Median column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "maximum",
+   "85.2",
+   "ng/L",
+   "Breast milk, Riyadh (n = 25)",
+   6,
+   "Table 4, PFOS row, Max column"
+  ]
+ ],
+ "held": []
+}

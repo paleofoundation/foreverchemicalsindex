@@ -42,7 +42,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 5
+  "unpublished_candidate_matches": 5,
+  "held_findings": [
+    {
+      "row": "Method validation; spike and recovery data",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Validation of the U.S. Food and Drug Administration’s Method for Detection of Per- and Polyfluoroalkyl Substances Analytes in Food and Feed: First Action 2025.06
@@ -53,11 +60,9 @@ Supporting method/exposure study: Validation of the U.S. Food and Drug Administr
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-5 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

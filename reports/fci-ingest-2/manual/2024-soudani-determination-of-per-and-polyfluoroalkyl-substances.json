@@ -1,0 +1,555 @@
+{
+ "product": "fish-freshwater",
+ "rows": [
+  [
+   "PFBS",
+   "pfbs",
+   "average (min-max)",
+   "0.08 (0.04-0.13)",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFBS row, Coregonus wartmanni Av (min-max) column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "frequency of positives above LOQ",
+   "45%",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFBS row, Coregonus wartmanni F (%) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "average (min-max)",
+   "0.74 (0.07-2.39)",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFDA row, Coregonus wartmanni Av (min-max) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "frequency of positives above LOQ",
+   "95%",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFDA row, Coregonus wartmanni F (%) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "average (min-max)",
+   "5.07 (0.02-16.10)",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFHxS row, Coregonus wartmanni Av (min-max) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "frequency of positives above LOQ",
+   "60%",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFHxS row, Coregonus wartmanni F (%) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "average (min-max)",
+   "0.16 (0.06-0.29)",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFNA row, Coregonus wartmanni Av (min-max) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "frequency of positives above LOQ",
+   "50%",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFNA row, Coregonus wartmanni F (%) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "average (min-max)",
+   "20.12 (0.69-109.90)",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFOS row, Coregonus wartmanni Av (min-max) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "frequency of positives above LOQ",
+   "100%",
+   "\u00b5g/kg",
+   "Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20)",
+   5,
+   "Table 1, PFOS row, Coregonus wartmanni F (%) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "average (min-max)",
+   "0.37 (0.09-1.52)",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFDA row, Cyprinus carpio Av (min-max) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "frequency of positives above LOQ",
+   "100%",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFDA row, Cyprinus carpio F (%) column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "average (min-max)",
+   "0.05 (0.02-0.07)",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFHxA row, Cyprinus carpio Av (min-max) column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "frequency of positives above LOQ",
+   "18%",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFHxA row, Cyprinus carpio F (%) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "average (min-max)",
+   "1.56 (0.06-14.63)",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFHxS row, Cyprinus carpio Av (min-max) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "frequency of positives above LOQ",
+   "100%",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFHxS row, Cyprinus carpio F (%) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "average (min-max)",
+   "0.03 (0.02-0.03)",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFNA row, Cyprinus carpio Av (min-max) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "frequency of positives above LOQ",
+   "18%",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFNA row, Cyprinus carpio F (%) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "average (min-max)",
+   "0.02 (0.02)",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOA row, Cyprinus carpio Av (min-max) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "frequency of positives above LOQ",
+   "9%",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOA row, Cyprinus carpio F (%) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "average (min-max)",
+   "3.58 (0.10-6.77)",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOS row, Cyprinus carpio Av (min-max) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "frequency of positives above LOQ",
+   "64%",
+   "\u00b5g/kg",
+   "Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOS row, Cyprinus carpio F (%) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "average (min-max)",
+   "0.02 (0.01-0.04)",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFDA row, Oncorhynchus mykiss Av (min-max) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "frequency of positives above LOQ",
+   "64%",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFDA row, Oncorhynchus mykiss F (%) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "average (min-max)",
+   "0.44 (0.04-1.74)",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFHxS row, Oncorhynchus mykiss Av (min-max) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "frequency of positives above LOQ",
+   "80%",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFHxS row, Oncorhynchus mykiss F (%) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "average (min-max)",
+   "0.07 (0.01-0.17)",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFNA row, Oncorhynchus mykiss Av (min-max) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "frequency of positives above LOQ",
+   "20%",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFNA row, Oncorhynchus mykiss F (%) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "average (min-max)",
+   "0.03 (0.02-0.03)",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOA row, Oncorhynchus mykiss Av (min-max) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "frequency of positives above LOQ",
+   "40%",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOA row, Oncorhynchus mykiss F (%) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "average (min-max)",
+   "4.56 (0.13-19.40)",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOS row, Oncorhynchus mykiss Av (min-max) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "frequency of positives above LOQ",
+   "100%",
+   "\u00b5g/kg",
+   "Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11)",
+   5,
+   "Table 1, PFOS row, Oncorhynchus mykiss F (%) column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "average (min-max)",
+   "0.05 (0.01-0.07)",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFBS row, Perca fluviatilis Av (min-max) column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "frequency of positives above LOQ",
+   "11%",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFBS row, Perca fluviatilis F (%) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "average (min-max)",
+   "1.43 (0.04-4.60)",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFDA row, Perca fluviatilis Av (min-max) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "frequency of positives above LOQ",
+   "79%",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFDA row, Perca fluviatilis F (%) column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "average (min-max)",
+   "0.22 (0.01-1.10)",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFHxA row, Perca fluviatilis Av (min-max) column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "frequency of positives above LOQ",
+   "26%",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFHxA row, Perca fluviatilis F (%) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "average (min-max)",
+   "0.46 (0.10-1.55)",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFHxS row, Perca fluviatilis Av (min-max) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "frequency of positives above LOQ",
+   "47%",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFHxS row, Perca fluviatilis F (%) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "average (min-max)",
+   "0.18 (0.07-0.30)",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFNA row, Perca fluviatilis Av (min-max) column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "frequency of positives above LOQ",
+   "39%",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFNA row, Perca fluviatilis F (%) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "average (min-max)",
+   "0.01 (0.01-0.02)",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFOA row, Perca fluviatilis Av (min-max) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "frequency of positives above LOQ",
+   "5%",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFOA row, Perca fluviatilis F (%) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "average (min-max)",
+   "19.17 (0.01-41.50)",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFOS row, Perca fluviatilis Av (min-max) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "frequency of positives above LOQ",
+   "71%",
+   "\u00b5g/kg",
+   "Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38)",
+   5,
+   "Table 1, PFOS row, Perca fluviatilis F (%) column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "average (min-max)",
+   "0.01 (0.01-0.02)",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFBS row, Squalius cephalus Av (min-max) column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "frequency of positives above LOQ",
+   "29%",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFBS row, Squalius cephalus F (%) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "average (min-max)",
+   "0.50 (0.02-1.56)",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFDA row, Squalius cephalus Av (min-max) column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "frequency of positives above LOQ",
+   "57%",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFDA row, Squalius cephalus F (%) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "average (min-max)",
+   "0.60 (0.2-1.26)",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFHxS row, Squalius cephalus Av (min-max) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "frequency of positives above LOQ",
+   "71%",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFHxS row, Squalius cephalus F (%) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "average (min-max)",
+   "6.40 (1.16-21.30)",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFOS row, Squalius cephalus Av (min-max) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "frequency of positives above LOQ",
+   "100%",
+   "\u00b5g/kg",
+   "Squalius cephalus fillets, Switzerland 2022-2024 (N = 7)",
+   5,
+   "Table 1, PFOS row, Squalius cephalus F (%) column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Salmo trutta column held: several cells duplicate Cyprinus carpio values and PFHxA mean lies below printed minimum",
+   "why": "held on reading"
+  },
+  {
+   "row": "Cells marked with footnote a held",
+   "why": "held on reading"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "product": "breast-milk",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "mean (SD)",
+   "57.60 (33.98)",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOA row, Mean (SD) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "minimum",
+   "2.19",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOA row, Min column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median",
+   "50.77",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOA row, p50 column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "maximum",
+   "182.55",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOA row, Max column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean (SD)",
+   "126.70 (63.07)",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOS row, Mean (SD) column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "minimum",
+   "22.99",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOS row, Min column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median",
+   "116.73",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOS row, p50 column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "maximum",
+   "370.63",
+   "ng/L",
+   "Breast milk at 1 month post-partum, Norway (N = 230)",
+   3,
+   "Table 1, PFAS class, PFOS row, Max column"
+  ]
+ ],
+ "held": []
+}

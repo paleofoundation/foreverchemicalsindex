@@ -22,7 +22,7 @@
   "source_type": "primary_measurement",
   "evidence_tier": "reviewed",
   "evidence_fitness": "PRIMARY: primary PFAS measurement data in product class; method stated: targeted LC-MS/MS",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -32,7 +32,10 @@
   "access_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11521063.1/PMC11521063.1.pdf",
   "license": "open access (cc-by-nc-nd)",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "pfoa",
+    "pfos"
+  ],
   "ingredients": [],
   "products": [
     "breast-milk"
@@ -40,9 +43,39 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "0.03 (0.02)",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort; mean (SD)",
+      "source_location": "PDF p.4, Table 1, PFOS in human milk row, overall (N = 425) column",
+      "analyte_label": "PFOS in human milk",
+      "statistic": "mean (SD)",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "0.02 (0.01)",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort; mean (SD)",
+      "source_location": "PDF p.4, Table 1, PFOA in human milk row, overall (N = 425) column",
+      "analyte_label": "PFOA in human milk",
+      "statistic": "mean (SD)",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort"
+    }
+  ],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "Metabolite cluster columns not routed",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Associations of per- and polyfluoroalkyl substances with human milk metabolomic profiles in a rural North American cohort
@@ -53,9 +86,12 @@ Measured PFAS in infant samples: Associations of per- and polyfluoroalkyl substa
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfos]] (PFOS in human milk) | mean (SD) | 0.03 (0.02) | ng/mL | Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort | PDF p.4, Table 1, PFOS in human milk row, overall (N = 425) column |
+| [[analytes/pfoa]] (PFOA in human milk) | mean (SD) | 0.02 (0.01) | ng/mL | Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort | PDF p.4, Table 1, PFOA in human milk row, overall (N = 425) column |
 
 ## Evidence Fitness
 
@@ -76,3 +112,7 @@ DOI 10.1097/ee9.0000000000000352 resolved at Crossref; DOI matched in the filed 
 ## Wiki pages updated on ingest
 
 [[products/breast-milk]]
+
+[[analytes/pfoa]]
+
+[[analytes/pfos]]

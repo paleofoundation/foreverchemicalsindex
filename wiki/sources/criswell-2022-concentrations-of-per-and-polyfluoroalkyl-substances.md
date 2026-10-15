@@ -22,7 +22,7 @@
   "source_type": "primary_measurement",
   "evidence_tier": "reviewed",
   "evidence_fitness": "PRIMARY: primary PFAS measurement data in product class; method stated: targeted LC-MS/MS",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -32,7 +32,12 @@
   "access_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9837617.1/PMC9837617.1.pdf",
   "license": "open access (cc-by-nc-nd)",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "pfhxs",
+    "pfna",
+    "pfoa",
+    "pfos"
+  ],
   "ingredients": [],
   "products": [
     "breast-milk"
@@ -40,9 +45,105 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "0.017 [0.012, 0.027]",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); median [IQR]",
+      "source_location": "PDF p.4, Table 2, PFOA row, milk median (IQR) column",
+      "analyte_label": "PFOA",
+      "statistic": "median [IQR]",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "356 (83.6)",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); samples at or above LOD, N (%)",
+      "source_location": "PDF p.4, Table 2, PFOA row, milk N (% >= LOD) column",
+      "analyte_label": "PFOA",
+      "statistic": "samples at or above LOD, N (%)",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "0.024 [0.016, 0.036]",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); median [IQR]",
+      "source_location": "PDF p.4, Table 2, PFOS row, milk median (IQR) column",
+      "analyte_label": "PFOS",
+      "statistic": "median [IQR]",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "392 (92.0)",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); samples at or above LOD, N (%)",
+      "source_location": "PDF p.4, Table 2, PFOS row, milk N (% >= LOD) column",
+      "analyte_label": "PFOS",
+      "statistic": "samples at or above LOD, N (%)",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfhxs",
+      "value": "<LOD",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); median [IQR]",
+      "source_location": "PDF p.4, Table 2, PFHxS row, milk median (IQR) column",
+      "analyte_label": "PFHxS",
+      "statistic": "median [IQR]",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfhxs",
+      "value": "32 (7.5)",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); samples at or above LOD, N (%)",
+      "source_location": "PDF p.4, Table 2, PFHxS row, milk N (% >= LOD) column",
+      "analyte_label": "PFHxS",
+      "statistic": "samples at or above LOD, N (%)",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfna",
+      "value": "<LOD",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); median [IQR]",
+      "source_location": "PDF p.4, Table 2, PFNA row, milk median (IQR) column",
+      "analyte_label": "PFNA",
+      "statistic": "median [IQR]",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfna",
+      "value": "29 (6.8)",
+      "unit": "ng/mL",
+      "basis": "Human milk, New Hampshire Birth Cohort Study (N = 426); samples at or above LOD, N (%)",
+      "source_location": "PDF p.4, Table 2, PFNA row, milk N (% >= LOD) column",
+      "analyte_label": "PFNA",
+      "statistic": "samples at or above LOD, N (%)",
+      "matrix": "Human milk, New Hampshire Birth Cohort Study (N = 426)"
+    }
+  ],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 9
+  "unpublished_candidate_matches": 9,
+  "held_findings": [
+    {
+      "row": "Maternal plasma columns are not milk",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Concentrations of Per- and Polyfluoroalkyl Substances in Paired Maternal Plasma and Human Milk in the New Hampshire Birth Cohort
@@ -53,11 +154,18 @@ Measured PFAS in infant samples: Concentrations of Per- and Polyfluoroalkyl Subs
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-9 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfoa]] (PFOA) | median [IQR] | 0.017 [0.012, 0.027] | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFOA row, milk median (IQR) column |
+| [[analytes/pfoa]] (PFOA) | samples at or above LOD, N (%) | 356 (83.6) | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFOA row, milk N (% >= LOD) column |
+| [[analytes/pfos]] (PFOS) | median [IQR] | 0.024 [0.016, 0.036] | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFOS row, milk median (IQR) column |
+| [[analytes/pfos]] (PFOS) | samples at or above LOD, N (%) | 392 (92.0) | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFOS row, milk N (% >= LOD) column |
+| [[analytes/pfhxs]] (PFHxS) | median [IQR] | <LOD | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFHxS row, milk median (IQR) column |
+| [[analytes/pfhxs]] (PFHxS) | samples at or above LOD, N (%) | 32 (7.5) | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFHxS row, milk N (% >= LOD) column |
+| [[analytes/pfna]] (PFNA) | median [IQR] | <LOD | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFNA row, milk median (IQR) column |
+| [[analytes/pfna]] (PFNA) | samples at or above LOD, N (%) | 29 (6.8) | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426) | PDF p.4, Table 2, PFNA row, milk N (% >= LOD) column |
 
 ## Evidence Fitness
 
@@ -78,3 +186,11 @@ DOI 10.1021/acs.est.2c05555 resolved at Crossref; DOI matched in the filed PDF t
 ## Wiki pages updated on ingest
 
 [[products/breast-milk]]
+
+[[analytes/pfhxs]]
+
+[[analytes/pfna]]
+
+[[analytes/pfoa]]
+
+[[analytes/pfos]]

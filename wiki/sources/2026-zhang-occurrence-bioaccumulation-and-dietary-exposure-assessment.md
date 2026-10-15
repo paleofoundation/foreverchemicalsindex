@@ -41,7 +41,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "freshwater-fish",
-  "unpublished_candidate_matches": 6
+  "unpublished_candidate_matches": 6,
+  "held_findings": [
+    {
+      "row": "No extractable result table",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Occurrence, Bioaccumulation and Dietary Exposure Assessment of Legacy and Emerging Per- and Polyfluoroalkyl Substances (PFAS) in Freshwater Fish from Zhejiang Markets: Implications for Human Health Risks
@@ -52,11 +59,9 @@ Freshwater fish from Zhejiang markets
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-6 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

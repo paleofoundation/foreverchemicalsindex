@@ -1,0 +1,10 @@
+{
+ "product": "breast-milk",
+ "rows": [],
+ "held": [
+  {
+   "row": "Method validation paper; values are instrument settings, spikes and recoveries",
+   "why": "held on reading"
+  }
+ ]
+}

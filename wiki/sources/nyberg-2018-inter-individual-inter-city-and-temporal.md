@@ -39,7 +39,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 0
+  "unpublished_candidate_matches": 0,
+  "held_findings": [
+    {
+      "row": "Table 2 last-year values are estimates from a smoothed trend model, not measured summaries",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Inter-individual, inter-city, and temporal trends of per- and polyfluoroalkyl substances in human milk from Swedish mothers between 1972 and 2016
@@ -50,9 +57,9 @@ Per abstract: Inter-individual, inter-city, and temporal trends (1972-2016) in P
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
+No values published.
 
 ## Evidence Fitness
 

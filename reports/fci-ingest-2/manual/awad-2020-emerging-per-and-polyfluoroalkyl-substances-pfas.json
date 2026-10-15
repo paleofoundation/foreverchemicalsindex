@@ -1,0 +1,491 @@
+{
+ "product": "breast-milk",
+ "rows": [
+  [
+   "L-PFOA",
+   "pfoa",
+   "average",
+   "139",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Shanghai Conc. column"
+  ],
+  [
+   "L-PFOA",
+   "pfoa",
+   "range",
+   "64-308",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Shanghai range in parentheses column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "average",
+   "17",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Shanghai Conc. column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "range",
+   "<5-28",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Shanghai range in parentheses column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "average",
+   "21",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Shanghai Conc. column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "range",
+   "<10-42",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Shanghai range in parentheses column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "average",
+   "4",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Shanghai Conc. column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "range",
+   "<4-11",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Shanghai range in parentheses column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "average",
+   "8",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Shanghai Conc. column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "range",
+   "<4-18",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Shanghai range in parentheses column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "average",
+   "65",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Shanghai Conc. column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "range",
+   "16-177",
+   "pg/mL",
+   "Mother's milk, Shanghai (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Shanghai range in parentheses column"
+  ],
+  [
+   "L-PFOA",
+   "pfoa",
+   "average",
+   "266",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Jiaxing Conc. column"
+  ],
+  [
+   "L-PFOA",
+   "pfoa",
+   "range",
+   "177-411",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Jiaxing range in parentheses column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "average",
+   "32",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Jiaxing Conc. column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "range",
+   "11-46",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Jiaxing range in parentheses column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "average",
+   "64",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Jiaxing Conc. column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "range",
+   "15-139",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Jiaxing range in parentheses column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "average",
+   "5",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Jiaxing Conc. column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "range",
+   "<4-8",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Jiaxing range in parentheses column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "average",
+   "13",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Jiaxing Conc. column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "range",
+   "5-19",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Jiaxing range in parentheses column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "average",
+   "119",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Jiaxing Conc. column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "range",
+   "21-321",
+   "pg/mL",
+   "Mother's milk, Jiaxing (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Jiaxing range in parentheses column"
+  ],
+  [
+   "L-PFOA",
+   "pfoa",
+   "average",
+   "94",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Shaoxing Conc. column"
+  ],
+  [
+   "L-PFOA",
+   "pfoa",
+   "range",
+   "33-151",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Shaoxing range in parentheses column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "average",
+   "21",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Shaoxing Conc. column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "range",
+   "10-39",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Shaoxing range in parentheses column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "average",
+   "47",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Shaoxing Conc. column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "range",
+   "<10-106",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Shaoxing range in parentheses column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "average",
+   "4",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Shaoxing Conc. column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "range",
+   "<4-6",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Shaoxing range in parentheses column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "average",
+   "3",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Shaoxing Conc. column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "range",
+   "<4-4",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Shaoxing range in parentheses column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "average",
+   "77",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Shaoxing Conc. column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "range",
+   "7-308",
+   "pg/mL",
+   "Mother's milk, Shaoxing (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Shaoxing range in parentheses column"
+  ],
+  [
+   "L-PFOA",
+   "pfoa",
+   "average",
+   "42",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Stockholm Conc. column"
+  ],
+  [
+   "L-PFOA",
+   "pfoa",
+   "range",
+   "<2-81",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFOA row, Stockholm range in parentheses column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "average",
+   "10",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Stockholm Conc. column"
+  ],
+  [
+   "L-PFNA",
+   "pfna",
+   "range",
+   "<5-18",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFNA row, Stockholm range in parentheses column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "average",
+   "<10",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Stockholm Conc. column"
+  ],
+  [
+   "L-PFDA",
+   "pfda",
+   "range",
+   "<10-15",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFDA row, Stockholm range in parentheses column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "average",
+   "7",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Stockholm Conc. column"
+  ],
+  [
+   "L-PFBS",
+   "pfbs",
+   "range",
+   "<4-21",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFBS row, Stockholm range in parentheses column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "average",
+   "7",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Stockholm Conc. column"
+  ],
+  [
+   "L-PFHxS",
+   "pfhxs",
+   "range",
+   "<4-13",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFHxS row, Stockholm range in parentheses column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "average",
+   "39",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Stockholm Conc. column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "range",
+   "23-58",
+   "pg/mL",
+   "Mother's milk, Stockholm (n = 10)",
+   5,
+   "Table 1, L-PFOS row, Stockholm range in parentheses column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Branched isomers and long-chain PFCAs without analyte pages",
+   "why": "held on reading"
+  }
+ ]
+}

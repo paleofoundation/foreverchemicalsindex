@@ -24,7 +24,7 @@
   "source_type": "primary_measurement",
   "evidence_tier": "reviewed",
   "evidence_fitness": "PRIMARY: primary PFAS measurement data in product class; method stated: targeted LC-MS/MS, LC-HRMS",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -34,7 +34,14 @@
   "access_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11339319.1/PMC11339319.1.pdf",
   "license": "open access (cc by-nc-nd)",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "pfbs",
+    "pfhxa",
+    "pfhxs",
+    "pfna",
+    "pfoa",
+    "pfos"
+  ],
   "ingredients": [],
   "products": [
     "breast-milk"
@@ -42,9 +49,210 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "2.80",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); maximum",
+      "source_location": "PDF p.6, Table 2, PFOA row, Max column",
+      "analyte_label": "PFOA",
+      "statistic": "maximum",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "0.27",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); median",
+      "source_location": "PDF p.6, Table 2, PFOA row, Median column",
+      "analyte_label": "PFOA",
+      "statistic": "median",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "0.35",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); mean",
+      "source_location": "PDF p.6, Table 2, PFOA row, Mean column",
+      "analyte_label": "PFOA",
+      "statistic": "mean",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "97.3",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); detection frequency (%)",
+      "source_location": "PDF p.6, Table 2, PFOA row, Detection frequencies column",
+      "analyte_label": "PFOA",
+      "statistic": "detection frequency (%)",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "0.31",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); maximum",
+      "source_location": "PDF p.6, Table 2, PFOS row, Max column",
+      "analyte_label": "PFOS",
+      "statistic": "maximum",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "<LOD",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); median",
+      "source_location": "PDF p.6, Table 2, PFOS row, Median column",
+      "analyte_label": "PFOS",
+      "statistic": "median",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "0.05",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); mean",
+      "source_location": "PDF p.6, Table 2, PFOS row, Mean column",
+      "analyte_label": "PFOS",
+      "statistic": "mean",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "30.7",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); detection frequency (%)",
+      "source_location": "PDF p.6, Table 2, PFOS row, Detection frequencies column",
+      "analyte_label": "PFOS",
+      "statistic": "detection frequency (%)",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfna",
+      "value": "0.16",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); maximum",
+      "source_location": "PDF p.6, Table 2, PFNA row, Max column",
+      "analyte_label": "PFNA",
+      "statistic": "maximum",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfna",
+      "value": "<LOD",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); median",
+      "source_location": "PDF p.6, Table 2, PFNA row, Median column",
+      "analyte_label": "PFNA",
+      "statistic": "median",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfna",
+      "value": "0.01",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); mean",
+      "source_location": "PDF p.6, Table 2, PFNA row, Mean column",
+      "analyte_label": "PFNA",
+      "statistic": "mean",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfna",
+      "value": "10.0",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); detection frequency (%)",
+      "source_location": "PDF p.6, Table 2, PFNA row, Detection frequencies column",
+      "analyte_label": "PFNA",
+      "statistic": "detection frequency (%)",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfhxs",
+      "value": "0.1121",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); maximum",
+      "source_location": "PDF p.6, Table 2, PFHxS row, Max column",
+      "analyte_label": "PFHxS",
+      "statistic": "maximum",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfhxs",
+      "value": "<LOD",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); median",
+      "source_location": "PDF p.6, Table 2, PFHxS row, Median column",
+      "analyte_label": "PFHxS",
+      "statistic": "median",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfhxs",
+      "value": "0.027",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); mean",
+      "source_location": "PDF p.6, Table 2, PFHxS row, Mean column",
+      "analyte_label": "PFHxS",
+      "statistic": "mean",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfhxs",
+      "value": "2.0",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); detection frequency (%)",
+      "source_location": "PDF p.6, Table 2, PFHxS row, Detection frequencies column",
+      "analyte_label": "PFHxS",
+      "statistic": "detection frequency (%)",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfbs",
+      "value": "<LOD",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); maximum",
+      "source_location": "PDF p.6, Table 2, PFBS row, Max column",
+      "analyte_label": "PFBS",
+      "statistic": "maximum",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfhxa",
+      "value": "<LOD",
+      "unit": "ng/mL",
+      "basis": "Human milk, e-waste dismantling area, China (n = 150); maximum",
+      "source_location": "PDF p.6, Table 2, PFHxA row, Max column",
+      "analyte_label": "PFHxA",
+      "statistic": "maximum",
+      "matrix": "Human milk, e-waste dismantling area, China (n = 150)"
+    }
+  ],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 5
+  "unpublished_candidate_matches": 5,
+  "held_findings": [],
+  "extraction": "manual table reading"
 }
 ---
 # Association Between Prenatal Exposure to Per‐ and Poly‐Fluoroalkyl Substances From Electronic Waste Disassembly Areas and Steroid Hormones in Human Milk Samples
@@ -55,11 +263,28 @@ Measured PFAS in infant samples: Association Between Prenatal Exposure to Per- a
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription.
 
-No values from this source are published. It is filed as context evidence.
-
-5 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfoa]] (PFOA) | maximum | 2.80 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOA row, Max column |
+| [[analytes/pfoa]] (PFOA) | median | 0.27 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOA row, Median column |
+| [[analytes/pfoa]] (PFOA) | mean | 0.35 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOA row, Mean column |
+| [[analytes/pfoa]] (PFOA) | detection frequency (%) | 97.3 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOA row, Detection frequencies column |
+| [[analytes/pfos]] (PFOS) | maximum | 0.31 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOS row, Max column |
+| [[analytes/pfos]] (PFOS) | median | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOS row, Median column |
+| [[analytes/pfos]] (PFOS) | mean | 0.05 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOS row, Mean column |
+| [[analytes/pfos]] (PFOS) | detection frequency (%) | 30.7 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFOS row, Detection frequencies column |
+| [[analytes/pfna]] (PFNA) | maximum | 0.16 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFNA row, Max column |
+| [[analytes/pfna]] (PFNA) | median | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFNA row, Median column |
+| [[analytes/pfna]] (PFNA) | mean | 0.01 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFNA row, Mean column |
+| [[analytes/pfna]] (PFNA) | detection frequency (%) | 10.0 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFNA row, Detection frequencies column |
+| [[analytes/pfhxs]] (PFHxS) | maximum | 0.1121 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFHxS row, Max column |
+| [[analytes/pfhxs]] (PFHxS) | median | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFHxS row, Median column |
+| [[analytes/pfhxs]] (PFHxS) | mean | 0.027 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFHxS row, Mean column |
+| [[analytes/pfhxs]] (PFHxS) | detection frequency (%) | 2.0 | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFHxS row, Detection frequencies column |
+| [[analytes/pfbs]] (PFBS) | maximum | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFBS row, Max column |
+| [[analytes/pfhxa]] (PFHxA) | maximum | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150) | PDF p.6, Table 2, PFHxA row, Max column |
 
 ## Evidence Fitness
 
@@ -80,3 +305,15 @@ DOI 10.1029/2024gh001142 resolved at Crossref; DOI matched in the filed PDF text
 ## Wiki pages updated on ingest
 
 [[products/breast-milk]]
+
+[[analytes/pfbs]]
+
+[[analytes/pfhxa]]
+
+[[analytes/pfhxs]]
+
+[[analytes/pfna]]
+
+[[analytes/pfoa]]
+
+[[analytes/pfos]]

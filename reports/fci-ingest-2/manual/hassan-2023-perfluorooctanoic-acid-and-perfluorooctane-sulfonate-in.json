@@ -1,0 +1,10 @@
+{
+ "product": "breast-milk",
+ "rows": [],
+ "held": [
+  {
+   "row": "PFOS detection frequency and range conflict between Results (p8, 10.71 percent) and Discussion (86 percent); PFOA IQR vs range conflict; held as mismatch",
+   "why": "held on reading"
+  }
+ ]
+}

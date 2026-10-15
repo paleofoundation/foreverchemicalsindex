@@ -1,0 +1,551 @@
+{
+ "product": "breast-milk",
+ "rows": [
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "mean (SD), lower bound",
+   "15.8 (10.7)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, \u03a3PFOS row, Africa (N = 27) Mean (SD) column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "median, lower bound",
+   "13.6",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, \u03a3PFOS row, Africa (N = 27) Median column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "[min, max], lower bound",
+   "[0, 44.6]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, \u03a3PFOS row, Africa (N = 27) [Min, Max] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (SD), lower bound",
+   "17.1 (10.4)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, PFOA row, Africa (N = 27) Mean (SD) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median, lower bound",
+   "15.7",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, PFOA row, Africa (N = 27) Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "[min, max], lower bound",
+   "[6.20, 63.4]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, PFOA row, Africa (N = 27) [Min, Max] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (SD), lower bound",
+   "0.489 (1.78)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, PFHxS row, Africa (N = 27) Mean (SD) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median, lower bound",
+   "0",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, PFHxS row, Africa (N = 27) Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "[min, max], lower bound",
+   "[0, 7.56]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Africa",
+   5,
+   "Table 1, PFHxS row, Africa (N = 27) [Min, Max] column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "mean (SD), lower bound",
+   "27.7 (46.7)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, \u03a3PFOS row, Asia (N = 18) Mean (SD) column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "median, lower bound",
+   "16.2",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, \u03a3PFOS row, Asia (N = 18) Median column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "[min, max], lower bound",
+   "[0, 212]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, \u03a3PFOS row, Asia (N = 18) [Min, Max] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (SD), lower bound",
+   "18.1 (7.17)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, PFOA row, Asia (N = 18) Mean (SD) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median, lower bound",
+   "17.4",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, PFOA row, Asia (N = 18) Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "[min, max], lower bound",
+   "[9.98, 35.0]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, PFOA row, Asia (N = 18) [Min, Max] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (SD), lower bound",
+   "6.90 (26.1)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, PFHxS row, Asia (N = 18) Mean (SD) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median, lower bound",
+   "0",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, PFHxS row, Asia (N = 18) Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "[min, max], lower bound",
+   "[0, 111]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Asia",
+   5,
+   "Table 1, PFHxS row, Asia (N = 18) [Min, Max] column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "mean (SD), lower bound",
+   "36.4 (22.1)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, \u03a3PFOS row, CEE (N = 12) Mean (SD) column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "median, lower bound",
+   "32.6",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, \u03a3PFOS row, CEE (N = 12) Median column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "[min, max], lower bound",
+   "[12.2, 83.3]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, \u03a3PFOS row, CEE (N = 12) [Min, Max] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (SD), lower bound",
+   "30.6 (9.16)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, PFOA row, CEE (N = 12) Mean (SD) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median, lower bound",
+   "30.7",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, PFOA row, CEE (N = 12) Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "[min, max], lower bound",
+   "[12.6, 48.8]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, PFOA row, CEE (N = 12) [Min, Max] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (SD), lower bound",
+   "2.37 (4.54)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, PFHxS row, CEE (N = 12) Mean (SD) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median, lower bound",
+   "0",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, PFHxS row, CEE (N = 12) Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "[min, max], lower bound",
+   "[0, 12.9]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, CEE",
+   5,
+   "Table 1, PFHxS row, CEE (N = 12) [Min, Max] column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "mean (SD), lower bound",
+   "24.3 (18.3)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, \u03a3PFOS row, GRULAC (N = 21) Mean (SD) column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "median, lower bound",
+   "18.4",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, \u03a3PFOS row, GRULAC (N = 21) Median column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "[min, max], lower bound",
+   "[0, 65.3]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, \u03a3PFOS row, GRULAC (N = 21) [Min, Max] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (SD), lower bound",
+   "23.4 (12.6)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, PFOA row, GRULAC (N = 21) Mean (SD) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median, lower bound",
+   "19.7",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, PFOA row, GRULAC (N = 21) Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "[min, max], lower bound",
+   "[7.81, 61.5]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, PFOA row, GRULAC (N = 21) [Min, Max] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (SD), lower bound",
+   "2.61 (7.75)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, PFHxS row, GRULAC (N = 21) Mean (SD) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median, lower bound",
+   "0",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, PFHxS row, GRULAC (N = 21) Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "[min, max], lower bound",
+   "[0, 34.8]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, GRULAC",
+   5,
+   "Table 1, PFHxS row, GRULAC (N = 21) [Min, Max] column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "mean (SD), lower bound",
+   "27.9 (13.5)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, \u03a3PFOS row, WEOG (N = 8) Mean (SD) column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "median, lower bound",
+   "24.3",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, \u03a3PFOS row, WEOG (N = 8) Median column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "[min, max], lower bound",
+   "[13.5, 51.4]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, \u03a3PFOS row, WEOG (N = 8) [Min, Max] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (SD), lower bound",
+   "31.7 (13.4)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, PFOA row, WEOG (N = 8) Mean (SD) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median, lower bound",
+   "33.4",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, PFOA row, WEOG (N = 8) Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "[min, max], lower bound",
+   "[17.7, 57.8]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, PFOA row, WEOG (N = 8) [Min, Max] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (SD), lower bound",
+   "4.28 (6.53)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, PFHxS row, WEOG (N = 8) Mean (SD) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median, lower bound",
+   "0",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, PFHxS row, WEOG (N = 8) Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "[min, max], lower bound",
+   "[0, 17.4]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, WEOG",
+   5,
+   "Table 1, PFHxS row, WEOG (N = 8) [Min, Max] column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "mean (SD), lower bound",
+   "24.4 (26.0)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, \u03a3PFOS row, Overall (N = 86) Mean (SD) column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "median, lower bound",
+   "18.9",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, \u03a3PFOS row, Overall (N = 86) Median column"
+  ],
+  [
+   "\u03a3PFOS",
+   "pfos",
+   "[min, max], lower bound",
+   "[0, 212]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, \u03a3PFOS row, Overall (N = 86) [Min, Max] column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean (SD), lower bound",
+   "22.1 (11.7)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, PFOA row, Overall (N = 86) Mean (SD) column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median, lower bound",
+   "18.6",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, PFOA row, Overall (N = 86) Median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "[min, max], lower bound",
+   "[6.20, 63.4]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, PFOA row, Overall (N = 86) [Min, Max] column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean (SD), lower bound",
+   "2.96 (12.8)",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, PFHxS row, Overall (N = 86) Mean (SD) column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median, lower bound",
+   "0",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, PFHxS row, Overall (N = 86) Median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "[min, max], lower bound",
+   "[0, 111]",
+   "pg/g fresh weight",
+   "Human milk national pools, WHO/UNEP surveys, Overall",
+   5,
+   "Table 1, PFHxS row, Overall (N = 86) [Min, Max] column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Isomer rows and analytes without pages",
+   "why": "held on reading"
+  }
+ ]
+}

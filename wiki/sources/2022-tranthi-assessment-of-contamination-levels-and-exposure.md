@@ -29,7 +29,7 @@
   "source_type": "context",
   "evidence_tier": "reviewed",
   "evidence_fitness": "Supportive: method, source-water, compiled or exposure-linked data for this product class",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -39,7 +39,10 @@
   "access_url": "https://vjfc.nifc.gov.vn/ajax/research/getfile?filecode=26f2eca3-554a-4e5d-9167-134874664b5f",
   "license": "OA, publisher/repository",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "pfoa",
+    "pfos"
+  ],
   "ingredients": [],
   "products": [
     "fish-freshwater"
@@ -47,9 +50,105 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfos",
+      "value": "0.092",
+      "unit": "ng/g w/w",
+      "basis": "Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Bighead carp row (this study), PFOS row, PFOS column",
+      "analyte_label": "PFOS",
+      "statistic": "mean",
+      "matrix": "Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    },
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfoa",
+      "value": "0.033",
+      "unit": "ng/g w/w",
+      "basis": "Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Bighead carp row (this study), PFOA row, PFOA column",
+      "analyte_label": "PFOA",
+      "statistic": "mean",
+      "matrix": "Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    },
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfos",
+      "value": "0.27",
+      "unit": "ng/g w/w",
+      "basis": "Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Common carp row (this study), PFOS row, PFOS column",
+      "analyte_label": "PFOS",
+      "statistic": "mean",
+      "matrix": "Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    },
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfoa",
+      "value": "0.030",
+      "unit": "ng/g w/w",
+      "basis": "Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Common carp row (this study), PFOA row, PFOA column",
+      "analyte_label": "PFOA",
+      "statistic": "mean",
+      "matrix": "Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    },
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfos",
+      "value": "0.079",
+      "unit": "ng/g w/w",
+      "basis": "Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Rohu row (this study), PFOS row, PFOS column",
+      "analyte_label": "PFOS",
+      "statistic": "mean",
+      "matrix": "Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    },
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfoa",
+      "value": "0.12",
+      "unit": "ng/g w/w",
+      "basis": "Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Rohu row (this study), PFOA row, PFOA column",
+      "analyte_label": "PFOA",
+      "statistic": "mean",
+      "matrix": "Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    },
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfos",
+      "value": "0.040",
+      "unit": "ng/g w/w",
+      "basis": "Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Tilapia row (this study), PFOS row, PFOS column",
+      "analyte_label": "PFOS",
+      "statistic": "mean",
+      "matrix": "Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    },
+    {
+      "product": "fish-freshwater",
+      "analyte": "pfoa",
+      "value": "0.048",
+      "unit": "ng/g w/w",
+      "basis": "Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6); mean",
+      "source_location": "PDF p.4, Table 1, Tilapia row (this study), PFOA row, PFOA column",
+      "analyte_label": "PFOA",
+      "statistic": "mean",
+      "matrix": "Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6)"
+    }
+  ],
   "library_folder": "freshwater-fish",
-  "unpublished_candidate_matches": 5
+  "unpublished_candidate_matches": 5,
+  "held_findings": [
+    {
+      "row": "Rows citing other studies",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Assessment of contamination levels and exposure risk of perfluoroalkyl substances (PFOS and PFOA) in Vietnamese fish
@@ -60,11 +159,18 @@ PFOS/PFOA in Vietnamese fish (own data plus literature)
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-5 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfos]] (PFOS) | mean | 0.092 | ng/g w/w | Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Bighead carp row (this study), PFOS row, PFOS column |
+| [[analytes/pfoa]] (PFOA) | mean | 0.033 | ng/g w/w | Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Bighead carp row (this study), PFOA row, PFOA column |
+| [[analytes/pfos]] (PFOS) | mean | 0.27 | ng/g w/w | Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Common carp row (this study), PFOS row, PFOS column |
+| [[analytes/pfoa]] (PFOA) | mean | 0.030 | ng/g w/w | Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Common carp row (this study), PFOA row, PFOA column |
+| [[analytes/pfos]] (PFOS) | mean | 0.079 | ng/g w/w | Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Rohu row (this study), PFOS row, PFOS column |
+| [[analytes/pfoa]] (PFOA) | mean | 0.12 | ng/g w/w | Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Rohu row (this study), PFOA row, PFOA column |
+| [[analytes/pfos]] (PFOS) | mean | 0.040 | ng/g w/w | Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Tilapia row (this study), PFOS row, PFOS column |
+| [[analytes/pfoa]] (PFOA) | mean | 0.048 | ng/g w/w | Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6) | PDF p.4, Table 1, Tilapia row (this study), PFOA row, PFOA column |
 
 ## Evidence Fitness
 
@@ -85,3 +191,7 @@ DOI 10.47866/2615-9252/vjfc.4012 resolved at Crossref; title matched in the file
 ## Wiki pages updated on ingest
 
 [[products/fish-freshwater]]
+
+[[analytes/pfoa]]
+
+[[analytes/pfos]]

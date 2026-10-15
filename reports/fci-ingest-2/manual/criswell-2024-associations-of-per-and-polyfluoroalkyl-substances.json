@@ -1,0 +1,31 @@
+{
+ "product": "breast-milk",
+ "rows": [
+  [
+   "PFOS in human milk",
+   "pfos",
+   "mean (SD)",
+   "0.03 (0.02)",
+   "ng/mL",
+   "Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort",
+   4,
+   "Table 1, PFOS in human milk row, overall (N = 425) column"
+  ],
+  [
+   "PFOA in human milk",
+   "pfoa",
+   "mean (SD)",
+   "0.02 (0.01)",
+   "ng/mL",
+   "Human milk, New Hampshire Birth Cohort Study, all participants (N = 425); overlaps the Criswell 2022 cohort",
+   4,
+   "Table 1, PFOA in human milk row, overall (N = 425) column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Metabolite cluster columns not routed",
+   "why": "held on reading"
+  }
+ ]
+}

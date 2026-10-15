@@ -1,0 +1,91 @@
+{
+ "product": "fish-freshwater",
+ "rows": [
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "0.092",
+   "ng/g w/w",
+   "Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Bighead carp row (this study), PFOS row, PFOS column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "0.033",
+   "ng/g w/w",
+   "Bighead carp, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Bighead carp row (this study), PFOA row, PFOA column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "0.27",
+   "ng/g w/w",
+   "Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Common carp row (this study), PFOS row, PFOS column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "0.030",
+   "ng/g w/w",
+   "Common carp, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Common carp row (this study), PFOA row, PFOA column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "0.079",
+   "ng/g w/w",
+   "Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Rohu row (this study), PFOS row, PFOS column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "0.12",
+   "ng/g w/w",
+   "Rohu, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Rohu row (this study), PFOA row, PFOA column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "0.040",
+   "ng/g w/w",
+   "Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Tilapia row (this study), PFOS row, PFOS column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "0.048",
+   "ng/g w/w",
+   "Tilapia, West and Yen So Lake, Hanoi, 2016 (n = 6)",
+   4,
+   "Table 1, Tilapia row (this study), PFOA row, PFOA column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Rows citing other studies",
+   "why": "held on reading"
+  }
+ ]
+}

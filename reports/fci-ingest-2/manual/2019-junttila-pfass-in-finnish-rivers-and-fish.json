@@ -1,0 +1,165 @@
+{
+ "product": "fish-freshwater",
+ "rows": [
+  [
+   "PFOS",
+   "pfos",
+   "detection frequency",
+   "100%",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFOS row, Perch Detection Frequency column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "mean",
+   "3.4",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFOS row, Perch Mean column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "maximum",
+   "18",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFOS row, Perch Max column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "detection frequency",
+   "100%",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFDA row, Perch Detection Frequency column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "mean",
+   "0.50",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFDA row, Perch Mean column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "maximum",
+   "1.6",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFDA row, Perch Max column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection frequency",
+   "100%",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFNA row, Perch Detection Frequency column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean",
+   "0.23",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFNA row, Perch Mean column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "maximum",
+   "1.1",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFNA row, Perch Max column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection frequency",
+   "23%",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFHxS row, Perch Detection Frequency column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean",
+   "0.03",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFHxS row, Perch Mean column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "maximum",
+   "0.10",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFHxS row, Perch Max column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection frequency",
+   "6%",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFOA row, Perch Detection Frequency column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean",
+   "0.03",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFOA row, Perch Mean column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "maximum",
+   "0.06",
+   "\u00b5g/kg f.w.",
+   "Perch, Finnish rivers and coastal sites (n = 48), fresh weight",
+   9,
+   "Table 5, PFOA row, Perch Max column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "Herring columns are marine fish, not routed to this page",
+   "why": "held on reading"
+  },
+  {
+   "row": "Table 3 is surface water",
+   "why": "held on reading"
+  }
+ ]
+}

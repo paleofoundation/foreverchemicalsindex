@@ -1,0 +1,10 @@
+{
+ "product": "breast-milk",
+ "rows": [],
+ "held": [
+  {
+   "row": "Table 2 values are assumed concentrations for a risk scenario, not measured summaries",
+   "why": "held on reading"
+  }
+ ]
+}

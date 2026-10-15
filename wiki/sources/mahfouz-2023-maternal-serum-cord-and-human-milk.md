@@ -48,7 +48,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 3
+  "unpublished_candidate_matches": 3,
+  "held_findings": [
+    {
+      "row": "Table 3 milk rows: below-threshold groups report means above the threshold (e.g. <0.06 group mean 0.44); internal inconsistency, held",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Maternal Serum, Cord and Human Milk Levels of Per- and Polyfluoroalkyl Substances (PFAS), Association with Predictors and Effect on Newborn Anthropometry
@@ -59,11 +66,9 @@ Measured PFAS in infant samples: Maternal Serum, Cord and Human Milk Levels of P
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-3 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

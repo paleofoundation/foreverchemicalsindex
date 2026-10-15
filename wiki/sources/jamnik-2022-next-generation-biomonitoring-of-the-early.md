@@ -43,7 +43,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 2
+  "unpublished_candidate_matches": 2,
+  "held_findings": [
+    {
+      "row": "Table 2 values are assumed concentrations for a risk scenario, not measured summaries",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Next-generation biomonitoring of the early-life chemical exposome in neonatal and infant development
@@ -54,11 +61,9 @@ Supporting method/exposure study: Next-generation biomonitoring of the early-lif
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-2 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

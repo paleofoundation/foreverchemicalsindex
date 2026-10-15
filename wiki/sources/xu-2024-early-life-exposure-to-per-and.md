@@ -41,7 +41,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 7
+  "unpublished_candidate_matches": 7,
+  "held_findings": [
+    {
+      "row": "Milk concentrations are in unstaged Table S5; Table 2 is intake",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # Early-life exposure to per- and polyfluoroalkyl substances: Analysis of levels, health risk and binding abilities to transport proteins
@@ -52,11 +59,9 @@ Supporting method/exposure study: Early-life exposure to per- and polyfluoroalky
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-7 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 

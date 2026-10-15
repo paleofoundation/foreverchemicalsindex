@@ -7,11 +7,15 @@ verified_name: Perfluorohexanesulfonic acid
 identity_authority: https://19january2021snapshot.epa.gov/cwa-methods/cwa-analytical-methods-and-polyfluorinated-alkyl-substances-pfas_.html
 cas_number: null
 sources:
+- 2019-junttila-pfass-in-finnish-rivers-and-fish
+- 2024-soudani-determination-of-per-and-polyfluoroalkyl-substances
 - aarts-2026-citizen-science-data-reveal-drivers-of
+- awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas
 - bilandi-2026-home-produced-eggs-as-indicators-of
 - bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in
 - bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in
 - cimpean-2025-bottled-water
+- criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances
 - draghi-2023-first-investigation-of-the-physiological-distribution
 - fci-2017-gebbink-tap-water
 - fci-2019-hu-tap-water
@@ -24,16 +28,21 @@ sources:
 - fci-paperboard-encarnacion-2024-preliminary-screening-of-per-and-polyfluoroalkyl
 - fci-paperboard-minh-2023-presence-of-perfluoroalkyl-carboxylic-acids-and
 - fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food
+- fiedler-2022-perfluoroalkane-acids-in-human-milk-under
 - ghelli-2019-preliminary-monitoring-of-the-presence-of
 - glynn-2026-occurrence-of-pfas-in-cow-s
+- hartmann-2024-persistent-organic-pollutants-in-austrian-human
+- li-2024-association-between-prenatal-exposure-to-per
 - mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
+- rawn-2022-perfluorinated-alkyl-substances-in-canadian-human
 - tan-2025-bottled-water
+- yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in
 ---
 
 # PFHxS
 
-38 source-reported values from 15 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+95 source-reported values from 24 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -45,10 +54,31 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 | product | value | unit | basis | source location | source |
 | --- | --- | --- | --- | --- | --- |
+| [[products/fish-freshwater]] | 23% | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; detection frequency | PDF p.9, Table 5, PFHxS row, Perch Detection Frequency column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
+| [[products/fish-freshwater]] | 0.03 | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; mean | PDF p.9, Table 5, PFHxS row, Perch Mean column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
+| [[products/fish-freshwater]] | 0.10 | µg/kg f.w. | Perch, Finnish rivers and coastal sites (n = 48), fresh weight; maximum | PDF p.9, Table 5, PFHxS row, Perch Max column | [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]] |
+| [[products/fish-freshwater]] | 5.07 (0.02-16.10) | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); average (min-max) | PDF p.5, Table 1, PFHxS row, Coregonus wartmanni Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 60% | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); frequency of positives above LOQ | PDF p.5, Table 1, PFHxS row, Coregonus wartmanni F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 1.56 (0.06-14.63) | µg/kg | Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11); average (min-max) | PDF p.5, Table 1, PFHxS row, Cyprinus carpio Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 100% | µg/kg | Cyprinus carpio fillets, Switzerland 2022-2024 (N = 11); frequency of positives above LOQ | PDF p.5, Table 1, PFHxS row, Cyprinus carpio F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 0.44 (0.04-1.74) | µg/kg | Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11); average (min-max) | PDF p.5, Table 1, PFHxS row, Oncorhynchus mykiss Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 80% | µg/kg | Oncorhynchus mykiss fillets, Switzerland 2022-2024 (N = 11); frequency of positives above LOQ | PDF p.5, Table 1, PFHxS row, Oncorhynchus mykiss F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 0.46 (0.10-1.55) | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); average (min-max) | PDF p.5, Table 1, PFHxS row, Perca fluviatilis Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 47% | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); frequency of positives above LOQ | PDF p.5, Table 1, PFHxS row, Perca fluviatilis F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 0.60 (0.2-1.26) | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); average (min-max) | PDF p.5, Table 1, PFHxS row, Squalius cephalus Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 71% | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); frequency of positives above LOQ | PDF p.5, Table 1, PFHxS row, Squalius cephalus F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/eggs-product]] | 0.054 | μg/kg wet weight | Backyard chicken eggs; Mean | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
 | [[products/eggs-product]] | 0.0157 | μg/kg wet weight | Backyard chicken eggs; SE | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
 | [[products/eggs-product]] | 0.000 | μg/kg wet weight | Backyard chicken eggs; Median | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
 | [[products/eggs-product]] | 11.90 | μg/kg wet weight | Backyard chicken eggs; Maximum | PDF p.9 Table 2; censoring p.5 | [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]] |
+| [[products/breast-milk]] | 8 | pg/mL | Mother's milk, Shanghai (n = 10); average | PDF p.5, Table 1, L-PFHxS row, Shanghai Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | <4-18 | pg/mL | Mother's milk, Shanghai (n = 10); range | PDF p.5, Table 1, L-PFHxS row, Shanghai range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | 13 | pg/mL | Mother's milk, Jiaxing (n = 10); average | PDF p.5, Table 1, L-PFHxS row, Jiaxing Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | 5-19 | pg/mL | Mother's milk, Jiaxing (n = 10); range | PDF p.5, Table 1, L-PFHxS row, Jiaxing range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | 3 | pg/mL | Mother's milk, Shaoxing (n = 10); average | PDF p.5, Table 1, L-PFHxS row, Shaoxing Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | <4-4 | pg/mL | Mother's milk, Shaoxing (n = 10); range | PDF p.5, Table 1, L-PFHxS row, Shaoxing range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | 7 | pg/mL | Mother's milk, Stockholm (n = 10); average | PDF p.5, Table 1, L-PFHxS row, Stockholm Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | <4-13 | pg/mL | Mother's milk, Stockholm (n = 10); range | PDF p.5, Table 1, L-PFHxS row, Stockholm range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
 | [[products/eggs-product]] | 0.0035 ± 0.015 | ng/g wet weight | Eggs; group A1; mean ± SD if numeric | PDF p.8 Table 1 | [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]] |
 | [[products/eggs-product]] | 0.0049 ± 0.023 | ng/g wet weight | Eggs; group A2; mean ± SD if numeric | PDF p.8 Table 1 | [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]] |
 | [[products/eggs-product]] | 0.0022 ± 0.01 | ng/g wet weight | Eggs; group A3; mean ± SD if numeric | PDF p.8 Table 1 | [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]] |
@@ -62,6 +92,8 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/eggs-product]] | 0.050; <LOQ | µg/kg | Barn eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
 | [[products/eggs-product]] | <LOQ | µg/kg | Organic eggs; mean ± SD; LB then UB where two entries | PDF p.12 Table 3; limits p.9 Table 2 | [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]] |
 | [[products/bottled-drinking-water]] | <LOQ | ng/L | bottled-water mean as printed; non-detect mean retained literally | PDF p. 8, Table 1, Bottled Water Mean | [[sources/cimpean-2025-bottled-water]] |
+| [[products/breast-milk]] | <LOD | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426); median [IQR] | PDF p.4, Table 2, PFHxS row, milk median (IQR) column | [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/breast-milk]] | 32 (7.5) | ng/mL | Human milk, New Hampshire Birth Cohort Study (N = 426); samples at or above LOD, N (%) | PDF p.4, Table 2, PFHxS row, milk N (% >= LOD) column | [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/dairy-milk-cow]] | N.D. | pg g−1 | Raw cow milk fraction Skimmed; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[products/dairy-milk-cow]] | 1.74 ± 4.90 | pg g−1 | Raw cow milk fraction Cream; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
 | [[products/dairy-milk-cow]] | N.D. | pg g−1 | Raw cow milk fraction Whole Milk; mean ± SD | PDF p.6 Table 2 | [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]] |
@@ -77,12 +109,46 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/drinking-water-tap]] | <LOQ | ng/L | unfiltered tap water; median [min, max] among quantifiable results or printed <LOQ | PDF p3, Table 2, unfiltered tap-water column | [[sources/fci-2023-cserbik-tap-water]] |
 | [[products/drinking-water-tap]] | 244.3 | ng/L | drinking-water site P6, targeted quantified concentration | PDF p8, section 3.1 Quantitative Study | [[sources/fci-2024-weed-tap-water]] |
 | [[products/drinking-water-tap]] | 0.2-3.5 | ng/L | drinking-water application samples; content range or single reported value | PDF p12, Table 5, Drinking water Content column | [[sources/fci-2025-chen-tap-water]] |
+| [[products/breast-milk]] | 0.489 (1.78) | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Africa; mean (SD), lower bound | PDF p.5, Table 1, PFHxS row, Africa (N = 27) Mean (SD) column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 0 | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Africa; median, lower bound | PDF p.5, Table 1, PFHxS row, Africa (N = 27) Median column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | [0, 7.56] | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Africa; [min, max], lower bound | PDF p.5, Table 1, PFHxS row, Africa (N = 27) [Min, Max] column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 6.90 (26.1) | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Asia; mean (SD), lower bound | PDF p.5, Table 1, PFHxS row, Asia (N = 18) Mean (SD) column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 0 | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Asia; median, lower bound | PDF p.5, Table 1, PFHxS row, Asia (N = 18) Median column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | [0, 111] | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Asia; [min, max], lower bound | PDF p.5, Table 1, PFHxS row, Asia (N = 18) [Min, Max] column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 2.37 (4.54) | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, CEE; mean (SD), lower bound | PDF p.5, Table 1, PFHxS row, CEE (N = 12) Mean (SD) column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 0 | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, CEE; median, lower bound | PDF p.5, Table 1, PFHxS row, CEE (N = 12) Median column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | [0, 12.9] | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, CEE; [min, max], lower bound | PDF p.5, Table 1, PFHxS row, CEE (N = 12) [Min, Max] column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 2.61 (7.75) | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, GRULAC; mean (SD), lower bound | PDF p.5, Table 1, PFHxS row, GRULAC (N = 21) Mean (SD) column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 0 | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, GRULAC; median, lower bound | PDF p.5, Table 1, PFHxS row, GRULAC (N = 21) Median column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | [0, 34.8] | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, GRULAC; [min, max], lower bound | PDF p.5, Table 1, PFHxS row, GRULAC (N = 21) [Min, Max] column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 4.28 (6.53) | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, WEOG; mean (SD), lower bound | PDF p.5, Table 1, PFHxS row, WEOG (N = 8) Mean (SD) column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 0 | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, WEOG; median, lower bound | PDF p.5, Table 1, PFHxS row, WEOG (N = 8) Median column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | [0, 17.4] | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, WEOG; [min, max], lower bound | PDF p.5, Table 1, PFHxS row, WEOG (N = 8) [Min, Max] column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 2.96 (12.8) | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Overall; mean (SD), lower bound | PDF p.5, Table 1, PFHxS row, Overall (N = 86) Mean (SD) column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | 0 | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Overall; median, lower bound | PDF p.5, Table 1, PFHxS row, Overall (N = 86) Median column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
+| [[products/breast-milk]] | [0, 111] | pg/g fresh weight | Human milk national pools, WHO/UNEP surveys, Overall; [min, max], lower bound | PDF p.5, Table 1, PFHxS row, Overall (N = 86) [Min, Max] column | [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]] |
 | [[products/eggs-product]] | 0.4 | ng/g | Homogenized egg yolk; group A pool 3 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
 | [[products/eggs-product]] | traces | ng/g | Homogenized egg yolk; group A pool 2 | PDF p.3 Table 3; limits p.2 | [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]] |
 | [[products/dairy-milk-cow]] | approximately 2 and 8 | pg/g ww | Farm tank cow milk; estimated range below MDL | PDF p.5 Results, left column | [[sources/glynn-2026-occurrence-of-pfas-in-cow-s]] |
 | [[products/dairy-milk-cow]] | < MDL | pg/g | Regional dairy production facility silo milk | PDF p.1 Abstract; p.6 Dairy Production Facilities Samples | [[sources/glynn-2026-occurrence-of-pfas-in-cow-s]] |
+| [[products/breast-milk]] | <LOQ-9.7 | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); range | PDF p.11, Table 3, follow-up study block, PFHxS row, follow-up range column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/breast-milk]] | <LOQ | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); median | PDF p.11, Table 3, follow-up study block, PFHxS row, follow-up median column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/breast-milk]] | 6.0 | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); 95th percentile | PDF p.11, Table 3, follow-up study block, PFHxS row, follow-up P95 column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/breast-milk]] | 0.1121 | ng/mL | Human milk, e-waste dismantling area, China (n = 150); maximum | PDF p.6, Table 2, PFHxS row, Max column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
+| [[products/breast-milk]] | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150); median | PDF p.6, Table 2, PFHxS row, Median column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
+| [[products/breast-milk]] | 0.027 | ng/mL | Human milk, e-waste dismantling area, China (n = 150); mean | PDF p.6, Table 2, PFHxS row, Mean column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
+| [[products/breast-milk]] | 2.0 | ng/mL | Human milk, e-waste dismantling area, China (n = 150); detection frequency (%) | PDF p.6, Table 2, PFHxS row, Detection frequencies column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
 | [[products/dairy-milk-cow]] | <LOQ | µg/kg | Cow milk; source table mean | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
 | [[products/eggs-product]] | <LOQ | µg/kg | Chickens eggs; source table mean | PDF p.4 Tables 2 to 3; LOQs p.3 Table 1 | [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]] |
+| [[products/breast-milk]] | <LOD - 167 | ng/L | Canadian human milk (MIREC, n = 664); range | PDF p.5, Table 3, PFHxS row, Range column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
+| [[products/breast-milk]] | 13.0 | ng/L | Canadian human milk (MIREC, n = 664); mean of results above LOD | PDF p.5, Table 3, PFHxS row, Mean, >LOD only column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
+| [[products/breast-milk]] | 9.30 | ng/L | Canadian human milk (MIREC, n = 664); median of results above LOD | PDF p.5, Table 3, PFHxS row, Median, >LOD only column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
+| [[products/breast-milk]] | 62.5 | % | Canadian human milk (MIREC, n = 664); detection frequency | PDF p.5, Table 3, PFHxS row, Detection frequency column | [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]] |
+| [[products/breast-milk]] | 94.9 | ng/L | Human milk, China (n = 1,151); detection rate (%) | PDF p.6, Table 2, PFHxS row, DR (%) column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | <LOQ | ng/L | Human milk, China (n = 1,151); minimum | PDF p.6, Table 2, PFHxS row, Min column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | 7.286 | ng/L | Human milk, China (n = 1,151); median | PDF p.6, Table 2, PFHxS row, 50th column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | 54.93 | ng/L | Human milk, China (n = 1,151); 95th percentile | PDF p.6, Table 2, PFHxS row, 95th column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | 533.8 | ng/L | Human milk, China (n = 1,151); maximum | PDF p.6, Table 2, PFHxS row, Max column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
 
 ## Analytical methods
 
@@ -90,11 +156,15 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 ## Sources
 
+- [[sources/2019-junttila-pfass-in-finnish-rivers-and-fish]]
+- [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]]
 - [[sources/aarts-2026-citizen-science-data-reveal-drivers-of]]
+- [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]]
 - [[sources/bilandi-2026-home-produced-eggs-as-indicators-of]]
 - [[sources/bilandi-2026-per-and-polyfluoroalkyl-substance-levels-in]]
 - [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]]
 - [[sources/cimpean-2025-bottled-water]]
+- [[sources/criswell-2022-concentrations-of-per-and-polyfluoroalkyl-substances]]
 - [[sources/draghi-2023-first-investigation-of-the-physiological-distribution]]
 - [[sources/fci-2017-gebbink-tap-water]]
 - [[sources/fci-2019-hu-tap-water]]
@@ -107,10 +177,15 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/fci-paperboard-encarnacion-2024-preliminary-screening-of-per-and-polyfluoroalkyl]]
 - [[sources/fci-paperboard-minh-2023-presence-of-perfluoroalkyl-carboxylic-acids-and]]
 - [[sources/fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food]]
+- [[sources/fiedler-2022-perfluoroalkane-acids-in-human-milk-under]]
 - [[sources/ghelli-2019-preliminary-monitoring-of-the-presence-of]]
 - [[sources/glynn-2026-occurrence-of-pfas-in-cow-s]]
+- [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]]
+- [[sources/li-2024-association-between-prenatal-exposure-to-per]]
 - [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
+- [[sources/rawn-2022-perfluorinated-alkyl-substances-in-canadian-human]]
 - [[sources/tan-2025-bottled-water]]
+- [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]]
 
 [[analytes/index|Analytes]] · [[methodology|Methodology]]

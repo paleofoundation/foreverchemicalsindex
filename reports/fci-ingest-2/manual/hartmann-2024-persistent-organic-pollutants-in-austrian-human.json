@@ -1,0 +1,285 @@
+{
+ "product": "breast-milk",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "range",
+   "n.d.-83",
+   "ng/L",
+   "Breast milk, Austria, pilot study 2013 (n = 21)",
+   11,
+   "Table 3, pilot study block, PFOA row, pilot range column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median",
+   "n.d.",
+   "ng/L",
+   "Breast milk, Austria, pilot study 2013 (n = 21)",
+   11,
+   "Table 3, pilot study block, PFOA row, pilot median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "95th percentile",
+   "81",
+   "ng/L",
+   "Breast milk, Austria, pilot study 2013 (n = 21)",
+   11,
+   "Table 3, pilot study block, PFOA row, pilot P95 column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "range",
+   "58-310",
+   "ng/L",
+   "Breast milk, Austria, pilot study 2013 (n = 21)",
+   11,
+   "Table 3, pilot study block, PFOS row, pilot range column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median",
+   "110",
+   "ng/L",
+   "Breast milk, Austria, pilot study 2013 (n = 21)",
+   11,
+   "Table 3, pilot study block, PFOS row, pilot median column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "95th percentile",
+   "300",
+   "ng/L",
+   "Breast milk, Austria, pilot study 2013 (n = 21)",
+   11,
+   "Table 3, pilot study block, PFOS row, pilot P95 column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "range",
+   "<LOQ-91",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFOA row, follow-up range column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median",
+   "25",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFOA row, follow-up median column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "95th percentile",
+   "75",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFOA row, follow-up P95 column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "range",
+   "n.d.-55",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFOS row, follow-up range column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "median",
+   "12",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFOS row, follow-up median column"
+  ],
+  [
+   "PFOS",
+   "pfos",
+   "95th percentile",
+   "39",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFOS row, follow-up P95 column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "range",
+   "<LOQ-9.7",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFHxS row, follow-up range column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median",
+   "<LOQ",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFHxS row, follow-up median column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "95th percentile",
+   "6.0",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFHxS row, follow-up P95 column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "range",
+   "n.d.-15",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFNA row, follow-up range column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "median",
+   "<LOQ",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFNA row, follow-up median column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "95th percentile",
+   "8.0",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFNA row, follow-up P95 column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "range",
+   "n.d.-8.7",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFDA row, follow-up range column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "median",
+   "n.d.",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFDA row, follow-up median column"
+  ],
+  [
+   "PFDA",
+   "pfda",
+   "95th percentile",
+   "4.6",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFDA row, follow-up P95 column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "range",
+   "n.d.-28",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFHxA row, follow-up range column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "median",
+   "n.d.",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFHxA row, follow-up median column"
+  ],
+  [
+   "PFHxA",
+   "pfhxa",
+   "95th percentile",
+   "16",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFHxA row, follow-up P95 column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "range",
+   "n.d.-8.1",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFBS row, follow-up range column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "median",
+   "n.d.",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFBS row, follow-up median column"
+  ],
+  [
+   "PFBS",
+   "pfbs",
+   "95th percentile",
+   "n.d.",
+   "ng/L",
+   "Breast milk, Austria, follow-up study 2014-2016 (n = 40)",
+   11,
+   "Table 3, follow-up study block, PFBS row, follow-up P95 column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "HFPO-DA row printed under a trade name label",
+   "why": "held on reading"
+  },
+  {
+   "row": "Intake columns are not concentrations",
+   "why": "held on reading"
+  }
+ ]
+}

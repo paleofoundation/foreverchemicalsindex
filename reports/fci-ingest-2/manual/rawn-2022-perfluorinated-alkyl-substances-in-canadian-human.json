@@ -1,0 +1,171 @@
+{
+ "product": "breast-milk",
+ "rows": [
+  [
+   "PFOA",
+   "pfoa",
+   "range",
+   "<LOD - 284",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFOA row, Range column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "mean of results above LOD",
+   "41.4",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFOA row, Mean, >LOD only column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "median of results above LOD",
+   "34.2",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFOA row, Median, >LOD only column"
+  ],
+  [
+   "PFOA",
+   "pfoa",
+   "detection frequency",
+   "99.5",
+   "%",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFOA row, Detection frequency column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "range",
+   "<LOD - 142",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, L-PFOS row, Range column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "mean of results above LOD",
+   "35.7",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, L-PFOS row, Mean, >LOD only column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "median of results above LOD",
+   "30.2",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, L-PFOS row, Median, >LOD only column"
+  ],
+  [
+   "L-PFOS",
+   "pfos",
+   "detection frequency",
+   "95.9",
+   "%",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, L-PFOS row, Detection frequency column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "range",
+   "<LOD - 167",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFHxS row, Range column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "mean of results above LOD",
+   "13.0",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFHxS row, Mean, >LOD only column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "median of results above LOD",
+   "9.30",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFHxS row, Median, >LOD only column"
+  ],
+  [
+   "PFHxS",
+   "pfhxs",
+   "detection frequency",
+   "62.5",
+   "%",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFHxS row, Detection frequency column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "range",
+   "<LOD - 396",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFNA row, Range column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "mean of results above LOD",
+   "10.4",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFNA row, Mean, >LOD only column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "median of results above LOD",
+   "7.60",
+   "ng/L",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFNA row, Median, >LOD only column"
+  ],
+  [
+   "PFNA",
+   "pfna",
+   "detection frequency",
+   "61.0",
+   "%",
+   "Canadian human milk (MIREC, n = 664)",
+   5,
+   "Table 3, PFNA row, Detection frequency column"
+  ]
+ ],
+ "held": [
+  {
+   "row": "PFBS, PFHxA, br-PFOS",
+   "why": "PFBS and PFHxA detected in under 1% of samples with footnoted treatment; br-PFOS isomers have no single-analyte page"
+  }
+ ]
+}

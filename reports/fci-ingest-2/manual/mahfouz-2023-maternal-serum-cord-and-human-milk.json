@@ -1,0 +1,10 @@
+{
+ "product": "breast-milk",
+ "rows": [],
+ "held": [
+  {
+   "row": "Table 3 milk rows: below-threshold groups report means above the threshold (e.g. <0.06 group mean 0.44); internal inconsistency, held",
+   "why": "held on reading"
+  }
+ ]
+}

@@ -23,7 +23,7 @@
   "source_type": "primary_measurement",
   "evidence_tier": "reviewed",
   "evidence_fitness": "PRIMARY: primary PFAS measurement data in product class; method stated: targeted LC-MS/MS, LC-HRMS",
-  "public_evidence_label": "Context source",
+  "public_evidence_label": "Source-reported measurements",
   "review_state": "approved_for_public",
   "confidence": "reviewed",
   "claim_classes": [],
@@ -33,7 +33,10 @@
   "access_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13106757.1/PMC13106757.1.pdf",
   "license": "open access (cc-by-nc-nd)",
   "metals": [],
-  "analytes": [],
+  "analytes": [
+    "pfoa",
+    "pfos"
+  ],
   "ingredients": [],
   "products": [
     "breast-milk"
@@ -41,9 +44,78 @@
   "jurisdictions": [],
   "superseded_by": null,
   "updated": "2026-10-15",
-  "findings": [],
+  "findings": [
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "< LLOQ",
+      "unit": "ng/L",
+      "basis": "Breast milk, Riyadh (n = 25); mean",
+      "source_location": "PDF p.6, Table 4, PFOA row, Mean column",
+      "analyte_label": "PFOA",
+      "statistic": "mean",
+      "matrix": "Breast milk, Riyadh (n = 25)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "< LLOQ",
+      "unit": "ng/L",
+      "basis": "Breast milk, Riyadh (n = 25); median",
+      "source_location": "PDF p.6, Table 4, PFOA row, Median column",
+      "analyte_label": "PFOA",
+      "statistic": "median",
+      "matrix": "Breast milk, Riyadh (n = 25)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfoa",
+      "value": "73.35",
+      "unit": "ng/L",
+      "basis": "Breast milk, Riyadh (n = 25); maximum",
+      "source_location": "PDF p.6, Table 4, PFOA row, Max column",
+      "analyte_label": "PFOA",
+      "statistic": "maximum",
+      "matrix": "Breast milk, Riyadh (n = 25)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "< LLOQ",
+      "unit": "ng/L",
+      "basis": "Breast milk, Riyadh (n = 25); mean",
+      "source_location": "PDF p.6, Table 4, PFOS row, Mean column",
+      "analyte_label": "PFOS",
+      "statistic": "mean",
+      "matrix": "Breast milk, Riyadh (n = 25)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "< LLOQ",
+      "unit": "ng/L",
+      "basis": "Breast milk, Riyadh (n = 25); median",
+      "source_location": "PDF p.6, Table 4, PFOS row, Median column",
+      "analyte_label": "PFOS",
+      "statistic": "median",
+      "matrix": "Breast milk, Riyadh (n = 25)"
+    },
+    {
+      "product": "breast-milk",
+      "analyte": "pfos",
+      "value": "85.2",
+      "unit": "ng/L",
+      "basis": "Breast milk, Riyadh (n = 25); maximum",
+      "source_location": "PDF p.6, Table 4, PFOS row, Max column",
+      "analyte_label": "PFOS",
+      "statistic": "maximum",
+      "matrix": "Breast milk, Riyadh (n = 25)"
+    }
+  ],
   "library_folder": "breast-milk",
-  "unpublished_candidate_matches": 10
+  "unpublished_candidate_matches": 10,
+  "held_findings": [],
+  "extraction": "manual table reading"
 }
 ---
 # Perfluoroalkyl compound levels in breast milk of mothers in Riyadh, Kingdom of Saudi Arabia
@@ -54,11 +126,16 @@ Measured PFAS in infant samples: Perfluoroalkyl compound levels in breast milk o
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription.
 
-No values from this source are published. It is filed as context evidence.
-
-10 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+| chemical | statistic | value | unit | matrix | source location |
+| --- | --- | --- | --- | --- | --- |
+| [[analytes/pfoa]] (PFOA) | mean | < LLOQ | ng/L | Breast milk, Riyadh (n = 25) | PDF p.6, Table 4, PFOA row, Mean column |
+| [[analytes/pfoa]] (PFOA) | median | < LLOQ | ng/L | Breast milk, Riyadh (n = 25) | PDF p.6, Table 4, PFOA row, Median column |
+| [[analytes/pfoa]] (PFOA) | maximum | 73.35 | ng/L | Breast milk, Riyadh (n = 25) | PDF p.6, Table 4, PFOA row, Max column |
+| [[analytes/pfos]] (PFOS) | mean | < LLOQ | ng/L | Breast milk, Riyadh (n = 25) | PDF p.6, Table 4, PFOS row, Mean column |
+| [[analytes/pfos]] (PFOS) | median | < LLOQ | ng/L | Breast milk, Riyadh (n = 25) | PDF p.6, Table 4, PFOS row, Median column |
+| [[analytes/pfos]] (PFOS) | maximum | 85.2 | ng/L | Breast milk, Riyadh (n = 25) | PDF p.6, Table 4, PFOS row, Max column |
 
 ## Evidence Fitness
 
@@ -79,3 +156,7 @@ DOI 10.1038/s41598-026-43202-7 resolved at Crossref; DOI matched in the filed PD
 ## Wiki pages updated on ingest
 
 [[products/breast-milk]]
+
+[[analytes/pfoa]]
+
+[[analytes/pfos]]

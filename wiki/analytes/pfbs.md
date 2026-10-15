@@ -7,7 +7,9 @@ verified_name: Perfluorobutanesulfonic acid
 identity_authority: https://19january2021snapshot.epa.gov/cwa-methods/cwa-analytical-methods-and-polyfluorinated-alkyl-substances-pfas_.html
 cas_number: null
 sources:
+- 2024-soudani-determination-of-per-and-polyfluoroalkyl-substances
 - abafe-2021-confirmatory-analysis-of-per-and-polyfluoroalkyl
+- awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas
 - belkacemi-2026-preliminary-assessment-of-co-occurrence-of
 - bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in
 - cimpean-2025-bottled-water
@@ -25,16 +27,19 @@ sources:
 - fci-paperboard-minh-2023-presence-of-perfluoroalkyl-carboxylic-acids-and
 - fci-paperboard-schaider-2017-fluorinated-compounds-in-u-s-fast
 - fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food
+- hartmann-2024-persistent-organic-pollutants-in-austrian-human
+- li-2024-association-between-prenatal-exposure-to-per
 - martinez-2024-bottled-water
 - mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow
 - mikoajczyk-2024-chickens-eggs-and-the-livers-of
 - nuti-2024-study-of-endocrine-disrupting-chemicals-in
 - tan-2025-bottled-water
+- yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in
 ---
 
 # PFBS
 
-34 source-reported values from 16 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
+57 source-reported values from 21 filed studies. Values are shown as printed in each source, with the basis and page. Studies differ in samples, methods and limits, so values are not directly comparable. Measured samples do not represent every product on the market.
 
 ## Identity
 
@@ -46,7 +51,21 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 | product | value | unit | basis | source location | source |
 | --- | --- | --- | --- | --- | --- |
+| [[products/fish-freshwater]] | 0.08 (0.04-0.13) | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); average (min-max) | PDF p.5, Table 1, PFBS row, Coregonus wartmanni Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 45% | µg/kg | Coregonus wartmanni fillets, Switzerland 2022-2024 (N = 20); frequency of positives above LOQ | PDF p.5, Table 1, PFBS row, Coregonus wartmanni F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 0.05 (0.01-0.07) | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); average (min-max) | PDF p.5, Table 1, PFBS row, Perca fluviatilis Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 11% | µg/kg | Perca fluviatilis fillets, Switzerland 2022-2024 (N = 38); frequency of positives above LOQ | PDF p.5, Table 1, PFBS row, Perca fluviatilis F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 0.01 (0.01-0.02) | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); average (min-max) | PDF p.5, Table 1, PFBS row, Squalius cephalus Av (min-max) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
+| [[products/fish-freshwater]] | 29% | µg/kg | Squalius cephalus fillets, Switzerland 2022-2024 (N = 7); frequency of positives above LOQ | PDF p.5, Table 1, PFBS row, Squalius cephalus F (%) column | [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]] |
 | [[products/infant-formula]] | 57 | ng kg−1 | Pooled infant formula; reported PFBS occurrence | PDF p.12 section 3.3; limit p.4 Table 1 | [[sources/abafe-2021-confirmatory-analysis-of-per-and-polyfluoroalkyl]] |
+| [[products/breast-milk]] | 4 | pg/mL | Mother's milk, Shanghai (n = 10); average | PDF p.5, Table 1, L-PFBS row, Shanghai Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | <4-11 | pg/mL | Mother's milk, Shanghai (n = 10); range | PDF p.5, Table 1, L-PFBS row, Shanghai range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | 5 | pg/mL | Mother's milk, Jiaxing (n = 10); average | PDF p.5, Table 1, L-PFBS row, Jiaxing Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | <4-8 | pg/mL | Mother's milk, Jiaxing (n = 10); range | PDF p.5, Table 1, L-PFBS row, Jiaxing range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | 4 | pg/mL | Mother's milk, Shaoxing (n = 10); average | PDF p.5, Table 1, L-PFBS row, Shaoxing Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | <4-6 | pg/mL | Mother's milk, Shaoxing (n = 10); range | PDF p.5, Table 1, L-PFBS row, Shaoxing range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | 7 | pg/mL | Mother's milk, Stockholm (n = 10); average | PDF p.5, Table 1, L-PFBS row, Stockholm Conc. column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
+| [[products/breast-milk]] | <4-21 | pg/mL | Mother's milk, Stockholm (n = 10); range | PDF p.5, Table 1, L-PFBS row, Stockholm range in parentheses column | [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]] |
 | [[products/dairy-milk-cow]] | ND | µg/kg | Cow bulk milk; farm F12 | PDF p.11 Table 4; limits p.10 | [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]] |
 | [[products/dairy-milk-cow]] | ND | µg/kg | Cow bulk milk; farm F13 | PDF p.11 Table 4; limits p.10 | [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]] |
 | [[products/dairy-milk-cow]] | 0.085 | µg/kg | Cow bulk milk; farm F15 | PDF p.11 Table 4; limits p.10 | [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]] |
@@ -70,6 +89,10 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/drinking-water-tap]] | 76.9 | ng/L | drinking-water site P6, targeted quantified concentration | PDF p8, section 3.1 Quantitative Study | [[sources/fci-2024-weed-tap-water]] |
 | [[products/drinking-water-tap]] | ≤13 | ng/L | current public-water samples, reported upper concentration | PDF p6, section 3.2 Water | [[sources/fci-2025-bauer-tap-water]] |
 | [[products/drinking-water-tap]] | 0.2-6.0 | ng/L | drinking-water application samples; content range or single reported value | PDF p11, Table 5, Drinking water Content column | [[sources/fci-2025-chen-tap-water]] |
+| [[products/breast-milk]] | n.d.-8.1 | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); range | PDF p.11, Table 3, follow-up study block, PFBS row, follow-up range column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/breast-milk]] | n.d. | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); median | PDF p.11, Table 3, follow-up study block, PFBS row, follow-up median column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/breast-milk]] | n.d. | ng/L | Breast milk, Austria, follow-up study 2014-2016 (n = 40); 95th percentile | PDF p.11, Table 3, follow-up study block, PFBS row, follow-up P95 column | [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]] |
+| [[products/breast-milk]] | <LOD | ng/mL | Human milk, e-waste dismantling area, China (n = 150); maximum | PDF p.6, Table 2, PFBS row, Max column | [[sources/li-2024-association-between-prenatal-exposure-to-per]] |
 | [[products/bottled-drinking-water]] | < LOQ | ng/L | detected below quantification in bottled-water group; paper lists six labels while saying seven | PDF p. 10 (56545), Occurrence in bottled water samples | [[sources/martinez-2024-bottled-water]] |
 | [[products/dairy-milk-cow]] | 0.0012 | µg/kg | Cow milk; source table mean | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
 | [[products/dairy-milk-cow]] | 0.0012 | µg/kg | Cow milk; source table median | PDF p.5 Tables 1 to 2 | [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]] |
@@ -80,6 +103,11 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 | [[products/infant-formula]] | 0.09 | ng/g dry weight | Infant formula; Median | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/infant-formula]] | 0.04–0.13 | ng/g dry weight | Infant formula; Min-Max | PDF p.9 Table 1 | [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]] |
 | [[products/bottled-drinking-water]] | 0.37 | ng/L | bottled-water mean based on detections above MDL; ND literal | PDF p. 4 (4398), Table 1 bottled-water mean and footnotes a/f | [[sources/tan-2025-bottled-water]] |
+| [[products/breast-milk]] | 25.3 | ng/L | Human milk, China (n = 1,151); detection rate (%) | PDF p.6, Table 2, PFBS row, DR (%) column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | <LOQ | ng/L | Human milk, China (n = 1,151); minimum | PDF p.6, Table 2, PFBS row, Min column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | <LOQ | ng/L | Human milk, China (n = 1,151); median | PDF p.6, Table 2, PFBS row, 50th column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | 2.788 | ng/L | Human milk, China (n = 1,151); 95th percentile | PDF p.6, Table 2, PFBS row, 95th column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
+| [[products/breast-milk]] | 30.42 | ng/L | Human milk, China (n = 1,151); maximum | PDF p.6, Table 2, PFBS row, Max column | [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]] |
 
 ## Analytical methods
 
@@ -87,7 +115,9 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 
 ## Sources
 
+- [[sources/2024-soudani-determination-of-per-and-polyfluoroalkyl-substances]]
 - [[sources/abafe-2021-confirmatory-analysis-of-per-and-polyfluoroalkyl]]
+- [[sources/awad-2020-emerging-per-and-polyfluoroalkyl-substances-pfas]]
 - [[sources/belkacemi-2026-preliminary-assessment-of-co-occurrence-of]]
 - [[sources/bogdan-2024-per-and-polyfluoroalkyl-substances-pfas-in]]
 - [[sources/cimpean-2025-bottled-water]]
@@ -105,10 +135,13 @@ TODO: verify the applicable chemical form and identifier before populating a CAS
 - [[sources/fci-paperboard-minh-2023-presence-of-perfluoroalkyl-carboxylic-acids-and]]
 - [[sources/fci-paperboard-schaider-2017-fluorinated-compounds-in-u-s-fast]]
 - [[sources/fci-paperboard-siao-2022-determination-of-perfluoroalkyl-substances-in-food]]
+- [[sources/hartmann-2024-persistent-organic-pollutants-in-austrian-human]]
+- [[sources/li-2024-association-between-prenatal-exposure-to-per]]
 - [[sources/martinez-2024-bottled-water]]
 - [[sources/mikoajczyk-2023-occurrence-of-perfluoroalkyl-substances-in-cow]]
 - [[sources/mikoajczyk-2024-chickens-eggs-and-the-livers-of]]
 - [[sources/nuti-2024-study-of-endocrine-disrupting-chemicals-in]]
 - [[sources/tan-2025-bottled-water]]
+- [[sources/yao-2023-emerging-and-legacy-perfluoroalkyl-substances-in]]
 
 [[analytes/index|Analytes]] · [[methodology|Methodology]]

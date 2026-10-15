@@ -40,7 +40,14 @@
   "updated": "2026-10-15",
   "findings": [],
   "library_folder": "freshwater-fish",
-  "unpublished_candidate_matches": 5
+  "unpublished_candidate_matches": 5,
+  "held_findings": [
+    {
+      "row": "Tissues are liver and intestine, not edible muscle",
+      "why": "held on reading"
+    }
+  ],
+  "extraction": "manual table reading"
 }
 ---
 # PFAS levels in fish species in the Po River (Italy): New generation PFAS, fish ecological traits and parasitism in the foreground
@@ -51,11 +58,9 @@ Fish species of the Po River and parasites
 
 ## Key numbers
 
-Values below are stated in the source text with one named analyte, one value and one unit in the same clause. They are shown as printed, without conversion. Table values were not transcribed, and this is not an exhaustive record of the paper.
+Values read from the source tables and checked against the cited page. Shown as printed, without conversion. Selected records, not an exhaustive transcription. 1 values were held for review.
 
-No values from this source are published. It is filed as context evidence.
-
-5 further candidate values were held because the clause named several values or analytes, or concerned limits, blood or intake rather than the product.
+No values published.
 
 ## Evidence Fitness
 
