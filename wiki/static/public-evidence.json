@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "status": "awaiting-evidence",
+  "scope": "Public eligible records only; empty coverage is not evidence of absence or a count of the private intake.",
+  "totals": {
+    "publishedSources": 0,
+    "publishedFindings": 0
+  },
+  "pages": [
+    {
+      "slug": "about",
+      "url": "https://foreverchemicalsindex.com/about",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "analytes/index",
+      "url": "https://foreverchemicalsindex.com/analytes/",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "data",
+      "url": "https://foreverchemicalsindex.com/data",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "editorial-standards",
+      "url": "https://foreverchemicalsindex.com/editorial-standards",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "errata",
+      "url": "https://foreverchemicalsindex.com/errata",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "index",
+      "url": "https://foreverchemicalsindex.com/",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "methodology",
+      "url": "https://foreverchemicalsindex.com/methodology",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "products/index",
+      "url": "https://foreverchemicalsindex.com/products/",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "regulations/index",
+      "url": "https://foreverchemicalsindex.com/regulations/",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "regulators/index",
+      "url": "https://foreverchemicalsindex.com/regulators/",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    },
+    {
+      "slug": "sources/index",
+      "url": "https://foreverchemicalsindex.com/sources/",
+      "references": [],
+      "routedSources": [],
+      "coverage": {
+        "citedSources": 0,
+        "routedSources": 0,
+        "publishedFindings": 0
+      },
+      "revisions": [],
+      "revisionStatus": "no-reviewed-revision-records"
+    }
+  ]
+}
