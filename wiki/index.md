@@ -7,7 +7,7 @@ type: reference
 
 PFAS evidence, organized by product category, analyte, source, and regulatory instrument.
 
-This reference is being prepared. Category and analyte pages are placeholders awaiting evidence review. Empty tables indicate missing evidence, not an absence of contamination.
+This reference is being prepared. Planned category and analyte profiles remain private while evidence review is pending. Empty tables indicate missing evidence, not an absence of contamination.
 
 ## Explore
 

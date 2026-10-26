@@ -1,0 +1,850 @@
+{
+  "schema_version": 1,
+  "policy_version": "fci-discovery/1-proposed",
+  "source_baseline": "9832914da3d252c397fabdc16b02498cb50e7846",
+  "missing_files": {
+    "status": "UNVERIFIED",
+    "reported_count": 40,
+    "queue_path": null,
+    "note": "Exact fci-need-files.csv unavailable in inspected locations; not zero"
+  },
+  "candidates": [
+    {
+      "slug": "products/all-purpose-cleaners",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/anti-static-products",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/baby-food",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/baby-lotion-cream",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/baby-sunscreen-chemical",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/baby-sunscreen-mineral",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/baby-wipes",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/bakeware",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/bibs",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/blankets-and-sleep-sacks",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/bottled-drinking-water",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/bread-and-baked-goods",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/breakfast-cereals",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/butter-and-ghee",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/canned-seafood",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/car-seats",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/carpet-cleaners",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/childrens-makeup",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/childrens-nail-polish",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/chocolate",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/cleaning-wipes-household",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/coffee",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/condiments-general",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/cookware-ceramic-coated",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/cookware-nonstick-coated",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/dairy-milk-camel",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/dairy-milk-cow",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/dairy-milk-goat-sheep",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/dairy-milk-powders",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/diapers-and-components",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/eggs-product",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/eye-makeup",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/fish-freshwater",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/fish-marine-non-predatory",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/fish-marine-predatory",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/floss-interdental-cleaners",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/food-packaging-cans-lids",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/food-packaging-caps-closures",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/food-packaging-flexible-pouches-films",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/food-packaging-foils-wraps",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/food-packaging-glass-jars",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/food-packaging-paperboard-cartons",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/food-packaging-plastic-tubs",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/fresh-fish",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-concentrated-liquid-non-soy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-concentrated-liquid-soy-based",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-dairy-free",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-dairy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-powder-dairy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-powder-non-soy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-powder-soy-based",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-powder-soy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-powder",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-rtf-dairy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-rtf-liquid-non-soy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-rtf-liquid-soy-based",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-rtf-soy",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula-stage1",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/infant-formula",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/lipstick",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/makeup-foundation-powders-blush",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/menstrual-cups",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/menstrual-pads",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/menstrual-tampons",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/period-underwear-reusable-garments",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/pet-food-canned-wet",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/pet-food-dry-kibble",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/pet-food-fish-marine-protein",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/pet-food-freeze-dried",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/pet-food-raw",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/pet-food-semi-moist",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/seafood",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/toothpaste",
+      "declared_type": "product",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/6-2-ftoh",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/hfpo-da",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfbs",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfca",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfda",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfhxa",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfhxs",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfna",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfoa",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfos",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/pfsa",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/precursors",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "analytes/total-organic-fluorine",
+      "declared_type": "analyte",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scaffold identity; no reviewed evidence or type acceptance"
+    },
+    {
+      "slug": "products/drinking-water-tap",
+      "declared_type": "unresolved",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scope approved October 15 10:38; filed-source gate; tap stub exists only in ingest PR8"
+    },
+    {
+      "slug": "products/popcorn",
+      "declared_type": "unresolved",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scope approved October 15 10:38; no filed source in inspected drafts"
+    },
+    {
+      "slug": "products/fast-food",
+      "declared_type": "unresolved",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scope approved October 15 10:38; no filed source in inspected drafts"
+    },
+    {
+      "slug": "products/textiles-outdoor-apparel",
+      "declared_type": "unresolved",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scope approved October 15 10:38; no filed source in inspected drafts"
+    },
+    {
+      "slug": "products/school-uniforms",
+      "declared_type": "unresolved",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scope approved October 15 10:38; no filed source in inspected drafts"
+    },
+    {
+      "slug": "products/carpets-and-rugs",
+      "declared_type": "unresolved",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scope approved October 15 10:38; no filed source in inspected drafts"
+    },
+    {
+      "slug": "products/mattresses",
+      "declared_type": "unresolved",
+      "type_review": "pending",
+      "scope_id": null,
+      "status": "NEEDS-EVIDENCE",
+      "source_ids": [],
+      "note": "Private scope approved October 15 10:38; no filed source in inspected drafts"
+    }
+  ]
+}

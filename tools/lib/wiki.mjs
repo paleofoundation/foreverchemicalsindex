@@ -13,7 +13,8 @@ export function pages(dir = "wiki") {
     return [{ file, slug: path.relative("wiki", file).replace(/\.md$/, ""), data, content }]
   }).sort((a,b) => a.slug.localeCompare(b.slug))
 }
-export const published = () => pages().filter(page => isPublicWikiRecord(page.data, page.slug))
+export function publicationContext(all = pages()) { return { sources: all.filter(page => page.data.type === "source" && isPublicWikiRecord(page.data, page.slug)).map(page => page.data) } }
+export function published() { const all = pages(), context = publicationContext(all); return all.filter(page => isPublicWikiRecord(page.data, page.slug, context)) }
 export const sources = () => pages().filter(page => page.data.type === "source")
 export const simplify = slug => slug.replace(/\/index$/, "").replace(/^index$/, "")
 export function fail(errors, label) {
