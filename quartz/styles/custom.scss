@@ -41,11 +41,4 @@
 @import "author-profile";
 @import "search-inline";
 
-/* Empty reference scaffold, preserving the template palette and typography. */
-.fci-navigation { display:flex; flex-wrap:wrap; gap:1rem; }
-.hmi-topnav-inner { flex-wrap:wrap; height:auto; min-height:5rem; padding:1rem; gap:2rem; }
-.fci-hero { max-width:1100px; margin:2rem auto; padding:1rem 2rem; }
-.fci-hero h1 { font-family:var(--headerFont); font-size:2.5rem; line-height:1.2; }
-.fci-footer { max-width:1100px; margin:3rem auto; padding:2rem; border-top:1px solid var(--lightgray); }
-.fci-footer nav { display:flex; flex-wrap:wrap; gap:1rem; margin:1rem 0; }
-body[data-slug="index"] article h1 { display:block; }
+@import "fci-reading";

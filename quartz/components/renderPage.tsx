@@ -2,6 +2,7 @@ import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
 import HeroBandConstructor from "./HeroBand"
+import FciHomeConstructor from "./FciHome"
 import { JSResource, JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { INDEX_CSS_NAME } from "../util/staticHash"
@@ -258,6 +259,7 @@ export function renderPage(
   } = components
   const Body = BodyConstructor()
   const HeroBand = HeroBandConstructor()
+  const FciHome = FciHomeConstructor()
   // The homepage carries its own full-bleed hero, so it opts out of the proof's
   // 3-column grid (no snav/rail) and renders full-width.
   const isHome = (slug as string) === "index"
@@ -300,8 +302,8 @@ export function renderPage(
         )}
         {/* Full-width burgundy hero band (microbiomemedicine-style), lifted
             outside #quartz-root so it spans the viewport; content pages only. */}
-        {!isAuth && !isError && !isAsk && <HeroBand {...componentData} />}
-        {isAuth ? (
+        {!isHome && !isAuth && !isError && !isAsk && <HeroBand {...componentData} />}
+        {isHome ? <main id="main-content" tabindex={-1}><FciHome {...componentData} /></main> : isAuth ? (
           <div id="quartz-root" class="page proof proof-auth">
             <main class="hmi-auth-page" id="main-content" tabindex={-1}>
 
@@ -313,14 +315,11 @@ export function renderPage(
             {[<div key="proof-container" class="proof-container">
               <div class="proof-layout">
                 <aside class="snav">
-                  <nav aria-label="On this page">
-                    <button class="snav-toggle" type="button" aria-expanded="false" aria-controls="article-contents" hidden>On this page <span aria-hidden="true">⌄</span></button>
-                    <div class="snav-content" id="article-contents">
+                  <div class="snav-content">
                       {left.map((BodyComponent) => (
                         <BodyComponent {...componentData} />
                       ))}
-                    </div>
-                  </nav>
+                  </div>
                 </aside>
                 <main class="proof-main" id="main-content" tabindex={-1}>
                   <div class="article-brief popover-hint">

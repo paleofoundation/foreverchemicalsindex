@@ -1,9 +1,3 @@
 import { QuartzComponent, QuartzComponentConstructor } from "./types"
-import { pathToRoot } from "../util/path"
-const Footer: QuartzComponent = ({ cfg, fileData }) => <footer class="fci-footer">
-  <strong>{cfg.pageTitle}</strong>
-  <nav aria-label="Reference policies">{["about", "methodology", "editorial-standards", "data", "errata"].map(page =>
-    <a key={page} href={`${pathToRoot(fileData.slug!)}/${page}`}>{page.replaceAll("-", " ")}</a>)}</nav>
-  <a href="https://contaminantstandards.com">Institute of Contaminant Standards</a>
-</footer>
+const Footer: QuartzComponent = ({ cfg }) => <footer class="site-footer fci-site-footer"><div class="site-footer-inner"><section class="site-footer-brand"><a class="site-footer-logo" href="/">{cfg.pageTitle}</a><p>A source-traceable PFAS reference under preparation.</p></section><nav class="site-footer-nav" aria-label="Footer">{[["Explore",[["Products","/products"],["Analytes","/analytes"],["Sources","/sources"],["Regulations","/regulations"],["Regulators","/regulators"]]],["Evidence",[["Methodology","/methodology"],["Editorial standards","/editorial-standards"],["Data and downloads","/data"],["Errata","/errata"]]],["Institute",[["About the index","/about"],["Institute of Contaminant Standards","https://contaminantstandards.com"]]]].map(([heading, links]) => <section class="site-footer-column"><h2>{heading as string}</h2><ul>{(links as string[][]).map(([name,href]) => <li><a href={href}>{name}</a></li>)}</ul></section>)}</nav></div><div class="site-footer-bottom"><span>Institute of Contaminant Standards reference network</span><span>Evidence review pending</span></div></footer>
 export default (() => Footer) satisfies QuartzComponentConstructor

@@ -1,0 +1,17 @@
+import { QuartzComponent, QuartzComponentConstructor } from "./types"
+const FciHome: QuartzComponent = ({ allFiles }) => {
+  const sources = allFiles.filter(file => file.frontmatter?.type === "source")
+  const findings = sources.reduce((total,file) => total + (Array.isArray(file.frontmatter?.findings) ? file.frontmatter.findings.length : 0),0)
+  return <div class="hmi-v3-home fci-home">
+    <section class="hmi-v3-hero" aria-label="Reference introduction"><div class="hmi-v3-hero-inner"><div class="hmi-v3-hero-copy">
+      <p class="fci-eyebrow">Evidence review pending</p><h1>The reference library <span>for PFAS.</span></h1>
+      <p class="hmi-v3-hero-dek">A source-traceable reference for products, analytes, and regulatory evidence. Reviewed findings will appear here when the evidence supports them.</p>
+      <button class="fci-home-search" type="button" data-search-open aria-haspopup="dialog"><span>Search the public reference</span><span>Search <span aria-hidden="true">⌕</span></span></button>
+    </div><aside class="fci-ledger" aria-label="Library at a glance"><div class="fci-ledger-head"><h2>Library at a glance</h2><span>Under preparation</span></div><dl><div><dt>Reviewed source records</dt><dd>{sources.length}</dd></div><div><dt>Published findings</dt><dd>{findings}</dd></div><div><dt>Current stage</dt><dd>Evidence review</dd></div></dl><p>Empty records describe an evidence gap, not a measured zero or a finding of absence.</p><a href="/methodology">How evidence is reviewed <span aria-hidden="true">→</span></a></aside>
+    </div></section>
+    <section class="fci-home-section fci-start"><p class="fci-eyebrow">Start here</p><div class="fci-start-grid">{[["/products","Product categories","The products and materials covered by the reference."],["/analytes","Analytes and classes","Substances and measurement scopes, kept distinct."],["/sources","Source records","The primary evidence behind reviewed findings."]].map(([href,title,description]) => <a href={href}><span class="fci-eyebrow">Reference directory</span><h2>{title}</h2><p>{description}</p><span aria-hidden="true">↗</span></a>)}</div></section>
+    <section class="fci-home-section fci-introduction"><h2>What this reference is</h2><div><p>The Forever Chemicals Index organizes evidence by product category, analyte, source, and regulatory instrument. It is part of the Institute of Contaminant Standards reference network.</p><p>The reference is under preparation. No reviewed occurrence findings are published yet. Planned profiles remain private until the discovery and review requirements are met.</p><a href="/about">About the index →</a></div></section>
+    <section class="fci-home-section"><div class="fci-section-heading"><h2>Follow the evidence</h2><a href="/editorial-standards">Editorial standards →</a></div><div class="fci-principles">{[["01","A traceable source","Every measurement must identify its source, units, basis, and location in the original evidence.","/methodology"],["02","Gaps stay visible","Empty records are unavailable evidence. They do not establish contamination, absence, or safety.","/data"],["03","Corrections on the record","The errata page records verified corrections when there is reviewed evidence to correct.","/errata"]].map(([number,title,description,href]) => <article><span class="fci-step">{number}</span><h3>{title}</h3><p>{description}</p><a href={href}>Read the policy →</a></article>)}</div></section>
+  </div>
+}
+export default (() => FciHome) satisfies QuartzComponentConstructor

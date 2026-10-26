@@ -1,3 +1,5 @@
+import SectionNavigation from "./quartz/components/SectionNavigation"
+import ReadingRail from "./quartz/components/ReadingRail"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
@@ -5,8 +7,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [Component.Backlinks()], footer: Component.Footer(),
 }
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [], left: [Component.TableOfContents()], right: [],
+  beforeBody: [], left: [SectionNavigation()], right: [ReadingRail()],
 }
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [], left: [Component.TableOfContents()], right: [],
+  beforeBody: [], left: [SectionNavigation()], right: [ReadingRail()],
 }
