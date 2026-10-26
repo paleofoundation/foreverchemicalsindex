@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import assert from "node:assert/strict"
-import { published, findings, fail } from "./lib/wiki.mjs"
-import { pageMetadata, publicEvidence, pageUrl, base } from "./lib/metadata.mjs"
+import { published, fail } from "./lib/wiki.mjs"
+import { pageMetadata, publicEvidence, evidenceApparatus, apparatusHtml, pageUrl, base } from "./lib/metadata.mjs"
 const errors = [], eligible = published()
 const unescape = value => value.replaceAll("&quot;", '"').replaceAll("&lt;", "<").replaceAll("&amp;", "&")
 const attrs = tag => Object.fromEntries([...tag.matchAll(/([\w:-]+)="([^"]*)"/g)].map(m => [m[1].toLowerCase(), unescape(m[2])]))
@@ -18,6 +18,12 @@ for (const page of eligible) {
     try { schemas.push({ attrs: attrs(match[1]), data: JSON.parse(match[2]) }) } catch { errors.push(`${label}: invalid JSON-LD`) }
   }
   equal(schemas.length, 2, `${label}: expected main graph and breadcrumbs only`)
+  const record = evidenceApparatus(page, eligible)
+  const blocks = [...html.matchAll(/<!-- BEGIN: public-evidence -->([\s\S]*?)<!-- END: public-evidence -->/g)]
+  const original = html.replace(/<!-- BEGIN: public-evidence -->[\s\S]*?<!-- END: public-evidence -->/g, "")
+  const expectedApparatus = apparatusHtml({ ...record, references: /id="references"/.test(original) ? [] : record.references, routedSources: /id="sources"/.test(original) ? [] : record.routedSources })
+  equal(blocks.map(m => m[1]), expectedApparatus ? [expectedApparatus] : [], `${label}: generated References/Sources differ from eligible apparatus`)
+  for (const id of ["references", "sources"]) if ([...html.matchAll(new RegExp(`id="${id}"`, "g"))].length > 1) errors.push(`${label}: duplicate ${id} heading`)
   const { graph, fields } = pageMetadata(page)
   equal(schemas.filter(s => s.attrs["data-fci-schema"] === "main").map(s => s.data), [{ "@context": "https://schema.org", "@graph": graph }], `${label}: main graph differs from eligible metadata`)
   const crumbs = schemas.filter(s => s.data["@type"] === "BreadcrumbList")

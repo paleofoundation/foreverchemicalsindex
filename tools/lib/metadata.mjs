@@ -1,4 +1,7 @@
 import { simplify, esc } from "./wiki.mjs"
+import { unified } from "unified"
+import remarkParse from "remark-parse"
+import { visit } from "unist-util-visit"
 export const base = "https://foreverchemicalsindex.com"
 export const pageUrl = page => `${base}/${simplify(page.slug)}${page.slug.endsWith("/index") ? "/" : ""}`
 const sourceTypes = new Map([["journal-article", "ScholarlyArticle"], ["peer-reviewed-article", "ScholarlyArticle"], ["government-report", "Report"], ["technical-report", "Report"], ["dataset", "Dataset"], ["legislation", "Legislation"]])
@@ -8,12 +11,10 @@ export function sourceMetadata(page) {
   const work = { "@type": type, "@id": `${url}#source`, name: d.title, url, datePublished: String(d.year), sameAs: d.access_url }
   // Names alone do not establish Person versus Organization. Explicit entities must
   // match the verified bibliography; government issuers are organizations.
-  const authors = (d.author_entities ?? []).filter(a => d.authors.includes(a.name) && ["Person", "Organization"].includes(a.type)).map(a => ({ "@type": a.type, name: a.name }))
-  if (d.issuing_body && d.authors.includes(d.issuing_body)) {
-    const index = authors.findIndex(a => a.name === d.issuing_body)
-    if (index !== -1) authors.splice(index, 1)
-    authors.push({ "@type": "Organization", name: d.issuing_body })
-  }
+  const entities = Array.isArray(d.author_entities) ? d.author_entities : []
+  const byName = new Map(entities.filter(a => a && d.authors.includes(a.name) && ["Person", "Organization"].includes(a.type)).map(a => [a.name, { "@type": a.type, name: a.name }]))
+  if (d.issuing_body && d.authors.includes(d.issuing_body)) byName.set(d.issuing_body, { "@type": "Organization", name: d.issuing_body })
+  const authors = [...byName.values()]
   if (authors.length) work.author = authors
   if (type === "ScholarlyArticle") { work.headline = d.title; work.isPartOf = { "@type": "Periodical", name: d.publication } }
   if (d.doi) work.identifier = { "@type": "PropertyValue", propertyID: "DOI", value: d.doi }
@@ -41,10 +42,23 @@ export function pageMetadata(page) {
 }
 export function evidenceApparatus(page, eligible) {
   const sources = eligible.filter(p => p.data.type === "source"), allowed = new Map(sources.map(p => [p.slug, p]))
-  // Only explicit body links count as References, never routing/frontmatter.
-  // Strip examples/code/comments so sample citation syntax cannot become a citation.
-  const body = page.content.replace(/<!--[\s\S]*?-->/g, "").replace(/```[\s\S]*?```|`[^`]*`/g, "")
-  const targets = [...body.matchAll(/\[\[(sources\/[^\]|#]+)(?:[^\]]*)\]\]|\]\((?:\/)?(sources\/[^)#?]+)(?:#[^)]*)?\)/g)].map(m => (m[1] ?? m[2]).replace(/\.md$/, ""))
+  // Parse Markdown so fenced/inline code, comments and unused definitions
+  // cannot turn an example into a citation. Wiki links are body text nodes.
+  const tree = unified().use(remarkParse).parse(page.content), targets = [], definitions = new Map()
+  visit(tree, "definition", node => definitions.set(node.identifier, node.url))
+  const add = target => {
+    try {
+      const url = new URL(target.startsWith("sources/") ? "/" + target : target, pageUrl(page))
+      if (url.origin !== base) return
+      const slug = decodeURIComponent(url.pathname).replace(/^\//, "").replace(/\.(?:md|html)$/, "")
+      if (allowed.has(slug)) targets.push(slug)
+    } catch { /* Unresolved links never become bibliography entries. */ }
+  }
+  visit(tree, node => {
+    if (node.type === "link") add(node.url)
+    if (node.type === "linkReference" && definitions.has(node.identifier)) add(definitions.get(node.identifier))
+    if (node.type === "text") for (const match of node.value.matchAll(/\[\[(sources\/[^\]|#]+)(?:[^\]]*)\]\]/g)) add(match[1])
+  })
   const references = [...new Set(targets)].filter(slug => allowed.has(slug)).map(slug => ({ slug, url: pageUrl(allowed.get(slug)), title: allowed.get(slug).data.title }))
   const [section, identity] = page.slug.split("/")
   const routedSources = ["products", "analytes", "regulations", "regulators"].includes(section) && identity !== "index" ? sources.filter(p => p.data[section]?.includes(identity)).map(p => ({ slug: p.slug, url: pageUrl(p), title: p.data.title })) : []

@@ -26,8 +26,8 @@ test("unknown source class and author entity types are omitted without guessing"
   for (const key of ["identifier", "license", "affiliation", "dateModified", "isPartOf"]) assert.equal(work[key], undefined)
 })
 test("explicit matched people are allowed but never override an issuing organization", () => {
-  const data = { ...source.data, authors: [agency, "TEST ONLY Person"], author_entities: [{ name: agency, type: "Person" }, { name: "TEST ONLY Person", type: "Person" }] }
-  assert.deepEqual(sourceMetadata({ ...source, data }).work.author, [{ "@type": "Person", name: "TEST ONLY Person" }, { "@type": "Organization", name: agency }])
+  const data = { ...source.data, authors: [agency, "TEST ONLY Person"], author_entities: [null, { name: agency, type: "Person" }, { name: agency, type: "Person" }, { name: "TEST ONLY Person", type: "Person" }] }
+  assert.deepEqual(sourceMetadata({ ...source, data }).work.author, [{ "@type": "Organization", name: agency }, { "@type": "Person", name: "TEST ONLY Person" }])
 })
 test("page graph separates CollectionPage, WebPage, source work and empty export", () => {
   assert.equal(pageMetadata(fixturePage("products/index", { type: "section-index" })).graph.at(-1)["@type"], "CollectionPage")
@@ -76,5 +76,25 @@ for (const [name, mutate] of [
   ["duplicate canonical", dir => fs.appendFileSync(path.join(dir,"public/sources/test-only.html"), '<link rel="canonical" href="https://foreverchemicalsindex.com/sources/test-only">')],
   ["false person schema", dir => { const f=path.join(dir,"public/sources/test-only.html");fs.writeFileSync(f,fs.readFileSync(f,"utf8").replace('"@type":"Organization","name":"TEST ONLY Synthetic Agency"','"@type":"Person","name":"TEST ONLY Synthetic Agency"')) }],
   ["404 canonical", dir => fs.appendFileSync(path.join(dir,"public/404.html"), '<link rel="canonical" href="https://foreverchemicalsindex.com/">')],
+  ["private apparatus link", dir => fs.appendFileSync(path.join(dir,"public/sources/test-only.html"), '<!-- BEGIN: public-evidence --><a href="https://foreverchemicalsindex.com/sources/held-test-only">LEAK TEST ONLY</a><!-- END: public-evidence -->')],
   ["private coverage leak", dir => { const f=path.join(dir,"public/static/public-evidence.json"), data=JSON.parse(fs.readFileSync(f));data.pages.push({slug:"sources/held-test-only"});fs.writeFileSync(f,JSON.stringify(data)) }],
 ]) test(`metadata audit rejects ${name}`, t => { const dir=tempFixture(t);generate(dir);mutate(dir);const r=run("audit-metadata",dir);assert.equal(r.status,1,r.stdout+r.stderr) })
+
+test("Markdown citation parser excludes code examples and resolves actual relative/reference links", () => {
+  const other = { ...source, slug: "sources/test-only-other" }
+  const page = fixturePage("products/test-only-profile", {}, "~~~md\n[[sources/test-only]]\n~~~\n\n`[[sources/test-only]]`\n\n<!-- [[sources/test-only]] -->\n\n[actual](../sources/test-only-other.md#scope) and [same][r]\n\n[r]: /sources/test-only-other\n[unused]: /sources/test-only\n")
+  assert.deepEqual(evidenceApparatus(page, [page, source, other]).references.map(p => p.slug), [other.slug])
+})
+test("nonempty generated References are escaped, unique and stable without a profile-gate exception", t => {
+  const dir = tempFixture(t), file = path.join(dir, "wiki/sources/test-only.md"), built = path.join(dir, "public/sources/test-only.html")
+  fs.appendFileSync(file, "\n[[sources/test-only|TEST ONLY citation]]\n")
+  generate(dir)
+  const first = fs.readFileSync(built, "utf8")
+  assert.equal((first.match(/id="references"/g) ?? []).length, 1)
+  assert.doesNotMatch(apparatusHtml({references:[{url:"https://example.invalid",title:"<script>TEST ONLY</script>"}],routedSources:[]}), /<script>/)
+  assert.match(first, /Sources explicitly cited/); assert.doesNotMatch(first, /id="sources"/)
+  generate(dir); assert.equal(fs.readFileSync(built, "utf8"), first)
+  fs.writeFileSync(built, first.replace(/<!-- BEGIN: public-evidence -->[\s\S]*?<!-- END: public-evidence -->/, '<h2 id="references">TEST ONLY existing references</h2>'))
+  assert.equal(run("postbuild-evidence-apparatus", dir).status, 0)
+  assert.equal((fs.readFileSync(built,"utf8").match(/id="references"/g) ?? []).length, 1)
+})

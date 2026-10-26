@@ -38,7 +38,7 @@ Author entities and issuing-body fields require the same identity/provenance rev
 
 ## References, Sources, coverage and history
 
-`static/public-evidence.json` contains only eligible public pages and sources. References are unique source links explicitly present in page body text, in first-citation order; comment/code examples are excluded. Supported links are root-qualified wiki source links and Markdown source links (optional leading slash and fragment). Unapproved source targets never enter this apparatus; the existing link audit separately rejects dangling public citations.
+`static/public-evidence.json` contains only eligible public pages and sources. References are unique source links explicitly present in page body text, in first-citation order; comment/code examples and unused link definitions are excluded by Markdown parsing. Supported links are root-qualified wiki source links and Markdown source links, including relative, reference-style, and first-party absolute links. Unapproved source targets never enter this apparatus; the existing link audit separately rejects dangling public citations.
 
 Sources are eligible source records with an explicit routing association to that product, analyte, regulation or regulator profile. Routing is not a citation and does not establish support for every claim. Generated References/Sources sections appear only for nonempty eligible lists and do not duplicate an existing heading ID. Current public policy pages do not receive empty scientific apparatus.
 
