@@ -14,3 +14,11 @@ No destination pages in this list have been created. Exact HMI filenames were ch
 | Mattresses | blankets-and-sleep-sacks | Reuse bedding scope or approve mattresses. Recommend mattresses. |
 
 ASK: Elon to select reuse or approve new slugs. Recommendations are pending decisions.
+
+## Decision history (supersedes the pending wording above)
+
+Elon's canonical bridge answer on October 15, 2026 at 10:38 accepted the recommendations. Approved private scope identities: `drinking-water-tap`, `popcorn`, `fast-food` (define its sampling frame), `textiles-outdoor-apparel`, `school-uniforms`, `carpets-and-rugs`, and `mattresses`. Takeout containers reuse the material-specific food-packaging pages.
+
+Create a new private routing stub only when the matching ingest has a filed source. This does not make it a public evidence profile. Tap water is added in existing ingest draft PR #8; this scaffold baseline does not contain that sibling change. The remaining six approved new stubs have no filed source in the inspected drafts. Preserve the original table above as decision history, not eight unanswered questions.
+
+The discovery inventory is `data/discovery/candidates.json`. All entries remain NEEDS-EVIDENCE with type review pending. The reported 40 missing acquisitions remain UNVERIFIED because the exact queue CSV was not available; neither this inventory nor NOT_FILED rows replace that queue.

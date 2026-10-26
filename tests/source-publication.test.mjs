@@ -8,9 +8,9 @@ test("recovery sources cannot publish through either pending flag", () => {
   assert.equal(isPublicWikiRecord({ evidence_tier: "pending" }, "sources/malformed"), false)
 })
 
-test("reviewed sources and ingredient destination stubs retain their proper visibility", () => {
-  assert.equal(isPublicWikiRecord({ type: "source", evidence_tier: "A" }), true)
-  assert.equal(isPublicWikiRecord({ type: "ingredient", status: "pending" }, "ingredients/new-food"), true)
+test("a tier label or private routing destination cannot publish", () => {
+  assert.equal(isPublicWikiRecord({ type: "source", evidence_tier: "A" }), false)
+  assert.equal(isPublicWikiRecord({ type: "ingredient", status: "pending" }, "ingredients/new-food"), false)
   assert.equal(isPublicWikiRecord({ type: "source", draft: "true" }), false)
 })
 test("bibliographic checks flag explicit placeholders without rejecting summary-only evidence", () => {

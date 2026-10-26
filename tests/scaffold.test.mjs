@@ -50,8 +50,8 @@ test("source metadata omits missing DOI and is idempotent", t => {
   t.after(()=>fs.rmSync(dir,{recursive:true,force:true}))
   fs.mkdirSync(path.join(dir,"wiki/sources"),{recursive:true})
   fs.mkdirSync(path.join(dir,"public/sources"),{recursive:true})
-  // This bibliographic fixture uses the cited EPA document, without measurements.
-  const source={type:"source",title:"Multi-Industry Per- and Polyfluoroalkyl Substances (PFAS) Study: 2021 Preliminary Report",authors:["U.S. Environmental Protection Agency"],year:2021,publication:"U.S. Environmental Protection Agency",access_url:"https://www.epa.gov/system/files/documents/2021-09/multi-industry-pfas-study_preliminary-2021-report_508_2021.09.08.pdf",no_doi_assigned:true,review_state:"approved_for_public"}
+  // SYNTHETIC test review and provenance, never a claim of actual source approval.
+  const source={type:"source",evidence_tier:"A",title:"Multi-Industry Per- and Polyfluoroalkyl Substances (PFAS) Study: 2021 Preliminary Report",authors:["U.S. Environmental Protection Agency"],year:2021,publication:"U.S. Environmental Protection Agency",access_url:"https://www.epa.gov/system/files/documents/2021-09/multi-industry-pfas-study_preliminary-2021-report_508_2021.09.08.pdf",no_doi_assigned:true,review_state:"approved_for_public",identity_verified:true,provenance_verified:true,sha256:"a".repeat(64),review_record:{id:"SYNTHETIC-TEST-ONLY",disposition:"approved_for_public",source_sha256:"a".repeat(64)}}
   fs.writeFileSync(path.join(dir,"wiki/sources/epa-method.md"),`---\n${Object.entries(source).map(([k,v])=>`${k}: ${JSON.stringify(v)}`).join("\n")}\n---\n`)
   const file=path.join(dir,"public/sources/epa-method.html")
   fs.writeFileSync(file,"<html><head></head><body></body></html>")

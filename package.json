@@ -17,7 +17,7 @@
     "audit": "node tools/audit-source-dois.mjs && node tools/audit-link-integrity.mjs && node tools/audit-product-source-routing.mjs && node tools/audit-synthesis-firewall.mjs",
     "prebuild": "npm run generate && npm run audit",
     "build": "./quartz/bootstrap-cli.mjs build -d wiki -o public",
-    "postbuild": "node tools/postbuild-inject-jsonld.mjs && node tools/postbuild-inject-breadcrumbs.mjs && node tools/postbuild-scholarly-sitemap.mjs && node tools/postbuild-llms-txt.mjs && node tools/audit-built-site.mjs",
+    "postbuild": "node tools/postbuild-inject-jsonld.mjs && node tools/postbuild-inject-breadcrumbs.mjs && node tools/postbuild-scholarly-sitemap.mjs && node tools/postbuild-llms-txt.mjs && node tools/audit-built-site.mjs && node tools/audit-public-set.mjs",
     "serve": "npm run build && node tools/serve.mjs",
     "check": "tsc --noEmit",
     "test": "tsx --test tests/*.test.mjs quartz/util/path.test.ts"

@@ -17,6 +17,9 @@ const config: QuartzConfig = {
     baseUrl: "foreverchemicalsindex.com",
     ignorePatterns: [
       "private",
+      "private/**",
+      "drafts",
+      "drafts/**",
       "templates",
       ".obsidian",
       "_TEMPLATE.md",
@@ -168,7 +171,6 @@ const config: QuartzConfig = {
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
-      Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: false,
