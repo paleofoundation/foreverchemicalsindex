@@ -13,7 +13,7 @@ const Head: QuartzComponent = ({ cfg, fileData, externalResources }) => {
     <meta name="description" content={description} />
     {fileData.slug === "404" ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
     <meta property="og:title" content={title} /><meta property="og:description" content={description} />
-    <meta property="og:url" content={canonical} /><meta property="og:site_name" content={cfg.pageTitle} />
+    {fileData.slug !== "404" && <meta property="og:url" content={canonical} />}<meta property="og:site_name" content={cfg.pageTitle} />
     <meta property="og:type" content={fileData.frontmatter?.type === "source" ? "article" : "website"} />
     {cfg.theme.fontOrigin === "googleFonts" && <link rel="stylesheet" href={googleFontHref(cfg.theme)} />}
     {externalResources.css.map(resource => CSSResourceToStyleElement(resource, true))}
