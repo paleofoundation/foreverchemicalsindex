@@ -1,0 +1,324 @@
+// Shared author identity: a compact hover/focus card and a dedicated biography.
+.author-hover {
+  position: relative;
+  width: 72px;
+  margin-bottom: 22px;
+  .hero-author-portrait {
+    margin: 0;
+  }
+}
+.author-card {
+  position: absolute;
+  z-index: 70;
+  top: 100%;
+  right: 0;
+  box-sizing: border-box;
+  width: min(340px, calc(100vw - 48px));
+  padding: 22px;
+  border: 1px solid #e7ccd5;
+  border-top: 5px solid var(--burg);
+  border-radius: 14px 14px 32px 14px;
+  background: #fffdfb;
+  color: #392b30;
+  box-shadow: 0 16px 40px #3c102b33;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 120ms ease;
+  font:
+    14px/1.55 "IBM Plex Sans",
+    sans-serif;
+  a {
+    color: #7b153b;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #641c35;
+    text-decoration: underline;
+  }
+  a:focus-visible {
+    outline-color: #7b153b;
+    outline-offset: 3px;
+  }
+  p {
+    margin: 14px 0;
+    font-size: 14px;
+    line-height: 1.55;
+    color: inherit;
+  }
+  .author-card-affiliations {
+    font-size: 12px;
+    color: #705961;
+  }
+}
+.author-hover:focus-within:not([data-dismissed]) .author-card {
+  visibility: visible;
+  opacity: 1;
+}
+@media (hover: hover) {
+  .author-hover:hover:not([data-dismissed]) .author-card {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.author-card-heading {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    margin: 0;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  a {
+    font-size: 17px;
+    font-family: Lora, serif;
+  }
+}
+.author-card-eyebrow {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #705961;
+}
+.author-card-orcid {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+}
+.author-card-bio {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #eedde3;
+  font-weight: 600;
+}
+.author-profile-links {
+  h2 {
+    margin: 0 0 18px;
+    font:
+      11px/1.6 "IBM Plex Mono",
+      monospace;
+    text-transform: uppercase;
+    color: #815464;
+    letter-spacing: 0.06em;
+  }
+  > a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #772840;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  > a:hover {
+    text-decoration: underline;
+  }
+}
+
+.hero-band--author {
+  .hero-grid {
+    min-height: 430px;
+  }
+  .author-profile-portrait {
+    justify-content: center;
+    gap: 20px;
+    padding-block: 40px;
+  }
+  .author-profile-portrait img {
+    width: 100%;
+    max-width: 236px;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 24px;
+    margin: 0;
+  }
+  .author-profile-caption {
+    color: #f2dce4;
+    font:
+      11px/1.6 "IBM Plex Mono",
+      monospace;
+  }
+  .author-profile-orcid {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    align-self: flex-start;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 22px;
+    text-underline-offset: 4px;
+  }
+  .author-affiliations {
+    gap: 0;
+    padding-top: 46px;
+  }
+  .author-affiliations h2 {
+    font:
+      11px/1.6 "IBM Plex Mono",
+      monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #f2dce4;
+    margin: 0 0 14px;
+  }
+  .author-affiliations > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-block: 15px;
+    border-top: 1px solid #ffffff33;
+    text-decoration: none;
+  }
+  .author-affiliations > a:hover {
+    text-decoration: underline;
+  }
+}
+
+.proof-main .author-profile {
+  h2 {
+    scroll-margin-top: 110px;
+  }
+  .author-focus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+    margin: 24px 0 36px;
+  }
+  .author-focus li {
+    margin: 0;
+    padding: 7px 12px;
+    border: 1px solid #ead5dd;
+    border-radius: 4px;
+    background: #f8eef2;
+    font-size: 13px;
+    color: #772840;
+  }
+  .author-career {
+    border-left: 2px solid #e5c5d0;
+    margin: 28px 0;
+    padding-left: 24px;
+  }
+  .author-career article {
+    position: relative;
+    padding: 0 0 26px;
+  }
+  .author-career article:last-child {
+    padding-bottom: 0;
+  }
+  .author-career article::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #7b153b;
+    top: 6px;
+    left: -29px;
+  }
+  .author-career h3 {
+    font:
+      400 21px/1.4 Lora,
+      serif;
+    color: #52283a;
+    margin: 6px 0;
+  }
+  .author-career p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .author-career .author-career-date {
+    font:
+      11px/1.6 "IBM Plex Mono",
+      monospace;
+    color: #815464;
+  }
+  .author-works {
+    list-style: none;
+    padding: 0;
+    margin: 26px 0;
+  }
+  .author-works > li {
+    margin: 0;
+    padding: 24px 0;
+    border-top: 1px solid #e8d9df;
+  }
+  .author-works h3 {
+    margin: 9px 0 12px;
+    font:
+      400 21px/1.45 Lora,
+      serif;
+  }
+  .author-works h3 a {
+    color: #70223f;
+    text-decoration: none;
+  }
+  .author-works h3 a:hover {
+    text-decoration: underline;
+  }
+  .author-work-type {
+    font:
+      10px/1.6 "IBM Plex Mono",
+      monospace;
+    color: #815464;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+  }
+  .author-work-doi {
+    margin: 0;
+    font:
+      11px/1.7 "IBM Plex Mono",
+      monospace;
+    overflow-wrap: anywhere;
+  }
+}
+@media (max-width: 1149px) {
+  .author-hover {
+    width: 64px;
+    grid-row: 1 / span 4;
+    margin: 0;
+  }
+  .author-card {
+    right: auto;
+    left: 0;
+  }
+  .hero-band--author {
+    .author-profile-portrait {
+      display: flex;
+      align-items: flex-start;
+      padding: 28px 24px;
+      gap: 10px;
+    }
+    .author-profile-portrait img {
+      width: 150px;
+    }
+    .hero-main {
+      padding-top: 28px;
+    }
+    .author-affiliations {
+      padding-top: 28px;
+    }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .author-card {
+    transition: none;
+  }
+}

@@ -1,0 +1,127 @@
+// v3 References block , quartz/styles/references-v3.scss
+//
+// The short-form, card-style reference list. Emitted by
+// tools/build-page-references.mjs as a markdown ordered list; each <li> holds a
+// source-record wikilink (the title), a `.hmi-ref-meta` span (author/org ·
+// publication · year · DOI), and a `.hmi-ref-tag` span (the source type).
+//
+// Unlayered on purpose (imported below @layer legacy in custom.scss), so it wins
+// over base.scss's `ol`/`li` list rules without an out-specificity fight , the
+// same architecture the v3 chrome sheets use.
+//
+// HOOK: a markdown <ol> cannot carry a class, so the list is selected by the
+// References heading id and its following sibling. The classed spans style
+// unconditionally either way, so if the sibling selector ever fails the entries
+// degrade to a plain list and NO content is lost , only the grid layout.
+//
+// GUARD: the grid assumes the generated card structure , exactly one direct-child
+// anchor (the title) plus a `.hmi-ref-meta` span. An AUTHORED `## References`
+// list (plain markdown citations, several inline links per item, no meta span)
+// does not fit that shape: every direct-child <a> would be forced into the single
+// "title" cell and collapse. So the grid is scoped with `:has(.hmi-ref-meta)` and
+// only styles genuinely-generated reference lists; an authored one falls back to
+// a normal numbered <ol>.
+
+$hmi-ref-num: #7b153b; // burgundy bracketed number
+$hmi-ref-link: #1c43ad; // the site's citation-link blue
+$hmi-ref-meta: #736b6e; // muted meta line
+$hmi-ref-tag: #a9a1a2; // faint mono type tag
+$hmi-ref-rule: #f2ece7; // the dotted separator
+
+.wiki-content h2[id="references"] ~ ol:has(.hmi-ref-meta) {
+  list-style: none;
+  counter-reset: hmi-ref;
+  margin: 0.4rem 0 0;
+  padding: 0;
+
+  > li {
+    counter-increment: hmi-ref;
+    display: grid;
+    grid-template-columns: 2.4rem minmax(0, 1fr) auto;
+    grid-template-areas:
+      "num title tag"
+      "num meta  tag";
+    column-gap: 1rem;
+    align-items: baseline;
+    margin: 0;
+    padding: 14px 0;
+    border-bottom: 1px dotted $hmi-ref-rule;
+
+    // The bracketed number, rendered from the list counter so it always tracks
+    // first-appearance order.
+    &::before {
+      grid-area: num;
+      content: "[" counter(hmi-ref) "]";
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 12px;
+      line-height: 1.5;
+      color: $hmi-ref-num;
+      white-space: nowrap;
+    }
+
+    // The title link , the only DIRECT-child anchor (the DOI link lives inside
+    // the meta span), so this reaches the title and nothing else.
+    > a {
+      grid-area: title;
+      align-self: baseline;
+      font-size: 16px;
+      line-height: 1.4;
+      color: $hmi-ref-link;
+      text-decoration: none;
+      background: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// The meta line, second row of the card.
+.hmi-ref-meta {
+  grid-area: meta;
+  align-self: start;
+  margin-top: 3px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: $hmi-ref-meta;
+
+  a {
+    color: $hmi-ref-meta;
+    text-decoration: none;
+    background: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// The source-type tag, right-aligned across both rows.
+.hmi-ref-tag {
+  grid-area: tag;
+  justify-self: end;
+  align-self: start;
+  white-space: nowrap;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $hmi-ref-tag;
+}
+
+// Narrow: the tag drops under the title rather than squeezing the meta line.
+@media (max-width: 720px) {
+  .wiki-content h2[id="references"] ~ ol:has(.hmi-ref-meta) > li {
+    grid-template-columns: 2.4rem minmax(0, 1fr);
+    grid-template-areas:
+      "num title"
+      "num meta"
+      "num tag";
+    row-gap: 2px;
+  }
+
+  .hmi-ref-tag {
+    justify-self: start;
+    margin-top: 4px;
+  }
+}

@@ -1,0 +1,289 @@
+// v3 subcategory (isProduct) body components , quartz/styles/products-v3.scss
+//
+// The detail-body half of the v3 port for the SUBCATEGORY screen
+// (`Forever Chemicals Index v3.dc.html`, `<sc-if isProduct>` branch, artifact lines
+// 1438-1509). custom.scss:16 names "detail bodies" as the work that lands as
+// another unlayered @import , this is that import, added below v3-primitives so
+// it wins over the legacy layer by construction, not by specificity.
+//
+// Three components are unique to this screen and had no v3 rule before:
+//   1. variant-group comparison box      (artifact 1440-1457)
+//   2. category-framing callout          (artifact 1458-1461)
+//   3. ingredient-driver cards + bars    (artifact 1462-1476)
+// plus the regulatory status chip used in the "Limits applicable" table.
+//
+// Every value below is READ from the artifact, not inferred. Colours are the v3
+// tokens (#8b2a4a burgundy, #fbf5f7 blush, #eddfe4 blush-line, #e8e1db hairline,
+// #fffdfb card, #f4f0ec bar-track); radii stay ≤3px (CHROME-SPEC §2); no shadow,
+// no gradient.
+
+// ══ 1. variant-group comparison box (artifact 1440-1457) ═════════════════════
+// Two sibling pages that share a category framing and diverge on the driver
+// metal (`cc_relationship` in frontmatter). The active variant is this page; the
+// other is a link. Both remain separately citable , the tabs are navigation,
+// not JS state.
+.hmi-variant-group {
+  border: 1px solid #e8e1db;
+  background: #fffdfb;
+  margin: 0 0 28px;
+}
+
+.hmi-variant-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 13px 16px;
+  border-bottom: 1px solid #e8e1db;
+}
+
+.hmi-variant-kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7b153b;
+}
+
+.hmi-variant-tabs {
+  display: flex;
+  border: 1px solid #eddfe4;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.hmi-variant-tab {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7b153b;
+  background: #fffdfb;
+  padding: 7px 15px;
+  text-decoration: none;
+  line-height: 1;
+}
+.hmi-variant-tab + .hmi-variant-tab {
+  border-left: 1px solid #eddfe4;
+}
+.hmi-variant-tab:hover {
+  background: #fbf5f7;
+  text-decoration: none;
+}
+.hmi-variant-tab--active,
+.hmi-variant-tab--active:hover {
+  background: #7b153b;
+  color: #fff;
+}
+
+.hmi-variant-note {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #736b6e;
+}
+
+// The autolink transformer links glossary terms wherever they appear, including
+// inside these decorative mono labels and value cells (e.g. "baby cereal" in
+// the kicker, "Inorganic arsenic" in a value cell). In a caps/mono chip an
+// indigo underlined link reads as a defect, so autolinks here inherit the
+// label's own colour and drop the underline. The link still works.
+.hmi-variant-kicker a,
+.hmi-variant-k a,
+.hmi-variant-a a,
+.hmi-variant-b a,
+.hmi-driver-metal a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+.hmi-variant-kicker a:hover,
+.hmi-variant-a a:hover,
+.hmi-variant-b a:hover,
+.hmi-driver-metal a:hover {
+  text-decoration: none;
+}
+
+// the comparison grid: label column + one column per variant, active tinted
+.hmi-variant-grid {
+  display: grid;
+  grid-template-columns: 150px repeat(2, minmax(0, 1fr));
+}
+.hmi-variant-grid > div {
+  padding: 13px 16px;
+  border-bottom: 1px solid #f2ece7;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.hmi-variant-grid > div:nth-last-child(-n + 3) {
+  border-bottom: 0;
+}
+// key cell , mono grey caps
+.hmi-variant-k {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  background: #fbf8f5;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+// active variant value , this page , blush ground, burgundy ink
+.hmi-variant-a {
+  background: #fbf5f7;
+  color: #7b153b;
+  border-left: 1px solid #f2ece7;
+}
+// other variant value , the sibling , plain card, dark ink
+.hmi-variant-b {
+  background: #fffdfb;
+  color: #2b1f24;
+  border-left: 1px solid #f2ece7;
+}
+
+// ══ 2. category-framing callout (artifact 1458-1461) ═════════════════════════
+// The block's job is to state the category's evidence position once, up front ,
+// v3's assertion-block treatment: a flat blush panel on a hairline, no depth.
+.hmi-category-framing {
+  border: 1px solid #eddfe4;
+  background: #fbf5f7;
+  padding: 22px 24px;
+  margin: 0 0 40px;
+}
+.hmi-category-framing-kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7b153b;
+  margin-bottom: 11px;
+}
+.hmi-category-framing > p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #2b1f24;
+}
+
+// ══ 3. ingredient-driver cards + proportion bars (artifact 1462-1476) ════════
+// Each input that feeds the category, ordered by contribution to category-level
+// exposure (risk-map share). The bar shows relative position within the set; it
+// is not a comparison against any limit , the caption says so.
+.hmi-driver {
+  border: 1px solid #e8e1db;
+  background: #fffdfb;
+  padding: 16px 18px;
+  margin: 0 0 12px;
+}
+.hmi-driver-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.hmi-driver-name {
+  font-family: Lora, serif;
+  font-size: 19px;
+  line-height: 1.3;
+  color: #7b153b;
+}
+.hmi-driver-metal {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  white-space: nowrap;
+}
+.hmi-driver-track {
+  height: 8px;
+  background: #f4f0ec;
+  margin-bottom: 11px;
+}
+.hmi-driver-bar {
+  height: 8px;
+  background: #7b153b;
+}
+// the fill lightens by rank so the ordering reads at a glance without a legend
+.hmi-driver-bar--2 {
+  background: #a8496a;
+}
+.hmi-driver-bar--3 {
+  background: #c98ca2;
+}
+.hmi-driver-bar--4 {
+  background: #ddbcc8;
+}
+.hmi-driver-desc {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: #736b6e;
+}
+
+// ══ regulatory status chip , the "Limits applicable" table's Status column ════
+// v3 tag chip (COMPONENTS §7): mono 9.5px caps, 2px radius. Three treatments,
+// because the distinction a reader needs is "can I rely on this as law":
+//   binding        , a legally binding maximum level (burgundy on blush)
+//   guidance       , a non-binding action level / guidance (grey)
+//   international   , a Codex / international reference level (indigo on lavender)
+.hmi-status {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 3px 8px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.hmi-status--binding {
+  color: #7b153b;
+  background: #fbf5f7;
+  border: 1px solid #eddfe4;
+}
+.hmi-status--guidance {
+  color: #736b6e;
+  background: #f6f3f0;
+  border: 1px solid #e8e1db;
+}
+.hmi-status--international {
+  color: #1c43ad;
+  background: #eef1fb;
+  border: 1px solid #dbe1f5;
+}
+
+// ══ testing-and-verification-posture caveat (artifact 1504-1506) ═════════════
+// A reviewed statement about how to read the data , the burgundy-bar caveat,
+// same treatment as v3-primitives' present-state limitations callout, but not
+// heading-anchored (it is a mid-body panel, not a whole section).
+.hmi-posture-note {
+  border-left: 3px solid #7b153b;
+  background: #fbf5f7;
+  padding: 18px 22px;
+  margin: 18px 0 0;
+}
+.hmi-posture-note > p {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: #5a4148;
+}
+
+// ── narrow: the variant grid stacks label over the two values ────────────────
+@media (max-width: 720px) {
+  .hmi-variant-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hmi-variant-k {
+    grid-column: 1 / -1;
+    background: #fbf8f5;
+  }
+  .hmi-variant-a,
+  .hmi-variant-b {
+    border-left: 0;
+  }
+}

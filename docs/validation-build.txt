@@ -1,0 +1,314 @@
+
+> foreverchemicalsindex@0.1.0 prebuild
+> npm run generate && npm run audit
+
+
+> foreverchemicalsindex@0.1.0 generate
+> node tools/build-contamination-dataset.mjs
+
+Generated dataset: 0 evidence rows; directories read from wiki/analytes and peer sections.
+
+> foreverchemicalsindex@0.1.0 audit
+> node tools/audit-source-dois.mjs && node tools/audit-link-integrity.mjs && node tools/audit-product-source-routing.mjs && node tools/audit-synthesis-firewall.mjs
+
+audit-source-dois: PASS
+audit-link-integrity: PASS
+audit-product-source-routing: PASS
+audit-synthesis-firewall: PASS
+
+> foreverchemicalsindex@0.1.0 build
+> ./quartz/bootstrap-cli.mjs build -d wiki -o public
+
+
+ Quartz v0.1.0
+
+▲ [WARNING] sass warning: 6 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings. [plugin sass-plugin]
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:20:10:
+      20 │ "legacy-all"
+         ╵           ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:30:8:
+      30 │ "v3-type"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:31:8:
+      31 │ "v3-chrome"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:32:8:
+      32 │ "../components/styles/heroBand"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+▲ [WARNING] Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import [plugin sass-plugin]
+
+    quartz/styles/custom.scss:33:8:
+      33 │ "home-v3"
+         ╵         ^
+
+  The plugin "sass-plugin" was triggered by this import
+
+    quartz/plugins/emitters/componentResources.ts:11:19:
+      11 │ import styles from "../../styles/custom.scss"
+         ╵                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cleaned output directory `public` in 5ms
+Found 98 input files from `wiki` in 7ms
+Parsing input files using 1 threads
+
+Warning: wiki/about.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/6-2-ftoh.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/hfpo-da.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/index.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfbs.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfca.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfda.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfhxa.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfhxs.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfna.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfoa.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfos.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/pfsa.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/precursors.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/analytes/total-organic-fluorine.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/data.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/editorial-standards.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/errata.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/index.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/methodology.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/all-purpose-cleaners.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/anti-static-products.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/baby-food.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/baby-lotion-cream.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/baby-sunscreen-chemical.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/baby-sunscreen-mineral.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/baby-wipes.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/bakeware.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/bibs.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/blankets-and-sleep-sacks.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/bottled-drinking-water.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/bread-and-baked-goods.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/breakfast-cereals.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/butter-and-ghee.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/canned-seafood.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/car-seats.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/carpet-cleaners.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/childrens-makeup.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/childrens-nail-polish.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/chocolate.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/cleaning-wipes-household.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/coffee.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/condiments-general.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/cookware-ceramic-coated.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/cookware-nonstick-coated.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/dairy-milk-camel.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/dairy-milk-cow.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/dairy-milk-goat-sheep.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/dairy-milk-powders.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/diapers-and-components.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/eggs-product.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/eye-makeup.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/fish-freshwater.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/fish-marine-non-predatory.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/fish-marine-predatory.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/floss-interdental-cleaners.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/food-packaging-cans-lids.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/food-packaging-caps-closures.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/food-packaging-flexible-pouches-films.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/food-packaging-foils-wraps.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/food-packaging-glass-jars.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/food-packaging-paperboard-cartons.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/food-packaging-plastic-tubs.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/fresh-fish.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/index.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-concentrated-liquid-non-soy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-concentrated-liquid-soy-based.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-dairy-free.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-dairy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-powder-dairy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-powder-non-soy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-powder-soy-based.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-powder-soy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-powder.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-rtf-dairy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-rtf-liquid-non-soy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-rtf-liquid-soy-based.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-rtf-soy.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula-stage1.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/infant-formula.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/lipstick.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/makeup-foundation-powders-blush.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/menstrual-cups.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/menstrual-pads.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/menstrual-tampons.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/period-underwear-reusable-garments.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/pet-food-canned-wet.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/pet-food-dry-kibble.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/pet-food-fish-marine-protein.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/pet-food-freeze-dried.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/pet-food-raw.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/pet-food-semi-moist.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/seafood.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/products/toothpaste.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/regulations/index.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/regulators/index.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/sources/_TEMPLATE.md isn't yet tracked by git, dates will be inaccurate
+
+Warning: wiki/sources/index.md isn't yet tracked by git, dates will be inaccurate
+Parsed 98 Markdown files in 164ms
+Filtered out 1 files in 115μs
+Emitting files
+Emitted 108 files to `public` in 82ms
+Done processing 98 files in 265ms
+
+> foreverchemicalsindex@0.1.0 postbuild
+> node tools/postbuild-inject-jsonld.mjs && node tools/postbuild-inject-breadcrumbs.mjs && node tools/postbuild-scholarly-sitemap.mjs && node tools/postbuild-llms-txt.mjs && node tools/audit-built-site.mjs
+
+JSON-LD and source citation metadata: PASS
+BreadcrumbList metadata: PASS
+Scholarly sitemap: PASS
+robots.txt and llms.txt: PASS
+audit-built-site: PASS

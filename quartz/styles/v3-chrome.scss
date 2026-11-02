@@ -1,0 +1,1074 @@
+// v3 site-wide chrome , quartz/styles/v3-chrome.scss
+//
+// UNSCOPED BY DESIGN. Four things render outside `#quartz-root`
+// (renderPage.tsx): the skip-to-content link, the TopNav shell, the HeroBand,
+// and the Footer. No page-scoped selector can reach them, which is why the
+// footer stayed bold while `.hmi-v3-home *:not(strong):not(b) { font-weight:
+// 400 }` was in force , the footer is a SIBLING of that wrapper, not a
+// descendant.
+//
+// This sheet is imported unlayered from custom.scss, after `@layer legacy`, so
+// it outranks every legacy and component rule regardless of specificity.
+//
+// THE RULE THIS SHEET EXISTS TO ENFORCE: v3 must SPEAK for every property that
+// can be inherited or filled in. Layers only win where v3 speaks; where it is
+// silent, legacy fills in. That is how the metal table got a burgundy header
+// bar, the registry cards got a blush pill, and the footer links stayed
+// semibold. topNav.scss is the accidental model , it declares weight on all ten
+// of its own selectors, which is the only reason the top bar has looked right.
+
+/* ══ v3 global type (artifact lines 27-30) ═══════════════════════════════
+   v3's global stylesheet sets headings to 400 and links to #1c43ad, and
+   declares font-weight on no other element. base.scss ships `a { font-weight:
+   600 }` and `$semiBoldWeight` headings; both are stated away here once, for
+   the whole document, rather than per region as each leak is noticed. */
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+}
+
+a {
+  font-weight: 400;
+}
+
+::selection {
+  background: var(--marigold);
+  color: #5b0d2a;
+}
+
+/* ══ footer (artifact 1482-1506) ═════════════════════════════════════════
+   Everything the v3 footer needs stated together: nothing here relies on a
+   legacy rule being absent. */
+footer.site-footer {
+  background: #480c24;
+  color: rgba(255, 255, 255, 0.76);
+  border-top: 0;
+
+  /* Desktop geometry. Responsive rules below share this unlayered cascade
+     so the desktop grid cannot override the mobile footer. */
+  .site-footer-inner {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 76px 56px 40px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) repeat(4, minmax(0, 1fr));
+    gap: 72px;
+  }
+
+  .site-footer-bottom {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 22px 56px 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 40px;
+    align-items: baseline;
+  }
+
+  a,
+  p,
+  h2,
+  h3,
+  span,
+  li,
+  .site-footer-logo,
+  .site-footer-operator,
+  .site-footer-column-title {
+    font-weight: 400;
+  }
+
+  .site-footer-logo {
+    font-family: Lora, serif;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .site-footer-brand p {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .site-footer-column h2,
+  .site-footer-column h3,
+  .site-footer-column .site-footer-column-title {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #e4cbd4;
+  }
+
+  .site-footer-column a {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.76);
+    background: none;
+    border-radius: 0;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--burg-tint);
+      background: none;
+      text-decoration: none;
+    }
+  }
+
+  .site-footer-bottom p,
+  .site-footer-operator {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* ══ top bar (artifact 37-66) ═════════════════════════════════════════════
+   v3's header declares font-weight on NO element , the 22px Lora wordmark, the
+   13.5px nav items and the 12.5px Index Pro button are all 400. topNav.scss
+   ships 600 on the wordmark, 500 on nav links, 600 on the mega-menu column
+   heads and 500 on Index Pro. Stated once for the region, as with the footer. */
+.hmi-topnav-shell,
+.hmi-topnav-shell *:not(strong):not(b) {
+  font-weight: 400;
+}
+
+.hmi-topnav-wordmark {
+  font-family: Lora, serif;
+  font-size: 22px;
+  color: #7b153b;
+  letter-spacing: -0.015em;
+}
+
+/* ══ nav container (v3:43, CHROME-SPEC §1) ═════════════════════════════════
+   THE HORIZONTAL-OVERFLOW FIX. topNav.scss gives this `flex: 1 1 auto` with no
+   `min-width`. A flex item defaults to `min-width: auto`, which refuses to
+   shrink below its content's intrinsic width , 1113px here , so the header row
+   forced documentElement.scrollWidth to 1474 against a 1220 clientWidth: 254px
+   of sideways scroll on EVERY page, and the reason "Ask the Index" was clipped.
+
+   v3 states all four properties for exactly this reason. `min-width: 0` lets the
+   item shrink; `overflow: hidden` clips the nav rather than the document.
+
+   This is layout containment, which is why no computed-property assertion caught
+   it: every individual value was correct and the page still scrolled sideways.
+   A scrollWidth <= clientWidth assertion now runs at 1280 and 1440. */
+.hmi-topnav-menu {
+  display: flex;
+  align-items: stretch;
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  gap: 2px;
+}
+
+/* ══ the trigger ROW (v3:43) ═══════════════════════════════════════════════
+   THE GAP AND THE STRETCH BOTH HAVE TO LAND ON THE <ul>, NOT THE <nav>.
+
+   `.hmi-topnav-menu` above declares `gap: 2px; align-items: stretch` and both
+   were inert: the <nav> has exactly ONE child, the list, so its gap spaces
+   nothing, and the list's own `align-items: center` (topNav.scss) ends the
+   stretch chain one level too early. Measured on the built page: list gap 24px
+   against a specified 2, trigger height 26px against a bar of 68.
+
+   That second number is the one that reads as "not v3" at a glance. §1.1 says
+   the 2px bottom border IS the affordance , it is a tab underline sitting on
+   the bar's own bottom edge. At 26px tall and vertically centred, the burgundy
+   rule floats in the middle of the header underlining nothing. Every value on
+   that element was correct; the composition was wrong, which is exactly the
+   class of defect FIDELITY.md exists for and exactly what a property assertion
+   cannot see. Three assertions land with this rule to close it. */
+.hmi-nav-list {
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hmi-nav-item {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  /* NO `position: relative` here. The mega-menu panel is `position: absolute;
+     left: 0; right: 0` and must resolve those against `.hmi-topnav-inner` , the
+     full-width, relative header inner , so it spans the bar and, crucially,
+     ESCAPES the nav's `overflow: hidden` (its containing block sits outside the
+     nav). Making the item the containing block sized the panel to the 71px
+     trigger and let the nav clip it to nothing. The disclosure button is
+     visually hidden (1px, clipped), so it does not need the item as its
+     positioning context. */
+}
+
+/* ══ nav triggers (artifact 45, constant at 1993) ══════════════════════════
+   v3's trigger declares NO background, NO border-radius, NO uppercase and NO
+   font-weight. The open state is signalled ONLY by the bottom rule going
+   burgundy and the label changing colour , and the inactive state reserves the
+   same 2px as `transparent`, so opening a menu does not shift the bar. */
+.hmi-nav-top {
+  display: flex;
+  align-items: center;
+  /* `height: 100%` + a 2px bottom border under content-box measured 70px in a
+     68px bar, so the underline hung 2px BELOW the bar's own bottom rule instead
+     of sitting on it. The border has to be inside the height for a tab
+     underline to be a tab underline. */
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0 14px;
+  font-size: 13.5px;
+  color: #3f3a3f;
+  text-decoration: none;
+  background: none;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+  text-transform: none;
+}
+
+/* The disclosure button lost its chevron in c22cd3bc1 and kept its box: 6px of
+   flow plus the item gap, beside every one of the five labels, containing
+   nothing but a screen-reader span. It is what pushed the trigger row 128px
+   wider than v3's and what put a gap between each label and its own underline.
+
+   Visually hidden rather than deleted. §1.1 is explicit , "keep the accessible
+   name on the control; remove only the glyph" , and this keeps it in the tab
+   order and announced while taking no layout space. Wide branch only: inside
+   the burger drawer the panels are accordions and the toggle is the visible,
+   44px control that opens them. */
+@media (min-width: 1150px) {
+  .hmi-nav-toggle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+.hmi-nav-item.is-open > .hmi-nav-top,
+.hmi-nav-top[aria-expanded="true"],
+.hmi-nav-top:hover {
+  color: #7b153b;
+  border-bottom-color: var(--marigold-edge);
+  background: none;
+}
+
+/* ══ mega menu (artifact 72-93) ════════════════════════════════════════════
+   A full-bleed panel under the bar, then a 280px context column beside three
+   equal link columns. The context column and the columns are already siblings
+   in this markup (`.hmi-nav-blurb` + `.hmi-nav-cols`), so v3's two-part split
+   is reachable with grid alone , no change to the nav-panel generator. */
+.hmi-nav-panel {
+  background: #fffdfb;
+  border-bottom: 1px solid #e8e1db;
+  box-shadow: 0 22px 44px -24px rgba(90, 28, 48, 0.26);
+}
+
+.hmi-nav-panel-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 32px 48px 38px;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+/* the 280px left rail , title + blurb + all-link, all in flow (CHROME-SPEC §2,
+   v3:77-81). The border-right belongs to the RAIL, not to the blurb: it used to
+   sit on .hmi-nav-blurb, so the rule stopped at the end of the paragraph
+   instead of running the height of the column. */
+.hmi-nav-rail {
+  border-right: 1px solid #efe9e3;
+  padding-right: 40px;
+}
+
+.hmi-nav-title {
+  margin: 0 0 10px;
+  font-family: Lora, serif;
+  font-size: 20px;
+  color: #7b153b;
+}
+
+.hmi-nav-blurb {
+  margin: 0 0 16px;
+  border-right: 0;
+  padding-right: 0;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #736b6e;
+}
+
+.hmi-nav-all {
+  display: inline-block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #7b153b;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.hmi-nav-cols {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.hmi-nav-colhead {
+  margin: 0 0 11px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #efe9e3;
+}
+
+.hmi-nav-col ul {
+  /* No `gap` , CHROME-SPEC §2: the 1px dotted rules do the separating, and a
+     gap here is what made the rows loose against v3's compact density. */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 0;
+}
+
+.hmi-nav-col ul > li {
+  margin: 0;
+  list-style: none;
+}
+
+.hmi-nav-col ul > li > a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 13.5px;
+  color: #3f3a3f;
+  border-bottom: 1px dotted #f2ece7;
+  background: none;
+  border-radius: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: #7b153b;
+    background: none;
+    text-decoration: none;
+  }
+}
+
+/* the per-item record count, artifact 87 */
+.hmi-nav-count {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  color: #b7aeb0;
+  flex: 0 0 auto;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Header geometry (artifact 37-38). Same 1480px cap as `.proof-container`,
+   with the same consequence above that width , and `margin: 0` meant the bar
+   never centred there either, it just sat against the left edge. v3's header
+   carries no ternary, so these hold at every width. */
+.hmi-topnav-shell {
+  // The global bar has no outer spacing on any page, including pages with
+  // their own hero. Override Quartz's generic `header { margin: 2rem 0 }`.
+  margin: 0;
+  background: #fffdfb;
+  border-bottom: 1px solid #e8e1db;
+}
+
+.hmi-topnav-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 48px;
+  height: 68px;
+  gap: 22px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+.hmi-topnav-brand {
+  display: flex;
+  /* flex-direction: row is load-bearing. topNav.scss still ships
+     `flex-direction: column` from the old design, where the wordmark sat over an
+     "Operated by …" sub-line. That sub-line moved to the footer, but the column
+     direction stayed , so in the 68px-tall brand `align-items: center` only
+     centred the wordmark HORIZONTALLY (a column's cross-axis), and with no
+     `justify-content` it pinned to the top: the logo rendered 21px above the
+     bar's centre while the nav items sat on it. Row makes `align-items: center`
+     the vertical centring it reads as. §1.1: the wordmark is `display: flex;
+     align-items: center`, i.e. a row. */
+  flex-direction: row;
+  align-items: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  text-decoration: none;
+  padding-right: 8px;
+}
+
+/* ══ the flex spacer (v3:57, CHROME-SPEC §1.1 child 3) ══════════════════════
+   `flex: 1 1 auto; min-width: 0` , an empty item that owns all the slack. The
+   alternative, `margin-left: auto` on the actions group, looks equivalent and
+   is not: an auto margin resolves BEFORE flex shrinking, so the free space
+   belongs to the margin and neither the nav nor the actions ever gives any of
+   it back. That is the same class of bug as the 254px overflow (v3-chrome
+   `.hmi-topnav-menu` above) , a row whose items cannot shrink. With a real
+   spacer the slack is a flex item and collapses to 0 first, which is why v3
+   ships one and why §1.1 says not to replace it. */
+.hmi-topnav-spacer {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ══ actions group (v3:58-63, CHROME-SPEC §1.1 child 4) ════════════════════ */
+.hmi-topnav-actions {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  min-width: 0;
+  gap: 12px;
+}
+
+/* ── search box, wide (vw >= 1150) ─────────────────────────────────────────
+   A 260px bordered box that shows its own placeholder, not an icon button.
+   The flex basis has to sit on the `.search` wrapper: the wrapper is the flex
+   item of the actions group, and the button inside it is what would otherwise
+   size the whole thing to its text width (~119px). */
+.search.hmi-topnav-search {
+  flex: 0 1 260px;
+  min-width: 60px;
+  max-width: none;
+}
+
+/* THE FLEX BASIS DOES NOT HOLD ON ITS OWN, and I deleted the rule that said so.
+   `.hmi-topnav-actions` is `flex: 0 1 auto`, so its base size is its content
+   size , and a nested item with `flex-basis: 260px; flex-shrink: 1` contributes
+   its MIN-content, not its basis, to that calculation. The group therefore
+   sized itself to the search box's ellipsised text width and the box settled at
+   168px with 214px of free space sitting in the spacer beside it.
+
+   topNav.scss carried an explicit width for exactly this reason, with a comment
+   explaining it, and I removed it while consolidating the block. Restored here,
+   and asserted, which is what should have caught it the first time. */
+@media (min-width: 1150px) {
+  .search.hmi-topnav-search {
+    width: 260px;
+  }
+}
+
+.search.hmi-topnav-search > .search-button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  height: 36px;
+  width: 100%;
+  padding: 0 13px;
+  border: 1px solid #e6ded8;
+  border-radius: 3px;
+  background: #fbf8f5;
+  overflow: hidden;
+  cursor: pointer;
+  /* _legacy-all.scss:409 gave every `.search-button` `box-shadow: var(--shadow-sm)`
+     , the burgundy 0 2px 8px the negative assertion has been reporting on all
+     six surfaces. That rule is deleted in this commit; this states the property
+     so a re-introduction elsewhere cannot bring the shadow back silently. */
+  box-shadow: none;
+
+  &:hover {
+    border-color: #7b153b;
+    background: #fbf8f5;
+    box-shadow: none;
+  }
+
+  & > p {
+    margin: 0;
+    font-size: 12.5px;
+    color: #a9a1a2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+}
+
+/* v3:55 , the search mark is a mono glyph, not an SVG. */
+.hmi-topnav-glyph {
+  flex: 0 0 auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1;
+  color: #b7aeb0;
+}
+
+.hmi-topnav-kbd {
+  margin-left: auto;
+  flex: 0 0 auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  line-height: 1;
+  color: #b7aeb0;
+  border: 1px solid #ebe4de;
+  border-radius: 2px;
+  padding: 1px 4px;
+}
+
+/* Ask · About · Log in: plain 12.5px text, wide-only (v3:59-61). */
+.hmi-topnav-ask,
+.hmi-topnav-utility,
+.hmi-topnav-login {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  font-size: 12.5px;
+  color: #736b6e;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+
+  &:hover {
+    color: #7b153b;
+    background: none;
+    text-decoration: none;
+  }
+}
+
+/* The bar's one filled control (v3:62). */
+.hmi-topnav-pro {
+  flex: 0 0 auto;
+  margin-left: 0;
+  font-size: 12.5px;
+  line-height: 1;
+  color: #5b0d2a;
+  background: var(--marigold);
+  border-radius: 3px;
+  padding: 8px 15px;
+  white-space: nowrap;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--marigold-hover);
+    color: #5b0d2a;
+    text-decoration: none;
+  }
+}
+
+/* ── search box, narrow (< 1150) ───────────────────────────────────────────
+   v3 drops chrome rather than shrinking it: the box becomes a 36px square and
+   the label, the "/" hint and the three text links are removed outright. Index
+   Pro survives at every width. */
+@media (max-width: 1149px) {
+  .search.hmi-topnav-search {
+    flex: 0 0 auto;
+    width: 36px;
+    /* The wide branch's `min-width: 60px` is a floor, and a floor beats a width.
+       Without this reset the "36px square" measured 60px , declared correctly,
+       laid out wrong, which is the third defect of that exact shape in this
+       header. */
+    min-width: 0;
+  }
+
+  .search.hmi-topnav-search > .search-button {
+    width: 36px;
+    padding: 0;
+    gap: 0;
+    justify-content: center;
+
+    & > p {
+      display: none;
+    }
+  }
+
+  .hmi-topnav-kbd,
+  .hmi-topnav-ask,
+  .hmi-topnav-utility,
+  .hmi-topnav-login {
+    display: none;
+  }
+}
+
+/* ══ the burger drawer's display gate ══════════════════════════════════════
+   THIS SHEET BROKE THE DRAWER AND HAD TO BE THE ONE TO FIX IT. The nav-container
+   rule above declares `display: flex` unlayered, so it outranks topNav.scss's
+   layered `.hmi-topnav-menu { display: none }` , media query or not, layer
+   precedence is decided before specificity. The result, live on every viewport
+   under the collapse flag since c00926f4c: the drawer rendered permanently open
+   over the page, five stacked links deep, with `aria-expanded="false"` on the
+   burger that was supposed to control it.
+
+   Stated here because a rule that must beat an unlayered rule has to be
+   unlayered too. `.open` carries higher specificity than the bare class, so the
+   burger still works; source order settles the rest.
+
+   The flag is 1149, not the repo's `$desktop` (1200). Those 50px were a real
+   band: v3's actions group took its WIDE branch at 1150-1199 while the nav took
+   its NARROW one, so the bar showed a 260px search box beside a hamburger. Both
+   sides now turn at the same width. */
+@media (max-width: 1149px) {
+  .hmi-topnav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: visible;
+    gap: 0;
+  }
+
+  .hmi-topnav-menu.open {
+    display: flex;
+  }
+}
+
+// The desktop gutters and gaps consume too much of a phone's width. Keep the
+// bar at 68px while giving its wordmark, navigation, search, and Pro link room.
+@media (max-width: 600px) {
+  .hmi-topnav-inner {
+    padding: 0 16px;
+    gap: 8px;
+    justify-content: space-between;
+  }
+
+  .hmi-topnav-brand {
+    padding-right: 0;
+  }
+
+  .hmi-topnav-wordmark {
+    font-size: 18px;
+  }
+
+  .hmi-topnav-spacer {
+    display: none;
+  }
+
+  .hmi-topnav-actions {
+    flex: 0 0 auto;
+    gap: 8px;
+  }
+
+  .hmi-topnav-pro {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hmi-topnav-inner {
+    padding: 0 8px;
+    gap: 6px;
+  }
+
+  .hmi-topnav-wordmark {
+    font-size: 16px;
+  }
+
+  .hmi-topnav-actions {
+    gap: 6px;
+  }
+}
+
+/* ══ radii, search overlay (CHROME-SPEC §2: 2-3px everywhere) ══════════════
+   search.scss predates the v3 geometry and ships 7px on the input and the
+   layout and 5px on the results pane. The modal is exempt from the no-shadow
+   rule, NOT from the radius rule , "radii 2-3px everywhere" has no exception
+   list. */
+.search-container .search-space > *,
+.search-container .search-layout > div {
+  border-radius: 3px;
+}
+
+/* The disclosure button behind each nav trigger. It renders nothing visually
+   (the chevron went in c22cd3bc1) but still computed a 4px radius. */
+.hmi-nav-toggle {
+  border-radius: 0;
+}
+
+/* The hidden Ask button still reports 600; state it so a future unhide does not
+   reintroduce the leak. */
+.site-footer-ask {
+  font-weight: 400;
+}
+
+/* ══ detail-page shell (artifact 405-436, constants 2007-2011) ══════════════
+   This is the highest-leverage block in the file: renderPage.tsx:310 renders
+   this shell for every page that is not home, auth or 404, which is ~3,086 of
+   them. It was measurably off v3 on every one , 232/752/288 with a 44px gap
+   and no max-width, against v3's 236 / 1fr / 312 with a 56px gap inside 1760px.
+
+   The breakpoint is the more consequential half. proof-design.scss collapsed
+   the shell at 1080px; v3's breakpoint is `vw >= 1150` (artifact 1976), so in
+   the 70px band between them the site showed three columns where v3 shows one.
+   Stated here at 1149 so the two agree. */
+/* v3 has no wrapper between the page and the shell. proof-design.scss:108 puts
+   one there , `.proof-container { max-width: var(--maxw); padding: 0 40px }`,
+   which resolves to 1480px , so the shell's 1760px could never take effect and
+   every detail page lost 280px of content width above 1480. Invisible at 1440,
+   which is exactly why it survived a gate that only tested 1440 and 1100. */
+.proof-container {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* v3's <main>, artifact 436: `padding: 38px 0 88px; min-width: 0`. This had NO
+   top padding, so the first body block sat flush against the burgundy hero
+   while the left rail started 34px down (navAsideSt) , the missing whitespace
+   above the Quick read card, and a visible misalignment between the two
+   columns. */
+.proof-main {
+  padding: 38px 0 88px;
+  min-width: 0;
+}
+
+.proof-layout {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 236px minmax(0, 1fr) 312px;
+  gap: 56px;
+  align-items: start;
+}
+
+/* The homepage is full-bleed and owns its own section wrappers. Restated
+   unlayered because the rule it relies on (proof-design.scss:48 and
+   _legacy-all.scss:2127) is layered, and the grid above would otherwise
+   out-rank it and put 48px of gutter down both sides of HOME A. */
+.proof-home .proof-layout {
+  display: block;
+  padding: 0;
+  max-width: none;
+}
+
+// Keep the document rail hidden when the narrow layout makes .snav flex.
+.proof-home .snav,
+.proof-home .rail,
+.proof-home .page-header {
+  display: none;
+}
+
+.proof-home .proof-main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* /ask is an app surface (Forever Chemicals Index v3.dc.html, ASK THE INDEX branch).
+   Like the homepage it opts out of the 3-column rail grid and runs full-bleed:
+   its bespoke burgundy hero + two-column body own their own inner max-width.
+   Restated unlayered here for the same reason as .proof-home above , the
+   .proof-layout grid at line 703 is unlayered and would otherwise out-rank the
+   layered collapse rules (and component-CSS in askindex.scss). renderPage.tsx
+   tags the root .proof-ask and drops the HeroBand masthead for this slug. */
+.proof-ask .proof-layout {
+  display: block;
+  padding: 0;
+  max-width: none;
+}
+.proof-ask .snav,
+.proof-ask .rail,
+.proof-ask .page-header,
+.proof-ask .page-footer {
+  display: none;
+}
+.proof-ask .proof-container {
+  max-width: none;
+  padding: 0;
+}
+.proof-ask .proof-main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.proof-ask .wiki-content {
+  font-size: inherit;
+}
+
+/* navAsideSt / railAsideSt (2010-2011). Both were sticky at top 88px with no
+   padding; v3 clears the 92px top bar and pads each aside differently. */
+.snav {
+  position: sticky;
+  top: 92px;
+  padding: 34px 0 48px;
+}
+
+.rail {
+  position: sticky;
+  top: 92px;
+  padding: 38px 0 48px;
+}
+
+/* ══ right-rail blocks (artifact 1453-1477) ════════════════════════════════
+   Connections, Reuse this page and Found an error?, emitted by Rail.tsx.
+   Values are the artifact's inline styles verbatim. Stated here rather than in
+   a component stylesheet because component CSS is emitted inside
+   `@layer legacy`, where these would lose to any unlayered rule on equal
+   specificity , the precedence hole that kept the footer bold. */
+.rail-connections-title {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e8e1db;
+  margin-bottom: 12px;
+}
+
+.rail-connections-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 30px;
+
+  a {
+    font-size: 13.5px;
+    color: #1c43ad;
+    line-height: 1.45;
+    font-weight: 400;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      background: none;
+    }
+  }
+}
+
+.rail-reuse {
+  border: 1px solid #e8e1db;
+  background: #fffdfb;
+  margin-bottom: 24px;
+}
+
+.rail-reuse-title {
+  padding: 11px 15px;
+  border-bottom: 1px solid #e8e1db;
+  background: var(--burg-tint);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7b153b;
+}
+
+.rail-reuse-body {
+  padding: 14px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  a {
+    font-size: 12.5px;
+    color: #1c43ad;
+    font-weight: 400;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      background: none;
+    }
+  }
+}
+
+/* The JSON-LD disclosure panel, METHOD.md §5 verbatim:
+   border 1px #e8e1db · background #fbf8f5 · padding 11px 12px · max-height 300px
+   · overflow auto · mono 9.5px · line-height 1.55 · #5a4148 · white-space pre-wrap */
+.rail-ld > summary {
+  font-size: 12.5px;
+  color: #1c43ad;
+  cursor: pointer;
+  list-style: none;
+}
+
+.rail-ld > summary::-webkit-details-marker {
+  display: none;
+}
+
+.rail-ld-panel {
+  margin: 9px 0 0;
+  border: 1px solid #e8e1db;
+  background: #fbf8f5;
+  padding: 11px 12px;
+  max-height: 300px;
+  overflow: auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  line-height: 1.55;
+  color: #5a4148;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.rail-correction {
+  border: 1px solid #eddfe4;
+  background: #f6ecf0;
+  padding: 16px;
+
+  p {
+    margin: 0 0 13px;
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: #5a4148;
+  }
+}
+
+.rail-correction-title {
+  font-family: Lora, serif;
+  font-size: 17px;
+  color: #7b153b;
+  margin-bottom: 8px;
+}
+
+.rail-correction-cta {
+  display: inline-block;
+  background: #7b153b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+
+  &:hover {
+    background: #5b0d2a;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* The Sources rail's record-count badge (artifact 1795 rail 08 -> '896';
+   badgeSt at 1944). Right-aligned mono, same treatment as v3's. */
+.snav-badge {
+  margin-left: auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  color: #a9a1a2;
+  flex: 0 0 auto;
+  font-weight: 400;
+}
+
+/* The rail note under "On this page" (artifact 431). */
+.snav-note {
+  margin: 22px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid #e8e1db;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: #a9a1a2;
+}
+
+@media (max-width: 1149px) {
+  .proof-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+    padding: 0 24px;
+  }
+
+  /* v3 stacks the asides rather than hiding them, and keeps the section nav a
+     column , it does not become a chip row. Both are read off navAsideSt's
+     narrow branch, not inferred from how the old layout behaved. */
+  .snav {
+    position: static;
+    padding: 26px 0 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rail {
+    position: static;
+    padding: 8px 0 48px;
+  }
+}
+
+
+/* Mobile chrome must live outside the legacy layer to override desktop geometry. */
+.hmi-mobile-utilities { display: none; }
+@media (max-width: 1149px) {
+  footer.site-footer .site-footer-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+    padding: 40px 24px 32px;
+  }
+  footer.site-footer .site-footer-brand { min-width: 0; max-width: 36rem; }
+  footer.site-footer .site-footer-logo { overflow-wrap: normal; word-break: normal; line-height: 1.3; }
+  footer.site-footer .site-footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 24px;
+  }
+  footer.site-footer .site-footer-column { min-width: 0; }
+  footer.site-footer .site-footer-column h2 { font-size: 12px; line-height: 1.5; color: #e4cbd4; }
+  footer.site-footer .site-footer-column ul { gap: 0; }
+  footer.site-footer .site-footer-column a {
+    display: flex; align-items: center; min-height: 44px;
+    padding: 6px 0; box-sizing: border-box; font-size: 16px; line-height: 1.5;
+    overflow-wrap: break-word;
+  }
+  footer.site-footer .site-footer-brand p { font-size: 16px; }
+  footer.site-footer .site-footer-bottom { padding: 24px; gap: 12px; }
+  footer.site-footer .site-footer-bottom p { font-size: 12px; line-height: 1.6; letter-spacing: .03em; }
+  .hmi-topnav-menu {
+    box-sizing: border-box; z-index: 100;
+    max-height: calc(100vh - 68px);
+    max-height: calc(100dvh - 68px);
+    overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain;
+    padding: 8px 24px max(24px, env(safe-area-inset-bottom));
+  }
+  .hmi-nav-list { height: auto; flex: 0 0 auto; gap: 0; }
+  .hmi-nav-item { display: grid; grid-template-columns: minmax(0, 1fr) 44px; min-width: 0; }
+  .hmi-nav-top { height: auto; min-height: 48px; padding: 10px 0; font-size: 16px; white-space: normal; }
+  .hmi-nav-toggle { width: 44px; height: 48px; color: #7b153b; }
+  .hmi-nav-toggle::after { content: ''; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); }
+  .hmi-nav-toggle[aria-expanded="true"]::after { transform: rotate(225deg); }
+  .hmi-nav-panel { grid-column: 1 / -1; min-width: 0; border: 0; box-shadow: none; }
+  .hmi-nav--js .hmi-nav-item:not(.is-open) > .hmi-nav-panel { display: none; }
+  .hmi-nav-panel-inner { grid-template-columns: minmax(0, 1fr); gap: 20px; padding: 8px 0 24px 12px; }
+  .hmi-nav-rail { border: 0; padding: 0; min-width: 0; }
+  .hmi-nav-title { display: none; }
+  .hmi-nav-all { margin: 0; font-size: 13px; line-height: 1.6; padding: 10px 0; }
+  .hmi-nav-cols { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .hmi-nav-colhead { font-size: 12px; line-height: 1.5; color: #736b6e; }
+  .hmi-nav-col ul > li > a { box-sizing: border-box; min-height: 44px; padding: 10px 0; font-size: 16px; line-height: 1.5; }
+  .hmi-nav-childlabel { min-width: 0; overflow-wrap: break-word; }
+  .hmi-nav-count { font-size: 12px; color: #736b6e; }
+  .hmi-mobile-utilities { display: grid; flex: 0 0 auto; border-top: 1px solid #e8e1db; margin-top: 12px; padding-top: 12px; }
+  .hmi-mobile-utilities a { display: flex; align-items: center; min-height: 44px; font-size: 16px; color: #7b153b; background: none; }
+  .hmi-topnav-burger { flex: 0 0 44px; align-self: center; width: 44px; height: 44px; padding: 0; justify-content: center; }
+}
+@media (max-width: 600px) {
+  .search.hmi-v3-hero-search { width: 100%; min-width: 0; }
+  .hmi-topnav-brand { flex: 1 1 auto; min-width: 0; }
+  .hmi-topnav-wordmark { font-size: 18px; }
+  .hmi-topnav-actions > .hmi-topnav-pro { display: none; }
+  .hmi-topnav-menu { padding-left: 20px; padding-right: 20px; }
+}
+@media (max-width: 359px) {
+  footer.site-footer .site-footer-nav { grid-template-columns: minmax(0, 1fr); }
+  footer.site-footer .site-footer-inner { padding-left: 20px; padding-right: 20px; }
+}

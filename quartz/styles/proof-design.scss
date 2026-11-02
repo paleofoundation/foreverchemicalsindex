@@ -1,0 +1,516 @@
+// The approved design, verbatim from the hmi-real-content proof (proof.css).
+// This is the SOURCE OF TRUTH for the visual layer , renderPage.tsx emits the
+// matching HTML structure (.topnav / .snav / .wiki-content / .qa / .ev / .rail /
+// sup.cite) so the Quartz build renders identical to the proof. Do NOT
+// re-derive these rules in SCSS; edit the design here against the proof.
+//
+// Global resets from the proof (* / body / bare h-tags) are intentionally
+// omitted so Quartz's own base + search/popover UI keep working; only the proof's
+// scoped component rules + design tokens are adopted.
+
+:root {
+  // Values read from "Forever Chemicals Index v3.dc.html", not inferred. The neutrals
+  // were cool-toned (#6b7280 / #9aa0a8 / #373c44 are slate); v3's are warm and
+  // sit against the #faf7f4 page. Frequencies in v3: #8b2a4a x207, #e8e1db x104,
+  // #3f3a3f x92, #2b1f24 x88, #736b6e x58, #f2ece7 x55, #a9a1a2 x44.
+  --burg: #7b153b; --burg-dark: #5b0d2a; --burg-tint: #f6ecf0; --burg-tint2: #fbf5f7;
+  // October 14 color-only refresh; geometry and evidence-status colors stay fixed.
+  --marigold: #ffc329; --marigold-hover: #ffd569; --marigold-edge: #9b6700;
+  --ink: #2b1f24; --body: #3f3a3f; --muted: #736b6e; --faint: #a9a1a2;
+  --line: #e8e1db; --line2: #f2ece7; --shade: #fbf8f5;
+  --a: #2e9e6b; --b: #d39000; --c: #9aa0a8; --d: #c0392b;
+  // v3 uses 2px on chips/badges/kbd and 3px on buttons/cards/panels; nothing larger.
+  --radius: 2px; --radius-lg: 3px; --maxw: 1480px;
+}
+
+/* the proof grid owns layout , free .page's width + neutralise the base grid */
+.page.proof { max-width: none; padding: 0; }
+.page.proof > #quartz-body { display: block; max-width: none; }
+.snav .snav-further { margin-bottom: 4px; }
+.snav .snav-further > summary { list-style: none; }
+.snav .snav-further > summary::-webkit-details-marker { display: none; }
+.snav .snav-further[open] > summary.sec { background: var(--burg-tint); color: var(--burg); }
+/* Collapsible accordion: subsections stay hidden until the user opens the parent
+   (click adds .expanded, or the model marks a parent defaultOpen -> .expanded at
+   render). A pure click accordion , scroll position no longer reveals children,
+   it only highlights the active parent, so nothing pops in and out as you scroll. */
+.snav .grp:not(.snav-further) > a.sub { display: none; }
+.snav .grp:not(.snav-further).expanded > a.sub { display: block; }
+/* +/- affordance on parents that actually have children */
+.snav .grp:not(.snav-further):has(> a.sub) > a.sec { position: relative; padding-right: 26px; cursor: pointer; }
+.snav .grp:not(.snav-further):has(> a.sub) > a.sec::after { content: "+"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--faint); font-weight: 400; font-size: 15px; line-height: 1; }
+.snav .grp:not(.snav-further):has(> a.sub).expanded > a.sec::after { content: "\2212"; color: var(--burg); }
+/* highlight the parent whose section is currently in view */
+.snav .grp:not(.snav-further):has(.in-view) > a.sec { background: var(--burg-tint); color: var(--burg); font-weight: 600; }
+/* cross-reference counts group inside the snav */
+.snav .snav-counts { display: block; }
+
+/* homepage opts out of the 3-col grid: full-width hero, no snav/rail/title */
+.proof-home .snav, .proof-home .rail, .proof-home .page-header { display: none; }
+.proof-home .proof-layout { display: block; }
+.proof-home .proof-main { max-width: var(--maxw); margin: 0 auto; }
+.proof-home .wiki-content { font-size: 16px; }
+
+/* No pill on any internal link anywhere in the build, default OR hover ,
+   overrides the Quartz base a.internal / tag-link background. */
+// `!important` and the :not() escape hatches are both gone. This rule exists to
+// kill base.scss's `a.internal { background-color: var(--highlight);
+// border-radius: 5px; padding: 0 .1rem }` pill. base and proof-design are now in
+// the same `legacy` layer and custom.scss @uses base first, so this wins on
+// source order at equal specificity , no !important needed. Dropping it matters:
+// a LAYERED !important outranks an unlayered normal declaration, so this rule
+// was reaching into the authoritative v3 sheet and zeroing padding there.
+a.internal,
+a.internal.tag-link {
+  background: none;
+  border-radius: 0;
+  padding: 0;
+}
+a.internal:hover,
+a.internal:focus,
+a.internal.tag-link:hover {
+  background: none;
+}
+
+/* …except links deliberately styled AS buttons. Quartz stamps class="internal"
+   on every in-site link, so the blanket rule above also stripped the background
+   off the homepage's primary call to action, rendering "Browse Products" as
+   near-white text on no background: an invisible button on the landing page.
+   Re-asserted here rather than carved out of the rule above with
+   :not(.hmi-home-hero-actions a), because a complex selector inside :not() is
+   unsupported in Safari 15.6, which quartz/plugins/emitters/componentResources.ts
+   still targets, and would drop the whole no-pill rule on that browser. */
+.hmi-home-hero-actions a.hmi-home-action-primary {
+  background: var(--secondary) !important;
+  border-radius: var(--radius-sm, 6px) !important;
+  padding: 0.55rem 0.75rem !important;
+}
+.hmi-home-hero-actions a.hmi-home-action-primary:hover,
+.hmi-home-hero-actions a.hmi-home-action-primary:focus {
+  background: color-mix(in srgb, var(--secondary) 88%, var(--dark)) !important;
+}
+
+/* ---------- top nav (white) ---------- */
+.proof .topnav, .topnav.proofnav { background: #fff; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 30; }
+.proofnav .inner { max-width: var(--maxw); margin: 0 auto; padding: 0 40px; height: 68px; display: flex; align-items: center; gap: 30px; }
+.proofnav .brand { font-family: Lora, serif; font-weight: 600; font-size: 22px; color: var(--burg); display: flex; flex-direction: column; line-height: 1.15; }
+.proofnav .brand:hover { text-decoration: none; }
+.proofnav .brand .op { font-family: Inter, sans-serif; font-size: 11px; font-weight: 400; color: var(--muted); }
+.proofnav nav { display: flex; gap: 24px; }
+.proofnav nav a { color: var(--ink); font-size: 15px; font-weight: 500; }
+.proofnav nav a:hover { color: var(--burg); text-decoration: none; }
+.proofnav nav a.active { color: var(--burg); }
+.proofnav .right { margin-left: auto; display: flex; align-items: center; gap: 20px; color: var(--ink); }
+.proofnav .right a, .proofnav .right button { color: var(--ink); font-size: 15px; display: flex; align-items: center; gap: 6px; background: none; border: 0; cursor: pointer; font-family: inherit; }
+.proofnav .right a:hover, .proofnav .right button:hover { color: var(--burg); text-decoration: none; }
+.proofnav .ask { background: var(--burg); color: #fff; font-weight: 600; padding: 8px 16px; border-radius: 999px; }
+.proofnav .ask:hover { background: var(--burg-dark); }
+
+/* ---------- page grid (wide 3-col) ---------- */
+.proof-container { max-width: var(--maxw); margin: 0 auto; padding: 0 40px; }
+.proof-layout { display: grid; grid-template-columns: 232px minmax(0, 1fr) 288px; gap: 44px; align-items: start; padding: 30px 0 70px; }
+
+/* left section nav */
+.snav { position: sticky; top: 88px; font-size: 14.5px; }
+.snav .grp { display: block; margin-bottom: 4px; }
+.snav a.sec { display: block; color: var(--body); padding: 8px 12px; border-radius: 2px; font-weight: 500; }
+.snav a.sec:hover { background: var(--shade); text-decoration: none; }
+.snav a.sec.active { background: var(--burg-tint); color: var(--burg); font-weight: 600; }
+.snav a.sub { display: block; color: var(--muted); padding: 5px 12px 5px 24px; font-size: 14px; }
+.snav a.sub:hover { color: var(--burg); text-decoration: none; }
+.snav a.sub.active { color: var(--burg); }
+.snav .divider { height: 1px; background: var(--line); margin: 14px 4px; }
+.snav a.icon { display: flex; align-items: center; gap: 10px; color: var(--body); padding: 8px 12px; border-radius: 2px; }
+.snav a.icon:hover { background: var(--shade); text-decoration: none; color: var(--burg); }
+.snav a.icon svg { width: 18px; height: 18px; color: var(--faint); flex: 0 0 auto; }
+.snav a.icon:hover svg { color: var(--burg); }
+.snav .navgrouplabel { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--faint); margin: 16px 0 5px; padding: 0 12px; font-weight: 600; }
+.snav a.icon .navcount { margin-left: auto; font-size: 12px; color: var(--muted); background: var(--shade); border-radius: 2px; padding: 1px 8px; font-weight: 500; }
+
+/* ---------- main content ---------- */
+.proof-main { min-width: 0; }
+.proof-main .breadcrumb { font-size: 13.5px; color: var(--muted); margin-bottom: 4px; }
+.proof-main .page-h { display: flex; align-items: center; gap: 12px; border-bottom: 1px dotted #cfcabf; padding-bottom: 14px; margin: 6px 0 4px; }
+.proof-main .page-h .chev { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; color: var(--burg); flex: 0 0 auto; }
+.proof-main .page-h h1 { font-family: Lora, serif; font-size: 34px; margin: 0; color: var(--ink); font-weight: 600; }
+.proof-main .page-h .sym { color: var(--muted); font-weight: 400; }
+
+/* ---------- right sidebar ---------- */
+.rail { position: sticky; top: 88px; display: flex; flex-direction: column; gap: 14px; }
+.rail .action { display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; border: 1px solid var(--line); background: #fff; color: var(--body); font-weight: 500; font-size: 14.5px; padding: 11px; border-radius: 3px; cursor: pointer; }
+.rail .action:hover { border-color: var(--burg); color: var(--burg); text-decoration: none; }
+.rail .action svg { width: 18px; height: 18px; }
+.rail .card { background: var(--shade); border-radius: var(--radius-lg); padding: 20px; }
+.rail .card h4 { font-family: Lora, serif; font-size: 16px; color: var(--ink); margin: 0 0 9px; font-weight: 600; }
+.rail .card p { font-size: 13.5px; color: var(--body); line-height: 1.55; margin: 0 0 12px; }
+.rail .card p .em { color: var(--burg); font-weight: 600; }
+.rail .card .meta { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--muted); margin-top: 4px; padding-top: 13px; border-top: 1px solid var(--line); line-height: 1.7; }
+
+/* discreet share control (rail): a share button that opens a small popup menu */
+// Discreet inline share icons (X · LinkedIn · Reddit · Facebook · Email) , a
+// small row of monochrome brand glyphs tinted to the site burgundy, at the top
+// of the rail. Plain links, no popup: a "Share" mono label + 16px icons in one
+// line. Icons carry width/height attributes too, so they can never balloon if
+// this stylesheet is slow to apply.
+.rail .rail-share { display: flex; align-items: center; flex-wrap: wrap; gap: 13px; margin-bottom: 22px; }
+.rail .rail-share-label { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.rail .rail-share-link { display: inline-flex; align-items: center; line-height: 0; color: var(--burg); }
+.rail .rail-share-link:hover { color: var(--burg-dark); text-decoration: none; }
+.rail .rail-share-link svg { width: 16px; height: 16px; display: block; }
+.rail .rail-share-copy { border: 0; background: transparent; padding: 3px 0; font: inherit; font-size: 12px; color: var(--burg); cursor: pointer; }
+.rail .rail-share-copy:hover { text-decoration: underline; }
+.rail .rail-share-copy:focus-visible { outline: 2px solid var(--burg); outline-offset: 3px; }
+.rail .rail-share-status { flex-basis: 100%; font-size: 12px; color: var(--muted); }
+.rail .rail-share-status:empty { display: none; }
+
+/* ---------- the article body, re-skinned ---------- */
+// v3 body text: 16.5px / 1.78 / #3f3a3f (artifact 476, the repeated detail-
+// section paragraph style). Was 16px / 1.72, which read visibly tighter and
+// smaller than the design on every page.
+.wiki-content { font-size: 16.5px; color: var(--body); line-height: 1.78; }
+.wiki-content > *:first-child { margin-top: 0; }
+// v3 section heading, artifact 460: Lora 30px, #2b1f24, 1px SOLID #e8e1db,
+// padding-bottom 10px, and no font-weight (so 400). This was 24px semibold
+// over a DOTTED #cfcabf rule -- the single most visible piece of pre-v3
+// styling left on detail pages. Margins translate v3's structure: its
+// sections are <section style="margin-bottom: 52px"> with the h2 at
+// margin-bottom 20px; this markup has no section wrappers, so the 52px lives
+// on the heading's top margin instead.
+.wiki-content h2 { font-family: Lora, serif; font-size: 30px; color: #2b1f24; font-weight: 400; margin: 52px 0 20px; padding-bottom: 10px; border-bottom: 1px solid #e8e1db; scroll-margin-top: 86px; }
+.wiki-content h3 { font-family: Lora, serif; font-size: 19px; color: var(--ink); font-weight: 600; margin: 28px 0 10px; scroll-margin-top: 86px; }
+.wiki-content h4 { font-family: Lora, serif; font-size: 16.5px; color: var(--ink); font-weight: 600; margin: 22px 0 8px; }
+.wiki-content h2 a, .wiki-content h3 a { color: inherit; }
+.wiki-content p { margin: 0 0 18px; }
+// Plain burgundy links, no underline at rest. The legacy `article a` rule
+// (custom.scss) draws the underline with a `border-bottom`, not text-decoration,
+// so we must explicitly zero border-bottom here (default AND hover) , zeroing
+// text-decoration alone left the border showing. Underline returns on hover via
+// text-decoration. The more-specific source-citation superscript rule keeps its
+// dotted border, so citations are unaffected.
+.wiki-content a { color: #1c43ad; text-decoration: none; border-bottom: none; }
+.wiki-content a:hover { text-decoration: underline; border-bottom: none; background: none; }
+/* in-article links render in the v3 link-blue #1c43ad , the same blue the
+   homepage (home-v3.scss) and references (references-v3.scss $hmi-ref-link) use.
+   Links must read as links, NOT as the burgundy accent that carries headings and
+   UI chrome; coloring both the same collapses the "is this a link" signal. Pill
+   removal is handled by the a.internal rule above; hover darkens + underlines. */
+.wiki-content a.internal:hover { color: #12306e; }
+.wiki-content ul, .wiki-content ol { padding-left: 1.4em; margin: 0 0 1.05em; }
+.wiki-content li { margin-bottom: 0.45em; }
+.wiki-content blockquote { border-left: 3px solid var(--burg); margin: 0 0 1.1em; padding: 8px 18px; background: var(--burg-tint2); color: var(--body); }
+.wiki-content code { font-family: "IBM Plex Mono", monospace; font-size: 0.88em; background: var(--shade); padding: 1px 5px; border-radius: 4px; }
+.wiki-content hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
+/* ── v3's data table (artifact 502-521, and the zebra fn at 1774) ──────────
+   THE MOST-REPEATED DATA COMPONENT IN v3: the burgundy-header table appears
+   18 times across its screens. Codifying it here rather than per generator
+   means every table the build emits , regulatory limits, occurrence matrices,
+   source inventories, update histories, crosswalks , inherits the same
+   presentation, which is the cohesion the old build lacked.
+
+   Verbatim from the artifact:
+     table      width 100%; font-size 13.5px; border 1px solid #e8e1db
+     thead tr   background #8b2a4a; color #fff
+     th         mono 10px, letter-spacing .1em, uppercase, padding 11px 15px
+     tbody tr   border-bottom 1px #f2ece7; odd rows #fdfaf8, even transparent
+     td         padding 13px 15px; vertical-align top
+
+   What was here instead: a 14px table with no outer border, LORA 13.5px
+   semibold headers (v3's are mono 10px), no zebra at all, and a burgundy-tint
+   hover v3 does not have. */
+.wiki-content table { border-collapse: collapse; width: 100%; font-size: 13.5px; margin: 12px 0 22px; border: 1px solid #e8e1db; display: block; overflow-x: auto; }
+.wiki-content thead tr { background: #7b153b; color: #fff; }
+.wiki-content thead th { background: #7b153b; color: #fff; text-align: left; padding: 11px 15px; font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
+.wiki-content tbody tr { border-bottom: 1px solid #f2ece7; }
+/* v3 zebras from the FIRST data row (zeb(i), i%2 -> the second row is tinted),
+   so nth-child(even) is the faithful translation, not (odd). */
+.wiki-content tbody tr:nth-child(even) { background: #fdfaf8; }
+.wiki-content tbody td { padding: 13px 15px; vertical-align: top; line-height: 1.55; }
+
+/* ── Quick read (v3 artifact 440-457) ────────────────────────────────────
+   v3 is a plain 1px #eddfe4 box: no left bar, no rounded corners, a MONO
+   9.5px label, and the three facets as a 3-column grid of cards each under a
+   2px burgundy top rule.
+
+   This rendered as a rounded left-bar callout with an Inter semibold label and
+   the facets as a BULLETED LIST. The markdown's own structure -
+   <ul><li><strong>Label:</strong> text</li></ul> - maps one-to-one onto v3's
+   grid, so the whole conversion is CSS. No page content is edited, and it
+   applies to every page carrying the block rather than to the one that was
+   looked at. */
+.hmi-quick-read { background: var(--burg-tint); border: 1px solid #eddfe4; border-left: 1px solid #eddfe4; border-radius: 0; padding: 22px 24px; margin: 0 0 44px; }
+.hmi-quick-read-label { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.14em; color: #7b153b; margin-bottom: 12px; }
+.hmi-quick-read > p { margin: 0 0 18px; font-size: 16px; line-height: 1.65; color: #2b1f24; }
+
+/* the three facets: v3's card grid, artifact 443-455 */
+.hmi-quick-read ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 0; padding: 0; list-style: none; }
+.hmi-quick-read ul > li { border-top: 2px solid #d8c1cb; padding: 11px 0 0; margin: 0; font-size: 13.5px; line-height: 1.6; color: #5a4148; list-style: none; }
+.hmi-quick-read ul > li::marker { content: none; }
+.hmi-quick-read ul > li > strong { display: block; font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.1em; color: #7b153b; margin-bottom: 6px; }
+// REMOVED: .hmi-pill-row / .hmi-pill. The outlined keyword chips under the
+// Quick read were an addition v3 has no equivalent for, and were dropped from
+// the two pages that carried them (metals/lead, products/infant-formula-powder-
+// non-soy) on Karen's call. Rules deleted with the markup so nothing re-styles
+// a chip back into existence.
+
+.wiki-content .footnotes, .wiki-content [data-footnotes], .wiki-content section.footnotes { font-size: 13.5px; color: var(--muted); border-top: 1px solid var(--line); margin-top: 34px; padding-top: 16px; }
+.wiki-content .footnotes a, .wiki-content [data-footnotes] a { color: var(--burg); }
+
+/* superscript inline citations */
+sup.cite { font-size: 11px; line-height: 0; white-space: nowrap; }
+sup.cite > a { color: var(--burg); font-weight: 500; text-decoration: none; font-family: inherit; font-size: 12px; margin-left: 1px; }
+sup.cite > a::before { content: "["; }
+sup.cite > a::after { content: "]"; }
+sup.cite > a:hover { color: var(--burg-dark); text-decoration: underline; }
+sup.cite { position: relative; }
+sup.cite .cite-card { display: none; position: absolute; bottom: 1.7em; left: 50%; transform: translateX(-50%); width: 300px; max-width: 80vw; background: #fff; border: 1px solid var(--line); border-radius: 3px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.17); padding: 12px 14px; font-size: 12.5px; line-height: 1.5; color: var(--body); font-weight: 400; z-index: 40; text-align: left; white-space: normal; }
+sup.cite .cite-card .au { color: var(--ink); font-weight: 500; display: block; }
+sup.cite .cite-card .go { color: var(--burg); font-weight: 600; display: inline-block; margin-top: 8px; font-size: 12px; }
+/* microbiomemedicine-style card: tinted header (authors + linked title) + journal + "Read source" button, in HMI burgundy */
+sup.cite .cite-card-head { display: block; background: var(--burg-tint); margin: -12px -14px 10px; padding: 10px 14px; border-radius: 3px 10px 0 0; border-bottom: 1px solid var(--line); }
+sup.cite .cite-card-authors { color: var(--muted); font-size: 11.5px; display: block; margin-bottom: 3px; }
+sup.cite .cite-card-title { color: var(--burg); font-weight: 600; font-family: Lora, serif; font-size: 13px; line-height: 1.35; text-decoration: none; display: block; }
+sup.cite .cite-card-title:hover { text-decoration: underline; }
+sup.cite .cite-card-body { display: block; }
+sup.cite .cite-card-journal { color: var(--body); font-size: 12px; display: block; margin-bottom: 10px; }
+sup.cite .cite-card-review { display: inline-block; background: var(--burg); color: #fff; font-weight: 600; font-size: 11.5px; padding: 5px 11px; border-radius: 999px; text-decoration: none; }
+sup.cite .cite-card-review:hover { background: var(--burg-dark); text-decoration: none; }
+sup.cite:hover .cite-card, sup.cite:focus-within .cite-card { display: block; }
+
+.coresec { scroll-margin-top: 24px; }
+/* removed: section.hmi-evidence-header rules , the EvidenceHeader component that
+   emitted them was deleted (Move 1, unmounted dead code). No page emits the
+   markup; these rules only bloated index.css. */
+
+/* accordion overview (Q&A) */
+.qa { border-bottom: 1px solid var(--line); }
+// v3 question, artifact 175: Lora 21px, #8b2a4a, no font-weight (400), and
+// baseline-aligned against a mono marker. Was 20px SEMIBOLD in near-black --
+// the drift visible in the FAQ section.
+.qa summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; gap: 14px; padding: 18px 0; font-family: Lora, serif; font-size: 21px; font-weight: 400; color: #7b153b; line-height: 1.35; }
+.qa summary::-webkit-details-marker { display: none; }
+// v3's question marker (artifact 174) is a bare mono "+" that becomes "−" when
+// the item opens , #8b2a4a, line-height 1, NO ring, NO box, NO rotation. The
+// .mk span is emitted empty by CollapsibleQuestions; the glyph is this ::before,
+// so collapsed/open is a pure style state. Mono so "+" and "−" share an advance
+// width and the question text does not shift on toggle.
+.qa summary .mk { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 0.8em; color: #7b153b; font-family: "IBM Plex Mono", monospace; font-size: 18px; font-weight: 400; line-height: 1; }
+.qa summary .mk::before { content: "+"; }
+.qa[open] summary .mk::before { content: "\2212"; } /* U+2212 MINUS SIGN */
+// The heading's own anchor link now rides inside the <summary> (the transformer
+// folds the h3's children in), so it falls outside the heading-anchor selector
+// that keeps body anchors hover-only and was showing at full opacity on every
+// question. v3 shows no persistent anchor icon; restore the hover-only
+// behaviour here so the question row reads clean while deep-linking still works.
+.qa summary a[role="anchor"] { opacity: 0; transition: opacity 0.15s ease; }
+.qa summary:hover a[role="anchor"],
+.qa summary a[role="anchor"]:focus-visible { opacity: 0.5; }
+// v3 answer, artifact 178: indented under the question and marked with a
+// 2px #e0c9d1 left rule rather than left-padding alone.
+.qa .ans { margin: 12px 0 20px 30px; padding: 0 2px 0 16px; border-left: 2px solid #e0c9d1; color: #3f3a3f; font-size: 15.5px; line-height: 1.72; }
+.qa .ans p { margin: 0 0 0.8em; }
+.qa .qa-sub { border-bottom: 1px solid var(--line2); margin: 8px 0 0 6px; border-left: 2px solid var(--burg-tint); padding-left: 14px; }
+.qa .qa-sub > summary { font-size: 15.5px; padding: 11px 2px; color: var(--burg); }
+.qa .qa-sub > summary .mk { font-size: 14px; } /* nested marker inherits the +/− ::before, just smaller */
+.qa .qa-sub > .ans { padding-left: 36px; }
+
+/* collapsible references */
+details.disclose, details.hmi-references { margin: 38px 0 0; border: 0; }
+details.disclose > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; font-family: Lora, serif; font-size: 23px; font-weight: 600; color: var(--ink); padding-bottom: 8px; border-bottom: 1px dotted #cfcabf; }
+details.disclose > summary::-webkit-details-marker { display: none; }
+details.disclose > summary .mk { width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; color: var(--burg); flex: 0 0 auto; font-size: 15px; transition: transform 0.2s; }
+details.disclose[open] > summary .mk { transform: rotate(180deg); }
+details.disclose .disclose-body { padding-top: 18px; }
+
+nav.hmi-related { margin-top: 34px; border-top: 1px solid var(--line); padding-top: 16px; }
+nav.hmi-related .hmi-related-title { font-family: Lora, serif; font-size: 18px; }
+nav.hmi-related ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 5px 14px; margin: 6px 0 14px; }
+nav.hmi-related a { color: var(--burg); font-size: 13.5px; }
+
+/* Update History , burgundy vertical timeline (pageHistoryTimeline.inline.ts
+   rebuilds the generated page-history table into this). */
+ol.hist-timeline { list-style: none; margin: 18px 0 0; padding: 0 0 0 26px; position: relative; }
+ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px; bottom: 7px; width: 2px; background: var(--burg-tint); }
+.hist-item { position: relative; padding: 0 0 22px; }
+.hist-item:last-child { padding-bottom: 2px; }
+.hist-item::before { content: ""; position: absolute; left: -25px; top: 4px; width: 11px; height: 11px; border-radius: 50%; background: #fff; border: 2px solid var(--burg); box-sizing: border-box; }
+.hist-item-latest::before { background: var(--burg); }
+.hist-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 3px; }
+.hist-date { color: var(--muted); font-size: 13px; }
+.hist-badge { font-size: 11px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 2px; padding: 1px 9px; letter-spacing: 0.02em; }
+.hist-title { color: var(--ink); font-family: Lora, serif; font-size: 16px; font-weight: 600; line-height: 1.4; }
+.hist-commit { display: inline-block; margin-top: 4px; font-size: 12.5px; color: var(--burg); font-family: var(--codeFont, ui-monospace, monospace); }
+.hist-commit:hover { text-decoration: underline; }
+
+@media (max-width: 1080px) {
+  .proof-layout { grid-template-columns: 1fr; gap: 26px; }
+  .snav, .rail { position: static; }
+  .snav { display: flex; flex-wrap: wrap; gap: 6px; }
+  .snav .divider, .snav .navgrouplabel { display: none; }
+  .snav a.sub { display: none; }
+  .snav a.sec, .snav a.icon { border: 1px solid var(--line); border-radius: 2px; }
+}
+
+/* the hero owns the title/breadcrumb/date, so hide the in-article page-header */
+.proof:not(.proof-home) .proof-main > .page-header { display: none; }
+
+/* ── auth screens (login / signup) , large centered card, HMI burgundy ── */
+.proof-auth { background: #fbfaf8; min-height: calc(100vh - 69px); }
+.hmi-auth-page { max-width: var(--maxw); margin: 0 auto; padding: 56px 24px 80px; display: flex; justify-content: center; }
+.hmi-auth-card { width: 100%; max-width: 460px; background: #fff; border: 1px solid var(--line); border-radius: 3px; box-shadow: 0 10px 40px rgba(0,0,0,0.07); padding: 44px 44px 36px; }
+.hmi-auth-card--wide { max-width: 600px; }
+.hmi-auth-title { font-family: Lora, serif; font-weight: 500; font-size: 34px; color: var(--burg); margin: 0 0 8px; line-height: 1.1; }
+.hmi-auth-sub { font-family: Inter, sans-serif; font-size: 15px; line-height: 1.5; color: var(--muted); margin: 0 0 26px; }
+.hmi-auth-google { display: flex; align-items: center; justify-content: center; gap: 11px; width: 100%; background: #fff; border: 1px solid #d9d6cf; border-radius: 3px; padding: 13px; font-family: Inter, sans-serif; font-size: 15.5px; font-weight: 600; color: var(--ink); text-decoration: none; cursor: pointer; transition: background 0.15s ease, border-color 0.15s ease; }
+.hmi-auth-google:hover { background: var(--shade); border-color: #c8c4bb; text-decoration: none; color: var(--ink); }
+.hmi-auth-google svg { width: 19px; height: 19px; flex: 0 0 auto; }
+.hmi-auth-or { display: flex; align-items: center; gap: 14px; margin: 22px 0; color: var(--faint); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
+.hmi-auth-or::before, .hmi-auth-or::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.hmi-auth-form { display: flex; flex-direction: column; gap: 15px; }
+.hmi-auth-field { display: flex; flex-direction: column; gap: 6px; }
+.hmi-auth-field > span { font-family: Inter, sans-serif; font-size: 13px; font-weight: 600; color: var(--body); }
+.hmi-auth-field input { font-family: Inter, sans-serif; font-size: 15.5px; color: var(--ink); background: #fff; border: 1px solid #d4cfc6; border-radius: 3px; padding: 12px 14px; width: 100%; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.hmi-auth-field input::placeholder { color: var(--faint); }
+.hmi-auth-field input:focus { outline: none; border-color: var(--burg); box-shadow: 0 0 0 3px var(--burg-tint); }
+.hmi-auth-roles { display: flex; flex-direction: column; gap: 10px; margin-bottom: 6px; }
+.hmi-auth-radio { display: flex; align-items: center; gap: 10px; font-family: Inter, sans-serif; font-size: 15px; color: var(--ink); cursor: pointer; }
+.hmi-auth-radio input { accent-color: var(--burg); width: 17px; height: 17px; flex: 0 0 auto; }
+.hmi-auth-submit { margin-top: 6px; width: 100%; background: var(--burg); color: #fff; border: 0; border-radius: 3px; padding: 14px; font-family: Inter, sans-serif; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.15s ease; }
+.hmi-auth-submit:hover { background: var(--burg-dark); }
+.hmi-auth-foot { text-align: center; margin: 22px 0 0; font-family: Inter, sans-serif; font-size: 14.5px; color: var(--body); }
+.hmi-auth-foot a { color: var(--burg); font-weight: 600; }
+
+/* Preview state. Accounts are not live, so AuthCard renders every control
+   disabled behind this notice rather than shipping a form that swallows a
+   password silently. Remove alongside AuthCard.tsx's PREVIEW flag when the
+   Institute of Contaminant Standards auth app is wired up. */
+.hmi-auth-notice { font-family: Inter, sans-serif; font-size: 13.5px; line-height: 1.5; color: var(--body); background: var(--burg-tint); border: 1px solid var(--line); border-left: 3px solid var(--burg); border-radius: 3px; padding: 12px 14px; margin: 0 0 22px; }
+.hmi-auth-notice strong { color: var(--burg); }
+.hmi-auth-notice a { color: var(--burg); font-weight: 600; }
+.hmi-auth-form fieldset { border: 0; margin: 0; padding: 0; min-width: 0; display: flex; flex-direction: column; gap: 15px; }
+.hmi-auth-form fieldset:disabled { opacity: 0.55; }
+.hmi-auth-form fieldset:disabled .hmi-auth-radio,
+.hmi-auth-form fieldset:disabled .hmi-auth-submit { cursor: not-allowed; }
+.hmi-auth-form fieldset:disabled .hmi-auth-submit:hover { background: var(--burg); }
+.hmi-auth-google:disabled { opacity: 0.55; cursor: not-allowed; }
+.hmi-auth-google:disabled:hover { background: #fff; border-color: #d9d6cf; }
+
+@media (max-width: 560px) {
+  .hmi-auth-card { padding: 32px 24px; }
+  .hmi-auth-page { padding: 32px 16px 48px; }
+}
+
+/* ── category directory: cards linking OUT to category section pages ── */
+.cat-dir { display: grid; grid-template-columns: repeat(auto-fill, minmax(258px, 1fr)); gap: 22px; margin: 26px 0 8px; }
+.cat-dir-card { display: block; border: 1px solid var(--line); border-radius: 3px; padding: 20px 22px; text-decoration: none; color: var(--body); background: #fff; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.cat-dir-card:hover { border-color: var(--burg); box-shadow: 0 8px 26px rgba(0,0,0,0.06); text-decoration: none; color: var(--body); }
+.cat-dir-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
+.cat-dir-name { font-family: Lora, serif; font-size: 18px; font-weight: 600; color: var(--ink); line-height: 1.2; }
+.cat-dir-count { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--shade); border-radius: 999px; padding: 2px 9px; flex: 0 0 auto; }
+.cat-dir-samples { list-style: none; margin: 0 0 12px; padding: 0; }
+.cat-dir-samples li { font-size: 13.5px; color: var(--muted); line-height: 1.6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cat-dir-more { color: var(--burg); font-size: 13.5px; font-weight: 600; }
+.cat-dir-card:hover .cat-dir-more { color: var(--burg-dark); }
+
+/* metals index: two grouped 2-column tile lists (no sub-pages) */
+.cat-sec { margin: 26px 0 10px; }
+.cat-sec-title { font-family: Lora, serif; font-size: 20px; font-weight: 600; color: var(--ink); margin: 0 0 12px; padding-bottom: 9px; border-bottom: 2px solid var(--burg-tint); }
+.cat-sec-list { list-style: none; margin: 0; padding: 0; column-count: 2; column-gap: 44px; }
+.cat-sec-list li { break-inside: avoid; }
+.cat-sec-list a.internal { display: flex; align-items: baseline; gap: 9px; color: var(--body); font-size: 15px; padding: 5px 0; text-decoration: none; background: none !important; }
+.cat-sec-list a.internal:hover { color: var(--burg); text-decoration: none; }
+.cat-sym { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; font-weight: 600; color: var(--burg); background: var(--burg-tint); border-radius: 4px; padding: 1px 5px; flex: 0 0 auto; }
+
+/* category SECTION pages: member wikilinks laid out in two columns */
+body[data-slug*="/categories/"] .wiki-content ul { column-count: 2; column-gap: 44px; list-style: none; margin: 8px 0; padding: 0; }
+body[data-slug*="/categories/"] .wiki-content ul li { break-inside: avoid; padding: 4px 0; font-size: 15px; }
+body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00a0"; color: var(--burg); }
+
+/* Update-history filter tabs (major / minor / correction) + badge variants,
+   added by pageHistoryTimeline.inline.ts. Origin styles .hist-badge; these are
+   the classified variants and the All/Major/Minor/Corrections tab row. */
+.hist-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin: 14px 0 2px; justify-content: flex-end; }
+.hist-tab { background: none; border: 1px solid transparent; border-radius: 2px; padding: 5px 12px; font-family: inherit; font-size: 13.5px; color: var(--burg); cursor: pointer; }
+.hist-tab:hover { background: var(--burg-tint); }
+.hist-tab-on { border-color: var(--burg); font-weight: 600; }
+.hist-item[hidden] { display: none; }
+.hist-badge { text-transform: capitalize; }
+.hist-badge-correction { color: #fff; background: var(--burg); }
+.hist-badge-minor { color: var(--muted); background: var(--line); }
+
+/* ── v3 "On this page" rail (v3 lines 406-432) ─────────────────────────────
+   Numbering is done with CSS counters rather than by restructuring Snav.tsx:
+   the component has two render paths and its accordion script binds to
+   .grp/.sec/.sub/data-for, so adding markup risks the interaction for a purely
+   presentational change. Counters number the top-level rails identically. */
+.snav { counter-reset: hmi-rail; }
+
+.snav::before {
+  content: "On this page";
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e8e1db;
+  margin-bottom: 4px;
+}
+
+.snav .grp > a.sec,
+.snav .grp > summary.sec {
+  counter-increment: hmi-rail;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 7px 0 7px 11px;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 400;
+  border-left: 2px solid #e8e1db;
+  border-radius: 0;
+  background: none;
+  color: #3f3a3f;
+}
+
+/* the +/- affordance needs its room back on rails that have children */
+.snav .grp:not(.snav-further):has(> a.sub) > a.sec { padding-right: 26px; }
+
+.snav .grp > a.sec::before,
+.snav .grp > summary.sec::before {
+  content: counter(hmi-rail, decimal-leading-zero);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.04em;
+  color: #c3b9bb;
+  flex: 0 0 auto;
+}
+
+.snav .grp > a.sec:hover { background: none; color: #7b153b; }
+
+.snav .grp > a.sec.active,
+.snav .grp:not(.snav-further):has(.in-view) > a.sec,
+.snav .snav-further[open] > summary.sec {
+  background: none;
+  border-left-color: var(--marigold-edge);
+  color: #7b153b;
+  font-weight: 400;
+}
+
+.snav .grp > a.sec.active::before,
+.snav .grp:not(.snav-further):has(.in-view) > a.sec::before { color: #7b153b; }
+
+.snav a.sub {
+  padding: 5px 0 5px 11px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #736b6e;
+}
+.snav a.sub.active { color: #7b153b; }
+
+/* nested children sit inside a hairline, as v3 line 420 */
+.snav .grp:not(.snav-further).expanded > a.sub {
+  margin-left: 26px;
+  border-left: 1px solid #ece5e0;
+  padding-left: 11px;
+}
