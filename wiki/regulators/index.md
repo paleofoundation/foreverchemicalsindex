@@ -5,7 +5,7 @@ type: section-index
 
 # Regulators
 
-Evidence review pending. Entries describe the reference structure only.
+No regulator page is published yet. This empty directory is a gap. It is not a statement that no agency has acted.
 
 <!-- BEGIN: directory -->
 

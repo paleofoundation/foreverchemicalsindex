@@ -22,3 +22,7 @@ Elon's canonical bridge answer on October 15, 2026 at 10:38 accepted the recomme
 Create a new private routing stub only when the matching ingest has a filed source. This does not make it a public evidence profile. Tap water is added in existing ingest draft PR #8; this scaffold baseline does not contain that sibling change. The remaining six approved new stubs have no filed source in the inspected drafts. Preserve the original table above as decision history, not eight unanswered questions.
 
 The discovery inventory is `data/discovery/candidates.json`. All entries remain NEEDS-EVIDENCE with type review pending. The reported 40 missing acquisitions remain UNVERIFIED because the exact queue CSV was not available; neither this inventory nor NOT_FILED rows replace that queue.
+
+## Filed pages now on the public index
+
+Ingest added these category pages from filed sources: `breast-milk`, `cereal-grains`, `childrens-products`, `cosmetics`, `drinking-water-tap`, `meat-and-poultry`, `produce-mixed`, `sunscreens`, and `textiles`. They are public catalog pages. They are not a separate ingredient taxonomy, and they are not READY profiles under the proposed discovery policy. Foods stay on the category page until an exact ingredient split exists. `sunscreens` has no transcribed measurements. The others quote source-reported values where the ingest transcribed them, and they mark the rest as gaps.

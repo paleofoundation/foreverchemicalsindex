@@ -11,7 +11,7 @@ for (const page of published()) {
   if (!schemas.some(schema => schema["@type"] === "BreadcrumbList")) errors.push(`${file}: missing breadcrumbs`)
   if (!schemas.some(schema => schema["@graph"]?.some(item => item["@type"] === "WebSite"))) errors.push(`${file}: missing WebSite`)
   if (!/<h1[ >]/.test(html)) errors.push(`${file}: missing visible page title`)
-  if (/\u2014|foreverchemicalstested|heavymetal(?:index|certified|tested)|HMT&?C\b|G-74X1550KX7|sy1JoHaUgb_tWsBU/i.test(html)) errors.push(`${file}: inherited or forbidden text`)
+  if (/\u2014|foreverchemicalstested|heavymetal(?:certified|tested)|HMT&?C\b|G-74X1550KX7|sy1JoHaUgb_tWsBU/i.test(html)) errors.push(`${file}: inherited or forbidden text`)
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const href=match[1]
     if (/^(?:https?:|data:|mailto:|#)/.test(href)) continue

@@ -1,6 +1,6 @@
 {
   "name": "foreverchemicalsindex",
-  "description": "Forever Chemicals Index: a source-traceable PFAS reference scaffold.",
+  "description": "Forever Chemicals Index: a free public PFAS evidence index.",
   "private": true,
   "version": "0.1.0",
   "type": "module",

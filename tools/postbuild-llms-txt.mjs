@@ -2,13 +2,24 @@ import fs from "node:fs"
 import { published, simplify } from "./lib/wiki.mjs"
 const base="https://foreverchemicalsindex.com"
 fs.writeFileSync("public/robots.txt",`User-agent: *\nAllow: /\nSitemap: ${base}/sitemap.xml\n# LLM guide: ${base}/llms.txt\n`)
+const blurb = page => {
+  const type = page.data.type
+  if (type === "source") return "Bibliographic source record. Quotations on category pages are separate from the structured findings file."
+  if (type === "section-index") return "Directory of the public pages in this section."
+  if (["product-category", "product", "ingredient", "analyte", "analyte-class", "aggregate-measure"].includes(type)) {
+    return page.data.status === "evidence"
+      ? "Quotes values transcribed from cited studies in this repository. Empty cells are gaps."
+      : "No source-reported measurement is published for this page. The gap is not a measured zero."
+  }
+  return "Reference scope and evidence policy."
+}
 fs.writeFileSync("public/llms.txt",`# Forever Chemicals Index
 
-A source-traceable PFAS reference under preparation. No reviewed occurrence findings are published. Planned profiles remain private until discovery and review gates are met.
+A free public index of PFAS measurements quoted from cited studies. Category and analyte pages show values as printed in those studies. The structured findings download includes only rows that pass the review gate. An empty cell or an empty download is a gap, not a measured zero, and not a product endorsement.
 
 ## Public pages
 
-${published().map(page => `- [${page.data.title}](${base}/${simplify(page.slug)}): ${page.data.type === "section-index" ? "Public section directory; planned profiles remain private." : "Reference scope and evidence policy."}`).join("\n")}
+${published().map(page => `- [${page.data.title}](${base}/${simplify(page.slug)}): ${blurb(page)}`).join("\n")}
 
 ## Citation and corrections
 

@@ -9,7 +9,7 @@ sources: []
 
 # Children's Makeup (ages 0-5)
 
-Evidence review pending. This category page contains no measurements or findings.
+No measurement from this repository is published on this page. The empty sections are a gap, not a measured zero.
 
 ## Occurrence evidence
 

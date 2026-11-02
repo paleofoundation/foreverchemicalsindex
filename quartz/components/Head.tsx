@@ -6,7 +6,7 @@ const Head: QuartzComponent = ({ cfg, fileData, externalResources }) => {
   const slug = fileData.slug === "index" ? "" : simplifySlug(fileData.slug!)
   const canonical = `https://${cfg.baseUrl}/${slug}`
   const title = String(fileData.frontmatter?.title ?? cfg.pageTitle)
-  const description = String(fileData.description ?? "Source-traceable PFAS reference. Evidence review pending.")
+  const description = String(fileData.description ?? "Free public index of PFAS measurements quoted from cited studies. Empty sections are gaps, not measured zeros.")
   return <head>
     <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title === cfg.pageTitle ? title : `${title} | ${cfg.pageTitle}`}</title>

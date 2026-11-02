@@ -5,13 +5,15 @@ type: reference
 
 # Forever Chemicals Index
 
-PFAS evidence, organized by product category, analyte, source, and regulatory instrument.
+The Forever Chemicals Index is a free public record of PFAS measurements quoted from cited studies. PFAS are a large group of fluorinated chemicals. Some last a long time in the environment, which is why they are called forever chemicals.
 
-This reference is being prepared. Planned category and analyte profiles remain private while evidence review is pending. Empty tables indicate missing evidence, not an absence of contamination.
+Category pages quote numbers as they were printed, with the unit, the basis, and the location in the source. If this repository has no number, the page says so. An empty section is a gap. It is not a finding that a chemical is absent, and it is not an endorsement of a product.
+
+The index is part of the [Institute of Contaminant Standards](https://contaminantstandards.com) reference network, and a sister site of the [Heavy Metal Index](https://heavymetalindex.com).
 
 ## Explore
 
-- [[products/index|Product categories]]
+- [[products/index|Foods, water, and products]]
 - [[analytes/index|Analytes and classes]]
 - [[sources/index|Sources]]
 - [[regulations/index|Regulations]]

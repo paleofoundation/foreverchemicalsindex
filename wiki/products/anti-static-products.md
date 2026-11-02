@@ -9,7 +9,7 @@ sources: []
 
 # Anti-static products (liquid and sheets)
 
-Evidence review pending. This category page contains no measurements or findings.
+No measurement from this repository is published on this page. The empty sections are a gap, not a measured zero.
 
 ## Occurrence evidence
 

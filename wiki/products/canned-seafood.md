@@ -1,17 +1,20 @@
 ---
-title: "Canned seafood (with tin flag)"
+title: Canned seafood (with tin flag)
 type: product-category
-status: scaffold
+status: evidence
 evidence_tier: pending
 analytes: []
-sources: []
+sources:
+- 2023-nobile-incidence-of-potentially-toxic-elements-and
 ---
 
 # Canned seafood (with tin flag)
 
-Evidence review pending. This category page contains no measurements or findings.
+Filed sources are listed below. No values are published for this page yet.
 
 ## Occurrence evidence
+
+No published values yet.
 
 ## Analytical methods
 
@@ -20,6 +23,8 @@ Evidence review pending. This category page contains no measurements or findings
 ## Evidence gaps
 
 ## Sources
+
+- [[sources/2023-nobile-incidence-of-potentially-toxic-elements-and]]
 
 ## Navigation
 

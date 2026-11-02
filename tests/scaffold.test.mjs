@@ -40,10 +40,11 @@ test("empty generation is stable and emits no evidence rows",t=>{
   assert.equal(run("build-contamination-dataset",dir).status,0)
   assert.equal(fs.readFileSync(path.join(dir,"wiki/data.md"),"utf8"),data)
 })
-test("only explicitly requested, verified product slugs are present",()=>{
+test("original product slugs remain and added pages are filed scopes",()=>{
   const expected=JSON.parse(fs.readFileSync("docs/product-slugs.json"))
+  const filed=["breast-milk","cereal-grains","childrens-products","cosmetics","drinking-water-tap","meat-and-poultry","produce-mixed","sunscreens","textiles"]
   const actual=fs.readdirSync("wiki/products").filter(f=>f!=="index.md").map(f=>f.replace(/\.md$/,""))
-  assert.deepEqual(actual.sort(),expected.sort())
+  assert.deepEqual(actual.sort(),[...expected,...filed].sort())
 })
 test("source metadata omits missing DOI and is idempotent", t => {
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),"fci-metadata-"))

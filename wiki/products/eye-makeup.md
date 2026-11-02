@@ -1,17 +1,21 @@
 ---
-title: "Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)"
+title: Eye makeup (liners, shadows, mascara, brow products, false lash adhesives,
+  lash/eyebrow serums)
 type: product-category
-status: scaffold
+status: evidence
 evidence_tier: pending
 analytes: []
-sources: []
+sources:
+- olomukoro-2025-mascara-pfas-spme-uspe-lcmsms-analbioanalchem
 ---
 
 # Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)
 
-Evidence review pending. This category page contains no measurements or findings.
+Filed sources are listed below. No values are published for this page yet.
 
 ## Occurrence evidence
+
+No published values yet.
 
 ## Analytical methods
 
@@ -20,6 +24,8 @@ Evidence review pending. This category page contains no measurements or findings
 ## Evidence gaps
 
 ## Sources
+
+- [[sources/olomukoro-2025-mascara-pfas-spme-uspe-lcmsms-analbioanalchem]]
 
 ## Navigation
 

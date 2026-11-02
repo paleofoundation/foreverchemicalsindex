@@ -5,15 +5,17 @@ type: reference
 
 # Data and downloads
 
-The dataset is a placeholder awaiting reviewed source evidence. Empty datasets do not represent measured zeros or findings of absence.
+Two layers of evidence are public.
 
-Generated records retain source, product, analyte, measurement basis, units, and source location. Download formats use the same reviewed records as the public tables.
+Category and analyte pages quote values as they were printed in the cited study, including the unit, the basis, and the location in the source. Those quotations are not converted, and they are not combined across studies.
+
+The JSON and CSV files on this page include only rows that meet the structured review gate: exact scope, matrix, result status, and a matching review record. Rows that do not meet that gate stay in the page quotation, or they stay unpublished, and they stay out of the download. An empty download is a gap in the file. It is not a measured zero.
 
 [JSON dataset](static/contamination.json) · [CSV dataset](static/contamination.csv) · [Public coverage JSON](static/public-evidence.json)
 
 ## Coverage and reuse
 
-The coverage export separates References (body citations), Sources (reviewed routing associations), and published finding counts for each public page. It does not count the private intake or establish completeness. No reviewed revision records have been published; build dates do not constitute editorial history. Corrections belong in [[errata|Errata]].
+The coverage export separates References (body citations), Sources (routing associations), and structured finding counts for each public page. It does not count every quotation on a category page, and it does not establish completeness. No reviewed revision records have been published. Build dates are not editorial history. Corrections belong in [[errata|Errata]].
 
 Cite the specific index page and the original work identified on its source page. Access links do not grant redistribution rights. Unknown authorship, identifiers, rights, and review dates are omitted from metadata.
 

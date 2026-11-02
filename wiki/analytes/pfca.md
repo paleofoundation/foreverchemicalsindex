@@ -11,7 +11,7 @@ sources: []
 
 # PFCA
 
-Evidence review pending.
+No measurement from this repository is published on this page. The empty sections are a gap, not a measured zero.
 
 ## Identity
 

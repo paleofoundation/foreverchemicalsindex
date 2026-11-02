@@ -5,8 +5,8 @@ type: reference
 
 # Editorial standards
 
-The index reports reviewed evidence and its limitations. It does not endorse products or promote certification programs. Product pages identify generic categories.
+The index reports source-reported measurements and the limits of those measurements. It does not endorse products. Product pages name generic categories, not brands, unless a cited study itself names one.
 
-Names, identifiers, measurements, and legal limits require an authority or source. Unknown fields remain empty or marked TODO. Corrections retain provenance.
+Names, identifiers, measurements, and legal limits need an authority or a source. Unknown fields stay empty or marked TODO. Corrections keep their provenance on the errata page.
 
 [[errata|Errata]] · [[methodology|Methodology]] · [[index|Index]]
