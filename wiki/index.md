@@ -13,7 +13,7 @@ The index is part of the [Institute of Contaminant Standards](https://contaminan
 
 ## Explore
 
-- [[products/index|Foods, water, and products]]
+- [[products/index|Browse foods and products]]
 - [[analytes/index|Analytes and classes]]
 - [[sources/index|Sources]]
 - [[regulations/index|Regulations]]
