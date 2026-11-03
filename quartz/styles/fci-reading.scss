@@ -35,7 +35,15 @@ body { background: #fffdfb; }
 .fci-home-section { max-width: 1440px; box-sizing: border-box; margin: auto; padding: 52px 48px; }
 .fci-start { padding-bottom: 0; }
 .fci-start > .fci-eyebrow { color: #716268; }
-.fci-start-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); border-top: 1px solid #e4dadd; border-bottom: 1px solid #e4dadd; }
+.fci-home a.fci-browse-entry { position: relative; display: block; padding: 26px 48px 28px 0; border-top: 1px solid #e4dadd; color: #372b31; text-decoration: none; }
+.fci-home a.fci-browse-entry:visited { color: #372b31; }
+.fci-home a.fci-browse-entry:hover, .fci-home a.fci-browse-entry:focus-visible { color: #372b31; text-decoration: none; }
+.fci-home a.fci-browse-entry:hover h2, .fci-home a.fci-browse-entry:focus-visible h2 { text-decoration: underline; }
+.fci-home a.fci-browse-entry h2 { color: #6f203e; margin-top: 10px; }
+.fci-home a.fci-browse-entry .fci-eyebrow { font-size: 9px; color: #77686e; }
+.fci-home a.fci-browse-entry p { margin: 12px 0 0; font-size: 14px; line-height: 1.65; max-width: 68ch; color: #372b31; }
+.fci-home a.fci-browse-entry > span:last-child { position: absolute; right: 8px; top: 28px; color: #8c3654; }
+.fci-start-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); border-top: 1px solid #e4dadd; border-bottom: 1px solid #e4dadd; }
 .fci-start-grid > a { position: relative; padding: 26px 32px 26px 0; color: #372b31; }
 .fci-start-grid > a + a { border-left: 1px solid #e4dadd; padding-left: 32px; }
 .fci-start-grid h2 { font-size: 25px; color: #6f203e; margin-top: 10px; }
